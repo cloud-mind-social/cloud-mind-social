@@ -10,5 +10,10 @@
   },
   "observability": {
     "enabled": true
+  },
+  "env": {
+    "staging": {
+      "name": "cloud-mind-social-staging"
+    }
   }
 }
