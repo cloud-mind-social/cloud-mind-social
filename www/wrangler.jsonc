@@ -22,6 +22,10 @@
       "migrations_dir": "migrations"
     }
   ],
+  // Cloudflare Email Sending (beta, Workers Paid). The sending domain must be
+  // onboarded under Compute > Email Service > Email Sending first; that adds
+  // records on a cf-bounce. subdomain and leaves existing mail untouched.
+  "send_email": [{ "name": "EMAIL" }],
   "vars": {
     "SITE_URL": "https://cloudmindsocial.com",
     "MAIL_FROM": "Cloud Mind Social <hello@cloudmindsocial.com>",
@@ -50,6 +54,7 @@
           "migrations_dir": "migrations"
         }
       ],
+      "send_email": [{ "name": "EMAIL" }],
       "vars": {
         "SITE_URL": "https://cloud-mind-social-staging.workers.dev",
         "MAIL_FROM": "Cloud Mind Social <hello@cloudmindsocial.com>",

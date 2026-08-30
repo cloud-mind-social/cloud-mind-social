@@ -2,11 +2,12 @@ import { getCloudflareContext } from "@opennextjs/cloudflare";
 
 export type AppEnv = {
   DB: D1Database;
+  /** Cloudflare Email Sending. Absent under `next dev`, where mail is logged. */
+  EMAIL?: SendEmail;
   SITE_URL?: string;
   MAIL_FROM?: string;
   MAIL_REPLY_TO?: string;
   INQUIRY_NOTIFY_TO?: string;
-  RESEND_API_KEY?: string;
   IP_HASH_SALT?: string;
   ADMIN_SETUP_TOKEN?: string;
 };

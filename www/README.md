@@ -1,7 +1,8 @@
 # Cloud Mind Social — website
 
 The public site plus the inquiry inbox behind it. Next.js on Cloudflare
-Workers (via OpenNext), with Cloudflare D1 for storage and Resend for mail.
+Workers (via OpenNext), with Cloudflare D1 for storage and Cloudflare Email
+Sending for mail.
 
 - `/` — the landing page and discovery-call form
 - `/admin` — the inbox: read inquiries, reply, track status, keep private notes
@@ -42,10 +43,26 @@ npm run db:migrate            # production
 npm run db:migrate:staging    # staging
 ```
 
-### 2. Set the secrets
+### 2. Onboard the sending domain
+
+Mail goes out through **Cloudflare Email Sending** using the `EMAIL` binding —
+no API key, no third-party account. It's in beta and needs the Workers Paid
+plan to reach arbitrary recipients.
+
+In the dashboard: **Compute → Email Service → Email Sending → Onboard Domain**,
+and pick the domain in `MAIL_FROM`. Cloudflare adds the MX, SPF, DKIM, and
+DMARC records itself, all on a **`cf-bounce.` subdomain** — existing mail on
+the root domain is untouched, so onboarding can't break an inbox that already
+works.
+
+Until a sending domain is onboarded, the binding will only deliver to
+*verified destination addresses* in the account; anything else fails with
+`E_RECIPIENT_NOT_ALLOWED`. The inbox surfaces that message as-is rather than
+claiming a reply was sent.
+
+### 3. Set the secrets
 
 ```bash
-npx wrangler secret put RESEND_API_KEY      # from resend.com
 npx wrangler secret put ADMIN_SETUP_TOKEN   # any long random string
 npx wrangler secret put IP_HASH_SALT        # any long random string
 ```
@@ -53,10 +70,13 @@ npx wrangler secret put IP_HASH_SALT        # any long random string
 Add `--env staging` to each for the staging Worker.
 
 The plain (non-secret) values — `SITE_URL`, `MAIL_FROM`, `MAIL_REPLY_TO`,
-`INQUIRY_NOTIFY_TO` — live in `wrangler.jsonc` under `vars`. `MAIL_FROM` must
-be on a domain verified in Resend, or nothing will send.
+`INQUIRY_NOTIFY_TO` — live in `wrangler.jsonc` under `vars`.
 
-### 3. Deploy and create the account
+`MAIL_REPLY_TO` and `INQUIRY_NOTIFY_TO` must be a mailbox that actually
+**receives** mail — that's where customer replies and new-inquiry alerts land.
+Check it has MX records before trusting it.
+
+### 4. Deploy and create the account
 
 ```bash
 npm run deploy
@@ -96,15 +116,20 @@ IP_HASH_SALT=local-dev-salt
 SITE_URL=http://localhost:3000
 ```
 
-Leave `RESEND_API_KEY` out locally: with no key, emails are printed to the
-console instead of sent, and the inbox says plainly that nothing was
-delivered rather than pretending it was.
+`next dev` has no `EMAIL` binding, so mail is printed to the console instead
+of sent and the inbox says plainly that nothing was delivered rather than
+pretending it was.
 
-To exercise the real Workers runtime rather than `next dev`:
+To exercise the real binding, run the built Worker — `wrangler dev` simulates
+Email Sending, logging each message and writing its HTML and text parts to
+`.wrangler/tmp/email/` so they can be opened in a browser:
 
 ```bash
 npm run preview
 ```
+
+To send *real* mail from a local run, add `"remote": true` to the `send_email`
+binding in `wrangler.jsonc`.
 
 ## Notes
 
@@ -128,3 +153,13 @@ the clear.
 the same palette as the site (`src/app/globals.css`) with system-serif
 fallbacks, since mail clients don't load web fonts. All interpolated content is
 HTML-escaped, and every email ships a plain-text alternative.
+
+**Swapping providers.** The transport is one small module,
+`src/lib/email/send.ts`. It exposes a single `sendEmail(env, message)` and
+nothing above it knows about Cloudflare, so moving to another sender means
+rewriting that file and nothing else.
+
+**Sending quota.** Workers Paid includes 3,000 outbound emails a month, then
+$0.35 per 1,000. Sends to verified destination addresses in the account are
+free and don't count. New accounts start on a conservative daily limit that
+rises automatically with sending reputation.

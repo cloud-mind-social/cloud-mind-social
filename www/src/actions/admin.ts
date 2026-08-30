@@ -212,6 +212,6 @@ export async function sendReplyAction(
     notice:
       result.mode === "sent"
         ? `Sent to ${inquiry.email}.`
-        : `Saved, but no email provider is configured — nothing was actually sent to ${inquiry.email}.`,
+        : `Saved, but email sending isn't wired up here — nothing was actually delivered to ${inquiry.email}.`,
   };
 }
