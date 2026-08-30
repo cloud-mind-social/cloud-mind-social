@@ -11,9 +11,51 @@
   "observability": {
     "enabled": true
   },
+  // Inquiry storage + admin accounts. Create with:
+  //   npx wrangler d1 create cloud-mind-social
+  // then paste the returned id over the placeholder below.
+  "d1_databases": [
+    {
+      "binding": "DB",
+      "database_name": "cloud-mind-social",
+      "database_id": "REPLACE_WITH_PRODUCTION_D1_ID",
+      "migrations_dir": "migrations"
+    }
+  ],
+  "vars": {
+    "SITE_URL": "https://cloudmindsocial.com",
+    "MAIL_FROM": "Cloud Mind Social <hello@cloudmindsocial.com>",
+    "MAIL_REPLY_TO": "hello@cloudmindsocial.com",
+    "INQUIRY_NOTIFY_TO": "hello@cloudmindsocial.com"
+  },
+  // Named environments do NOT inherit top-level config, so staging repeats it.
   "env": {
     "staging": {
-      "name": "cloud-mind-social-staging"
+      "name": "cloud-mind-social-staging",
+      "main": ".open-next/worker.js",
+      "compatibility_date": "2026-08-29",
+      "compatibility_flags": ["nodejs_compat"],
+      "assets": {
+        "directory": ".open-next/assets",
+        "binding": "ASSETS"
+      },
+      "observability": {
+        "enabled": true
+      },
+      "d1_databases": [
+        {
+          "binding": "DB",
+          "database_name": "cloud-mind-social-staging",
+          "database_id": "REPLACE_WITH_STAGING_D1_ID",
+          "migrations_dir": "migrations"
+        }
+      ],
+      "vars": {
+        "SITE_URL": "https://cloud-mind-social-staging.workers.dev",
+        "MAIL_FROM": "Cloud Mind Social <hello@cloudmindsocial.com>",
+        "MAIL_REPLY_TO": "hello@cloudmindsocial.com",
+        "INQUIRY_NOTIFY_TO": "hello@cloudmindsocial.com"
+      }
     }
   }
 }
