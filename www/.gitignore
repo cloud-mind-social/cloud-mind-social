@@ -45,3 +45,7 @@ cloudflare-env.d.ts
 *.tsbuildinfo
 next-env.d.ts
 .tmp-screens/
+
+# cloudflare local dev secrets
+.dev.vars
+.dev.vars.*
