@@ -11,6 +11,10 @@
   "observability": {
     "enabled": true
   },
+  "routes": [
+    { "pattern": "cloudmindsocial.com", "custom_domain": true },
+    { "pattern": "www.cloudmindsocial.com", "custom_domain": true }
+  ],
   // Inquiry storage + admin accounts. Create with:
   //   npx wrangler d1 create cloud-mind-social
   // then paste the returned id over the placeholder below.
@@ -18,7 +22,7 @@
     {
       "binding": "DB",
       "database_name": "cloud-mind-social",
-      "database_id": "REPLACE_WITH_PRODUCTION_D1_ID",
+      "database_id": "24a36626-8cc2-44a9-85e4-2970a654d1fa",
       "migrations_dir": "migrations"
     }
   ],
@@ -50,7 +54,7 @@
         {
           "binding": "DB",
           "database_name": "cloud-mind-social-staging",
-          "database_id": "REPLACE_WITH_STAGING_D1_ID",
+          "database_id": "d97ac4b3-d3fd-4c24-8c9e-59e4bee81255",
           "migrations_dir": "migrations"
         }
       ],

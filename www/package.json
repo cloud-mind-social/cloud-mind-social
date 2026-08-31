@@ -12,7 +12,7 @@
     "deploy:staging": "opennextjs-cloudflare build && opennextjs-cloudflare deploy --env staging",
     "cf-typegen": "wrangler types --env-interface CloudflareEnv cloudflare-env.d.ts",
     "db:migrate": "wrangler d1 migrations apply cloud-mind-social --remote",
-    "db:migrate:staging": "wrangler d1 migrations apply cloud-mind-social-staging --remote",
+    "db:migrate:staging": "wrangler d1 migrations apply cloud-mind-social-staging --remote --env staging",
     "db:migrate:local": "wrangler d1 migrations apply cloud-mind-social --local",
     "admin:account": "node scripts/admin-account.ts"
   },
