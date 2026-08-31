@@ -30,6 +30,17 @@ export function Footer() {
 
         <div className="mt-14 flex flex-col gap-4 border-t border-line pt-8 text-[11px] font-mono uppercase tracking-[0.1em] text-cream-faint md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Cloud Mind Social</p>
+          <p>
+            Site by{" "}
+            <a
+              href="https://coastalcarolinatech.com"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="transition-colors hover:text-cream"
+            >
+              Coastal Carolina Tech
+            </a>
+          </p>
           <p>Cloud · Mind · Social</p>
         </div>
       </div>
