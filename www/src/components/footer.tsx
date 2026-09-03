@@ -1,10 +1,14 @@
 import { nav } from "@/lib/data";
+import { LeapTrack } from "@/components/lineart/leap-track";
+import { SparkRule } from "@/components/lineart/spark-rule";
 
 export function Footer() {
   return (
     <footer className="bg-ink">
       <div className="mx-auto max-w-[1180px] px-6 py-14 md:px-10">
-        <div className="flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
+        <LeapTrack duration={6.8} height={20} className="text-sage/70" />
+
+        <div className="mt-6 flex flex-col gap-10 md:flex-row md:items-start md:justify-between">
           <div>
             <p className="font-mono text-[13px] uppercase tracking-[0.22em] text-cream">
               Cloud Mind Social
@@ -20,7 +24,7 @@ export function Footer() {
               <a
                 key={item.href}
                 href={item.href}
-                className="font-mono text-[11px] uppercase tracking-[0.14em] text-cream-faint transition-colors hover:text-cream"
+                className="cms-link font-mono text-[11px] uppercase tracking-[0.14em] text-cream-faint transition-colors hover:text-cream"
               >
                 {item.label}
               </a>
@@ -28,15 +32,19 @@ export function Footer() {
           </nav>
         </div>
 
-        <div className="mt-14 flex flex-col gap-4 border-t border-line pt-8 text-[11px] font-mono uppercase tracking-[0.1em] text-cream-faint md:flex-row md:items-center md:justify-between">
+        <div className="mt-14">
+          <SparkRule duration={1800} className="text-line-strong" span={46} />
+        </div>
+
+        <div className="mt-6 flex flex-col gap-4 text-[11px] font-mono uppercase tracking-[0.1em] text-cream-faint md:flex-row md:items-center md:justify-between">
           <p>© {new Date().getFullYear()} Cloud Mind Social</p>
           <p>
-            Site by{" "}
+            Designed by{" "}
             <a
               href="https://coastalcarolinatech.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition-colors hover:text-cream"
+              className="cms-link text-cream-dim transition-colors hover:text-cream"
             >
               Coastal Carolina Tech
             </a>

@@ -9,10 +9,13 @@ import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
 export function Reveal({
   children,
   delay = 0,
+  from = "up",
   className = "",
 }: {
   children: ReactNode;
   delay?: number;
+  /** Which way it skids in from. */
+  from?: "up" | "left" | "right";
   className?: string;
 }) {
   const ref = useRef<HTMLDivElement>(null);
@@ -40,6 +43,12 @@ export function Reveal({
   }, []);
 
   const revealed = !primed || visible;
+  const resting =
+    from === "left"
+      ? "translateX(-1.5rem)"
+      : from === "right"
+        ? "translateX(1.5rem)"
+        : "translateY(1.25rem)";
 
   return (
     <div
@@ -47,8 +56,9 @@ export function Reveal({
       className={className}
       style={{
         opacity: revealed ? 1 : 0,
-        transform: revealed ? "none" : "translateY(1.25rem)",
-        transition: `opacity 0.9s cubic-bezier(0.16,1,0.3,1) ${delay}ms, transform 0.9s cubic-bezier(0.16,1,0.3,1) ${delay}ms`,
+        transform: revealed ? "none" : resting,
+        // Overshooting easing — copy arrives the way the lines do.
+        transition: `opacity 0.75s var(--ease-expo-out) ${delay}ms, transform 0.95s var(--ease-expo-out) ${delay}ms`,
       }}
     >
       {children}
