@@ -1,5 +1,9 @@
 import { Reveal } from "@/components/reveal";
 import { processSteps } from "@/lib/data";
+import { LeapTrack } from "@/components/lineart/leap-track";
+import { SparkRule } from "@/components/lineart/spark-rule";
+import { TraceFrame } from "@/components/lineart/trace-frame";
+import { Spine } from "@/components/lineart/spine";
 
 export function Approach() {
   return (
@@ -20,13 +24,29 @@ export function Approach() {
           </h2>
         </Reveal>
 
-        <div className="relative mt-16 space-y-12 md:mt-20 md:space-y-14">
-          <div className="absolute top-2 bottom-2 left-[19px] w-px bg-line-ink-strong md:left-[23px]" />
+        <Reveal delay={140}>
+          <div className="mt-8 max-w-[26rem]">
+            <SparkRule duration={1400} className="text-paper-ink/40" span={32} />
+          </div>
+        </Reveal>
+
+        <div className="relative mt-14 space-y-12 md:mt-18 md:space-y-14">
+          {/* The spine: one stroke down the whole process, racing as it goes. */}
+          <div className="absolute top-2 bottom-2 left-[19px] w-px md:left-[23px]">
+            <Spine className="text-paper-ink/40" />
+          </div>
 
           {processSteps.map((step, i) => (
             <Reveal key={step.n} delay={140 + i * 90}>
               <div className="relative z-10 flex items-start gap-6">
-                <span className="flex h-10 w-10 shrink-0 items-center justify-center rounded-full border border-paper-ink/25 bg-paper font-mono text-xs text-paper-ink md:h-12 md:w-12">
+                <span className="relative flex h-10 w-10 shrink-0 items-center justify-center rounded-full bg-paper font-mono text-xs text-paper-ink md:h-12 md:w-12">
+                  <TraceFrame
+                    radius={999}
+                    duration={900}
+                    delay={i * 120}
+                    direction={i % 2 ? "rev" : "fwd"}
+                    className="text-paper-ink/35"
+                  />
                   {step.n}
                 </span>
                 <div className="pt-1.5 md:pt-2.5">
@@ -40,6 +60,10 @@ export function Approach() {
               </div>
             </Reveal>
           ))}
+        </div>
+
+        <div className="mt-12">
+          <LeapTrack duration={7} height={22} className="text-sage-dim" />
         </div>
       </div>
     </section>

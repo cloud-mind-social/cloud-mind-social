@@ -1,5 +1,10 @@
+import { type CSSProperties } from "react";
+
 import { Reveal } from "@/components/reveal";
 import { servicePaths } from "@/lib/data";
+import { LeapTrack } from "@/components/lineart/leap-track";
+import { SparkRule } from "@/components/lineart/spark-rule";
+import { TraceFrame } from "@/components/lineart/trace-frame";
 
 export function ServicePaths() {
   return (
@@ -17,10 +22,34 @@ export function ServicePaths() {
           </h2>
         </Reveal>
 
-        <div className="mt-16 grid gap-5 md:grid-cols-2">
+        <Reveal delay={140}>
+          <div className="mt-8 max-w-[24rem]">
+            <SparkRule duration={1500} className="text-sage/70" span={30} />
+          </div>
+        </Reveal>
+
+        <div className="mt-14 grid gap-5 md:grid-cols-2">
           {servicePaths.map((path, i) => (
-            <Reveal key={path.index} delay={140 + i * 90}>
-              <article className="flex h-full flex-col rounded-2xl border border-line bg-ink-soft/60 p-8 transition-colors hover:border-line-strong">
+            <Reveal
+              key={path.index}
+              delay={140 + i * 90}
+              from={i % 2 ? "right" : "left"}
+            >
+              <article className="group relative flex h-full flex-col rounded-2xl p-8">
+                {/* Each card's pen sets off at its own speed, in its own
+                    direction — no two arrive together. */}
+                <TraceFrame
+                  radius={16}
+                  duration={1400 + i * 260}
+                  delay={i * 90}
+                  direction={i % 2 ? "rev" : "fwd"}
+                  runner
+                  runnerDuration={6400 + i * 900}
+                  runnerDelay={i * 400}
+                  className="text-line"
+                  runnerClassName="text-sage"
+                />
+
                 <div className="flex items-center justify-between">
                   <span className="font-mono text-[11px] uppercase tracking-[0.18em] text-cream-faint">
                     Path {path.index}
@@ -31,7 +60,7 @@ export function ServicePaths() {
                 </div>
 
                 <h3 className="mt-4 font-display text-2xl text-cream md:text-3xl">
-                  {path.name}
+                  <span className="cms-underline">{path.name}</span>
                 </h3>
 
                 <p className="mt-3 text-[15px] leading-relaxed text-cream-dim">
@@ -39,10 +68,15 @@ export function ServicePaths() {
                 </p>
 
                 <ul className="mt-6 flex flex-wrap gap-2">
-                  {path.examples.map((example) => (
+                  {path.examples.map((example, j) => (
                     <li
                       key={example}
-                      className="rounded-full border border-line px-3 py-1 font-mono text-[11px] text-cream-dim"
+                      className="cms-wipe rounded-full border border-line px-3.5 py-1.5 font-mono text-[11px] text-cream-dim"
+                      style={{
+                        "--wipe-dur": `${620 + j * 120}ms`,
+                        "--wipe-delay": `${420 + i * 90 + j * 110}ms`,
+                        "--wipe-to": `${26 + j * 5}%`,
+                      } as CSSProperties}
                     >
                       {example}
                     </li>
@@ -58,6 +92,10 @@ export function ServicePaths() {
             The conversation decides which one — not the other way around.
           </p>
         </Reveal>
+
+        <div className="mt-10">
+          <LeapTrack duration={6.1} height={24} className="text-amber/80" />
+        </div>
       </div>
     </section>
   );

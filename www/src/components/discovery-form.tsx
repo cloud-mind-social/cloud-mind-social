@@ -6,9 +6,13 @@ import { useFormStatus } from "react-dom";
 import { journeyStages } from "@/lib/data";
 import { submitInquiry } from "@/actions/inquiry";
 import { initialInquiryState } from "@/lib/form-state";
+import { Burst } from "@/components/lineart/burst";
+import { TraceFrame } from "@/components/lineart/trace-frame";
 
+// Fields are a single line each — no boxes, nothing filled in. The line
+// under the active one races out from the left as soon as it has focus.
 const inputClasses =
-  "w-full rounded-lg border border-line bg-ink-raised/60 px-4 py-3 text-[15px] text-cream placeholder:text-cream-faint outline-none transition-colors focus:border-amber";
+  "w-full border-b border-line bg-transparent px-1 py-3 text-[15px] text-cream placeholder:text-cream-faint outline-none transition-colors duration-500 focus:border-line-strong";
 
 const errorClasses = "border-amber/70";
 
@@ -27,8 +31,17 @@ function SubmitButton() {
     <button
       type="submit"
       disabled={pending}
-      className="mt-2 justify-self-start rounded-full bg-amber px-8 py-3.5 font-mono text-[12px] uppercase tracking-[0.14em] text-ink transition-transform hover:scale-[1.03] disabled:opacity-60"
+      className="relative mt-2 justify-self-start rounded-full px-8 py-3.5 font-mono text-[12px] uppercase tracking-[0.14em] text-amber transition-transform duration-500 ease-overshoot hover:scale-[1.04] disabled:opacity-60"
     >
+      <TraceFrame
+        radius={999}
+        strokeWidth={1.2}
+        duration={1100}
+        runner
+        runnerDuration={pending ? 900 : 4600}
+        className="text-amber/60"
+        runnerClassName="text-amber"
+      />
       {pending ? "Sending…" : "Request a discovery call"}
     </button>
   );
@@ -39,7 +52,22 @@ export function DiscoveryForm() {
 
   if (state.status === "success") {
     return (
-      <div className="rounded-2xl border border-line bg-ink-soft/60 p-10 text-center">
+      <div className="relative rounded-2xl p-10 text-center">
+        <TraceFrame
+          radius={18}
+          strokeWidth={1.2}
+          duration={1600}
+          runner
+          runnerDuration={7000}
+          className="text-sage/50"
+          runnerClassName="text-amber"
+        />
+        <span
+          aria-hidden
+          className="pointer-events-none absolute top-1/2 left-1/2 block h-0 w-0"
+        >
+          <Burst size={280} spokes={14} className="text-amber/60" />
+        </span>
         <p className="font-display text-2xl text-cream md:text-3xl">
           That&apos;s everything we need to start.
         </p>
@@ -65,7 +93,7 @@ export function DiscoveryForm() {
       ) : null}
 
       <div className="grid gap-5 md:grid-cols-2">
-        <div>
+        <div className="cms-field">
           <label htmlFor="name" className="sr-only">
             Name
           </label>
@@ -81,7 +109,7 @@ export function DiscoveryForm() {
           />
           <FieldError message={errors.name} />
         </div>
-        <div>
+        <div className="cms-field">
           <label htmlFor="business" className="sr-only">
             Business name
           </label>
@@ -100,7 +128,7 @@ export function DiscoveryForm() {
       </div>
 
       <div className="grid gap-5 md:grid-cols-2">
-        <div>
+        <div className="cms-field">
           <label htmlFor="email" className="sr-only">
             Email
           </label>
@@ -116,7 +144,7 @@ export function DiscoveryForm() {
           />
           <FieldError message={errors.email} />
         </div>
-        <div>
+        <div className="cms-field">
           <label htmlFor="phone" className="sr-only">
             Phone (optional)
           </label>
@@ -133,7 +161,7 @@ export function DiscoveryForm() {
         </div>
       </div>
 
-      <div>
+      <div className="cms-field">
         <label htmlFor="stage" className="sr-only">
           Where&apos;s the business right now?
         </label>
@@ -157,7 +185,7 @@ export function DiscoveryForm() {
         <FieldError message={errors.stage} />
       </div>
 
-      <div>
+      <div className="cms-field">
         <label htmlFor="message" className="sr-only">
           What&apos;s going on?
         </label>
