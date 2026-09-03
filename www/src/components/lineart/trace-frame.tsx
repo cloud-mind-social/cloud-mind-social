@@ -42,7 +42,7 @@ export function TraceFrame({
   runnerDuration = 7000,
   runnerDelay = 0,
   corners = false,
-  className = "text-line",
+  className = "text-rule",
   runnerClassName = "text-amber",
 }: TraceFrameProps) {
   const { ref, armed, run, scroll } = useTracedElement<SVGSVGElement>();

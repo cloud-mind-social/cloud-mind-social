@@ -26,7 +26,7 @@ export function ScrollRail() {
       aria-hidden
       className="pointer-events-none fixed inset-y-8 left-0 z-40 hidden w-6 lg:block"
     >
-      <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-line" />
+      <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-rule" />
 
       <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 overflow-hidden">
         <div className="cms-rail-fill h-full w-full bg-sage" />

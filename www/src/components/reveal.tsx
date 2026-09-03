@@ -3,9 +3,10 @@
 import { useLayoutEffect, useRef, useState, type ReactNode } from "react";
 
 // Content renders fully visible by default (correct for no-JS, slow-JS, and
-// crawlers). Only once React has mounted and IntersectionObserver is
-// confirmed available do we opt an element into the hidden "about to reveal"
-// state — so a JS failure or slow load never leaves copy stuck invisible.
+// crawlers). Anything already on screen when the page loads is left exactly
+// as it arrived — the page is meant to land bare and still. Only content
+// further down opts into the hidden "about to reveal" state, so it has
+// something to do when the reader scrolls to it.
 export function Reveal({
   children,
   delay = 0,
@@ -25,6 +26,8 @@ export function Reveal({
   useLayoutEffect(() => {
     const el = ref.current;
     if (!el || typeof IntersectionObserver === "undefined") return;
+    if (window.matchMedia?.("(prefers-reduced-motion: reduce)").matches) return;
+    if (el.getBoundingClientRect().top < window.innerHeight) return;
 
     setPrimed(true);
 
@@ -57,7 +60,6 @@ export function Reveal({
       style={{
         opacity: revealed ? 1 : 0,
         transform: revealed ? "none" : resting,
-        // Overshooting easing — copy arrives the way the lines do.
         transition: `opacity 0.75s var(--ease-expo-out) ${delay}ms, transform 0.95s var(--ease-expo-out) ${delay}ms`,
       }}
     >

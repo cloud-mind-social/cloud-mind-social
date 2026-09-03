@@ -6,11 +6,11 @@ export function Faq() {
   return (
     <section
       id="faq"
-      className="grain on-paper border-b border-line-ink bg-paper text-paper-ink"
+      className="grain border-b border-rule bg-paper-soft text-ink"
     >
       <div className="mx-auto max-w-[1180px] px-6 py-24 md:px-10 md:py-32">
         <Reveal>
-          <p className="font-mono text-[12px] uppercase tracking-[0.22em] text-sage-dim">
+          <p className="font-mono text-[12px] uppercase tracking-[0.22em] text-sage">
             Before you call
           </p>
         </Reveal>
@@ -27,7 +27,7 @@ export function Faq() {
               <SparkRule
                 duration={950 + i * 260}
                 delay={i * 70}
-                className="text-paper-ink/25"
+                className="text-rule"
                 span={26 + i * 4}
               />
               <Reveal delay={120 + i * 70}>
@@ -45,14 +45,14 @@ export function Faq() {
                       <span className="absolute top-0 left-1/2 block h-full w-px -translate-x-1/2 bg-current transition-transform duration-700 ease-overshoot group-open:rotate-90 group-open:scale-y-0" />
                     </span>
                   </summary>
-                  <p className="mt-4 max-w-[62ch] text-[15px] leading-relaxed text-paper-ink/70 md:text-base">
+                  <p className="mt-4 max-w-[62ch] text-[15px] leading-relaxed text-ink-mid md:text-base">
                     {item.a}
                   </p>
                 </details>
               </Reveal>
             </div>
           ))}
-          <SparkRule duration={1500} className="text-paper-ink/25" span={44} />
+          <SparkRule duration={1500} className="text-rule" span={44} />
         </div>
       </div>
     </section>

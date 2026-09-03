@@ -12,14 +12,14 @@ import { TraceFrame } from "@/components/lineart/trace-frame";
 // Fields are a single line each — no boxes, nothing filled in. The line
 // under the active one races out from the left as soon as it has focus.
 const inputClasses =
-  "w-full border-b border-line bg-transparent px-1 py-3 text-[15px] text-cream placeholder:text-cream-faint outline-none transition-colors duration-500 focus:border-line-strong";
+  "w-full border-b border-rule bg-transparent px-1 py-3 text-[15px] text-ink placeholder:text-ink-faint outline-none transition-colors duration-500 focus:border-rule-strong";
 
 const errorClasses = "border-amber/70";
 
 function FieldError({ message }: { message?: string }) {
   if (!message) return null;
   return (
-    <p role="alert" className="mt-2 text-[13px] text-amber-soft">
+    <p role="alert" className="mt-2 text-[13px] text-amber-deep">
       {message}
     </p>
   );
@@ -31,7 +31,7 @@ function SubmitButton() {
     <button
       type="submit"
       disabled={pending}
-      className="relative mt-2 justify-self-start rounded-full px-8 py-3.5 font-mono text-[12px] uppercase tracking-[0.14em] text-amber transition-transform duration-500 ease-overshoot hover:scale-[1.04] disabled:opacity-60"
+      className="cms-live relative mt-2 justify-self-start rounded-full px-8 py-3.5 font-mono text-[12px] uppercase tracking-[0.14em] text-amber-deep transition-transform duration-500 ease-overshoot hover:scale-[1.04] disabled:opacity-60"
     >
       <TraceFrame
         radius={999}
@@ -68,10 +68,10 @@ export function DiscoveryForm() {
         >
           <Burst size={280} spokes={14} className="text-amber/60" />
         </span>
-        <p className="font-display text-2xl text-cream md:text-3xl">
+        <p className="font-display text-2xl text-ink md:text-3xl">
           That&apos;s everything we need to start.
         </p>
-        <p className="mx-auto mt-3 max-w-[46ch] text-cream-dim">
+        <p className="mx-auto mt-3 max-w-[46ch] text-ink-mid">
           A confirmation is on its way to your inbox. We&apos;ll follow up within
           one business day to find a time for the conversation.
         </p>
@@ -86,7 +86,7 @@ export function DiscoveryForm() {
       {state.status === "error" && state.message ? (
         <p
           role="alert"
-          className="rounded-lg border border-amber/40 bg-amber/10 px-4 py-3 text-[14px] text-amber-soft"
+          className="rounded-lg border border-amber/35 bg-amber/8 px-4 py-3 text-[14px] text-amber-deep"
         >
           {state.message}
         </p>

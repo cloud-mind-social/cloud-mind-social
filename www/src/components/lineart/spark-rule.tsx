@@ -20,7 +20,7 @@ type SparkRuleProps = {
 export function SparkRule({
   duration = 1400,
   delay = 0,
-  className = "text-line-strong",
+  className = "text-rule-strong",
   span = 42,
 }: SparkRuleProps) {
   // Watched on the track, not the rule: the rule waits its turn parked

@@ -1,32 +1,41 @@
 @import "tailwindcss";
 
 @theme {
-  /* ink — primary dark surfaces */
-  --color-ink: #121309;
-  --color-ink-soft: #191b12;
-  --color-ink-raised: #21241a;
+  /* ---------------------------------------------------------------
+     Paper. The whole site sits on it now — the mark's own ground.
+     --------------------------------------------------------------- */
+  --color-paper: #fbfaf7;
+  --color-paper-soft: #f4f2ea;
+  --color-paper-deep: #ebe7db;
 
-  /* paper — warm light surfaces, the "dossier page" */
-  --color-paper: #f2ecda;
-  --color-paper-dim: #e6ddc3;
-  --color-paper-ink: #1c1d13;
+  /* ---------------------------------------------------------------
+     Ink. The navy the mark is drawn in.
+     --------------------------------------------------------------- */
+  --color-ink: #1e2b48;
+  --color-ink-mid: #4a5878;
+  --color-ink-faint: #616c86;
+  --color-ink-soft: #26365a;
+  --color-ink-raised: #2e4068;
 
-  /* text on dark */
-  --color-cream: #f4efe0;
-  --color-cream-dim: #b6b29b;
-  --color-cream-faint: #8c886f;
+  /* text on the dark navy surfaces the inbox uses */
+  --color-cream: #f6f4ee;
+  --color-cream-dim: #b9c0d0;
+  --color-cream-faint: #8b93a8;
 
   /* accents */
-  --color-sage: #93a67c;
-  --color-sage-dim: #5c6a49;
-  --color-amber: #dd9440;
-  --color-amber-soft: #f0c98a;
+  --color-sage: #5e7448;
+  --color-sage-dim: #46572f;
+  --color-amber: #c2731a;
+  --color-amber-deep: #94540f;
+  --color-amber-soft: #e9b878;
 
-  /* lines */
-  --color-line: rgb(244 239 224 / 14%);
-  --color-line-strong: rgb(244 239 224 / 26%);
-  --color-line-ink: rgb(28 29 19 / 14%);
-  --color-line-ink-strong: rgb(28 29 19 / 28%);
+  /* rules on paper */
+  --color-rule: rgb(30 43 72 / 12%);
+  --color-rule-strong: rgb(30 43 72 / 26%);
+
+  /* rules on the dark navy surfaces */
+  --color-line: rgb(246 244 238 / 14%);
+  --color-line-strong: rgb(246 244 238 / 26%);
 
   --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
   --font-body: var(--font-archivo), "Segoe UI", system-ui, sans-serif;
@@ -122,6 +131,41 @@
   }
   100% {
     stroke-dashoffset: -1;
+  }
+}
+
+/* The growth arrow's climb: each leg of the zigzag is covered faster
+   than the one before it, so the line visibly gathers pace uphill
+   instead of arriving at an even trot. */
+@keyframes trace-climb {
+  0% {
+    stroke-dashoffset: 1;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.9, 0.3);
+  }
+  52% {
+    stroke-dashoffset: 0.58;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.85, 0.2);
+  }
+  80% {
+    stroke-dashoffset: 0.26;
+    animation-timing-function: cubic-bezier(0.85, 0, 1, 0.35);
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* The three dots in a speech bubble, taking their turn. */
+@keyframes bubble-dot {
+  0%,
+  55%,
+  100% {
+    transform: translateY(0) scale(1);
+    animation-timing-function: var(--ease-overshoot);
+  }
+  22% {
+    transform: translateY(-2.2px) scale(1.35);
+    animation-timing-function: var(--ease-expo-in);
   }
 }
 
@@ -302,7 +346,7 @@
 
 html {
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
 
   /* Published every frame by <ScrollMotion>. Lines read these to know
      how hard the page is being thrown around. */
@@ -312,14 +356,37 @@ html {
 }
 
 body {
-  background: var(--color-ink);
-  color: var(--color-cream);
+  background: var(--color-paper);
+  color: var(--color-ink);
   font-family: var(--font-body);
 }
 
 ::selection {
   background: var(--color-amber);
-  color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* ===============================================================
+   ASLEEP
+   The page arrives as a still drawing: type, hairlines, nothing
+   moving. <PageLife> sets data-awake on <html> the first time the
+   reader scrolls, points, taps or tabs — and only then does anything
+   start running. Nothing here is decoration the reader didn't ask for.
+   =============================================================== */
+html:not([data-awake="true"]) .cms-lap,
+html:not([data-awake="true"]) .cms-hop-x,
+html:not([data-awake="true"]) .cms-hop-y,
+html:not([data-awake="true"]) .cms-dot,
+html:not([data-awake="true"]) .cms-drift,
+html:not([data-awake="true"]) .cms-spoke,
+html:not([data-awake="true"]) .cms-ring {
+  animation: none;
+}
+
+html:not([data-awake="true"]) .cms-lap,
+html:not([data-awake="true"]) .cms-spoke,
+html:not([data-awake="true"]) .cms-ring {
+  opacity: 0;
 }
 
 /* grain — subtle tactile texture over flat color fields */
@@ -334,16 +401,10 @@ body {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.05;
-  mix-blend-mode: overlay;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 180px 180px;
-}
-
-.paper .grain::before,
-.grain.on-paper::before {
-  opacity: 0.045;
-  mix-blend-mode: multiply;
 }
 
 /* ===============================================================
@@ -370,6 +431,10 @@ body {
   animation-name: trace-race-rev;
 }
 
+.cms-trace[data-armed="true"][data-run="true"][data-dir="climb"] {
+  animation-name: trace-climb;
+}
+
 /* Where the browser can drive an animation straight off the scroll
    position, it does: the pen is then literally in the reader's hand,
    and scrubbing back un-draws the box. The easing above still shapes
@@ -390,6 +455,10 @@ body {
 
     .cms-trace[data-armed="true"][data-scroll="true"][data-dir="rev"] {
       animation-name: trace-race-rev;
+    }
+
+    .cms-trace[data-armed="true"][data-scroll="true"][data-dir="climb"] {
+      animation-name: trace-climb;
     }
   }
 }
@@ -490,6 +559,12 @@ body {
   animation: hop-y var(--hop-dur, 5.2s) var(--hop-delay, 0ms) infinite;
 }
 
+.cms-dot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bubble-dot var(--dot-dur, 2.4s) var(--dot-delay, 0ms) infinite;
+}
+
 .cms-drift {
   animation: dash-drift var(--drift-dur, 24s) linear infinite;
 }
@@ -578,6 +653,38 @@ a:hover > .cms-underline::after {
   transform: scaleX(1);
 }
 
+/* ===============================================================
+   INTERACTION
+   Touch a thing and it should answer. Everything here is a hover or
+   focus response, so nothing moves at a reader who isn't pointing.
+   =============================================================== */
+
+/* Point at a card and its sprite bolts — the same lap, four times the
+   pace, which reads as the line noticing you. */
+.cms-live:hover .cms-lap,
+.cms-live:focus-within .cms-lap {
+  animation-duration: calc(var(--lap-dur, 7s) / 4);
+}
+
+/* Chips lift out of the page, each a beat behind the cursor. */
+.cms-chip {
+  transition:
+    transform 520ms var(--ease-overshoot),
+    border-color 400ms var(--ease-expo-out),
+    color 400ms var(--ease-expo-out);
+}
+
+.cms-chip:hover {
+  transform: translateY(-3px) rotate(-0.6deg);
+  border-color: var(--color-amber);
+  color: var(--color-ink);
+}
+
+/* The mark's arrow takes another run at it when you point at the logo. */
+.cms-logo:hover .cms-climb-head {
+  animation: node-pop 700ms var(--ease-overshoot) both;
+}
+
 /* A form field is a line. Focus sends a brighter one racing along it. */
 .cms-field {
   position: relative;
@@ -624,6 +731,11 @@ a:hover > .cms-underline::after {
   transform-origin: left center;
 }
 
+/* Nothing hover-driven should fire on a page still asleep. */
+html:not([data-awake="true"]) .cms-chip {
+  transition: none;
+}
+
 @media (prefers-reduced-motion: reduce) {
   *,
   *::before,
@@ -635,6 +747,7 @@ a:hover > .cms-underline::after {
   }
 
   .cms-lap,
+  .cms-dot,
   .cms-hop-x,
   .cms-hop-y,
   .cms-spoke,
