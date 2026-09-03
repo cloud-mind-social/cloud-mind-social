@@ -1,7 +1,8 @@
 "use client";
 
-import { type CSSProperties } from "react";
+import { useRef, type CSSProperties } from "react";
 
+import { useAmbient } from "@/components/lineart/ambient";
 import { useMotionAllowed } from "@/components/lineart/motion";
 
 type LeapTrackProps = {
@@ -29,9 +30,12 @@ export function LeapTrack({
   ground = true,
 }: LeapTrackProps) {
   const motionAllowed = useMotionAllowed();
+  const ref = useRef<HTMLDivElement>(null);
+  useAmbient(ref);
 
   return (
     <div
+      ref={ref}
       aria-hidden
       className={`pointer-events-none relative h-14 w-full overflow-hidden ${className}`}
     >

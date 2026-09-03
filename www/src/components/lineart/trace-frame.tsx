@@ -2,6 +2,7 @@
 
 import { type CSSProperties } from "react";
 
+import { useAmbient } from "@/components/lineart/ambient";
 import {
   roundedRectPath,
   useBoxSize,
@@ -42,11 +43,13 @@ export function TraceFrame({
   runnerDuration = 7000,
   runnerDelay = 0,
   corners = false,
-  className = "text-line",
+  className = "text-rule",
   runnerClassName = "text-amber",
 }: TraceFrameProps) {
   const { ref, armed, run, scroll } = useTracedElement<SVGSVGElement>();
   const size = useBoxSize(ref);
+  // Only frames carrying a sprite need parking when they scroll away.
+  useAmbient(ref, runner);
 
   const measured = size.width > 0 && size.height > 0;
   const live = armed && measured;
@@ -102,7 +105,6 @@ export function TraceFrame({
           strokeWidth={strokeWidth + 0.4}
           strokeLinecap="round"
           strokeDasharray="0.1 0.9"
-          data-boost="true"
           style={
             {
               "--lap-dur": `${runnerDuration}ms`,

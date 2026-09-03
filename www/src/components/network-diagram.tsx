@@ -2,6 +2,9 @@
 
 import { type CSSProperties } from "react";
 
+import { useRef } from "react";
+
+import { useAmbient } from "@/components/lineart/ambient";
 import { useMotionAllowed } from "@/components/lineart/motion";
 
 const specialists = [
@@ -29,30 +32,30 @@ const ORBIT =
 
 const sparks = [0, 1, 2, 3, 4, 5, 6, 7];
 
+/** Where a cubic curve is at its halfway point, for hanging a node on. */
+function midpoint(x0: number, y0: number) {
+  return { x: 242.5, y: (y0 + CENTER.y) / 2, from: x0 };
+}
+
 export function NetworkDiagram() {
   const live = useMotionAllowed();
+  const ref = useRef<SVGSVGElement>(null);
+  useAmbient(ref);
 
   const stroke = (delay: number, duration = 1400): CSSProperties =>
     ({ "--trace-dur": `${duration}ms`, "--trace-delay": `${delay}ms` }) as CSSProperties;
 
   return (
     <svg
+      ref={ref}
       viewBox="0 0 760 420"
-      className="w-full max-w-[560px] overflow-visible text-cream-dim"
+      className="w-full max-w-[560px] overflow-visible text-ink-mid"
       role="img"
       aria-label="A diagram showing specialist inputs converging into a single diagnosis, then matching to one right-sized service path"
       fill="none"
     >
-      {/* The whimsical lap: a line with somewhere to be, going nowhere. */}
-      <path
-        d={ORBIT}
-        stroke="var(--color-sage)"
-        strokeOpacity="0.16"
-        strokeWidth="1"
-        strokeDasharray="3 9"
-        className={live ? "cms-drift" : undefined}
-        style={{ "--drift-dur": "42s" } as CSSProperties}
-      />
+      {/* The whimsical lap: a line with somewhere to be, going nowhere.
+          Its track is invisible — only the runner on it shows. */}
       {live ? (
         <path
           className="cms-lap"
@@ -62,7 +65,6 @@ export function NetworkDiagram() {
           strokeWidth="1.6"
           strokeLinecap="round"
           strokeDasharray="0.055 0.945"
-          data-boost="true"
           style={{ "--lap-dur": "11s", "--lap-weight": "1.6px" } as CSSProperties}
         />
       ) : null}
@@ -74,18 +76,33 @@ export function NetworkDiagram() {
             className="cms-trace"
             d={`M ${LEFT_X + 8} ${s.y} C ${LEFT_X + 130} ${s.y}, ${CENTER.x - 140} ${CENTER.y}, ${CENTER.x - 30} ${CENTER.y}`}
             stroke="var(--color-sage)"
-            strokeOpacity="0.45"
-            strokeWidth="1"
+            strokeOpacity="0.8"
+            strokeWidth="1.2"
             pathLength={1}
             data-armed={live || undefined}
             data-run={live || undefined}
             style={stroke(140 + i * 110, 1500)}
           />
+          {/* Open nodes, and a smaller one riding each link — the way the
+              mark draws a network. */}
+          <circle
+            cx={midpoint(LEFT_X, s.y).x}
+            cy={midpoint(LEFT_X, s.y).y}
+            r="2.6"
+            fill="var(--color-paper)"
+            stroke="var(--color-sage)"
+            strokeWidth="1"
+            strokeOpacity="0.7"
+            className={live ? "cms-pop" : undefined}
+            style={{ "--pop-delay": `${900 + i * 90}ms` } as CSSProperties}
+          />
           <circle
             cx={LEFT_X}
             cy={s.y}
-            r="3.5"
-            fill="var(--color-sage)"
+            r="3.8"
+            fill="var(--color-paper)"
+            stroke="var(--color-sage)"
+            strokeWidth="1.4"
             className={live ? "cms-pop" : undefined}
             style={{ "--pop-delay": `${140 + i * 110}ms` } as CSSProperties}
           />
@@ -110,9 +127,9 @@ export function NetworkDiagram() {
             <path
               className="cms-trace"
               d={d}
-              stroke={p.matched ? "var(--color-amber)" : "var(--color-cream)"}
-              strokeOpacity={p.matched ? 0.9 : 0.16}
-              strokeWidth={p.matched ? 1.5 : 1}
+              stroke={p.matched ? "var(--color-amber)" : "var(--color-ink)"}
+              strokeOpacity={p.matched ? 0.95 : 0.42}
+              strokeWidth={p.matched ? 1.6 : 1.1}
               pathLength={1}
               data-armed={live || undefined}
               data-run={live || undefined}
@@ -127,7 +144,6 @@ export function NetworkDiagram() {
                 strokeWidth="2.2"
                 strokeLinecap="round"
                 strokeDasharray="0.14 0.86"
-                data-boost="true"
                 style={
                   {
                     "--lap-dur": "2.6s",
@@ -140,10 +156,11 @@ export function NetworkDiagram() {
             <circle
               cx={RIGHT_X}
               cy={p.y}
-              r={p.matched ? 5 : 3}
-              fill={p.matched ? "var(--color-amber)" : "none"}
-              stroke={p.matched ? "none" : "var(--color-cream)"}
-              strokeOpacity={p.matched ? 1 : 0.3}
+              r={p.matched ? 5 : 3.4}
+              fill={p.matched ? "var(--color-amber)" : "var(--color-ink)"}
+              stroke={p.matched ? "none" : "var(--color-ink)"}
+              strokeWidth={1.2}
+              strokeOpacity={p.matched ? 1 : 0.45}
               className={live ? "cms-pop" : undefined}
               style={{ "--pop-delay": `${1100 + i * 120}ms` } as CSSProperties}
             />
@@ -151,7 +168,7 @@ export function NetworkDiagram() {
               x={RIGHT_X + 14}
               y={p.y}
               dominantBaseline="middle"
-              className={`font-mono text-[10px] tracking-[0.14em] ${p.matched ? "text-amber" : ""}`}
+              className={`font-mono text-[10px] tracking-[0.14em] ${p.matched ? "text-amber-deep" : ""}`}
               fill="currentColor"
               opacity={p.matched ? 1 : 0.45}
             >
@@ -207,14 +224,14 @@ export function NetworkDiagram() {
         cy={CENTER.y}
         r="4"
         fill="var(--color-amber)"
-        className={live ? "animate-pulse-soft" : undefined}
+        className={live ? "cms-pulse animate-pulse-soft" : undefined}
         style={{ transformOrigin: `${CENTER.x}px ${CENTER.y}px` }}
       />
       <text
         x={CENTER.x}
         y={CENTER.y + 46}
         textAnchor="middle"
-        className="font-mono text-[10px] tracking-[0.18em] text-cream"
+        className="font-mono text-[10px] tracking-[0.18em] text-ink"
         fill="currentColor"
       >
         DIAGNOSIS

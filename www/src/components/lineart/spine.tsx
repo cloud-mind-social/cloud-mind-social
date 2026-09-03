@@ -10,7 +10,7 @@ import { useBoxSize, useTracedElement } from "@/components/lineart/motion";
  * parent, which should be a `relative` 1px-wide box.
  */
 export function Spine({
-  className = "text-line-strong",
+  className = "text-rule-strong",
   duration = 2400,
 }: {
   className?: string;

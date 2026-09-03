@@ -5,7 +5,7 @@ import { SparkRule } from "@/components/lineart/spark-rule";
 
 export function Differentiators() {
   return (
-    <section className="border-b border-line bg-ink">
+    <section className="border-b border-rule bg-paper">
       <div className="mx-auto max-w-[1180px] px-6 py-24 md:px-10 md:py-32">
         <Reveal>
           <p className="font-mono text-[12px] uppercase tracking-[0.22em] text-sage">
@@ -14,7 +14,7 @@ export function Differentiators() {
         </Reveal>
 
         <Reveal delay={80}>
-          <h2 className="mt-6 max-w-[22ch] font-display text-4xl leading-[1.05] text-cream md:text-5xl">
+          <h2 className="mt-6 max-w-[22ch] font-display text-4xl leading-[1.05] text-ink md:text-5xl">
             What doesn&apos;t change once you&apos;re a client.
           </h2>
         </Reveal>
@@ -27,7 +27,7 @@ export function Differentiators() {
               <SparkRule
                 duration={1100 + i * 320}
                 delay={i * 80}
-                className="text-line-strong"
+                className="text-rule-strong"
                 span={30 + i * 6}
               />
               <Reveal delay={140 + i * 90}>
@@ -43,10 +43,10 @@ export function Differentiators() {
                     <span className="relative">{pillar.n}</span>
                   </span>
                   <div>
-                    <h3 className="font-display text-2xl text-cream md:text-3xl">
+                    <h3 className="font-display text-2xl text-ink md:text-3xl">
                       {pillar.title}
                     </h3>
-                    <p className="mt-2 max-w-[58ch] text-[15px] leading-relaxed text-cream-dim md:text-base">
+                    <p className="mt-2 max-w-[58ch] text-[15px] leading-relaxed text-ink-mid md:text-base">
                       {pillar.body}
                     </p>
                   </div>
@@ -56,7 +56,7 @@ export function Differentiators() {
           ))}
           <SparkRule
             duration={1600}
-            className="text-line-strong"
+            className="text-rule-strong"
             span={48}
           />
         </div>

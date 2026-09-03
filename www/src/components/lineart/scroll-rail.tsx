@@ -3,6 +3,7 @@
 import { type CSSProperties } from "react";
 
 import { useMotionAllowed } from "@/components/lineart/motion";
+import { useScrollNodeRef } from "@/components/lineart/scroll-store";
 
 const streaks = [
   { top: "14%", gain: 7, height: 26 },
@@ -19,14 +20,17 @@ const streaks = [
  */
 export function ScrollRail() {
   const motionAllowed = useMotionAllowed();
+  const rail = useScrollNodeRef<HTMLDivElement>();
+
   if (!motionAllowed) return null;
 
   return (
     <div
+      ref={rail}
       aria-hidden
       className="pointer-events-none fixed inset-y-8 left-0 z-40 hidden w-6 lg:block"
     >
-      <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-line" />
+      <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 bg-rule" />
 
       <div className="absolute inset-y-0 left-1/2 w-px -translate-x-1/2 overflow-hidden">
         <div className="cms-rail-fill h-full w-full bg-sage" />
@@ -35,7 +39,7 @@ export function ScrollRail() {
       {streaks.map((streak) => (
         <span
           key={streak.top}
-          className="cms-streak absolute left-1/2 w-px -translate-x-1/2 bg-cream-faint"
+          className="cms-streak absolute left-1/2 w-px -translate-x-1/2 bg-ink-faint"
           style={
             {
               top: streak.top,

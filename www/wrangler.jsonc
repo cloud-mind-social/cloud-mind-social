@@ -36,11 +36,18 @@
     "MAIL_REPLY_TO": "hello@cloudmindsocial.com",
     "INQUIRY_NOTIFY_TO": "hello@cloudmindsocial.com"
   },
-  // Named environments do NOT inherit top-level config, so staging repeats it.
+  // Named environments repeat most top-level config because they do not
+  // inherit it — with the exception of `routes`, which they DO inherit.
+  // Staging therefore declares an empty `routes` explicitly: without it a
+  // staging deploy reassigns the production custom domains onto the staging
+  // Worker. `workers_dev` gives staging its own URL to be previewed at:
+  //   https://cloud-mind-social-staging.<account-subdomain>.workers.dev
   "env": {
     "staging": {
       "name": "cloud-mind-social-staging",
       "main": ".open-next/worker.js",
+      "routes": [],
+      "workers_dev": true,
       "compatibility_date": "2026-08-29",
       "compatibility_flags": ["nodejs_compat"],
       "assets": {

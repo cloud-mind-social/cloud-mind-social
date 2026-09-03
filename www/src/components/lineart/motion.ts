@@ -14,6 +14,44 @@ const REDUCED = "(prefers-reduced-motion: reduce)";
 /** How a stroke is being driven right now. */
 export type TraceMode = "static" | "timed" | "scroll";
 
+// One observer for the whole page, however many strokes are listening.
+const wakeListeners = new Set<() => void>();
+let wakeObserver: MutationObserver | null = null;
+
+function subscribeToWake(onChange: () => void) {
+  wakeListeners.add(onChange);
+
+  if (!wakeObserver) {
+    wakeObserver = new MutationObserver(() => {
+      for (const listener of wakeListeners) listener();
+    });
+    wakeObserver.observe(document.documentElement, {
+      attributes: true,
+      attributeFilter: ["data-awake"],
+    });
+  }
+
+  return () => {
+    wakeListeners.delete(onChange);
+    if (wakeListeners.size === 0) {
+      wakeObserver?.disconnect();
+      wakeObserver = null;
+    }
+  };
+}
+
+/**
+ * Has the reader touched the page yet? Everything ambient waits on this,
+ * so a page nobody has interacted with stays a still drawing.
+ */
+export function useAwake() {
+  return useSyncExternalStore(
+    subscribeToWake,
+    () => document.documentElement.dataset.awake === "true",
+    () => false,
+  );
+}
+
 function subscribeToMotionPreference(onChange: () => void) {
   const query = window.matchMedia(REDUCED);
   query.addEventListener("change", onChange);
@@ -55,20 +93,22 @@ export function supportsScrollTimeline() {
  */
 export function useTraceMode(ref: RefObject<Element | null>): TraceMode {
   const motionAllowed = useMotionAllowed();
+  const awake = useAwake();
   const [driver, setDriver] = useState<"timed" | "scroll" | null>(null);
 
   // Measured before paint, so a stroke is never briefly drawn the wrong way.
   useLayoutEffect(() => {
-    if (!motionAllowed || typeof IntersectionObserver === "undefined") return;
+    if (!motionAllowed || !awake) return;
+    if (typeof IntersectionObserver === "undefined") return;
 
     const el = ref.current;
     const startsOnScreen = el
       ? el.getBoundingClientRect().top < window.innerHeight * 0.92
       : true;
     setDriver(startsOnScreen || !supportsScrollTimeline() ? "timed" : "scroll");
-  }, [motionAllowed, ref]);
+  }, [motionAllowed, awake, ref]);
 
-  return motionAllowed && driver ? driver : "static";
+  return motionAllowed && awake && driver ? driver : "static";
 }
 
 /** Fires once, when the element first comes far enough into view. */

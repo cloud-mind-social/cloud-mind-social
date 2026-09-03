@@ -8,11 +8,11 @@ export function Capabilities() {
   return (
     <section
       id="capabilities"
-      className="grain on-paper border-b border-line-ink bg-paper text-paper-ink"
+      className="grain border-b border-rule bg-paper-soft text-ink"
     >
       <div className="mx-auto max-w-[1180px] px-6 py-24 md:px-10 md:py-32">
         <Reveal>
-          <p className="font-mono text-[12px] uppercase tracking-[0.22em] text-sage-dim">
+          <p className="font-mono text-[12px] uppercase tracking-[0.22em] text-sage">
             Capabilities
           </p>
         </Reveal>
@@ -27,14 +27,14 @@ export function Capabilities() {
           {capabilityGroups.map((group, i) => (
             <Reveal key={group.label} delay={140 + i * 80}>
               <div>
-                <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-paper-ink/50">
+                <h3 className="font-mono text-[11px] uppercase tracking-[0.18em] text-ink-faint">
                   {group.label}
                 </h3>
                 <div className="mt-3 max-w-[18rem]">
                   <SparkRule
                     duration={1000 + i * 180}
                     delay={i * 90}
-                    className="text-paper-ink/30"
+                    className="text-rule-strong"
                     span={26 + i * 3}
                   />
                 </div>
@@ -42,7 +42,7 @@ export function Capabilities() {
                   {group.items.map((item, j) => (
                     <li
                       key={item}
-                      className="cms-wipe rounded-full border border-paper-ink/20 px-3.5 py-1.5 text-[13px] text-paper-ink/80"
+                      className="cms-wipe cms-chip rounded-full border border-rule px-3.5 py-1.5 text-[13px] text-ink-mid"
                       style={{
                         "--wipe-dur": `${560 + j * 90}ms`,
                         "--wipe-delay": `${i * 120 + j * 70}ms`,
