@@ -2,6 +2,10 @@ import type { Metadata } from "next";
 import { Fraunces, Archivo, IBM_Plex_Mono } from "next/font/google";
 import "./globals.css";
 
+import { PageLife } from "@/components/lineart/page-life";
+import { ScrollMotion } from "@/components/lineart/scroll-motion";
+import { ScrollRail } from "@/components/lineart/scroll-rail";
+
 const fraunces = Fraunces({
   subsets: ["latin"],
   variable: "--font-fraunces",
@@ -63,7 +67,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
       lang="en"
       className={`${fraunces.variable} ${archivo.variable} ${plexMono.variable} h-full`}
     >
-      <body className="min-h-full flex flex-col bg-ink text-cream antialiased">
+      <body className="min-h-full flex flex-col bg-paper text-ink antialiased">
+        <PageLife />
+        <ScrollMotion />
+        <ScrollRail />
         {children}
       </body>
     </html>

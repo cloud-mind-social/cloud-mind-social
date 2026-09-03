@@ -1,59 +1,309 @@
 @import "tailwindcss";
 
 @theme {
-  /* ink — primary dark surfaces */
-  --color-ink: #121309;
-  --color-ink-soft: #191b12;
-  --color-ink-raised: #21241a;
+  /* ---------------------------------------------------------------
+     Paper. The whole site sits on it now — the mark's own ground.
+     --------------------------------------------------------------- */
+  --color-paper: #fbfaf7;
+  --color-paper-soft: #f4f2ea;
+  --color-paper-deep: #ebe7db;
 
-  /* paper — warm light surfaces, the "dossier page" */
-  --color-paper: #f2ecda;
-  --color-paper-dim: #e6ddc3;
-  --color-paper-ink: #1c1d13;
+  /* ---------------------------------------------------------------
+     Ink. The navy the mark is drawn in.
+     --------------------------------------------------------------- */
+  --color-ink: #1e2b48;
+  --color-ink-mid: #4a5878;
+  --color-ink-faint: #616c86;
+  --color-ink-soft: #26365a;
+  --color-ink-raised: #2e4068;
 
-  /* text on dark */
-  --color-cream: #f4efe0;
-  --color-cream-dim: #b6b29b;
-  --color-cream-faint: #8c886f;
+  /* text on the dark navy surfaces the inbox uses */
+  --color-cream: #f6f4ee;
+  --color-cream-dim: #b9c0d0;
+  --color-cream-faint: #8b93a8;
 
   /* accents */
-  --color-sage: #93a67c;
-  --color-sage-dim: #5c6a49;
-  --color-amber: #dd9440;
-  --color-amber-soft: #f0c98a;
+  --color-sage: #5e7448;
+  --color-sage-dim: #46572f;
+  --color-amber: #c2731a;
+  --color-amber-deep: #94540f;
+  --color-amber-soft: #e9b878;
 
-  /* lines */
-  --color-line: rgb(244 239 224 / 14%);
-  --color-line-strong: rgb(244 239 224 / 26%);
-  --color-line-ink: rgb(28 29 19 / 14%);
-  --color-line-ink-strong: rgb(28 29 19 / 28%);
+  /* rules on paper */
+  --color-rule: rgb(30 43 72 / 12%);
+  --color-rule-strong: rgb(30 43 72 / 26%);
+
+  /* rules on the dark navy surfaces */
+  --color-line: rgb(246 244 238 / 14%);
+  --color-line-strong: rgb(246 244 238 / 26%);
 
   --font-display: var(--font-fraunces), "Iowan Old Style", Georgia, serif;
   --font-body: var(--font-archivo), "Segoe UI", system-ui, sans-serif;
   --font-mono: var(--font-plex-mono), ui-monospace, "SFMono-Regular", monospace;
 
-  --animate-fade-up: fade-up 0.9s cubic-bezier(0.16, 1, 0.3, 1) both;
-  --animate-draw: draw 1.6s cubic-bezier(0.65, 0, 0.35, 1) 0.2s both;
+  /* ---------------------------------------------------------------
+     Easing vocabulary. Everything on this site accelerates or brakes;
+     nothing travels at a constant speed. These are the gears.
+     --------------------------------------------------------------- */
+  --ease-expo-out: cubic-bezier(0.16, 1, 0.3, 1);
+  --ease-expo-in: cubic-bezier(0.7, 0, 0.84, 0);
+  --ease-expo-io: cubic-bezier(0.87, 0, 0.13, 1);
+  --ease-launch: cubic-bezier(0.9, 0, 0.06, 1);
+  --ease-whip: cubic-bezier(0.12, 0.9, 0.2, 1);
+  --ease-overshoot: cubic-bezier(0.2, 1.5, 0.3, 1);
+
   --animate-pulse-soft: pulse-soft 3.6s ease-in-out infinite;
 }
 
-@keyframes fade-up {
-  from {
-    opacity: 0;
-    transform: translateY(1.1rem);
+/* ===============================================================
+   KEYFRAMES
+   Multi-stop by design: each stop carries its own timing function,
+   so a single run sprints, coasts, whips, then lands soft. That is
+   where the "exponential speed ups and slow downs" actually live —
+   a lone cubic-bezier can only accelerate once.
+   =============================================================== */
+
+/* The pen. Bolts off the line, coasts, whips through the far corner,
+   coasts home. Drawn on a path with pathLength=1. */
+@keyframes trace-race {
+  0% {
+    stroke-dashoffset: 1;
+    animation-timing-function: var(--ease-expo-out);
   }
-  to {
-    opacity: 1;
-    transform: translateY(0);
+  34% {
+    stroke-dashoffset: 0.46;
+    animation-timing-function: var(--ease-expo-in);
+  }
+  56% {
+    stroke-dashoffset: 0.34;
+    animation-timing-function: var(--ease-whip);
+  }
+  84% {
+    stroke-dashoffset: 0.05;
+    animation-timing-function: var(--ease-expo-out);
+  }
+  100% {
+    stroke-dashoffset: 0;
   }
 }
 
-@keyframes draw {
-  from {
-    stroke-dashoffset: 1;
+/* Same pen, running the other way around the box. */
+@keyframes trace-race-rev {
+  0% {
+    stroke-dashoffset: -1;
+    animation-timing-function: var(--ease-expo-out);
   }
-  to {
+  38% {
+    stroke-dashoffset: -0.42;
+    animation-timing-function: var(--ease-expo-in);
+  }
+  60% {
+    stroke-dashoffset: -0.3;
+    animation-timing-function: var(--ease-whip);
+  }
+  100% {
     stroke-dashoffset: 0;
+  }
+}
+
+/* A short dash sprinting a full lap of a shape — fast down the long
+   runs, dawdling into the corners, then bolting out of them again. */
+@keyframes lap {
+  0% {
+    stroke-dashoffset: 0;
+    animation-timing-function: var(--ease-expo-out);
+  }
+  22% {
+    stroke-dashoffset: -0.34;
+    animation-timing-function: var(--ease-expo-in);
+  }
+  40% {
+    stroke-dashoffset: -0.44;
+    animation-timing-function: var(--ease-whip);
+  }
+  64% {
+    stroke-dashoffset: -0.78;
+    animation-timing-function: var(--ease-expo-in);
+  }
+  82% {
+    stroke-dashoffset: -0.86;
+    animation-timing-function: var(--ease-whip);
+  }
+  100% {
+    stroke-dashoffset: -1;
+  }
+}
+
+/* The growth arrow's climb: each leg of the zigzag is covered faster
+   than the one before it, so the line visibly gathers pace uphill
+   instead of arriving at an even trot. */
+@keyframes trace-climb {
+  0% {
+    stroke-dashoffset: 1;
+    animation-timing-function: cubic-bezier(0.5, 0, 0.9, 0.3);
+  }
+  52% {
+    stroke-dashoffset: 0.58;
+    animation-timing-function: cubic-bezier(0.7, 0, 0.85, 0.2);
+  }
+  80% {
+    stroke-dashoffset: 0.26;
+    animation-timing-function: cubic-bezier(0.85, 0, 1, 0.35);
+  }
+  100% {
+    stroke-dashoffset: 0;
+  }
+}
+
+/* The three dots in a speech bubble, taking their turn. */
+@keyframes bubble-dot {
+  0%,
+  55%,
+  100% {
+    transform: translateY(0) scale(1);
+    animation-timing-function: var(--ease-overshoot);
+  }
+  22% {
+    transform: translateY(-2.2px) scale(1.35);
+    animation-timing-function: var(--ease-expo-in);
+  }
+}
+
+/* A rule that shoots across its track, leading spark first. */
+@keyframes rule-race {
+  0% {
+    transform: translateX(-100%);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  62% {
+    transform: translateX(-8%);
+    animation-timing-function: var(--ease-expo-in);
+  }
+  78% {
+    transform: translateX(-4.5%);
+    animation-timing-function: var(--ease-whip);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Spark riding the leading edge: bright on the sprint, spent on arrival. */
+@keyframes spark-flare {
+  0% {
+    opacity: 0;
+    transform: scale(0.4);
+  }
+  8% {
+    opacity: 1;
+    transform: scale(1.6);
+  }
+  70% {
+    opacity: 0.9;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(0.3);
+  }
+}
+
+/* Sparks thrown outward from a point — each spoke is a dash travelling
+   along its own radius and burning out at the end of it. */
+@keyframes burst-spoke {
+  0% {
+    stroke-dashoffset: 0.42;
+    opacity: 0;
+    animation-timing-function: var(--ease-expo-out);
+  }
+  10% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.75;
+  }
+  100% {
+    stroke-dashoffset: -1;
+    opacity: 0;
+  }
+}
+
+/* The shockwave behind the spokes. */
+@keyframes burst-ring {
+  0% {
+    transform: scale(0.12);
+    opacity: 0;
+    animation-timing-function: var(--ease-expo-out);
+  }
+  14% {
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1.35);
+    opacity: 0;
+  }
+}
+
+/* The runner, split in two so both halves stay composited: one element
+   carries it across (accelerating between bounds), the dot inside it
+   carries the arc and the squash-and-stretch of landing. */
+@keyframes hop-x {
+  0% {
+    transform: translateX(0%);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  14% {
+    transform: translateX(12%);
+    animation-timing-function: var(--ease-expo-io);
+  }
+  28% {
+    transform: translateX(22%);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  42% {
+    transform: translateX(34%);
+    animation-timing-function: var(--ease-expo-io);
+  }
+  56% {
+    transform: translateX(44%);
+    animation-timing-function: var(--ease-launch);
+  }
+  80% {
+    transform: translateX(84%);
+    animation-timing-function: var(--ease-expo-in);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@keyframes hop-y {
+  0% {
+    transform: translateY(0) scale(1.34, 0.68);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  14% {
+    transform: translateY(calc(var(--hop-h, 26px) * -1)) scale(0.86, 1.2);
+    animation-timing-function: ease-in;
+  }
+  28% {
+    transform: translateY(0) scale(1.34, 0.68);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  42% {
+    transform: translateY(calc(var(--hop-h, 26px) * -0.78)) scale(0.88, 1.18);
+    animation-timing-function: ease-in;
+  }
+  56% {
+    transform: translateY(0) scale(1.44, 0.6);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  80% {
+    transform: translateY(calc(var(--hop-h, 26px) * -1.55)) scale(0.8, 1.28);
+    animation-timing-function: ease-in;
+  }
+  100% {
+    transform: translateY(0) scale(1, 1);
   }
 }
 
@@ -69,20 +319,74 @@
   }
 }
 
+/* Slow marching dash for background hatching. */
+@keyframes dash-drift {
+  to {
+    stroke-dashoffset: -1;
+  }
+}
+
+@keyframes node-pop {
+  0% {
+    transform: scale(0);
+    animation-timing-function: var(--ease-overshoot);
+  }
+  70% {
+    transform: scale(1.45);
+    animation-timing-function: var(--ease-expo-out);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/* ===============================================================
+   BASE
+   =============================================================== */
+
 html {
   scroll-behavior: smooth;
-  color-scheme: dark;
+  color-scheme: light;
+
+  /* Published every frame by <ScrollMotion>. Lines read these to know
+     how hard the page is being thrown around. */
+  --page-progress: 0;
+  --scroll-v: 0;
+  --scroll-dir: 1;
 }
 
 body {
-  background: var(--color-ink);
-  color: var(--color-cream);
+  background: var(--color-paper);
+  color: var(--color-ink);
   font-family: var(--font-body);
 }
 
 ::selection {
   background: var(--color-amber);
-  color: var(--color-ink);
+  color: var(--color-paper);
+}
+
+/* ===============================================================
+   ASLEEP
+   The page arrives as a still drawing: type, hairlines, nothing
+   moving. <PageLife> sets data-awake on <html> the first time the
+   reader scrolls, points, taps or tabs — and only then does anything
+   start running. Nothing here is decoration the reader didn't ask for.
+   =============================================================== */
+html:not([data-awake="true"]) .cms-lap,
+html:not([data-awake="true"]) .cms-hop-x,
+html:not([data-awake="true"]) .cms-hop-y,
+html:not([data-awake="true"]) .cms-dot,
+html:not([data-awake="true"]) .cms-drift,
+html:not([data-awake="true"]) .cms-spoke,
+html:not([data-awake="true"]) .cms-ring {
+  animation: none;
+}
+
+html:not([data-awake="true"]) .cms-lap,
+html:not([data-awake="true"]) .cms-spoke,
+html:not([data-awake="true"]) .cms-ring {
+  opacity: 0;
 }
 
 /* grain — subtle tactile texture over flat color fields */
@@ -97,16 +401,339 @@ body {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.05;
-  mix-blend-mode: overlay;
+  opacity: 0.035;
+  mix-blend-mode: multiply;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 180px 180px;
 }
 
-.paper .grain::before,
-.grain.on-paper::before {
-  opacity: 0.045;
-  mix-blend-mode: multiply;
+/* ===============================================================
+   LINE ART
+   =============================================================== */
+
+/* The traced border of a box. Un-armed it is simply a drawn border,
+   which is what no-JS and reduced-motion visitors get. Armed, the pen
+   picks it up and races it. */
+.cms-trace {
+  stroke-dashoffset: 0;
+}
+
+.cms-trace[data-armed="true"] {
+  stroke-dasharray: 1;
+  stroke-dashoffset: 1;
+}
+
+.cms-trace[data-armed="true"][data-run="true"] {
+  animation: trace-race var(--trace-dur, 1500ms) var(--trace-delay, 0ms) both;
+}
+
+.cms-trace[data-armed="true"][data-run="true"][data-dir="rev"] {
+  animation-name: trace-race-rev;
+}
+
+.cms-trace[data-armed="true"][data-run="true"][data-dir="climb"] {
+  animation-name: trace-climb;
+}
+
+/* Where the browser can drive an animation straight off the scroll
+   position, it does: the pen is then literally in the reader's hand,
+   and scrubbing back un-draws the box. The easing above still shapes
+   it, so an even scroll still produces an uneven, racing line. */
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .cms-frame {
+      view-timeline-name: --cms-frame;
+    }
+
+    .cms-trace[data-armed="true"][data-scroll="true"] {
+      animation: trace-race both;
+      animation-duration: auto;
+      animation-delay: 0s;
+      animation-timeline: --cms-frame;
+      animation-range: entry var(--trace-from, 6%) cover var(--trace-to, 46%);
+    }
+
+    .cms-trace[data-armed="true"][data-scroll="true"][data-dir="rev"] {
+      animation-name: trace-race-rev;
+    }
+
+    .cms-trace[data-armed="true"][data-scroll="true"][data-dir="climb"] {
+      animation-name: trace-climb;
+    }
+  }
+}
+
+/* The sprite: a short dash running laps of a shape, forever, at a
+   speed the reader's own scrolling adds to. */
+.cms-lap {
+  animation: lap var(--lap-dur, 7s) var(--lap-delay, 0ms) infinite;
+  animation-timing-function: linear;
+}
+
+.cms-lap[data-boost="true"] {
+  /* A hard scroll stretches the sprite into a streak. */
+  stroke-width: calc(var(--lap-weight, 1.4px) * (1 + var(--scroll-v) * 1.6));
+  opacity: calc(0.5 + var(--scroll-v) * 0.5);
+}
+
+/* A rule racing its track. */
+.cms-rule-track {
+  position: relative;
+  display: block;
+  overflow: hidden;
+}
+
+.cms-rule {
+  display: block;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  transform-origin: left center;
+}
+
+.cms-rule[data-armed="true"] {
+  transform: translateX(-100%);
+}
+
+.cms-rule[data-armed="true"][data-run="true"] {
+  animation: rule-race var(--rule-dur, 1400ms) var(--rule-delay, 0ms) both;
+}
+
+@supports (animation-timeline: view()) {
+  @media (prefers-reduced-motion: no-preference) {
+    .cms-rule-track {
+      view-timeline-name: --cms-rule;
+    }
+
+    .cms-rule[data-armed="true"][data-scroll="true"] {
+      animation: rule-race both;
+      animation-duration: auto;
+      animation-delay: 0s;
+      animation-timeline: --cms-rule;
+      animation-range: cover 4% cover var(--rule-to, 42%);
+    }
+
+    .cms-rule[data-armed="true"][data-scroll="true"]::after {
+      animation: spark-flare both;
+      animation-duration: auto;
+      animation-delay: 0s;
+      animation-timeline: --cms-rule;
+      animation-range: cover 4% cover var(--rule-to, 42%);
+    }
+  }
+}
+
+.cms-rule::after {
+  content: "";
+  position: absolute;
+  right: -3px;
+  top: 50%;
+  height: 6px;
+  width: 6px;
+  margin-top: -3px;
+  border-radius: 999px;
+  background: var(--color-amber);
+  opacity: 0;
+}
+
+.cms-rule[data-armed="true"][data-run="true"]::after {
+  animation: spark-flare var(--rule-dur, 1400ms) var(--rule-delay, 0ms) both;
+}
+
+/* Sparks. */
+.cms-spoke {
+  animation: burst-spoke var(--burst-dur, 900ms) var(--burst-delay, 0ms) both;
+}
+
+.cms-ring {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: burst-ring var(--burst-dur, 900ms) var(--burst-delay, 0ms) both;
+}
+
+.cms-hop-x {
+  animation: hop-x var(--hop-dur, 5.2s) var(--hop-delay, 0ms) infinite;
+}
+
+.cms-hop-y {
+  animation: hop-y var(--hop-dur, 5.2s) var(--hop-delay, 0ms) infinite;
+}
+
+.cms-dot {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: bubble-dot var(--dot-dur, 2.4s) var(--dot-delay, 0ms) infinite;
+}
+
+.cms-drift {
+  animation: dash-drift var(--drift-dur, 24s) linear infinite;
+}
+
+.cms-pop {
+  transform-box: fill-box;
+  transform-origin: center;
+  animation: node-pop var(--pop-dur, 700ms) var(--pop-delay, 0ms) both;
+}
+
+/* Outlines swept in rather than traced stroke-by-stroke. */
+@media (prefers-reduced-motion: no-preference) {
+  .cms-wipe {
+    animation: wipe-in var(--wipe-dur, 900ms) var(--wipe-delay, 0ms) both;
+  }
+
+  @supports (animation-timeline: view()) {
+    .cms-wipe {
+      view-timeline-name: --cms-wipe;
+      animation-duration: auto;
+      animation-delay: 0s;
+      animation-timeline: --cms-wipe;
+      animation-range: cover 2% cover var(--wipe-to, 34%);
+    }
+  }
+}
+
+/* Speed lines in the page gutters. At rest they are hairlines; thrown
+   down the page they stretch out into the direction of travel. */
+.cms-streak {
+  transform-origin: center;
+  transform: scaleY(calc(1 + var(--scroll-v) * var(--streak-gain, 5)))
+    translateY(calc(var(--scroll-dir) * var(--scroll-v) * -14px));
+  opacity: calc(0.16 + var(--scroll-v) * 0.84);
+  transition:
+    transform 220ms var(--ease-expo-out),
+    opacity 220ms var(--ease-expo-out);
+}
+
+/* The header's edge, drawn in as far as the reader has got. */
+.cms-nav-progress {
+  transform: scaleX(var(--page-progress));
+  opacity: calc(0.35 + var(--scroll-v) * 0.65);
+  transition: opacity 240ms var(--ease-expo-out);
+}
+
+/* The rail down the edge of the page, filled by how far you have come. */
+.cms-rail-fill {
+  transform: scaleY(var(--page-progress));
+  transform-origin: top center;
+}
+
+.cms-rail-runner {
+  top: calc(var(--page-progress) * 100%);
+  transform: translateY(-50%)
+    scaleY(calc(1 + var(--scroll-v) * 2.2))
+    scaleX(calc(1 - var(--scroll-v) * 0.35));
+  transition: transform 200ms var(--ease-expo-out);
+}
+
+/* An underline that whips out from the word it belongs to. */
+.cms-underline {
+  position: relative;
+}
+
+.cms-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -0.14em;
+  height: 2px;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 620ms var(--ease-expo-out);
+}
+
+.cms-underline[data-run="true"]::after {
+  animation: underline-whip var(--underline-dur, 1100ms)
+    var(--underline-delay, 760ms) both;
+}
+
+.group:hover .cms-underline::after,
+a:hover > .cms-underline::after {
+  transform: scaleX(1);
+}
+
+/* ===============================================================
+   INTERACTION
+   Touch a thing and it should answer. Everything here is a hover or
+   focus response, so nothing moves at a reader who isn't pointing.
+   =============================================================== */
+
+/* Point at a card and its sprite bolts — the same lap, four times the
+   pace, which reads as the line noticing you. */
+.cms-live:hover .cms-lap,
+.cms-live:focus-within .cms-lap {
+  animation-duration: calc(var(--lap-dur, 7s) / 4);
+}
+
+/* Chips lift out of the page, each a beat behind the cursor. */
+.cms-chip {
+  transition:
+    transform 520ms var(--ease-overshoot),
+    border-color 400ms var(--ease-expo-out),
+    color 400ms var(--ease-expo-out);
+}
+
+.cms-chip:hover {
+  transform: translateY(-3px) rotate(-0.6deg);
+  border-color: var(--color-amber);
+  color: var(--color-ink);
+}
+
+/* The mark's arrow takes another run at it when you point at the logo. */
+.cms-logo:hover .cms-climb-head {
+  animation: node-pop 700ms var(--ease-overshoot) both;
+}
+
+/* A form field is a line. Focus sends a brighter one racing along it. */
+.cms-field {
+  position: relative;
+}
+
+.cms-field::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  height: 1.5px;
+  background: var(--color-amber);
+  transform: scaleX(0);
+  transform-origin: left center;
+  transition: transform 760ms var(--ease-expo-out);
+}
+
+.cms-field:focus-within::after {
+  transform: scaleX(1);
+}
+
+/* Links that grow their own line on approach. */
+.cms-link {
+  position: relative;
+}
+
+.cms-link::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -3px;
+  height: 1px;
+  width: 100%;
+  background: currentColor;
+  transform: scaleX(0);
+  transform-origin: right center;
+  transition: transform 520ms var(--ease-expo-out);
+}
+
+.cms-link:hover::after,
+.cms-link:focus-visible::after {
+  transform: scaleX(1);
+  transform-origin: left center;
+}
+
+/* Nothing hover-driven should fire on a page still asleep. */
+html:not([data-awake="true"]) .cms-chip {
+  transition: none;
 }
 
 @media (prefers-reduced-motion: reduce) {
@@ -117,5 +744,19 @@ body {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+
+  .cms-lap,
+  .cms-dot,
+  .cms-hop-x,
+  .cms-hop-y,
+  .cms-spoke,
+  .cms-ring,
+  .cms-streak {
+    display: none;
+  }
+
+  .cms-trace[data-armed="true"] {
+    stroke-dashoffset: 0;
   }
 }
