@@ -52,7 +52,7 @@ export function Contact() {
         </div>
 
         <Reveal delay={200}>
-          <div className="relative p-6 md:p-8">
+          <div className="relative overflow-hidden p-6 md:p-8">
             <TraceFrame
               radius={18}
               strokeWidth={1.2}
