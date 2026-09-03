@@ -2,6 +2,7 @@
 
 import { useRef, type CSSProperties } from "react";
 
+import { useAmbient } from "@/components/lineart/ambient";
 import { useInView, useMotionAllowed } from "@/components/lineart/motion";
 
 /**
@@ -34,12 +35,15 @@ export function LogoMark({
   climbClassName?: string;
 }) {
   const live = useMotionAllowed();
+  const ref = useRef<SVGSVGElement>(null);
+  useAmbient(ref);
 
   const trace = (delay: number, duration: number): CSSProperties =>
     ({ "--trace-dur": `${duration}ms`, "--trace-delay": `${delay}ms` }) as CSSProperties;
 
   return (
     <svg
+      ref={ref}
       aria-hidden
       viewBox="0 0 46 30"
       className={`h-7 w-[46px] shrink-0 overflow-visible ${className}`}
@@ -66,7 +70,6 @@ export function LogoMark({
           strokeWidth="1.8"
           strokeLinecap="round"
           strokeDasharray="0.1 0.9"
-          data-boost="true"
           style={{ "--lap-dur": "6.5s", "--lap-weight": "1.8px" } as CSSProperties}
         />
       ) : null}
@@ -179,6 +182,7 @@ export function LogoBadge({
   // scrubbed: cloud, then network, then bubbles, then the climb out.
   const ref = useRef<SVGSVGElement>(null);
   const on = useInView(ref, motionAllowed, { threshold: 0.35 });
+  useAmbient(ref);
 
   const trace = (delay: number, duration: number): CSSProperties =>
     ({ "--trace-dur": `${duration}ms`, "--trace-delay": `${delay}ms` }) as CSSProperties;
@@ -212,7 +216,6 @@ export function LogoBadge({
           strokeWidth="1.9"
           strokeLinecap="round"
           strokeDasharray="0.08 0.92"
-          data-boost="true"
           style={{ "--lap-dur": "9s", "--lap-weight": "1.9px" } as CSSProperties}
         />
       ) : null}

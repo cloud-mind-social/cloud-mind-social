@@ -348,11 +348,6 @@ html {
   scroll-behavior: smooth;
   color-scheme: light;
 
-  /* Published every frame by <ScrollMotion>. Lines read these to know
-     how hard the page is being thrown around. */
-  --page-progress: 0;
-  --scroll-v: 0;
-  --scroll-dir: 1;
 }
 
 body {
@@ -389,10 +384,16 @@ html:not([data-awake="true"]) .cms-ring {
   opacity: 0;
 }
 
-/* grain — subtle tactile texture over flat color fields */
+/* grain — subtle tactile texture over flat color fields.
+
+   This used to blend with `mix-blend-mode: multiply` over an isolated
+   parent. Blending forces the whole section into its own compositing
+   layer that cannot be tiled away, and the sections here run thousands
+   of pixels tall — on a phone at DPR 3 that is tens of megabytes per
+   section, five sections deep. On a near-white ground plain opacity is
+   indistinguishable and costs nothing. */
 .grain {
   position: relative;
-  isolation: isolate;
 }
 
 .grain::before {
@@ -401,10 +402,16 @@ html:not([data-awake="true"]) .cms-ring {
   inset: 0;
   z-index: 1;
   pointer-events: none;
-  opacity: 0.035;
-  mix-blend-mode: multiply;
+  opacity: 0.03;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
   background-size: 180px 180px;
+}
+
+/* On a phone the texture is invisible anyway and the layer is not free. */
+@media (max-width: 767px) {
+  .grain::before {
+    display: none;
+  }
 }
 
 /* ===============================================================
@@ -468,12 +475,6 @@ html:not([data-awake="true"]) .cms-ring {
 .cms-lap {
   animation: lap var(--lap-dur, 7s) var(--lap-delay, 0ms) infinite;
   animation-timing-function: linear;
-}
-
-.cms-lap[data-boost="true"] {
-  /* A hard scroll stretches the sprite into a streak. */
-  stroke-width: calc(var(--lap-weight, 1.4px) * (1 + var(--scroll-v) * 1.6));
-  opacity: calc(0.5 + var(--scroll-v) * 0.5);
 }
 
 /* A rule racing its track. */
@@ -569,6 +570,32 @@ html:not([data-awake="true"]) .cms-ring {
   animation: dash-drift var(--drift-dur, 24s) linear infinite;
 }
 
+/* Looping strokes cost a repaint every frame for as long as they run, so
+   they idle unless <watchAmbient> has seen them near the viewport. */
+.cms-lap,
+.cms-hop-x,
+.cms-hop-y,
+.cms-dot,
+.cms-drift,
+.cms-pulse {
+  animation-play-state: paused;
+}
+
+.cms-lap[data-near="true"],
+.cms-hop-x[data-near="true"],
+.cms-hop-y[data-near="true"],
+.cms-dot[data-near="true"],
+.cms-drift[data-near="true"],
+.cms-pulse[data-near="true"],
+[data-near="true"] .cms-lap,
+[data-near="true"] .cms-hop-x,
+[data-near="true"] .cms-hop-y,
+[data-near="true"] .cms-dot,
+[data-near="true"] .cms-drift,
+[data-near="true"] .cms-pulse {
+  animation-play-state: running;
+}
+
 .cms-pop {
   transform-box: fill-box;
   transform-origin: center;
@@ -595,6 +622,8 @@ html:not([data-awake="true"]) .cms-ring {
 /* Speed lines in the page gutters. At rest they are hairlines; thrown
    down the page they stretch out into the direction of travel. */
 .cms-streak {
+  --scroll-v: 0;
+  --scroll-dir: 1;
   transform-origin: center;
   transform: scaleY(calc(1 + var(--scroll-v) * var(--streak-gain, 5)))
     translateY(calc(var(--scroll-dir) * var(--scroll-v) * -14px));
@@ -606,6 +635,8 @@ html:not([data-awake="true"]) .cms-ring {
 
 /* The header's edge, drawn in as far as the reader has got. */
 .cms-nav-progress {
+  --page-progress: 0;
+  --scroll-v: 0;
   transform: scaleX(var(--page-progress));
   opacity: calc(0.35 + var(--scroll-v) * 0.65);
   transition: opacity 240ms var(--ease-expo-out);
@@ -613,11 +644,14 @@ html:not([data-awake="true"]) .cms-ring {
 
 /* The rail down the edge of the page, filled by how far you have come. */
 .cms-rail-fill {
+  --page-progress: 0;
   transform: scaleY(var(--page-progress));
   transform-origin: top center;
 }
 
 .cms-rail-runner {
+  --page-progress: 0;
+  --scroll-v: 0;
   top: calc(var(--page-progress) * 100%);
   transform: translateY(-50%)
     scaleY(calc(1 + var(--scroll-v) * 2.2))
@@ -747,12 +781,15 @@ html:not([data-awake="true"]) .cms-chip {
   }
 
   .cms-lap,
+  .cms-pulse,
   .cms-dot,
   .cms-hop-x,
   .cms-hop-y,
   .cms-spoke,
   .cms-ring,
   .cms-streak {
+  --scroll-v: 0;
+  --scroll-dir: 1;
     display: none;
   }
 
