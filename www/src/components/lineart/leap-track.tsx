@@ -33,7 +33,7 @@ export function LeapTrack({
   return (
     <div
       aria-hidden
-      className={`pointer-events-none relative h-14 w-full ${className}`}
+      className={`pointer-events-none relative h-14 w-full overflow-hidden ${className}`}
     >
       {ground ? (
         <svg
