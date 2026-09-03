@@ -2,6 +2,11 @@
 
 import { useEffect } from "react";
 
+import {
+  hasScrollNodes,
+  publishScroll,
+} from "@/components/lineart/scroll-store";
+
 /**
  * Publishes how the page is being moved as three custom properties on
  * <html>, so any line on the site can react to it in pure CSS:
@@ -24,6 +29,12 @@ export function ScrollMotion() {
     let raf = 0;
     let quiet = 0;
 
+    // Quantised, and only pushed when a rounded value actually moves —
+    // and pushed to the handful of elements that read it, never to <html>.
+    let lastProgress = "";
+    let lastVelocity = "";
+    let lastDirection = "";
+
     const frame = () => {
       const y = window.scrollY;
       const dy = y - last;
@@ -36,10 +47,19 @@ export function ScrollMotion() {
       if (velocity < 0.002) velocity = 0;
 
       const travel = Math.max(1, root.scrollHeight - window.innerHeight);
-      root.style.setProperty("--page-progress", (y / travel).toFixed(4));
-      root.style.setProperty("--scroll-v", velocity.toFixed(3));
-      if (Math.abs(dy) > 0.4) {
-        root.style.setProperty("--scroll-dir", dy > 0 ? "1" : "-1");
+      const progress = (y / travel).toFixed(3);
+      const speed = velocity.toFixed(2);
+      const direction = Math.abs(dy) > 0.4 ? (dy > 0 ? "1" : "-1") : null;
+
+      if (
+        progress !== lastProgress ||
+        speed !== lastVelocity ||
+        (direction !== null && direction !== lastDirection)
+      ) {
+        publishScroll(progress, speed, direction);
+        lastProgress = progress;
+        lastVelocity = speed;
+        if (direction !== null) lastDirection = direction;
       }
 
       quiet = Math.abs(dy) < 0.4 && velocity === 0 ? quiet + 1 : 0;
@@ -51,7 +71,7 @@ export function ScrollMotion() {
     };
 
     const kick = () => {
-      if (raf) return;
+      if (raf || !hasScrollNodes()) return;
       quiet = 0;
       raf = requestAnimationFrame(frame);
     };

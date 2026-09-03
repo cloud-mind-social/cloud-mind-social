@@ -4,13 +4,15 @@ import { useState } from "react";
 
 import { nav } from "@/lib/data";
 import { LogoMark } from "@/components/lineart/logo-mark";
+import { useScrollNodeRef } from "@/components/lineart/scroll-store";
 import { TraceFrame } from "@/components/lineart/trace-frame";
 
 export function Nav() {
   const [open, setOpen] = useState(false);
+  const edge = useScrollNodeRef<HTMLDivElement>();
 
   return (
-    <header className="sticky top-0 z-50 bg-paper/90 backdrop-blur">
+    <header className="sticky top-0 z-50 bg-paper md:bg-paper/90 md:backdrop-blur">
       <div className="mx-auto flex max-w-[1180px] items-center justify-between px-6 py-4 md:px-10">
         <a
           href="#top"
@@ -88,6 +90,7 @@ export function Nav() {
 
       {/* The header's own edge, drawn in as far as you have read. */}
       <div
+        ref={edge}
         aria-hidden
         className="absolute inset-x-0 bottom-0 h-px overflow-hidden bg-rule"
       >

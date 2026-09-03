@@ -2,6 +2,9 @@
 
 import { type CSSProperties } from "react";
 
+import { useRef } from "react";
+
+import { useAmbient } from "@/components/lineart/ambient";
 import { useMotionAllowed } from "@/components/lineart/motion";
 
 const specialists = [
@@ -36,12 +39,15 @@ function midpoint(x0: number, y0: number) {
 
 export function NetworkDiagram() {
   const live = useMotionAllowed();
+  const ref = useRef<SVGSVGElement>(null);
+  useAmbient(ref);
 
   const stroke = (delay: number, duration = 1400): CSSProperties =>
     ({ "--trace-dur": `${duration}ms`, "--trace-delay": `${delay}ms` }) as CSSProperties;
 
   return (
     <svg
+      ref={ref}
       viewBox="0 0 760 420"
       className="w-full max-w-[560px] overflow-visible text-ink-mid"
       role="img"
@@ -59,7 +65,6 @@ export function NetworkDiagram() {
           strokeWidth="1.6"
           strokeLinecap="round"
           strokeDasharray="0.055 0.945"
-          data-boost="true"
           style={{ "--lap-dur": "11s", "--lap-weight": "1.6px" } as CSSProperties}
         />
       ) : null}
@@ -139,7 +144,6 @@ export function NetworkDiagram() {
                 strokeWidth="2.2"
                 strokeLinecap="round"
                 strokeDasharray="0.14 0.86"
-                data-boost="true"
                 style={
                   {
                     "--lap-dur": "2.6s",
@@ -220,7 +224,7 @@ export function NetworkDiagram() {
         cy={CENTER.y}
         r="4"
         fill="var(--color-amber)"
-        className={live ? "animate-pulse-soft" : undefined}
+        className={live ? "cms-pulse animate-pulse-soft" : undefined}
         style={{ transformOrigin: `${CENTER.x}px ${CENTER.y}px` }}
       />
       <text
