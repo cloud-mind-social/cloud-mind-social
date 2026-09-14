@@ -21,8 +21,11 @@ specific session. Default to Brand & Strategy work only.
 
 ## Real task backlog
 `Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md`
-— phase-gated (see TASKS.md for which phase is currently active). Don't
-produce finished platform content while Phase 1 is still open.
+— but **its checkboxes are out of sync with reality** (Phase 1 and Phase 2
+are actually approved/locked despite showing unchecked). Trust STATUS.md
+and TASKS.md over the checklist's raw checkbox state. As of this writing,
+the active work is the supplementary Track A research series in
+`CMS-Research/` (A8 specifically — see handoffs/HANDOFF_LATEST.md).
 
 ## Checkpoint discipline
 Periodically during a session — after a meaningful chunk of work, roughly
