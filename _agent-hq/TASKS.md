@@ -1,38 +1,38 @@
 # Tasks
 
 ## Brand & Strategy
-Real backlog (don't duplicate it here):
+Real backlog:
 `Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md`
 
-5 phases, in order:
-1. Strategic Decisions Before Content — ✅ Approved (Phase 1, Sept 3)
-2. Audience Strategy — ✅ Approved/locked (Parts 1 & 2, Sept 5), **plus ongoing supplementary Track A deep-dive research (A1–A9+) that continues past the lock**
-3. Content Architecture — not started
-4. Funnel Content Strategy — not started
-5. Platform Strategies — not formally started, but `Platform Research.md` may be a head start
+### Completed / approved
+- [x] Phase 1 — Strategic Foundation — approved September 3, 2026.
+- [x] Phase 2 Part 1 — Audience Strategy — approved / locked.
+- [x] Phase 2 Part 2 — Audience Strategy — approved / locked.
+- [x] Confirm commercial ICP: **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**.
+- [x] Confirm commercial priority: **Western first; Philippines second**.
+- [x] Confirm six reserved social platforms: Facebook, Instagram, TikTok, LinkedIn, YouTube Channel, Threads.
+- [x] Remove X from current platform scope.
+- [x] Reconcile README paths and repository architecture.
+- [x] Align CMS Branding with the approved commercial audience direction.
+- [x] Update Agent HQ status, handoff, and dated session record.
 
-This file exists only to track **which phase/task is currently active**,
-since the backlog file's own checkboxes are out of sync with reality (see
-STATUS.md known issues) — don't trust the checklist's checkbox state alone.
+### 🔄 Currently in progress
+- [ ] Repository/source-of-truth reconciliation — final verification.
 
-**Currently active:**
-1. **Resume/complete Track A8 research** ("AI Changes the Market") — started
-   by Elli, interrupted by a Claude Free usage limit before anything was
-   committed. She's continuing on ChatGPT. Use the same source-confidence
-   methodology as A1–A7. **Read A6 first** — its Finding 3 already touches
-   AI/commoditization and A8 shouldn't duplicate it.
-2. **Batch-review the A-series (A1–A7)** — all are drafted but still
-   marked "Draft for review, not yet merged into Phase 2." Needs a human
-   pass to approve and merge, ideally once A8 (and any further sub-tracks)
-   are done too, rather than merging one at a time.
-3. **Reconcile the master task checklist** — go through
-   `CMS_Social_Media_Marketing_Strategy_Task_List.md` and check off what's
-   actually been completed via the approved Phase 1 / Phase 2 documents, so
-   the checklist stops understating real progress.
+### ⏭ Next in line
+1. Human batch review of Track A1–A10.
+2. Decide which reviewed evidence should inform Phase 2 without overriding locked decisions.
+3. Complete any remaining project-control reconciliation.
+4. Formally begin Phase 3 — Content Architecture only after the Track A review is sufficiently complete.
 
-Do not start Phase 3 (Content Architecture) work until the above is sorted
-and someone confirms Phase 2's Track A research is sufficiently complete.
+### Research state
+Track A1–A10 are standalone research drafts pending human review. **Do not edit A1–A9 during the current reconciliation.**
 
-## Engineering (www/)
-**Off-limits until further notice.** No tasks should be picked up here
-without the user explicitly reopening this track for a session.
+### Explicitly on hold
+- Post development
+- Carousel / introduction-post development
+- Formal Phase 3 content architecture
+- Formal Phase 5 platform strategy
+
+## Engineering (`www/`)
+**OFF-LIMITS.** Do not read, edit, run commands against, or deploy anything in `www/` unless the user explicitly reopens that track for a specific session.
