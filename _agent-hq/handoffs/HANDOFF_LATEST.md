@@ -1,8 +1,35 @@
 # Cloud Mind Social | Latest Handoff
 
-**Status:** Checkpoint; brand guidelines v0.1 drafted and saved for review.
+**Status:** Checkpoint; Brand Kit field guide v0.2 completed and saved for review.
 **Date:** September 15, 2026
 **Track:** Brand & Strategy; brand guideline development authorized by Seul.
+
+## Brand Kit field guide v0.2; latest checkpoint
+
+Seul specified the native Canva Brand Guidelines fields and asked to continue. The revised packet follows all ten categories: Introduction, Logo, Color, Typography, Voice, Photography, Graphics, Icons, Charts, and Brand applications.
+
+- Created and visually reviewed a 17-page PDF, a self-contained HTML version, and copy-ready Markdown.
+- Saved source: `CMS-Branding/CMS_Brand_Kit_Field_Guide_v0.2.md`; commit `d272060be2e561264b50c11198a077bb90b11690`.
+- Delivered filenames: `CMS_Brand_Kit_Field_Guide_v0.2.pdf`, `.html`, `.md`, and `CMS_Brand_Kit_Assets_v0.2.zip`.
+- Included 17 image assets: actual logo artwork, variant comparison, graphics/icons, illustrative charts, and six platform-specific account mockups.
+- Located and reviewed `CMS-Branding/CMS-Logo-System-Reference.pdf` and the seven PNGs in `CMS-Branding/logo/`. These actual logo assets were omitted from v0.1; v0.2 corrects that omission.
+- Logo reference blob SHA: `3d4b42c9aef1da679d6ad27f369318f2e08db26f`.
+- The logo reference explicitly remains a draft for team review. Primary selection, navy versus warm-palette alignment, matched lockup variants, and a simplified mark for small sizes remain unresolved.
+- Shape and style descriptions reflect the actual artwork; symbol meanings are labeled proposed interpretations.
+- The five palette values remain unchanged. Primary/secondary grouping is proposed for Canva's fields. The tagline specimen is a candidate, not a final choice.
+- Authentic CMS founder/team photography was not found in the reviewed brand folders; the guide specifies the required contribution.
+- Social account mockups are distinct schematic concepts for Facebook, LinkedIn, Instagram, Threads, YouTube, and TikTok. They are not live screenshots, approved posts, or final platform strategy.
+- Chart data is explicitly illustrative, not CMS performance. Font specimens use Fraunces, Inter, and Space Mono.
+- PDF review covered all 17 pages; corrected layout overflow and checked the revised social mockup pages.
+- Native Canva Brand Kit fields remain unchanged because the available connector cannot configure them. The existing editable Canva document remains v0.1; no duplicate standalone design was created.
+- v0.2 supersedes v0.1 for the requested Brand Kit field structure, without overriding locked foundation decisions.
+- No website, research, post, or platform strategy files were changed; `www/` was not accessed.
+
+### Next step for implementation
+
+Copy the v0.2 field text and upload the named images into the native Canva Brand Guidelines. Review proposed rules and resolve the primary logo, palette alignment, small-size mark, and final tagline before treating the full kit as locked. Add authentic authorized CMS photography when available.
+
+## Earlier v0.1 checkpoint
 
 ## Latest approved decision
 
