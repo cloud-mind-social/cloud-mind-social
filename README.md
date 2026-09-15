@@ -283,8 +283,18 @@ The website is the owned conversion environment; the client portal is intended t
 | Audience segmentation | Approved |
 | Commercial ICP | **Approved / Locked in Phase 2 Part 1** |
 | Customer journey | Approved |
+| **Color palette** | **Established / documented in visual identity reference** |
+| **Typography / fonts** | **Established / documented in visual identity reference** |
 | Tagline | **Pending final decision** |
-| Visual identity | **Pending; deferred until the strategic and written identity is finalized** |
+| Visual identity system / logo | **In development; color palette and typography are already documented** |
+
+### Visual Identity Reference
+
+The CMS visual identity already has a documented **color palette and typography/font system**. These are not open recommendations; future brand and social design work should use the existing reference as the source of truth rather than introducing new colors or fonts without an explicit brand decision.
+
+**Reference:** [`CMS-Branding/CMS-Color-Typography-Reference.pdf`](./CMS-Branding/CMS-Color-Typography-Reference.pdf)
+
+The broader visual identity system — including the final logo direction and how the established visual elements are applied consistently across brand touchpoints — remains in development.
 
 ### Tagline Under Consideration
 
@@ -329,6 +339,7 @@ Future work should remain aligned with the established foundation before new mes
 ### Source Documents
 
 - [`CMS-Branding/Branding.md`](./CMS-Branding/Branding.md); Brand Foundation & Identity Guide
+- [`CMS-Branding/CMS-Color-Typography-Reference.pdf`](./CMS-Branding/CMS-Color-Typography-Reference.pdf); established CMS color palette and typography reference
 - [`CMS-Research/Target-Market-Research-CMS.md`](./CMS-Research/Target-Market-Research-CMS.md); Target Market Research
 - [`Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md`](./Social-Media-Structure/PHASE%201%20Approved%20by%20Seul%20Yekha.md); Phase 1 strategic foundation
 - [`Social-Media-Structure/PHASE 2 — Audience Strategy Part 1 — APPROVED by Seul Yekha.md`](./Social-Media-Structure/PHASE%202%20%E2%80%94%20Audience%20Strategy%20Part%201%20%E2%80%94%20APPROVED%20by%20Seul%20Yekha.md); locked commercial audience architecture
