@@ -1,41 +1,80 @@
 # Cloud Mind Social — Latest Handoff
 
-**Status:** Checkpoint — A9 research completed and saved; human review still pending.
-**Date:** September 14, 2026
+**Status:** Checkpoint — repository/source-of-truth reconciliation completed for the approved audience and platform decisions; Track A1–A9 and all post documents intentionally left unchanged.
+**Date:** September 15, 2026
 
-## Current truth
+## What was handled — and why
 
-Track A9 (Pricing & Budget) has been researched and saved. The research follows the A1–A7 confidence methodology and is explicitly bounded to A8's core question and its existing Audience Strategy evidence areas: prospective-client budget realities, pricing/value migration, agency-budget pressure, execution economics, and the value clients continue to buy from human specialists.
+The session focused on reconciling the repository with decisions already approved or explicitly made, rather than advancing the project into content development.
 
-A8 contains one explicit core research question rather than a separate numbered A8 question list. A9 therefore did not invent an unavailable hidden question set and did not expand into CMS internal pricing, profitability, service-tier pricing, or a new market-sizing study.
+### 1. Commercial audience was aligned to the locked Phase 2 Part 1 source of truth
 
-## Artifacts saved
+**Decision:**
+> **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**
 
-- `CMS-Research/Track-A9-Pricing-and-Budget.md`
-- `Track-A9-Pricing-and-Budget.pdf` — session-only PDF; intentionally NOT uploaded to GitHub
+**Commercial priority:** Western first; Philippines second.
 
-GitHub commit for A9 MD: `920fcdc859d84d05f03c7086afc6275832b0009d`
+**Why:** Phase 2 Part 1 is the current approved commercial ICP and therefore supersedes older audience-priority language in the README and branding document.
 
-## Key A9 conclusion
+### 2. X was removed from the active platform architecture
 
-AI is lowering the defensibility of commodity execution while increasing the need for buyers to justify every external marketing expense. Social remains a meaningful budget category and external digital work remains substantial; the stronger market shift is toward selective outsourcing. Clients can still value long-term ROI over cost, but the industry lacks a consistent formal definition of value.
+**Decision:** CMS currently reserves Facebook, Instagram, TikTok, LinkedIn, YouTube Channel, and Threads.
 
-For CMS Audience Strategy, price should not be the first story. The buyer needs to understand why the work exists, why external expertise is needed, and how value will be evaluated. A9 reinforces diagnosis before production, strategic interpretation, specialized social context, human accountability, transparent scope/value logic, and a lower-risk entry point without devaluing strategy.
+**Why:** X is not currently a platform the user is familiar with or able to support, so it should not be represented as an active CMS platform requirement.
 
-## Source / scope notes
+### 3. README was corrected
 
-- CMO Survey 2026 is the strongest budget/outsourcing source used; its sample is senior U.S. marketing leaders and should not be treated as a direct SMB forecast.
-- Clutch 2026 is useful for observed pricing and location ranges but is a directory/project dataset, not willingness-to-pay research; it is treated as Moderate.
-- ANA/4As value research directly supports the finding that value and long-term ROI can outweigh cost, while formal value definitions remain uncommon.
-- MarketingProfs/inTandem provides SMB outsourcing/churn evidence and is treated as Moderate.
-- Intuit SMB MediaLabs provides useful separation of advertising spend from agency/labor/software costs.
-- No unverified generic “average social media retainer” statistic was used as a firm market fact.
+**Actions taken:**
+- Updated the current commercial ICP.
+- Updated Western-first / Philippines-second commercial priority.
+- Removed X from the active platform list and ecosystem roles.
+- Corrected source-document paths.
+- Added repository architecture explaining where strategy, research, actual content, platform work, and operational/client material belong.
+- Clarified that empty operational folders should not be populated merely for completeness.
 
-## Next active work
+### 4. CMS Branding was aligned to the approved commercial direction
 
-1. Human review of A8 and A9.
-2. Batch review A1–A9 before any merge into Phase 2.
-3. Reconcile the master strategy checklist against approved Phase 1/2 documents.
-4. Do not begin Phase 3 Content Architecture until the Track A review is sufficiently complete.
+**Actions taken:**
+- Replaced the older Filipino-first market-growth statement with Western-first / Philippines-second commercial priority.
+- Replaced the unresolved equal-weight priority statement with the approved Phase 2 commercial ICP.
+- Kept the nine generation/culture segments as communication/persona variations rather than equal commercial priorities.
 
-`www/` remains out of scope.
+### 5. Agent HQ was reconciled
+
+**Actions taken:**
+- STATUS now reflects A8, A9, and A10 as drafted research awaiting human review.
+- STATUS records the approved ICP and six-platform scope.
+- TASKS and session history are being aligned to actual project progress rather than stale checkbox states.
+- This handoff records the work as a checkpoint for the next session.
+
+## What was deliberately not changed
+
+- Tracks A1–A9 were not edited.
+- No post, carousel, introduction-post, or other content documents were changed.
+- Formal Phase 3 work was not started.
+- `www/` was not read, touched, edited, or otherwise accessed.
+
+## How the work was handled
+
+The source-of-truth order used was:
+
+1. Locked Phase 2 Part 1 for commercial audience priority.
+2. Existing approved Phase 1 / Phase 2 documents for strategic status.
+3. Current repository files for path and architecture reconciliation.
+4. Agent HQ updated to narrate the resulting state.
+
+## What's next
+
+### 🔄 Current / ongoing
+- Complete project-control reconciliation where needed.
+
+### ⏭ Next in line
+1. Human batch review of Track A1–A10.
+2. Decide which reviewed evidence should inform Phase 2 without overriding locked decisions.
+3. Confirm Track A review is sufficiently complete.
+4. Then formally begin Phase 3 — Content Architecture.
+
+### On hold
+- Post development and post-document updates.
+- Formal platform strategy.
+- Any work inside `www/` unless explicitly reopened.
