@@ -1,356 +1,193 @@
 # Cloud Mind Social — Social Media Marketing Strategy Task List
 
-## Phase 1: Strategic Decisions Before Content
+## Status Key
 
-These are the highest priority because content should not be produced until these decisions are locked.
+- [x] **DONE** — completed / approved
+- [ ] **🔄 CURRENT** — actively being worked on
+- [ ] **⏭ NEXT** — next in line
+- [ ] **HOLD** — intentionally not being worked on yet
+- [ ] **NOT STARTED** — later phase
 
-- [ ] **Finalize primary target segment**
-  - The repository currently addresses all nine generational/cultural segments equally, but explicitly states that the priority segment has not been finalized.
-  - Recommend defining a primary segment, secondary segment, and expansion segment.
-- [ ] **Define CMS's primary social media objective**
-  - Acquisition, authority, brand recognition, lead generation, or a defined combination.
-  - Establish one primary KPI rather than treating every platform as equally responsible for everything.
-- [ ] **Define the CMS social media positioning**
-  - Translate "Strategic Social Intelligence" into a repeatable social proposition.
-  - Establish what CMS wants people to immediately associate with the brand.
-- [ ] **Finalize tagline**
-  - The current branding document has two candidates but no final decision.
-  - This should be resolved before building the complete social identity system.
-- [ ] **Define social media brand promise**
-  - What someone consistently gets from following CMS.
-- [ ] **Define the social media competitive differentiation**
-  - Specifically answer: why follow CMS instead of another SMM agency, marketing creator, consultant, or AI-generated marketing account?
+---
 
-## Phase 2: Audience Strategy
+# Phase 1 — Strategic Decisions Before Content
 
-The existing research gives us the psychology; now we need to convert it into a usable content targeting system.
+**STATUS: [x] DONE — APPROVED**
 
-- [ ] **Build Primary Audience Profile**
-  - Demographics
-  - Business stage
-  - Business model
-  - Industry
-  - Revenue range
-  - Team size
-  - Marketing maturity
-  - Social media maturity
-  - Decision-making authority
-- [ ] **Build Audience Problem Matrix**
-  - Business problems
-  - Marketing problems
-  - Social media problems
-  - Emotional problems
-  - Financial consequences
-  - Desired outcomes
-- [ ] **Build Dream Ladder Content Matrix**
-  - Current reality → immediate desire → business outcome → lifestyle outcome → ultimate aspiration.
-- [ ] **Map Gen X / Millennial / Gen Z content differences**
-  - The research already establishes different buying psychology for each generation.
-  - Convert that into differences in hooks, proof, CTAs, content depth, and format.
-- [ ] **Map Western / Asian / Filipino communication adaptations**
-  - Define when CMS should use data, authority, relationship, warmth, reassurance, Taglish, or Filipino cultural references.
-- [ ] **Create Audience Objection Bank**
-  - "I can DIY this."
-  - "I don't have the budget."
-  - "How do I know you'll get my business?"
-  - "Why not hire someone in-house?"
-  - "How do I know this will generate ROI?"
-  - "Will you actually stay involved?"
+**Approved:** September 3, 2026
 
-## Phase 3: Content Architecture
+- [x] Define CMS social media strategic objective
+- [x] Define primary social-media audience direction
+- [x] Define audience problem
+- [x] Define CMS social positioning
+- [x] Define social brand promise
+- [x] Define social differentiation
+- [x] Define CMS intellectual territory
+- [x] Define CMS social POV / belief system
+- [x] Define social personality
+- [x] Define content philosophy
+- [x] Define funnel role
+- [x] Define success definition
+- [x] Approve Phase 1 strategic foundation
 
-This is currently the biggest strategic gap.
+**Source of truth:** `Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md`
 
-The branding establishes four narrative pillars:
+---
 
-1. Right-Sized, Not One-Size
-2. Specialists Over Generalists
-3. Guidance Before the Sell
-4. A System, Not a Solo Act
+# Phase 2 — Audience Strategy
 
-Now we need to turn those into an actual publishing system.
+## Part 1 — Primary Audience & Audience Architecture
 
-- [ ] Define 5 to 7 social media content pillars
-- [ ] Define the purpose of each pillar
-- [ ] Define audience problem addressed by each pillar
-- [ ] Define funnel stage addressed
-- [ ] Define acceptable formats
-- [ ] Define CTA types
+**STATUS: [x] DONE — APPROVED / LOCKED**
+
+**Approved:** September 5, 2026
+
+- [x] Primary Audience Profile
+- [x] Audience Problem Matrix
+- [x] Dream Ladder
+- [x] Generational Adaptation
+- [x] Cultural Communication Adaptation
+- [x] Audience Objection Bank
+- [x] Commercial ICP confirmed as **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**
+- [x] Commercial priority confirmed as **Western first; Philippines second**
+
+**Source of truth:** Phase 2 Part 1 approved / locked document
+
+## Part 2 — Audience Intelligence / Strategic Translation
+
+**STATUS: [x] DONE — APPROVED / LOCKED**
+
+- [x] Audience intelligence synthesis
+- [x] Strategic audience translation
+- [x] Audience communication implications
+- [x] Approved Part 2 framework
+
+**Source of truth:** Phase 2 Part 2 locked document
+
+## Supplementary Track A — Western Market Reality
+
+**STATUS: [ ] 🔄 CURRENT — A1–A10 drafted; human review pending**
+
+These files remain standalone evidence documents. They are not automatically merged into the locked Phase 2 documents.
+
+- [x] A1 — Agency–Client Relationship Reality — drafted
+- [x] A2 — What Clients Actually Want — drafted
+- [x] A3 — ROI / Value Problem — drafted
+- [x] A4 — DIY vs Freelancer vs VA vs Agency vs In-House — drafted
+- [x] A5 — Outgrown-DIY Trigger — drafted
+- [x] A6 — Strategy vs Execution Market Gap — drafted
+- [x] A7 — Trust and Risk — drafted
+- [x] A8 — AI Changes the Market — drafted / revised
+- [x] A9 — Pricing & Budget — drafted
+- [x] A10 — Retention & Partnership — drafted
+- [ ] **⏭ NEXT:** Human batch review of A1–A10
+- [ ] **⏭ NEXT:** Decide which reviewed evidence should inform Phase 2 without overriding locked decisions
+
+**Rule:** Do not edit Tracks A1–A9 during the current repository reconciliation.
+
+---
+
+# Phase 3 — Content Architecture
+
+**STATUS: [ ] NOT STARTED**
+
+- [ ] Define content pillars
+- [ ] Define content themes / recurring territories
+- [ ] Define content formats and roles
+- [ ] Define content-to-funnel mapping
+- [ ] Define CTA framework
 - [ ] Define proof requirements
+- [ ] Define content governance / decision rules
 
-### Recommended Strategic Content Architecture
+**Dependency:** Complete the Track A human review sufficiently before formally opening Phase 3.
 
-| Content System | Strategic Job |
-|---|---|
-| Strategic Intelligence | Demonstrate how CMS thinks |
-| Founder Reality | Make business owners feel understood |
-| Social Media Education | Build authority |
-| Diagnosis & Audits | Demonstrate the CMS methodology |
-| CMS Point of View | Differentiate from generic agencies |
-| Proof & Transformation | Reduce purchase risk |
-| CMS Network / Behind the System | Explain the Cloud model |
-| Offers & Entry Points | Convert attention into business |
+**Note:** Existing post or carousel brainstorming does not count as Phase 3 completion.
 
-*These are recommendations, not existing repository decisions; they should be validated against the final positioning.*
+---
 
-## Phase 4: Funnel Content Strategy
+# Phase 4 — Funnel Content Strategy
 
-The existing funnel is:
+**STATUS: [ ] NOT STARTED**
 
-**Discovery → Interest → Trust → Intent → Qualification → Conversion → Delivery → Proof → Expansion**
+- [ ] Map content to Discovery
+- [ ] Map content to Interest
+- [ ] Map content to Trust
+- [ ] Map content to Intent
+- [ ] Map content to Qualification
+- [ ] Map content to Conversion
+- [ ] Map content to Proof
+- [ ] Map content to Expansion
+- [ ] Build Content → Funnel Stage → CTA → Destination matrix
 
-We need to operationalize it.
+---
 
-- [ ] Define content for Discovery
-- [ ] Define content for Interest
-- [ ] Define content for Trust
-- [ ] Define content for Intent
-- [ ] Define content for Qualification
-- [ ] Define content for Conversion
-- [ ] Define content for Proof
-- [ ] Define content for Expansion
+# Phase 5 — Platform Strategies
 
-### Critical Task
+**STATUS: [ ] NOT STARTED — FORMAL STRATEGY**
 
-- [ ] **Build a Content → Funnel Stage → CTA → Website Destination matrix**
+### Reserved Platforms
 
-Example:
+- [x] Facebook — reserved
+- [x] Instagram — reserved
+- [x] TikTok — reserved
+- [x] LinkedIn — reserved
+- [x] YouTube Channel — reserved
+- [x] Threads — reserved
+- [x] X — removed from current scope
 
-| Content | Funnel Stage | CTA | Website Destination |
-|---|---|---|---|
-| Educational Reel | Interest | "Learn more" | Website resource |
-| Founder POV | Trust | "See how we approach this" | Why CMS |
-| Case Study | Decision | "See what we could diagnose for you" | Consultation |
-| Problem Recognition Post | Intent | "Take the assessment" | Needs Assessment |
+### Preparatory Research
 
-*This is where CMS stops "posting on social media" and starts operating a social acquisition system.*
+- [x] `Social-Media-Structure/Platform Research.md`
+- [ ] Formal platform-specific strategies
+- [ ] Platform-specific content adaptations
+- [ ] Platform operating cadence
+- [ ] Platform measurement framework
 
-## Phase 5: Platform Strategies
+---
 
-The repository already defines the strategic job of each platform. Now each needs its own execution strategy.
+# Current Work Queue
 
-### Facebook — Priority #1
-- [ ] Define Facebook audience
-- [ ] Define content mix
-- [ ] Define posting frequency
-- [ ] Define Reels strategy
-- [ ] Define educational strategy
-- [ ] Define founder content strategy
-- [ ] Define community strategy
-- [ ] Define Facebook lead-generation mechanism
-- [ ] Define Messenger strategy
-- [ ] Define retargeting strategy
-- [ ] Define Facebook KPI dashboard
+## [ ] 🔄 CURRENT — Repository / Source-of-Truth Reconciliation
 
-### YouTube — Priority #2
-- [ ] Define channel positioning
-- [ ] Define content series
-- [ ] Define long-form strategy
-- [ ] Define Shorts strategy
-- [ ] Define search strategy
-- [ ] Define thumbnail system
-- [ ] Define title system
-- [ ] Define episode structure
-- [ ] Define lead-generation mechanism
-- [ ] Define YouTube KPI framework
+- [x] Confirm Phase 2 Part 1 commercial ICP
+- [x] Confirm Western-first / Philippines-second commercial priority
+- [x] Remove X from current platform scope
+- [x] Confirm six reserved platforms
+- [x] Correct README source/document paths
+- [x] Add repository architecture guidance to README
+- [x] Align CMS Branding with the approved commercial ICP
+- [x] Update Agent HQ STATUS
+- [x] Create a dated narrative handoff
+- [x] Add dated session-log action record
+- [ ] Final verification of remaining project-control documents
 
-### Instagram
-- [ ] Define visual content system
-- [ ] Define Reels strategy
-- [ ] Define carousel strategy
-- [ ] Define Stories strategy
-- [ ] Define Highlights architecture
-- [ ] Define founder presence
-- [ ] Define social proof strategy
-- [ ] Define conversion CTA system
+## [ ] ⏭ NEXT IN LINE
 
-### Threads
-- [ ] Define founder voice
-- [ ] Define CMS account voice
-- [ ] Define opinion framework
-- [ ] Define conversation strategy
-- [ ] Define reply strategy
-- [ ] Define community-building system
+1. Human batch review of Track A1–A10.
+2. Decide which reviewed findings should inform Phase 2 without changing locked decisions.
+3. Complete any remaining project-control reconciliation.
+4. Formally begin Phase 3 — Content Architecture only after the Track A review is sufficiently complete.
 
-### TikTok
-- [ ] Define personality
-- [ ] Define video formats
-- [ ] Define hook system
-- [ ] Define storytelling structure
-- [ ] Define trend adaptation rules
-- [ ] Define comment strategy
-- [ ] Define conversion mechanism
+## [ ] HOLD
 
-### LinkedIn
-- [ ] Define founder vs company content
-- [ ] Define B2B thought leadership
-- [ ] Define case-study content
-- [ ] Define industry analysis
-- [ ] Define partnership strategy
-- [ ] Define lead-generation system
+- Post development
+- Carousel development
+- First-appearance / introduction-post development
+- Post-document updates
+- Formal Phase 3 content architecture
 
-### X
-- [ ] Define real-time commentary strategy
-- [ ] Define industry monitoring
-- [ ] Define founder POV
-- [ ] Define conversation strategy
-- [ ] Define networking strategy
+These are intentionally untouched by this reconciliation task.
 
-> **Important:** I would not attempt to build all seven platforms simultaneously. The repository's hierarchy gives us a better operating model: Facebook + YouTube should become the initial strategic core, with Instagram supporting discovery and the remaining platforms added according to capacity and evidence.
+---
 
-## Phase 6: Content Production System
+# Working Rules
 
-- [ ] Define monthly content volume
-- [ ] Define weekly publishing cadence
-- [ ] Define platform repurposing system
-- [ ] Define content briefing template
-- [ ] Define creative briefing template
-- [ ] Define script template
-- [ ] Define carousel template
-- [ ] Define Reel template
-- [ ] Define long-form video template
-- [ ] Define caption framework
-- [ ] Define hook library
-- [ ] Define CTA library
-- [ ] Define storytelling framework
-- [ ] Define approval workflow
-- [ ] Define publishing workflow
-- [ ] Define content ownership
-
-### Build the CMS Content Engine
-
-One strategic idea should be capable of becoming:
-
-**YouTube video → YouTube Short → Facebook Reel → Instagram Reel → LinkedIn post → Threads discussion → X commentary → Carousel → Story**
-
-That gives CMS leverage without turning every platform into duplicate content.
-
-## Phase 7: Founder-Led Brand Strategy
-
-This is particularly important because the CMS positioning is relationship-driven and the archetype is Sage + Caregiver.
-
-- [ ] Define Founder personal brand role
-- [ ] Define Founder vs CMS account responsibilities
-- [ ] Define Founder POV
-- [ ] Define Founder storytelling themes
-- [ ] Define personal expertise boundaries
-- [ ] Define founder-to-brand content pipeline
-- [ ] Define Founder video presence
-- [ ] Define Founder authority-building strategy
-- [ ] Define Founder networking strategy
-
-The goal should not be "make the Founder famous."
-
-It should be:
-
-**Founder thinking → CMS credibility → audience trust → CMS relationship → business conversion**
-
-## Phase 8: Proof Strategy
-
-The research makes proof central to the buying process, particularly for Gen X and Millennials. But CMS cannot simply wait for testimonials.
-
-- [ ] Define case-study framework
-- [ ] Define testimonial framework
-- [ ] Define before/after framework
-- [ ] Define process proof
-- [ ] Define expertise proof
-- [ ] Define specialist proof
-- [ ] Define founder credibility proof
-- [ ] Define client-result documentation process
-- [ ] Define social proof collection workflow
-- [ ] Define how every successful engagement becomes future content
-
-This connects directly to the repository's intended loop:
-
-**Acquisition → Conversion → Delivery → Proof → Acquisition**
-
-## Phase 9: Conversion Infrastructure
-
-Social strategy is incomplete if social traffic has nowhere intelligent to go.
-
-- [ ] Define universal social CTA
-- [ ] Define platform-specific CTA
-- [ ] Define website landing destinations
-- [ ] Build social-specific landing pages where necessary
-- [ ] Build lead magnet strategy
-- [ ] Build business assessment
-- [ ] Build consultation conversion path
-- [ ] Define lead qualification process
-- [ ] Connect social leads to CRM
-- [ ] Define attribution system
-- [ ] Define retargeting audiences
-- [ ] Define social → website → consultation tracking
-
-*The website is explicitly intended to be the owned conversion environment, rather than social platforms being the final destination.*
-
-## Phase 10: Measurement & Optimization
-
-- [ ] Define platform KPIs
-- [ ] Define funnel KPIs
-- [ ] Define content KPIs
-- [ ] Define conversion KPIs
-- [ ] Define lead-quality KPIs
-- [ ] Define CAC/lead economics
-- [ ] Define content attribution
-- [ ] Define monthly reporting dashboard
-- [ ] Define quarterly strategy review
-- [ ] Define content testing framework
-- [ ] Define what gets killed
-- [ ] Define what gets scaled
-
-### Avoid Vanity-Metric Management
-
-CMS should distinguish:
-
-**Reach → Attention → Engagement → Trust → Intent → Lead → Qualified Lead → Client → Revenue**
-
-A Reel getting 100,000 views is not automatically more valuable than one reaching 3,000 highly relevant business owners.
-
-## Phase 11: Social Media Operating System
-
-Finally, turn the strategy into repeatable operations.
-
-- [ ] Create annual social strategy
-- [ ] Create quarterly campaign strategy
-- [ ] Create monthly content strategy
-- [ ] Create weekly content planning process
-- [ ] Create content calendar
-- [ ] Create production workflow
-- [ ] Create approval workflow
-- [ ] Create publishing workflow
-- [ ] Create community-management workflow
-- [ ] Create analytics workflow
-- [ ] Create monthly optimization workflow
-- [ ] Create crisis/reputation response protocol
-- [ ] Create brand consistency checklist
-- [ ] Create platform governance rules
-
-## Recommended Execution Order
-
-I would not attack this checklist linearly. The strategic dependency chain is:
-
-1. **Positioning** — Priority audience → positioning → differentiation → promise
-2. **Messaging** — Audience problems → dreams → objections → messaging hierarchy
-3. **Content Architecture** — Content pillars → funnel stages → formats → CTAs
-4. **Platform Strategy** — Facebook → YouTube → Instagram → supporting platforms
-5. **Conversion** — Social → website → assessment → consultation → CRM
-6. **Production** — Calendar → briefs → production → approval → publishing
-7. **Proof** — Results → testimonials → case studies → social proof
-8. **Measurement** — KPIs → attribution → optimization → scaling
-
-## The Actual "Done" State
-
-I would consider the CMS Social Media Marketing Strategy complete only when we have these 12 artifacts:
-
-1. CMS Social Media Strategy
-2. Primary ICP & Audience Strategy
-3. Audience Psychology Matrix
-4. CMS Messaging Framework
-5. Content Pillar Architecture
-6. Funnel Content Map
-7. Platform Strategy
-8. Founder Personal Brand Strategy
-9. Content Production System
-10. Social → Website Conversion Strategy
-11. Measurement & KPI Framework
-12. 90 Day Content & Campaign Plan
+1. Do not override locked Phase 1 or Phase 2 decisions without explicit approval.
+2. The Phase 2 Part 1 commercial ICP is the current audience source of truth.
+3. Western is the primary commercial market; Philippines is secondary.
+4. X is not currently part of CMS platform scope.
+5. Track A1–A9 are not to be changed during this reconciliation.
+6. Research marked Draft for review remains evidence, not approved strategy.
+7. Do not advance to a later strategy phase merely because exploratory work exists.
+8. Do not modify post documents during this reconciliation.
+9. Keep `www/` completely out of scope unless explicitly reopened for a specific session.
