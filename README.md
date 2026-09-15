@@ -178,11 +178,16 @@ CMS currently addresses **nine audience segments** across three cultural context
 | **Asian** | The Family Protector | The Responsible Builder | The Proving Entrepreneur |
 | **Filipino** | The Steady Provider | The Uplifting Hustler | The Hopeful Starter |
 
-The priority segment has **not yet been finalized**.
+### Commercial ICP — Current Source of Truth
+
+> **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**
+
+**Primary commercial market:** Western clients  
+**Secondary commercial market:** Philippine clients
+
+The nine segments above remain useful audience/persona variations; they are not equal commercial priorities.
 
 CMS adapts its proof and relationship style to the audience. Western audiences tend to require stronger data, case studies, and process clarity; Asian and Filipino audiences place greater weight on credibility, relationship, warmth, reliability, and reassurance.
-
-CMS's commercial priority is **Western-first, Philippines-second**: Western businesses are the primary revenue market, while the Philippine market functions as the secondary ICP — building measurable proof, case studies, and local credibility as positioning extends further into Western and Asian segments.
 
 ---
 
@@ -212,7 +217,6 @@ CMS treats each platform as a distinct part of one connected acquisition and aut
 | **Threads** | Public thinking and community | How does CMS think? |
 | **TikTok** | Discovery and humanization | Who are the humans behind CMS? |
 | **LinkedIn** | B2B authority and credibility | Can I trust CMS with a serious business? |
-| **X** | Real-time intelligence and opinion | What does CMS think about what is happening now? |
 | **Website** | Owned conversion environment | Should I start a business relationship with CMS? |
 | **Client Portal** | Delivery and relationship environment | Can CMS actually deliver what it promised? |
 
@@ -220,8 +224,21 @@ CMS treats each platform as a distinct part of one connected acquisition and aut
 
 **Discovery**; Facebook + Instagram + TikTok  
 **Authority**; YouTube + LinkedIn  
-**Conversation**; Threads + X  
+**Conversation**; Threads  
 **Conversion**; Website
+
+### Current Platform Scope
+
+CMS currently reserves six social platforms:
+
+1. Facebook
+2. Instagram
+3. TikTok
+4. LinkedIn
+5. YouTube Channel
+6. Threads
+
+**X is not currently part of CMS platform scope.**
 
 ---
 
@@ -264,7 +281,7 @@ The website is the owned conversion environment; the client portal is intended t
 | Tone of voice | Locked |
 | Messaging framework | Approved |
 | Audience segmentation | Approved |
-| Target client personas | Approved |
+| Commercial ICP | **Approved / Locked in Phase 2 Part 1** |
 | Customer journey | Approved |
 | Tagline | **Pending final decision** |
 | Visual identity | **Pending; deferred until the strategic and written identity is finalized** |
@@ -278,6 +295,31 @@ The tagline remains open and should not be treated as final until a decision is 
 
 ---
 
+## Repository Architecture
+
+The repository is organized so a future CMS AI session can identify where each type of work belongs:
+
+| Area | Where the work lives |
+|---|---|
+| **Strategy** | `Social-Media-Structure/` — approved phases, strategic planning, and social-media structure |
+| **Research** | `CMS-Research/` — audience intelligence, market evidence, and research tracks |
+| **Brand** | `CMS-Branding/` — brand foundation and identity references |
+| **Actual content** | `Content/` — to be populated when content development is formally opened |
+| **Platform work** | `Platform/` — platform-specific strategy and operations when Phase 5 begins |
+| **Campaigns** | `Campaigns/` — campaign planning and assets |
+| **Sales** | `Sales/` — sales and commercial enablement |
+| **Clients** | `Clients/` — client-specific working material |
+| **Analytics** | `Analytics/` — performance data, reporting, and analysis |
+| **Operations** | `Operations/` — internal workflows and operating procedures |
+| **Assets** | `Assets/` — reusable brand and content assets |
+| **Templates** | `Templates/` — reusable working templates |
+| **Archive** | `Archive/` — superseded or retired materials |
+| **AI project control** | `_agent-hq/` — status, tasks, handoffs, and session history |
+
+These folders are organizational structure. Empty folders should not be populated simply to make the structure look complete.
+
+---
+
 ## Repository Purpose
 
 This repository should function as the strategic source of truth for Cloud Mind Social's evolving brand and digital ecosystem.
@@ -286,8 +328,10 @@ Future work should remain aligned with the established foundation before new mes
 
 ### Source Documents
 
-- [`CMS-Branding.md`](./CMS-Branding.md); Brand Foundation & Identity Guide
-- [`Target-Market-Research-CMS.md`](./Target-Market-Research-CMS.md); Target Market Research
+- [`CMS-Branding/Branding.md`](./CMS-Branding/Branding.md); Brand Foundation & Identity Guide
+- [`CMS-Research/Target-Market-Research-CMS.md`](./CMS-Research/Target-Market-Research-CMS.md); Target Market Research
+- [`Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md`](./Social-Media-Structure/PHASE%201%20Approved%20by%20Seul%20Yekha.md); Phase 1 strategic foundation
+- [`Social-Media-Structure/PHASE 2 — Audience Strategy Part 1 — APPROVED by Seul Yekha.md`](./Social-Media-Structure/PHASE%202%20%E2%80%94%20Audience%20Strategy%20Part%201%20%E2%80%94%20APPROVED%20by%20Seul%20Yekha.md); locked commercial audience architecture
 
 ---
 
