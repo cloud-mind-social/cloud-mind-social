@@ -16,7 +16,9 @@ Seul then asked to build the guidelines first from the existing CMS foundation. 
 - Saved the written source at `CMS-Branding/CMS_Brand_Guidelines_v0.1.md`.
 - Initial guideline commit: `66232adcad44fb20d267283188e1d2a0a9ba9239`.
 - Created the editable Canva document: [Cloud Mind Social | Brand Guidelines v0.1](https://www.canva.com/d/rYLRFn_C8UptESs).
-- Canva design ID: `DAHVQ3kESWE`; import returned 18 pages and the text was read back.
+- Canva design ID: `DAHVQ3kESWE`; import returned 18 editable pages and the text was read back.
+- Read-only Canva inspection found 440 text elements and zero elements extending outside their page bounds. The inspection transaction was cancelled without edits.
+- Canva thumbnail downloads returned HTTP 403; preview URLs were displayed, but a complete visual inspection of the Canva rendering was not possible. The standalone PDF was visually reviewed.
 - Saved PDF, HTML, and Markdown copies for the user.
 - Used the existing five-color palette and Fraunces / Inter / Space Mono system.
 - Preserved locked brand and audience decisions; labeled new application standards as proposed.
