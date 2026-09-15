@@ -97,7 +97,7 @@ This blend shapes every part of the brand: CMS never leads with hype or transfor
 - Become known as the agency that diagnoses before it prescribes — the opposite of the "one-size-fits-all package" reputation most agencies have.
 - Establish CMS as a credible specialist network — where clients understand they're getting matched talent, not a single generalist stretched thin.
 - Build visible proof across each audience segment (case studies, testimonials, language) so the brand earns trust the way each segment actually defines trust — not a single generic pitch.
-- Grow brand recognition first within the Filipino market home base, using the pakikisama/relationship-first advantage, before expanding positioning into Asian and Western segments.
+- Build commercial recognition **Western-first and Philippines-second**. Western businesses are the primary revenue market; Philippine businesses are the secondary commercial market and an important source of measurable proof, case studies, and local credibility.
 
 ### Business & Team Goals
 - Build a repeatable discovery-to-diagnosis process so "right-sizing" a client's needs isn't dependent on one person's judgment call — it's a system.
@@ -202,7 +202,15 @@ Nine segments across three cultures (Western, Asian, Filipino) and three generat
 | **Filipino Millennial** | Casual Dining / Fine Dining | Flexible terms, understanding partner | Hard work still isn't enough to change their life |
 | **Filipino Gen Z** | Fast Food / Casual Dining | Warmth, follow-up, reassurance | No one believes in their idea |
 
-**Priority Segment(s):** Not yet finalized — currently addressing all 9 with equal weight.
+### Commercial Priority
+
+**Primary commercial ICP:** Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing.
+
+**Primary commercial market:** Western clients.
+
+**Secondary commercial market:** Philippine clients.
+
+The nine segments remain useful persona variations for communication and proof adaptation. They are not equal commercial priorities. The commercial ICP is governed by business maturity and the marketing problem, not by generation or culture alone.
 
 **Segmentation Note:** CMS's specialist-network model is genuinely differentiated and likely appeals across segments regardless of culture — but the proof style needed to earn trust changes per segment (data-driven for Western, relationship-driven for Asian/Filipino). This directly shapes tone-of-voice adaptation per segment.
 
@@ -327,6 +335,7 @@ This section will include color palette, typography, logo direction, and imagery
 | Tone of Voice | ✅ Locked |
 | Messaging Framework | ✅ Approved |
 | Audience Segmentation | ✅ Approved |
+| Commercial ICP | ✅ Approved / Locked in Phase 2 Part 1 |
 | Target Client Personas | ✅ Approved |
 | Customer Journey | ✅ Approved |
 | Visual Identity | ⏳ Pending — deferred until above is finalized |
