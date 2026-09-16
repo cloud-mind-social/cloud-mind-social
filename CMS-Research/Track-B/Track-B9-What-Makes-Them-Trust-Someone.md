@@ -2,157 +2,227 @@
 ## Track B — Western Audience Reality
 ### B9. What Makes Them Trust Someone?
 
-**Status:** Draft for review — standalone research, not yet merged into Phase 2  
-**Research date:** September 16, 2026  
-**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY / fragmented social media marketing
+**Status:** Draft for review — standalone document, not yet merged into Phase 2  
+**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY or fragmented social media marketing  
+**Core question:** What makes this audience believe a provider is credible enough to trust with marketing responsibility?
 
 ---
 
-## Related Track A Evidence
+# Why B9 Matters
 
-Track A7 established the market-level trust pattern as **verifiable specificity**: documented process, specific case studies and reviews, willingness to discuss pricing, realistic claims, clear contracts, business understanding, specialization, and access to senior people.
+The Track B guide asks B9 to investigate fourteen trust drivers:
 
-Track A1 separately established that relationship quality and whether an agency understands the client's business affect trust after the relationship begins.
+- case studies;
+- testimonials;
+- referrals;
+- personal brand;
+- expertise;
+- specialization;
+- transparent pricing;
+- process;
+- communication;
+- results;
+- credentials;
+- personality;
+- local/Filipino understanding;
+- founder involvement.
 
-B9 tests the audience-side question:
+B9 must also test whether the trust patterns identified in Track A1 and Track A7 actually hold for CMS’s audience rather than simply importing them wholesale.
 
-> **What makes an owner believe a provider is credible enough to trust with money, brand access, and marketing responsibility?**
-
----
-
-# Core B9 Finding
+The strongest overall conclusion is:
 
 > **Trust is built less by polished claims and more by reducing uncertainty.**
 
-The owner is trying to answer:
+---
 
-- Do they understand my business?
-- Do they know what they are doing?
-- Can they prove it?
-- Will they tell me what this costs?
-- Do I understand their process?
-- Will they communicate?
-- Do other people trust them?
-- Are their claims realistic?
+# Related Track A Evidence
 
-Trust appears cumulative and cross-validated rather than dependent on one single asset.
+Track A7 established the market-level trust pattern as **verifiable specificity**:
+
+- documented process;
+- specific case studies and reviews;
+- willingness to discuss pricing;
+- realistic claims;
+- clear contracts;
+- business understanding;
+- specialization;
+- access to senior people.
+
+Track A1 separately found that relationship quality and whether an agency understands the client’s business affect trust after the relationship begins.
+
+B9 asks a more specific audience question:
+
+> **When the actual owner-led buyer is evaluating a provider, which signals reduce the perceived risk of choosing the wrong person?**
+
+The evidence points toward a **stack of corroborating trust signals**, not one magic badge.
 
 ---
 
 # 1. Referrals and peer recommendation
 
-🟢 **High**
+This is one of the strongest trust signals in the current evidence.
 
-B2B service-buying research consistently places referrals and peer recommendations among the strongest information and evaluation sources.
+Clutch’s B2B buying research found businesses depended heavily on **recommendations or referrals** when gathering and evaluating service providers.
+
+This aligns strongly with B7, where peer recommendations substantially outperformed vendor-controlled information as a trusted source.
 
 ### Why referral trust is different
 
 A provider can say:
 
-> “We understand businesses like yours.”
+> “We understand small businesses.”
 
 A peer can say:
 
-> “I hired them. This is what actually happened.”
+> “I hired them. Here is what actually happened.”
 
-The second statement carries experienced risk and borrowed credibility.
+The second statement carries **experienced risk**.
 
-### Finding
+### B9 finding
 
-> **Referral trust comes from transferred credibility.**
+> **Referral trust comes from transferred credibility; someone the buyer already trusts is lending part of that trust to the provider.**
+
+**Confidence: 🟢 High**
 
 ---
 
 # 2. Reviews and testimonials
 
-🟢 **High for reviews / 🟡 for exact testimonial format**
+B9 needs to distinguish three things:
 
-B2B buyers frequently use online reviews and testimonials, but not all social proof carries equal weight.
+1. testimonial on the provider’s website;
+2. independent online review;
+3. personal recommendation.
 
-A stronger testimonial contains:
+They are not equivalent.
 
-**who → problem → work → result**
+Clutch research found a very high share of B2B buyers had used online reviews during purchase decisions and that **review validity mattered more than score or recency alone**.
 
-rather than generic praise.
+Clutch’s broader buying research also found buyers value **case studies and testimonials** on provider websites.
 
-### Finding
+### What makes testimonials stronger?
+
+Specificity:
+
+**who → what problem → what work → what result**
+
+is stronger than:
+
+> “Great agency! Highly recommend!”
+
+### B9 finding
 
 > **Testimonials build trust most effectively when they look like evidence rather than praise.**
+
+**Confidence: 🟢 reviews / 🟡 exact testimonial format for CMS ICP**
 
 ---
 
 # 3. Case studies
 
-🟢/🟡 **High to Moderate**
+Case studies remain important, but their role is changing.
 
-Case studies help the buyer inspect how the provider thinks, not merely whether the provider claims success.
+Edelman/LinkedIn research shows buyers use substantive thought leadership and evidence to assess capability, not just conventional marketing materials.
 
-Trustworthy case studies tend to include:
+Clutch also places case studies/testimonials among important provider-evaluation assets.
+
+Track A7 adds a 2026 nuance: case-study consumption may increasingly happen indirectly through search and AI summaries, not only through long-form reading.
+
+### What makes a case study trustworthy?
 
 - specific client context;
 - specific problem;
 - specific intervention;
 - specific result;
-- clear limits/context.
+- clear limits and conditions.
 
-Weak proof includes vague growth claims with no baseline or context.
+What weakens credibility:
 
-### Finding
+- vague “300% growth” claims without context;
+- anonymous success stories with no detail;
+- guarantee-like claims.
 
-> **The job of a case study is to let the buyer inspect capability, reasoning, and relevance.**
+### B9 finding
+
+> **The job of a case study is not to say CMS succeeds; it is to let the buyer inspect how CMS thinks and what happened when that thinking was applied.**
+
+**Confidence: 🟢/🟡**
 
 ---
 
 # 4. Transparent pricing
 
-🟢 **High**
+This is one of the strongest corrections to common agency thinking.
 
-B2B buyer research repeatedly identifies transparent cost information as an important website and selection signal.
+Clutch found transparent cost information among the most important provider-website characteristics.
 
-Price itself is not always the largest decision factor, but **uncertainty about price** can damage trust.
+Gartner adds an important nuance: sellers often believe price itself is one of the largest deal factors, while buyers rank it lower than sellers expect.
 
-The buyer wants to understand:
+Those findings are not contradictory.
+
+> **Price may not be the biggest reason someone chooses you; uncertainty about price can still damage trust.**
+
+For service buyers, transparency helps answer:
 
 - What range am I entering?
-- What determines the price?
+- What determines price?
 - What am I paying for?
 - What is optional?
-- Could the scope change unexpectedly?
+- Could scope suddenly expand?
 
-### Finding
+### B9 finding
 
-> **Transparent pricing is primarily a trust signal, not only an affordability signal.**
+> **Transparent pricing is primarily a trust signal, not simply an affordability signal.**
+
+**Confidence: 🟢 High**
 
 ---
 
 # 5. Clear process
 
-🟡/🟢 **Moderate to High**
+Services are intangible before delivery.
 
-Marketing services are intangible before delivery. A clear process makes the future relationship more predictable.
+The buyer cannot inspect next month’s strategy, content, reporting, or communication before signing.
 
-Useful process questions include:
+A visible process reduces uncertainty.
 
-- What happens after I inquire?
+Track A7 found documented process recurring strongly in agency-vetting guidance.
+
+For CMS, process trust could answer:
+
+- What happens after inquiry?
 - Who diagnoses the problem?
-- Who creates the strategy?
-- How do approvals work?
+- When do I receive recommendations?
+- Who creates strategy?
+- How are approvals handled?
 - How often do we communicate?
 - What gets measured?
 
-### Finding
+### B9 finding
 
 > **A visible process converts an unknown relationship into a more predictable one. Predictability reduces perceived risk.**
+
+**Confidence: 🟡/🟢**
 
 ---
 
 # 6. Communication
 
-🟢/🟡 **High to Moderate**
+Communication is not merely a retention issue after the sale.
 
-Agency churn and relationship research repeatedly highlights communication and feeling understood.
+It is itself a credibility test.
 
-Trust-building communication includes:
+inTandem’s SMB research found substantial agency churn. Setup’s agency-client research similarly shows clients want stronger delivery, clearer value, and to **feel understood**.
+
+B8’s owner language reinforces this:
+
+> “Will they disappear?”
+
+> “I spend more time managing them.”
+
+> “Do they actually understand my business?”
+
+### Trust-building communication includes
 
 - responsiveness;
 - clear expectations;
@@ -161,39 +231,55 @@ Trust-building communication includes:
 - explaining decisions;
 - asking relevant business questions.
 
-### Finding
+### B9 finding
 
-> **Communication builds trust when it reduces the owner's need to chase, guess, or interpret what the provider is doing.**
+> **Communication builds trust when it reduces the owner’s need to chase, guess, or interpret what the provider is doing.**
+
+**Confidence: 🟢/🟡**
 
 ---
 
 # 7. Expertise
 
-🟢 **High**
+Expertise is one of the strongest trust fundamentals.
 
-Current B2B research shows buyers increasingly evaluate visible expertise and thought leadership before contacting sales.
+LinkedIn’s buyer research shows decision-makers increasingly use expert/creator content to assess providers before talking to sales.
 
-Expertise is demonstrated when the provider can:
+Edelman/LinkedIn thought-leadership research similarly shows visible thinking influences buyers before direct engagement.
+
+### Important distinction
+
+Expertise is not demonstrated by saying:
+
+> “We are experts.”
+
+It is demonstrated by visibly being able to:
 
 - identify a problem accurately;
 - explain why it happens;
-- distinguish good advice from bad;
-- show trade-offs;
-- connect marketing to the business.
+- distinguish strong advice from weak advice;
+- explain trade-offs;
+- connect marketing to business reality.
 
-### Finding
+### B9 finding
 
 > **Expertise becomes a trust signal when the buyer can observe the thinking before purchasing the service.**
+
+**Confidence: 🟢 High**
 
 ---
 
 # 8. Specialization
 
-🟢 **High**
+Track A already has stronger evidence on this than B9 needs to reproduce.
 
-Track A2/A7 established specialization as a strong market credibility signal.
+Track A2 and A7 both establish specialization as an increasing credibility signal.
 
-Specialization can be by:
+The buyer’s underlying question is:
+
+> **“Have you dealt with something sufficiently similar to understand what you’re looking at?”**
+
+Specialization can occur by:
 
 - industry;
 - business problem;
@@ -201,128 +287,222 @@ Specialization can be by:
 - service;
 - growth stage.
 
-For CMS, one possible specialization expression is diagnosing and structuring social-media marketing for owner-led businesses that have outgrown fragmented execution. This is a strategic interpretation, not a locked positioning change.
+CMS does not necessarily need to become a single-industry agency for specialization to matter.
+
+A possible problem-based specialization is:
+
+> **diagnosing and structuring social-media marketing for owner-led businesses that have outgrown fragmented execution.**
+
+That is an interpretation for strategy review, not an automatic positioning change.
+
+**Confidence: 🟢 specialization generally / CMS expression requires review**
 
 ---
 
 # 9. Results
 
-🟢 **High**
+Results obviously matter, but the buyer is not only asking:
 
-Results matter most when the buyer can tell whether they are relevant to a business like theirs.
+> “Did you get results?”
 
-Strong result proof includes:
+They are also asking:
 
-**business context → problem → intervention → outcome → qualification**
+> **“Were those results relevant to a business like mine?”**
 
-This is stronger than vanity metrics presented without a commercial link.
+B8 surfaced owner language around:
 
-### Finding
+- actual results;
+- traffic that converts;
+- what they are getting for the money.
 
-> **Results become more credible when context and limits are visible.**
+This means follower growth alone can be weak proof when the buyer ultimately wants customers, inquiries, or revenue.
+
+### Trustworthy result proof
+
+**Business context**  
+“We worked with a local service company…”
+
+**Problem**  
+“They were generating reach but few qualified inquiries…”
+
+**Intervention**  
+“We changed…”
+
+**Outcome**  
+“Qualified inquiries increased…”
+
+**Qualification**  
+“During X period; other variables also changed…”
+
+### B9 finding
+
+> **Results are strongest as trust signals when they are contextualized rather than presented as advertising claims.**
+
+**Confidence: 🟢 results matter / 🟡 preferred presentation**
 
 ---
 
 # 10. Personal brand
 
-🟢/🟡 **High to Moderate**
+The evidence for visible human expertise is now strong.
 
-Visible experts, founders, and professional creators increasingly influence provider evaluation.
+LinkedIn research shows buyers discovering vendors through creator/expert content and moving from that content into vendor websites and sales engagement.
 
-The trust mechanism appears to be:
+Edelman/LinkedIn research similarly shows buyers evaluating companies through the ideas associated with visible experts.
 
-- visible accountability;
-- visible expertise;
-- familiarity;
-- ability to observe how the person thinks.
+This does **not** mean CMS needs an “influencer founder.”
 
-### Finding
+It means identifiable people can make the agency less abstract.
 
-> **Personal-brand trust comes more from visible accountability and expertise than from follower count alone.**
+A founder or strategist can publicly demonstrate:
+
+- how CMS thinks;
+- what CMS believes;
+- what CMS disagrees with;
+- how CMS diagnoses problems;
+- what CMS has learned.
+
+### B9 finding
+
+> **Personal-brand trust appears to come from visible accountability and expertise, not simply familiarity or follower count.**
+
+**Confidence: 🟢 visible expertise / 🟡 founder-brand effect specifically**
 
 ---
 
 # 11. Founder involvement
 
-🟡 **Moderate**
+This is distinct from personal brand.
 
-Founder or senior-person access can strengthen trust for founder-led buyers because it reduces distance between the promise and the person responsible for delivery.
+Personal brand asks:
 
-However, founder involvement can become founder dependency.
+> “Do I know who this person is?”
 
-### Finding
+Founder involvement asks:
+
+> **“Will that person still be involved after I sign?”**
+
+Track A7 found a recurring qualitative pattern: smaller/founder-led businesses often value access to founders or senior people because it signals responsibility and reduces the distance between promise and delivery.
+
+That fits CMS’s owner-led ICP naturally.
+
+But founder involvement has a risk:
+
+> **founder involvement can become founder dependency.**
+
+If every client depends entirely on one person, the trust advantage becomes a scalability and continuity risk.
+
+### B9 finding
 
 > **Founder visibility can strengthen trust; founder dependency can weaken it.**
 
-CMS would need both:
+CMS would therefore need both:
 
-- senior/founder oversight;
-- a delivery system that does not collapse if one person is unavailable.
+**senior/founder oversight**
+
+and
+
+**a delivery system that does not collapse when one person is unavailable.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 12. Credentials
 
-🟡 **Moderate**
+The evidence is weaker here than many agency websites imply.
 
-Certifications, platform badges, awards, memberships, and degrees can reduce uncertainty, especially for technical or specialized work.
+Credentials may include:
 
-But current evidence does not support placing generic credentials above:
+- certifications;
+- platform badges;
+- degrees;
+- awards;
+- memberships;
+- partnerships.
 
-**proof + expertise + recommendations + process + results**
+They can reduce uncertainty in technical or regulated categories.
 
-### Finding
+But current research does not support placing generic credentials above:
 
-> **Credentials are supporting evidence, not sufficient evidence of capability.**
+**proof + expertise + referrals + process + results**
+
+### B9 finding
+
+> **Credentials appear to function as supporting evidence, not sufficient evidence of capability.**
+
+A Meta certification may establish platform knowledge.
+
+It does not prove:
+
+> the provider understands this business.
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 13. Personality and human fit
 
-🟡 **Moderate**
+The evidence does not support “likability” as a standalone dominant selection criterion.
 
-The evidence does not support charisma as a dominant standalone factor. Human fit appears more relevant through:
+But B7 and B8 show buyers using people, communities, creator content, and direct interactions to assess providers.
+
+Personality therefore appears to matter through:
 
 - clarity;
 - professionalism;
 - approachability;
 - confidence without arrogance;
-- listening;
+- directness;
+- ability to listen;
 - compatibility.
 
-### Finding
+Setup’s client-agency research reinforces the importance of clients feeling understood.
+
+### B9 finding
 
 > **Personality matters mainly as relationship fit, not entertainment value.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 14. Business understanding
 
-🟢 **High**
+Although not simply a cosmetic trust signal, this may be one of the most important drivers in the entire section.
 
-Track A1/A7 found “agency did not understand our business” among meaningful client relationship/churn concerns. B8 independently surfaced the same owner language.
+Track A1/A7 records a quantified finding that **44% of clients leaving agencies cited the agency not understanding their business** among their reasons.
 
-The provider builds trust by demonstrating understanding of:
+B8 independently found owner language such as:
+
+> “They don’t understand my business.”
+
+> “Nobody actually understands what my business does or how to talk to our audience.”
+
+### Trust mechanism
+
+An owner trusts the provider more when the provider demonstrates understanding of:
 
 - customer;
 - business model;
 - how the company makes money;
-- the current problem;
-- what should not be changed.
+- existing constraints;
+- what should not be changed;
+- what the owner is actually trying to accomplish.
 
-### Finding
+### B9 finding
 
 > **Being understood is itself a trust signal.**
 
-The first proof may occur before any campaign exists:
+The provider’s first proof may happen before any campaign is created:
 
 > **Did they ask the right questions?**
+
+**Confidence: 🟢 High**
 
 ---
 
 # 15. Transparent limitations
-
-🟡/🟢 **Moderate to High**
 
 Track A7 found strong convergence around distrust of:
 
@@ -332,99 +512,152 @@ Track A7 found strong convergence around distrust of:
 - vague case studies;
 - high-pressure sales.
 
-The inverse is strategically important.
+The inverse matters:
 
-A provider can build trust by being willing to say:
+> **A provider can increase trust by being willing to say what it cannot promise.**
 
-- what it cannot guarantee;
-- when a channel may not be appropriate;
-- when a full retainer may be unnecessary;
-- when social cannot solve the underlying business problem.
+Examples:
 
-### Finding
+- “We cannot guarantee virality.”
+- “We don’t know whether this channel is right for you yet.”
+- “This may not require a full retainer.”
+- “Social won’t fix a broken offer.”
 
-> **Realistic claims signal lower risk than exaggerated certainty.**
+These are strategic formulations, not survey quotations.
+
+The underlying principle is evidence-supported:
+
+> **realistic claims signal lower risk than exaggerated certainty.**
+
+**Confidence: 🟡/🟢**
 
 ---
 
 # 16. Does being Filipino help or hurt trust?
 
-🔴 **Unverified for nationality effect**
+This question is explicitly included in the B9 guide.
 
-Current evidence does not support either of these claims:
+Current research does **not** support claiming either:
 
-- Western clients prefer Filipino providers;
-- Filipino providers face a universal trust disadvantage.
+> “Western clients prefer Filipino providers.”
 
-What is better supported is that buyers care about:
+or
 
-- communication;
+> “Filipino providers face a trust disadvantage.”
+
+That would require more specific evidence.
+
+What the broader research does support is that buyers evaluate providers around:
+
 - expertise;
+- communication;
+- proof;
 - responsiveness;
 - process;
-- proof;
-- fit;
-- cultural/business understanding.
+- cost;
+- fit.
 
-### Finding
+Geography can affect:
 
-> **CMS should not hide its Philippine foundation, but nationality itself should not be treated as the trust proposition without evidence.**
+- timezone;
+- cultural familiarity;
+- communication expectations;
+- perceived cost structure;
+- privacy/data concerns.
+
+### B9 conclusion
+
+> **CMS should not hide its Philippine foundation, but nationality itself should not be assumed to be the trust proposition.**
+
+The more evidence-supported trust proposition is:
+
+**understanding Western business context + strong communication + visible expertise + reliable systems + clear proof.**
+
+**Confidence: 🔴 nationality effect / 🟡 cross-cultural fit considerations**
 
 ---
 
-# 17. Local understanding vs physical locality
+# 17. Does physical locality matter?
 
-🟡 **Moderate**
+There is insufficient evidence that Western owner-led businesses require their social-media provider to be geographically local.
 
-Remote service buying is normal. Physical locality may matter more for businesses requiring on-location content, local relationships, or market-specific production.
+Some business categories may value locality for:
 
-### Finding
+- on-location filming;
+- local market knowledge;
+- face-to-face service;
+- local relationships.
 
-> **Local understanding and physically local provider are not the same trust requirement.**
+For remote strategy, analytics, planning, reporting, and digital execution, physical locality may matter less.
+
+### B9 finding
+
+> **“Local understanding” and “physically local provider” should not be treated as the same trust requirement.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 18. Trust forms before the consultation
 
-🟢 **High**
+Gartner’s B2B buying research shows substantial preference for self-directed digital research before seller engagement.
 
-Modern B2B buyers conduct extensive self-directed research before speaking with sales.
+That means a prospect may evaluate:
 
-A prospect may evaluate:
-
-- website;
-- founder profile;
+- CMS website;
+- founder LinkedIn;
 - YouTube;
 - social feeds;
+- Google results;
 - reviews;
 - case studies;
 - pricing;
-- search results;
-- external opinions;
+- other people’s opinions;
 
 before CMS knows the prospect exists.
 
-### Finding
+### B9 finding
 
 > **Trust cannot begin at the discovery call.**
+
+By that point, part of the trust decision may already have been made.
+
+**Confidence: 🟢 High**
 
 ---
 
 # 19. One signal is not enough
 
-🟢 **High**
+Buyers increasingly consult multiple sources.
 
-Buyers commonly consult multiple sources.
+That means:
 
-One case study, testimonial, review, founder post, or referral can be useful but incomplete.
+### Case study alone
+CMS controls it.
 
-Trust becomes stronger through corroboration:
+### Testimonials alone
+CMS selects them.
 
-**referral + website + expert content + clear process + transparent pricing + specific proof + independent reviews + strong consultation**
+### Founder content alone
+CMS controls the narrative.
 
-### Finding
+### Reviews alone
+May lack context.
+
+### Referral alone
+Can be subjective.
+
+But together:
+
+**referral + website + expert content + clear process + transparent pricing + specific case studies + independent reviews + strong consultation**
+
+create corroboration.
+
+### B9 finding
 
 > **Trust appears cumulative and cross-validated.**
+
+**Confidence: 🟢 High**
 
 ---
 
@@ -432,74 +665,154 @@ Trust becomes stronger through corroboration:
 
 | Trust driver | Current finding | Confidence |
 |---|---|---|
-| Referrals | Strong discovery/evaluation trust | 🟢 |
-| Testimonials | Useful when specific and credible | 🟢/🟡 |
+| Referrals | One of the strongest discovery/evaluation trust sources | 🟢 |
+| Testimonials | Stronger when specific and credible | 🟢/🟡 |
 | Independent reviews | Widely used; validity matters | 🟢 |
-| Case studies | Demonstrate capability/context | 🟢/🟡 |
-| Personal brand | Visible human expertise supports evaluation | 🟢/🟡 |
+| Case studies | Show contextualized capability and thinking | 🟢/🟡 |
+| Personal brand | Visible human expertise influences evaluation | 🟢/🟡 |
 | Expertise | Strong when demonstrated rather than claimed | 🟢 |
 | Specialization | Established Track A credibility signal | 🟢 |
-| Transparent pricing | Strong trust signal | 🟢 |
-| Clear process | Reduces uncertainty | 🟡/🟢 |
-| Communication | Central to feeling understood | 🟢/🟡 |
-| Results | Strong when tied to business context | 🟢 |
-| Credentials | Supporting evidence only | 🟡 |
-| Personality | Relationship fit | 🟡 |
-| Founder involvement | Personal accountability with key-person risk | 🟡 |
-| Business understanding | Strongly supported across Track A/B | 🟢 |
-| Filipino/local identity | Nationality effect not established | 🔴 |
-| Realistic limitations | Counters overpromising risk | 🟡/🟢 |
+| Transparent pricing | Strong website-level trust signal | 🟢 |
+| Clear process | Reduces relationship uncertainty | 🟡/🟢 |
+| Communication | Reduces chase/guess/manage burden | 🟢/🟡 |
+| Results | Strongest when tied to business context | 🟢 |
+| Credentials | Supporting signal; insufficient alone | 🟡 |
+| Personality | Matters as relationship fit | 🟡 |
+| Founder involvement | Increases accountability/access but creates key-person risk | 🟡 |
+| Business understanding | Strongly supported across Track A and owner language | 🟢 |
+| Filipino/local identity | Effect on Western trust not established | 🔴 |
+| Realistic limitations | Counter-signal against overpromising | 🟡/🟢 |
 
 ---
 
-# Working Trust Stack
+# The Strongest Trust Stack
 
-This is a Track B synthesis, not a statistically ranked hierarchy:
+The evidence does **not** support:
 
-1. **Relevance** — Do you understand a business like mine?
-2. **Expertise** — Do you know what you are talking about?
-3. **Proof** — Have you produced credible outcomes?
-4. **Transparency** — Can I understand cost, scope, and limitations?
-5. **Process** — Do I understand what happens if I hire you?
-6. **Communication** — Will working with you reduce confusion?
-7. **Independent validation** — Do other people confirm what you say?
-8. **Human accountability** — Who stands behind the work?
+> “Get testimonials and people will trust us.”
 
----
+A stronger model is:
 
-# Core B9 Finding
+## 1. Relevance
+> Do you understand a business like mine?
 
-> **Trust is risk reduction.**
+## 2. Expertise
+> Do you clearly know what you are talking about?
 
-A provider becomes more credible as uncertainty about understanding, capability, proof, pricing, process, communication, and accountability falls.
+## 3. Proof
+> Have you produced credible outcomes?
 
----
+## 4. Transparency
+> Can I understand cost, scope, and limitations?
 
-# Source Base
+## 5. Process
+> Do I understand what happens if I hire you?
 
-- Clutch B2B buying/process research
-- Gartner 2025 B2B digital buying and service-provider research
-- Edelman + LinkedIn, B2B Thought Leadership Impact research
-- LinkedIn B2B creator/expert research
-- inTandem/vcita, 2025 SMB marketing research
-- Setup, 2025 Marketing Relationship Survey
-- Track A1, Agency–Client Relationship Reality
-- Track A7, Trust & Risk
-- B8 first-party owner language
+## 6. Communication
+> Will working with you create clarity or another management burden?
 
----
+## 7. Independent validation
+> Do other people confirm what you are telling me?
 
-# What This Evidence Does Not Prove
+## 8. Human accountability
+> Who stands behind the work?
 
-- one universal most-important trust signal;
-- that founder visibility is required;
-- that founder-led agencies outperform others;
-- that credentials materially increase conversion;
-- that Western buyers prefer or distrust Filipino providers as a class;
-- that case studies matter more than referrals;
-- that exact public prices are always preferable to ranges;
-- that personality outranks expertise.
+This is a synthesis, not a statistically ranked hierarchy.
 
 ---
 
-*This document covers Track B9 only. Findings remain Draft for review and should not be merged automatically into locked Phase 2.*
+# The Core B9 Finding
+
+> **Trust is built less by polished claims and more by reducing uncertainty.**
+
+The owner is trying to answer:
+
+- Do they understand me?
+- Do they know what they are doing?
+- Can they prove it?
+- Will they tell me what this costs?
+- Do I understand their process?
+- Will they communicate?
+- Do other people trust them?
+- Are their claims realistic?
+
+When enough of those become **yes**, perceived risk falls.
+
+That appears to be the real function of trust signals:
+
+> **not persuasion alone; risk reduction.**
+
+---
+
+# B6 → B7 → B8 → B9
+
+**B6:** buyer may arrive carrying disappointment from previous attempts.  
+**B7:** they research through search, AI, peers, communities, reviews, and provider content.  
+**B8:** their concerns sound practical: “Do they understand my business?”, “Will they disappear?”, “Show me actual results.”  
+**B9:** trust grows through **business understanding + expertise + proof + transparency + process + communication + independent validation.**
+
+The next distinction is critical:
+
+> **Trust does not automatically equal purchase.**
+
+A prospect can trust CMS and still decide:
+
+- not now;
+- too expensive;
+- wrong scope;
+- prefer another model;
+- need approval;
+- need a smaller commitment.
+
+That is B10.
+
+---
+
+# Source Reliability
+
+## 🟢 High
+
+- Clutch B2B buying-process research.
+- Gartner service-provider selection and digital buying research.
+- Edelman + LinkedIn B2B Thought Leadership Impact research.
+
+## 🟡 Moderate
+
+- LinkedIn creator research; platform-authored.
+- inTandem SMB Marketing Report.
+- Setup Marketing Relationship Survey.
+
+## 🟠 Anecdotal
+
+Agency-vetting guides and owner discussions are useful for recurring red flags and direct language, not prevalence.
+
+## 🔴 Unverified
+
+B9 does not currently establish:
+
+- one single most important trust signal for CMS’s exact ICP;
+- founder visibility as required;
+- founder-led agencies outperforming others;
+- credentials significantly increasing conversion;
+- Western clients preferring or distrusting Filipino providers;
+- case studies mattering more than referrals;
+- exact public pricing being mandatory;
+- personality being more important than expertise.
+
+---
+
+# B9 → B10 Research Implication
+
+B9 explains:
+
+> **“Can I trust them?”**
+
+B10 must answer the different question:
+
+> **“Does working with them make sense now?”**
+
+The conversion layer requires urgency, fit, scope, value, timing, and manageable risk in addition to credibility.
+
+---
+
+*Draft for review. Do not merge into locked Phase 2 until human review.*
