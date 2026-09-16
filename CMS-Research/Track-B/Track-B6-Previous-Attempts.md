@@ -2,328 +2,604 @@
 ## Track B — Western Audience Reality
 ### B6. Previous Attempts
 
-**Status:** Draft for review — standalone research, not yet merged into Phase 2  
-**Research date:** September 16, 2026  
-**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY / fragmented social media marketing
+**Status:** Draft for review — standalone document, not yet merged into Phase 2  
+**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY or fragmented social media marketing  
+**Core question:** What have they already tried before they reach CMS, and why did each attempt continue, fail, or get replaced?
 
 ---
 
-## Related Track A Evidence
+# Why B6 Matters
 
-Track A4 established the market-side differences among **DIY, freelancer, VA, AI, in-house, and agency**. It found that these models solve different levels of execution, control, specialization, and coordination.
-
-B6 changes the question from **what each model offers** to **what the owner already tried, what they hoped it would solve, and why they moved on.**
-
-The Track B guide provides the sequence:
+The Track B guide frames B6 as a sequence problem rather than a single vendor-choice problem. The relevant prior-attempt categories are:
 
 **DIY → Canva/templates → AI → VA → Freelancer → Social Media Manager → Agency → In-house → Nothing / inconsistent activity**
 
-This is a research checklist, **not a universal buyer ladder**.
+The goal is **not** to assume every owner moves through those options in that exact order.
+
+The goal is to understand:
+
+- what problem each option was supposed to solve;
+- what worked;
+- what remained unresolved;
+- what made the owner move to another model.
+
+This matters because the buyer arriving at CMS may already be highly experienced with marketing support. They may not need education on “why social matters.” They may need a model that does not repeat what already disappointed them.
 
 ---
 
-# Core B6 Finding
+# Related Track A Evidence
 
-> **Owners experiment with different combinations of self-service tools, people, and providers because each option solves a different constraint. As the business changes, the remaining constraint changes too.**
+Track A4 established the market-side differences among:
 
-A prior attempt may not have “failed.” It may have solved one layer and exposed the next one.
+- DIY;
+- freelancer;
+- VA;
+- AI;
+- in-house;
+- agency.
 
----
+Its central finding was that these options solve different levels of:
 
-# 1. DIY marketing
+- execution;
+- control;
+- specialization;
+- coordination.
 
-🟢 **High**
+It also suggested that movement toward an agency tends to occur as complexity rises, not simply because budget increases.
 
-BrightLocal and other SMB surveys show owners themselves remain heavily involved in marketing. DIY commonly starts because it is:
+B6 changes the perspective:
 
-- lower cost;
-- immediately accessible;
-- under the owner's control;
-- manageable when the business is small/simple.
-
-### Why they move on
-
-- time ceiling;
-- consistency breakdown;
-- expertise ceiling;
-- rising complexity;
-- growth ambitions.
-
-### Finding
-
-> **DIY is often rational at first; it becomes inadequate when marketing requirements outgrow owner capacity or expertise.**
+> **Instead of asking what each model offers, B6 asks what the owner tried, what they hoped it would solve, and why they moved on.**
 
 ---
 
-# 2. Canva / templates / lightweight creation tools
+# 1. Attempt: DIY marketing
 
-🟡 **Moderate conceptually / 🔴 for prevalence**
+DIY appears to be the strongest starting point.
 
-Track A4 documents growing use of online design tools among small businesses. These tools address:
+BrightLocal’s 2025 SMB research found **54% of small-business owners manage marketing themselves** without an employee or internal team.
+
+Another 2025 small-business marketing study found the owner was primarily responsible for marketing in **59%** of businesses, compared with 29% primarily relying on an internal team and 8% primarily relying on an agency.
+
+Enji’s 2025 U.S. owner survey similarly found **51% outsourced no marketing at all**.
+
+## Why owners start with DIY
+
+The evidence supports several rational motives:
+
+### Cost control
+
+The owner avoids another expense before marketing has proven its value.
+
+### Accessibility
+
+Social platforms and marketing tools are directly available.
+
+### Control
+
+The owner knows the business, product, customers, and voice better than an outsider initially does.
+
+### Early-stage simplicity
+
+A smaller operation may not yet require a complex marketing system.
+
+### B6 interpretation
+
+> **DIY is often a rational starting operating model, not a mistake.**
+
+## Why owners move on
+
+B1–B5 point to four recurring limits:
+
+**time ceiling → consistency failure → expertise ceiling → growth complexity**
+
+### B6 finding
+
+> **DIY becomes inadequate when the business’s marketing requirements outgrow the owner’s capacity, expertise, or desire to keep coordinating everything personally.**
+
+**Confidence: 🟢 High**
+
+---
+
+# 2. Attempt: Canva, templates, and lightweight creation tools
+
+The Track B guide explicitly includes Canva/template attempts, but public buyer research is weak on exact prevalence.
+
+Track A4 showed that small businesses increasingly use online design tools and frequently prefer creating their own ads/assets rather than paying a professional designer.
+
+## What the tool solves
+
+Template tools address:
 
 - visual production;
 - speed;
 - cost;
 - formatting;
-- lack of design skill.
+- basic consistency;
+- lack of design skills.
 
-They do **not inherently solve**:
+## What they do not inherently solve
+
+They do not decide:
 
 - audience;
 - message;
 - offer;
-- platform choice;
+- platform role;
 - funnel role;
 - measurement;
-- strategy.
+- commercial objective.
 
-### Finding
+This creates an important distinction:
 
-> **Template tools can extend the DIY phase by reducing production difficulty while leaving strategic decisions untouched.**
+A tool can solve:
+
+> “I can’t make this look professional.”
+
+while leaving untouched:
+
+> **“I don’t know what we should be saying, to whom, or why.”**
+
+### B6 finding
+
+> **Design/template tools extend the DIY stage by reducing production friction, but they do not inherently solve strategy or operating-model problems.**
+
+**Confidence: 🟡 concept / 🔴 Canva-specific prevalence**
 
 ---
 
-# 3. AI
+# 3. Attempt: AI
 
-🟢 **High**
+AI is now substantial audience behavior, not a fringe experiment.
 
-Verizon 2025 found 28% of U.S. SMB respondents using AI for marketing/social media. National ACE and other U.S. small-business research also show growing daily AI adoption.
+Verizon/Morning Consult found:
 
-AI commonly helps with:
+- **38%** of U.S. SMBs using AI somewhere in the business;
+- **28%** using it for marketing/social media.
+
+ICIC’s business-owner survey found AI being used for:
+
+- data analysis — 26.8%;
+- marketing materials — 25.2%;
+- emails/communications — 23.4%;
+- blogs/newsletters — 22.7%;
+- market exploration — 20.4%;
+- strategic planning — 20.1%.
+
+National ACE found **25%** of nearly 1,000 U.S. small businesses already integrating AI into daily operations, with more than half exploring it.
+
+## Why owners try AI
+
+AI reduces friction around:
 
 - captions;
-- ideation;
 - drafts;
+- ideation;
 - repurposing;
+- visuals;
 - research;
-- images;
 - analysis;
-- admin.
+- administrative work.
 
-### Why they may move on
+That directly addresses a B5 trigger:
 
-AI can move the bottleneck from:
+> “I do not have enough time to create everything manually.”
 
-> “I cannot create enough.”
+## What happens next
 
-to:
+AI often **moves the bottleneck**.
+
+Before AI:
+
+> “I can’t create enough.”
+
+After AI:
 
 > “I can create more, but I still need to decide what is worth creating.”
 
-### Finding
+Track A4 reached a similar market-level conclusion: AI replaces or accelerates systematizable tasks more readily than judgment, context, and strategic direction.
 
-> **AI can extend DIY by lowering production cost and time, but it does not inherently remove the need for judgment, prioritization, or business context.**
+### B6 finding
 
----
+> **AI extends DIY by lowering time and production cost, but does not inherently remove the need for prioritization, judgment, or business understanding.**
 
-# 4. Virtual Assistant
-
-🟡 **Moderate role pattern / 🔴 prevalence**
-
-Track A4 found VA marketing work typically centered on execution: scheduling, posting, repurposing, community management, research, and basic reporting.
-
-### Why they try it
-
-> **“I know roughly what needs to happen; I do not want to personally do it.”**
-
-### What can go wrong
-
-If the owner expects a VA to independently determine positioning, priorities, channel strategy, audience, offer, or measurement, the role may be mis-scoped.
-
-### Finding
-
-> **VA support can remove repetitive execution, but it is less suited when the unresolved problem is strategic direction rather than labor.**
+**Confidence: 🟢 High**
 
 ---
 
-# 5. Freelancer
+# 4. Attempt: Freelancer
 
-🟡 **Moderate**
+Freelancers are clearly part of the SMB marketing environment.
 
-Fiverr and other freelance-market research show SMBs using freelancers for visual, marketing, and specialist tasks.
+Fiverr’s 2025 survey found **46% of its small-business respondents used freelance services** for their primary business. Visual brand work was the largest category at 45%, while strategic marketing services represented 28%.
 
-### Why they try it
+This sample consists of Fiverr users, so the rate should **not** be generalized to all Western SMBs.
 
-- lower commitment than agency;
-- specialist expertise;
+## Why owners hire freelancers
+
+Track A4 identifies:
+
+- lower commitment than an agency;
 - direct communication;
+- specific expertise;
 - flexibility;
-- one bounded task.
+- ability to solve one bounded problem.
 
-### Why the model may stop fitting
+In B6 language:
 
-As the business needs several skills at once, the owner can become the coordinator of multiple freelancers.
+> **The freelancer is often an attempt to stop doing one specific thing personally.**
 
-### Finding
+Examples:
 
-> **Freelancers can solve a specialist execution gap well; the model becomes harder when multiple specialties must work together and the owner still owns coordination.**
+- design;
+- video editing;
+- copywriting;
+- paid ads;
+- content production;
+- social posting.
+
+## Why the model can stop fitting
+
+Once the business needs several skills simultaneously, the owner can become the coordinator:
+
+**designer + copywriter + editor + ads specialist + scheduler + analyst**
+
+Execution was outsourced, but coordination was not.
+
+### B6 finding
+
+> **Freelancers can solve specialist execution gaps well; the model becomes harder when the owner needs multiple specialties coordinated into one system.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
-# 6. Dedicated Social Media Manager
+# 5. Attempt: Virtual Assistant
 
-🟡 **Moderate**
+The buyer-side prevalence evidence is thinner here.
 
-Hiring a dedicated social media manager signals that the business accepts social media as an ongoing function rather than an occasional task.
+Track A4 found marketing/social to be a meaningful VA workload category, usually centered on **execution rather than strategic ownership**.
 
-Typical intended problems:
+Typical VA tasks include:
+
+- scheduling;
+- posting;
+- repurposing;
+- basic creation;
+- community management;
+- research;
+- reporting.
+
+## Why owners try a VA
+
+The underlying need is often:
+
+> **“I know roughly what needs to happen; I do not want to be the one doing it.”**
+
+That is different from:
+
+> “I don’t know what our strategy should be.”
+
+## What can go wrong
+
+If the owner expects the VA to independently determine:
+
+- positioning;
+- audience;
+- strategic priorities;
+- measurement;
+- offer structure;
+- campaign architecture;
+
+then the role can become mis-scoped.
+
+### B6 finding
+
+> **VA support can successfully remove repetitive execution from the owner, but it is less suited to situations where the unresolved problem is strategic direction rather than labor.**
+
+**Confidence: 🟡 role pattern / 🔴 Western ICP prevalence**
+
+---
+
+# 6. Attempt: Dedicated Social Media Manager
+
+A dedicated social-media manager represents a larger operating shift:
+
+> **The business now accepts that social requires ongoing ownership.**
+
+Verizon found more than three in five SMB decision-makers had started or increased content creation, while **54% struggled to keep content fresh/current**.
+
+Its broader SMB sample also included substantial internal staffing around content, although the sample reaches businesses larger than CMS’s core owner-led segment.
+
+## Why they hire one
+
+Likely intended problems include:
 
 - consistency;
-- content production;
+- production;
 - platform management;
 - community management;
 - reporting;
 - owner capacity.
 
-### What may remain unresolved
+## What may remain unresolved
 
-- broader marketing strategy;
-- offer positioning;
+A social-media manager can solve the social execution problem while leaving broader issues unresolved:
+
+- offer;
 - website conversion;
+- business strategy;
 - lead handling;
 - sales process;
 - cross-channel coordination.
 
-### Finding
+### Diagnostic implication
 
-> **A social media manager may solve social execution without solving the wider marketing/business system.**
+If a prospect says:
+
+> “We already tried a social media manager,”
+
+CMS should ask:
+
+> **“What were they actually responsible for?”**
+
+Without that distinction, the prior attempt may be incorrectly classified as failure when it was actually a scope mismatch.
+
+**Confidence: 🟡 Moderate**
 
 ---
 
-# 7. Agency
+# 7. Attempt: Agency
 
-🟢 **High for agency use/churn**
+This is where B6 becomes especially commercially relevant.
 
-inTandem's 2025 survey of 500 U.S. SMB owners found 52% outsourced at least some marketing. Its agency data also showed substantial switching/churn among SMBs using agencies, with social media management among higher-churn services.
+inTandem’s 2025 survey of 500 U.S. SMB owners found:
 
-### Why they try an agency
+- **52% outsourced at least some marketing**;
+- social-media management was among the commonly outsourced services;
+- **40% of SMBs that outsource to an agency switch providers**;
+- more than half of those switchers do so within 6–12 months.
+
+Social-media management was among the service areas with notable churn.
+
+### Key implication
+
+An owner arriving at CMS may not be outsourcing for the first time.
+
+They may be **agency-experienced**.
+
+## Why they try an agency
+
+Track A4 identified the agency model as attractive for:
 
 - coordination;
-- multiple capabilities;
+- multiple skills;
 - accountability;
-- scale;
+- multi-channel work;
 - strategic direction;
 - reduced owner-management burden.
 
-### Why they may move on
+## Why they leave
 
-Current B6 evidence establishes churn but does not justify assigning one universal cause. Possible reasons such as poor communication, generic content, unclear value, weak business understanding, cost, or poor results should remain hypotheses until B9/B10 validation.
+The churn evidence proves switching exists, but the current dataset does not justify assigning one universal reason.
 
-### Finding
+Possible causes remain hypotheses to validate elsewhere:
 
-> **Agency use does not end the search; CMS may meet buyers who already understand agency service and carry stronger expectations because of prior disappointment.**
+- poor communication;
+- unclear value;
+- generic content;
+- weak business understanding;
+- bad results;
+- cost;
+- mismatched expectations.
 
----
+### B6 finding
 
-# 8. In-house marketing
+> **Agency use does not end the search. A meaningful segment of SMB agency users switch providers, so CMS may encounter buyers with stronger expectations shaped by prior disappointment.**
 
-🟡 **Moderate**
-
-Businesses may prefer in-house support for:
-
-- control;
-- proximity;
-- cultural fit;
-- real-time collaboration;
-- business context.
-
-### What can go wrong
-
-One internal generalist may be expected to cover strategy, design, video, copy, social, email, paid ads, analytics, and web work.
-
-### Finding
-
-> **In-house hiring can solve proximity and context while still leaving a specialist-breadth or overload problem.**
+**Confidence: 🟢 for agency use/churn / 🔴 for one dominant churn reason from B6 evidence alone**
 
 ---
 
-# 9. “Nothing” or intermittent activity
+# 8. Attempt: In-house marketing
 
-🟡 **Moderate**
+In-house hiring addresses a different desire:
 
-Content-maintenance difficulty supports the existence of an intermittent operating state:
+> **control + proximity + business context**
+
+Track A4 found these motivations repeatedly across comparison research.
+
+Another 2025 SMB study reported **29%** relying primarily on an internal team.
+
+## Why owners choose in-house
+
+The logic can be:
+
+> “Someone inside will understand us better than an outsider.”
+
+That directly addresses one of the weaknesses owners often perceive in agencies.
+
+## What can still go wrong
+
+One person may become expected to handle:
+
+- strategy;
+- design;
+- video;
+- copy;
+- social;
+- email;
+- paid media;
+- analytics;
+- website work.
+
+The business moved beyond owner-DIY but recreated the same overload problem in a single generalist.
+
+### B6 finding
+
+> **In-house hiring can solve proximity and context, but one generalist does not automatically provide the specialist breadth required by a more complex marketing system.**
+
+**Confidence: 🟡 Moderate**
+
+---
+
+# 9. Attempt: Nothing / intermittent marketing
+
+“Nothing” should not be treated as no behavior.
+
+Sometimes the operating pattern is:
 
 **start → stop → restart → disappear → return when necessary**
 
-Possible causes:
+Verizon’s finding that **54% struggle to keep content fresh/current** supports maintenance difficulty.
 
-- competing priorities;
+Enji’s research similarly shows many owners still managing marketing personally in very limited weekly time.
+
+## Why this happens
+
+Possible causes already established elsewhere in Track B include:
+
 - owner workload;
 - uncertain results;
-- cost;
-- unclear ownership;
-- lack of strategy.
+- cost constraints;
+- no clear strategy;
+- lack of ownership;
+- more urgent priorities.
 
-### Finding
+### B6 finding
 
-> **Doing nothing does not necessarily mean disbelief in marketing; it can be the outcome of a system that repeatedly loses against more urgent business priorities.**
+> **Doing nothing may not mean the owner disbelieves in marketing. It may be the outcome of a marketing system that continually loses against more immediate business priorities.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
-# Previous Attempts Are Not a Universal Ladder
+# 10. These attempts are not a universal ladder
 
-Possible real journeys include:
+The guide lists categories to investigate. It does not prove a universal sequence.
 
-- DIY → AI → DIY;
-- DIY → freelancer → in-house;
-- DIY → agency → DIY;
-- employee → agency → freelancer;
-- nothing → freelancer;
-- in-house → agency + in-house hybrid.
+Real journeys can look like:
 
-The more useful principle is:
+**DIY → AI → DIY**
+
+or
+
+**DIY → freelancer → in-house**
+
+or
+
+**DIY → agency → DIY**
+
+or
+
+**employee → agency → freelancer**
+
+or
+
+**nothing → freelancer**
+
+or
+
+**in-house → agency + in-house hybrid**
+
+### B6 conclusion
 
 > **Owners assemble and replace marketing resources based on whichever constraint is currently most painful.**
 
 ---
 
-# What Each Attempt Tends to Solve
+# 11. What each attempt is trying to solve
 
-| Attempt | Primary problem it tends to address | What may remain unresolved |
+| Attempt | Primary problem addressed | What may remain unresolved |
 |---|---|---|
 | DIY | Cost, control, accessibility | Time, expertise, scale |
 | Canva/templates | Visual production | Strategy, audience, measurement |
 | AI | Speed, ideation, repetitive production | Judgment, priorities, business context |
 | VA | Repetitive execution | Strategic direction |
 | Freelancer | Specific specialist need | Coordination across specialties |
-| Social Media Manager | Ongoing social ownership | Broader marketing/business system |
-| Agency | Integration, scale, multiple capabilities | Fit, trust, value clarity, business understanding |
-| In-house | Control, proximity, context | Specialist breadth, fixed cost, overload |
-| Nothing/inconsistent | Avoids cost/time temporarily | Visibility, continuity, growth opportunity |
+| Social Media Manager | Ongoing social ownership | Broader business/marketing system |
+| Agency | Integration, scale, multiple capabilities | Fit, trust, business understanding, value clarity |
+| In-house | Control, proximity, deep context | Specialist breadth, fixed cost, overload |
+| Nothing/inconsistent | Avoids immediate time/cost | Visibility, continuity, growth opportunity |
+
+This is a **research synthesis**, not a quantified migration model.
 
 ---
 
-# The Important Pattern: Solutions Move the Bottleneck
+# 12. The important B6 pattern: each solution can move the bottleneck
 
-A useful B6 sequence is:
+This is one of the strongest B6 conclusions.
 
 ### DIY
-“I have to do everything.”
 
-### Add design tools
-“I can make things faster.”
+> “I have to do everything.”
+
+### Add Canva
+
+> “I can make things faster.”
+
+But:
+
+> “I still have to decide what to make.”
 
 ### Add AI
-“I can generate ideas and drafts.”
+
+> “I can generate ideas and drafts.”
+
+But:
+
+> “I still need judgment and direction.”
 
 ### Hire a VA
-“Someone can execute.”
+
+> “Someone can execute.”
+
+But:
+
+> “I still have to manage strategy.”
 
 ### Hire freelancers
-“I have specialists.”
+
+> “I have specialists.”
+
+But:
+
+> “I have to coordinate them.”
 
 ### Hire an agency
-“Someone coordinates more of the system.”
 
-Each step can expose the next constraint:
+> “Someone coordinates more of the system.”
 
-**production → execution → expertise → coordination → strategy → trust/value**
+But now the questions become:
+
+> “Do they understand my business?”
+
+> “Are the results worth the money?”
+
+> “Can I trust them?”
+
+### Core pattern
+
+> **Previous attempts often do not simply fail. They solve one layer and expose the next one.**
+
+That is a much more useful audience reality than “cheap solutions fail until people buy an agency.”
 
 ---
 
-# Prior Attempts Can Create Trust Baggage
+# 13. The owner may arrive at CMS educated by failure
 
-A prospect who has already tried tools, freelancers, VAs, social managers, or agencies may enter CMS conversations with stronger questions about:
+A prospect who has tried:
+
+- Canva;
+- ChatGPT;
+- a VA;
+- a freelancer;
+- a social-media manager;
+- an agency;
+
+is not a beginner.
+
+They may already have strong opinions about:
 
 - cost;
 - communication;
@@ -332,65 +608,185 @@ A prospect who has already tried tools, freelancers, VAs, social managers, or ag
 - reporting;
 - originality;
 - reliability;
-- strategy;
-- value.
+- strategic value;
+- what they refuse to repeat.
 
-This is why discovery should ask:
+The agency-churn evidence supports the existence of this experienced-buyer segment.
 
-> **What have you already tried?**
+### Discovery implication
+
+CMS should not ask only:
+
+> “What do you need?”
+
+It should also ask:
+
+> **“What have you already tried?”**
 
 and
 
-> **What happened?**
+> **“What happened?”**
+
+Those two questions may reveal more than the requested service.
 
 ---
 
-# A Failed Attempt May Be a Scope Failure
+# 14. A failed attempt may actually be a scope failure
 
-Examples:
+This is one of B6’s most important safeguards.
 
-- “The VA didn't work.” → Was the VA expected to create strategy?
-- “The freelancer didn't work.” → Was nobody coordinating the overall system?
-- “The social media manager didn't increase sales.” → Was the sales constraint elsewhere?
-- “AI content didn't work.” → Was production speed actually the issue?
-- “The agency didn't work.” → Was there a genuine delivery failure, fit mismatch, scope problem, or expectation gap?
+### “The VA didn’t work.”
 
-This reinforces B3:
+Possible reality:
+
+The VA was expected to create strategy despite being hired primarily for execution.
+
+### “The freelancer didn’t work.”
+
+Possible reality:
+
+The freelancer delivered their specialty correctly, but nobody coordinated the wider system.
+
+### “The social-media manager didn’t increase sales.”
+
+Possible reality:
+
+The sales constraint existed in the offer, website, or sales process.
+
+### “AI didn’t work.”
+
+Possible reality:
+
+The original problem was not production speed.
+
+### “The agency didn’t work.”
+
+Possible realities include genuine agency failure, wrong expectations, wrong scope, wrong measurement, or poor fit.
+
+### B6 principle
 
 > **The visible failure is not always the actual failure.**
 
----
-
-# Core B6 Finding
-
-> **The owner may arrive at CMS already educated by previous attempts. CMS should diagnose what each attempt solved, what it failed to solve, and where the current bottleneck now sits.**
+That directly reinforces B3.
 
 ---
 
-# Source Base
+# 15. Previous attempts create trust baggage
 
-- BrightLocal, *SMB Marketing Report 2025*
-- Verizon Business / Morning Consult, *2025 State of Small Business Survey*
-- inTandem/vcita, *2025 SMB Marketing Report*
-- Fiverr, *Small Business Survey 2025*
-- National ACE / Reimagine Main Street, 2025 AI adoption research
-- Enji, *State of Small Business Marketing 2025*
-- Track A4, *DIY vs Freelancer vs VA vs Agency vs In-House* (GitHub repo cross-reference)
+The agency-churn data matters because buyers may enter a new relationship with prior expectations already shaped by disappointment.
 
----
+Questions can include:
 
-# Research Gaps
+- Will you understand us?
+- Will the content be generic again?
+- What exactly are we paying for?
+- Who actually does the work?
+- Will communication disappear after onboarding?
+- Are we locked into a retainer?
+- Are you just using AI?
+- What happens if results are slow?
 
-Current evidence does not establish:
+B9 validates these trust drivers more systematically.
 
-- that Canva usually comes first;
-- that AI usually precedes freelancers;
-- that VA use usually precedes agency use;
-- a standard number of failed attempts;
-- which provider type disappoints most;
-- that cheaper providers fail more often;
-- the exact prevalence of VAs/social media managers in CMS's ICP.
+B6 explains **why those concerns may already exist before CMS enters the conversation.**
 
 ---
 
-*This document covers Track B6 only. Findings remain Draft for review and should not be merged automatically into locked Phase 2.*
+# B6 Evidence Matrix
+
+| Previous attempt | Evidence it is used | Why they try it | Why they may move on | Confidence |
+|---|---|---|---|---|
+| DIY | Majority owner responsibility appears in multiple surveys | Cost, control, simplicity | Time, skill, complexity | 🟢 |
+| Canva/templates | DIY design-tool adoption established in Track A | Faster/cheaper production | Strategy still unresolved | 🟡 |
+| AI | 28% U.S. SMBs use AI in marketing/social | Speed, drafts, ideas, efficiency | Judgment/strategy remains | 🟢 |
+| VA | Execution role documented | Remove repetitive work | Owner may retain strategic burden | 🟡 |
+| Freelancer | Significant use in marketplace SMB samples | Specialist skill without headcount | Coordination burden rises | 🟡 |
+| Social Media Manager | Dedicated social ownership exists | Consistency/ongoing management | Broader marketing problems may remain | 🟡 |
+| Agency | 52% outsource some marketing in one U.S. SMB study | Integration, expertise, scale | Meaningful agency churn exists | 🟢 |
+| In-house | Significant internal-team use | Control/context/proximity | Generalist overload/cost | 🟡 |
+| Nothing/inconsistent | Supported by content-maintenance difficulty | Competing priorities/cost | Marketing restarts reactively | 🟡 |
+
+---
+
+# The Core B6 Finding
+
+The strongest finding is **not**:
+
+> “Owners try cheap solutions before they buy an agency.”
+
+That is too simplistic.
+
+A stronger conclusion is:
+
+> **Owners experiment with different combinations of self-service tools, people, and providers because each option solves a different constraint. As the business changes, the remaining constraint changes too.**
+
+The journey can therefore move through:
+
+**production problem → execution problem → expertise problem → coordination problem → strategy problem → trust/value problem**
+
+The owner may arrive at CMS after several earlier layers have already been solved.
+
+---
+
+# B1 → B6 Cumulative Picture
+
+**B1:** owner has limited attention.  
+**B2:** social exists inside the business.  
+**B3:** visible symptoms may not reveal root cause.  
+**B4:** uncertainty creates pressure.  
+**B5:** help becomes relevant when the current model imposes visible cost.  
+**B6:** tools/people/providers solve some constraints while exposing others.
+
+Working synthesis:
+
+> **CMS’s buyer may often be less interested in “trying marketing” than in finding a model that does not repeat what already failed.**
+
+---
+
+# Source Reliability
+
+## 🟢 High
+
+- Verizon Business / Morning Consult 2025 SMB survey.
+- inTandem 2025 SMB Marketing Report.
+- ICIC AI-in-business research.
+
+## 🟡 Moderate
+
+- BrightLocal SMB Marketing 2025.
+- Enji State of Small Business 2025.
+- Fiverr Small Business Survey 2025; large but marketplace-user skew.
+- National ACE AI Adoption research.
+
+## 🟠 Anecdotal
+
+Practitioner explanations and owner stories are useful for mechanisms and language, not prevalence.
+
+## 🔴 Unverified
+
+Current research does not establish:
+
+- Canva as the usual first tool;
+- AI always coming before a freelancer;
+- VA commonly preceding agency;
+- a standard number of failed providers;
+- which option disappoints most;
+- cheaper providers failing more often;
+- agency churn being primarily caused by results;
+- one universal progression.
+
+---
+
+# B6 → B7 Research Implication
+
+B6 establishes that many buyers may arrive with **experience rather than ignorance**.
+
+B7 therefore asks:
+
+> **Once an owner recognizes a problem or becomes dissatisfied with a prior attempt, where do they go to figure out what to do next?**
+
+That includes search, AI, social platforms, YouTube, LinkedIn, Reddit, Facebook groups, peers, reviews, agency websites, and direct referrals.
+
+---
+
+*Draft for review. Do not merge into locked Phase 2 until human review.*
