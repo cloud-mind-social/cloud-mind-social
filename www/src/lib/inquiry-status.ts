@@ -19,6 +19,9 @@ export function isInquiryStatus(value: string): value is InquiryStatus {
 
 export type InquiryFilter = InquiryStatus | "all" | "open";
 
+/** `logged` is local development, where there is no EMAIL binding to send with. */
+export type AckDelivery = "sent" | "failed" | "logged";
+
 export type Inquiry = {
   id: string;
   name: string;
@@ -29,6 +32,12 @@ export type Inquiry = {
   message: string | null;
   status: InquiryStatus;
   source: string;
+  /**
+   * How the acknowledgement email went. NULL for inquiries taken before this
+   * was recorded — unknown rather than failed, so they show no warning.
+   */
+  ack_delivery: AckDelivery | null;
+  ack_error: string | null;
   created_at: string;
   updated_at: string;
 };

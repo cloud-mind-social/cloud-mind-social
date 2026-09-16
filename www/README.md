@@ -45,6 +45,26 @@ npm run db:migrate:staging    # staging
 
 ### 2. Onboard the sending domain
 
+> **This step has not been done for `cloudmindsocial.com`, and outbound mail is
+> failing because of it.** Checked 2026-09-16: the zone has Email *Routing*
+> (MX to `route*.mx.cloudflare.net`, an aligned SPF, a `cf2024-1` DKIM key and
+> a `p=none` DMARC) but **no `cf-bounce.cloudmindsocial.com` records**, which is
+> what onboarding Email *Sending* publishes. Until it is onboarded the `EMAIL`
+> binding delivers only to verified destination addresses on the account and
+> rejects every other recipient with `E_RECIPIENT_NOT_ALLOWED` — so the branded
+> acknowledgement this site promises each person who fills in the form is not
+> arriving. The inquiry itself is safe (the D1 row is written before any send is
+> attempted) and the inbox now marks those inquiries rather than showing them as
+> fully handled. Nothing needs redeploying afterwards: the failure is at the
+> binding, not in this code.
+>
+> Related, and tracked separately: `hello@cloudmindsocial.com` — this site's
+> `MAIL_REPLY_TO` and `INQUIRY_NOTIFY_TO` — is **not a mailbox**. The zone
+> accepts mail for it and has nowhere to put it, because no mail Worker was ever
+> deployed for this domain. The runbook for that is
+> `docs/cloudmindsocial-deploy.md` in `Coastal-Carolina-Tech/email-server`.
+
+
 Mail goes out through **Cloudflare Email Sending** using the `EMAIL` binding —
 no API key, no third-party account. It's in beta and needs the Workers Paid
 plan to reach arbitrary recipients.
@@ -74,7 +94,12 @@ The plain (non-secret) values — `SITE_URL`, `MAIL_FROM`, `MAIL_REPLY_TO`,
 
 `MAIL_REPLY_TO` and `INQUIRY_NOTIFY_TO` must be a mailbox that actually
 **receives** mail — that's where customer replies and new-inquiry alerts land.
-Check it has MX records before trusting it.
+
+Checking for MX records is not enough, and on this domain it gives a false
+pass: `cloudmindsocial.com` publishes MX, so the check succeeds, but those
+records point at Cloudflare Email Routing and no Worker is subscribed to the
+catch-all, so the mail has nowhere to go. Confirm a *mailbox* exists — send to
+it and read it back — not just that the zone has MX.
 
 ### 4. Deploy and create the account
 

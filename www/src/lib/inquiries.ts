@@ -4,6 +4,7 @@ import { getDb } from "@/lib/env";
 import { newId } from "@/lib/id";
 import type { InquiryInput } from "@/lib/validation";
 import type {
+  AckDelivery,
   Inquiry,
   InquiryFilter,
   InquiryNote,
@@ -12,7 +13,7 @@ import type {
 } from "@/lib/inquiry-status";
 
 const INQUIRY_COLUMNS = `id, name, business, email, phone, stage, message,
-  status, source, created_at, updated_at`;
+  status, source, ack_delivery, ack_error, created_at, updated_at`;
 
 export async function createInquiry(
   input: InquiryInput & { ipHash: string | null; userAgent: string | null },
@@ -46,6 +47,28 @@ export async function createInquiry(
 
   if (!row) throw new Error("Inquiry could not be read back after insert.");
   return row;
+}
+
+/**
+ * Notes how the acknowledgement went, after the fact — the inquiry row is
+ * written and returned before any mail is attempted, so this never sits
+ * between a submission and its being saved. A failure here is swallowed for
+ * the same reason: losing the record of a send must not lose the inquiry.
+ */
+export async function recordAcknowledgement(
+  id: string,
+  delivery: AckDelivery,
+  error: string | null,
+): Promise<void> {
+  try {
+    const db = await getDb();
+    await db
+      .prepare(`UPDATE inquiries SET ack_delivery = ?2, ack_error = ?3 WHERE id = ?1`)
+      .bind(id, delivery, error)
+      .run();
+  } catch (cause) {
+    console.error("[inquiry] could not record acknowledgement delivery", cause);
+  }
 }
 
 export async function listInquiries(filter: InquiryFilter = "open"): Promise<Inquiry[]> {

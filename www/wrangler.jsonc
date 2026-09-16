@@ -67,7 +67,12 @@
       ],
       "send_email": [{ "name": "EMAIL" }],
       "vars": {
-        "SITE_URL": "https://cloud-mind-social-staging.workers.dev",
+        // Deliberately no SITE_URL. The real staging host is
+        // cloud-mind-social-staging.<account-subdomain>.workers.dev, and the
+        // bare .workers.dev spelling that used to be here resolves nowhere —
+        // every link in a staging email pointed at a host that does not exist.
+        // Left unset, siteUrl() falls back to the origin of the request that
+        // is sending the mail, which is correct for staging by construction.
         "MAIL_FROM": "Cloud Mind Social <hello@cloudmindsocial.com>",
         "MAIL_REPLY_TO": "hello@cloudmindsocial.com",
         "INQUIRY_NOTIFY_TO": "hello@cloudmindsocial.com"
