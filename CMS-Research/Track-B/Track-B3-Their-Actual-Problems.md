@@ -2,331 +2,647 @@
 ## Track B — Western Audience Reality
 ### B3. Their Actual Problems
 
-**Status:** Draft for review — standalone research, not yet merged into Phase 2  
-**Research date:** September 16, 2026  
-**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY / fragmented social media marketing
+**Status:** Draft for review — standalone document, not yet merged into Phase 2  
+**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY or fragmented social media marketing  
+**Framework:** **Stated Problem → Actual Problem to Investigate**  
+**Research standard:** 🟢 High / 🟡 Moderate / 🟠 Anecdotal / 🔴 Unverified.
 
 ---
 
-## Research Frame
+# The Core Question
 
-B3 uses the framework:
+> **When the owner names a social-media problem, is that the actual business constraint or only the most visible symptom?**
 
-> **Stated Problem → Actual Problem**
+B3 exists because the problem an owner notices first is not always the problem that deserves intervention first.
 
-The goal is to preserve the problem the owner notices while testing whether the evidence supports a deeper strategic, operational, measurement, capacity, or conversion constraint.
+An owner may say:
 
-This section should not assume owners misunderstand their businesses. It should distinguish visible symptoms from underlying causes.
+> “We need more content.”
+
+But the actual issue might be:
+
+- no repeatable content system;
+- no clear audience;
+- no owner of the process;
+- no commercial role for content;
+- no sustainable production capacity.
+
+This does **not** mean CMS should assume it knows better than the owner. It means the stated problem should become the beginning of diagnosis rather than the end of it.
 
 ---
 
-# Core B3 Finding
+# Central B3 Pattern
 
-> **Owners often encounter a marketing problem at the level of a visible symptom; the underlying constraint may sit one or more layers deeper in strategy, capacity, measurement, channel fit, customer journey, or business economics.**
+> **Owners often encounter the problem at the level of a visible marketing symptom; the underlying issue may sit one or more layers deeper in strategy, capacity, measurement, channel fit, conversion, or business economics.**
 
-This is a diagnostic framework, not a claim that every owner misdiagnoses their marketing problem.
+The strongest contradiction emerging from B1–B3 is:
+
+> **belief in the channel does not automatically equal operational ability to use it well.**
+
+The owner can believe social media matters and still be struggling with the wrong problem definition.
 
 ---
 
 # 1. “We need more content.”
 
-### Evidence
+## Stated problem
 
-Verizon's 2025 U.S. SMB research found more than three in five respondents had begun creating content or increased content investment, while 54% still struggled to keep content fresh and stay current with social trends.
+> “We aren't creating enough.”
 
-BrightLocal's 2025 survey found 54% of SMB owners managed marketing entirely themselves.
+## Actual problem to investigate
 
-### Possible actual problem
+> **Do we actually have a sustainable system, capacity, audience understanding, or strategic basis for producing useful content?**
 
-- capacity;
-- lack of repeatable workflow;
-- unclear ownership;
-- unclear audience/content strategy;
-- insufficient expertise.
+Verizon’s 2025 SMB research found more than three in five businesses had started creating more content or increased investment in it, while **54% still struggled to keep content fresh and current**.
 
-### Stated → Actual
+BrightLocal’s 2025 U.S. SMB research found **54% managing marketing entirely themselves**.
 
-> **“We need more content.” → “We may not have a sustainable system, capacity, or strategic basis for producing useful content.”**
+Those findings together support a real content-capacity problem.
 
-**Confidence:** 🟢 for content-capacity pressure; 🟡 for the exact root cause in an individual business.
+But they do not prove that content volume itself is always the limiting variable.
+
+A business can produce more content and still have:
+
+- weak positioning;
+- unclear audience;
+- no conversion path;
+- no measurement;
+- poor offer-market fit.
+
+### B3 interpretation
+
+> **“More content” may be a production request when the deeper need is a repeatable marketing system.**
+
+**Confidence: 🟢 for content-capacity pressure; 🟡 for specific root causes**
 
 ---
 
 # 2. “We need to post more.”
 
-Organic social does not produce equally strong perceived impact across businesses. BrightLocal found significant variation in perceived effectiveness of both organic and paid social.
+## Stated problem
 
-Increasing frequency may therefore treat a symptom rather than the underlying issue.
+> “We aren't posting often enough.”
 
-### Possible actual problem
+## Actual problem to investigate
 
-- unclear objective;
-- wrong content role;
-- unsustainable cadence;
-- weak audience/message fit.
+> **What is the objective of increasing frequency, and can the business sustain it without lowering relevance or increasing waste?**
 
-### Stated → Actual
+BrightLocal’s SMB research shows organic social media is perceived very differently across businesses:
 
-> **“We need to post more.” → “We may need clearer objectives, content roles, and a sustainable publishing system before increasing volume.”**
+- high impact — **30%**;
+- medium impact — **38%**;
+- low impact — **22%**;
+- no impact — **10%**.
 
-**Confidence:** 🟡 Moderate
+That variation matters.
+
+A business with unclear objectives may respond to weak performance by simply increasing output.
+
+But more publishing does not automatically repair:
+
+- wrong message;
+- wrong platform;
+- wrong audience;
+- weak offer;
+- inconsistent quality;
+- absence of conversion path.
+
+### B3 interpretation
+
+> **Before prescribing more frequency, diagnose what increasing frequency is supposed to improve.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 3. “We need more followers.”
 
-The Track B guide explicitly includes this as audience-style language, but current Western research does **not** establish how many CMS-type buyers identify follower growth as their primary problem.
+## Stated problem
 
-Broader SMB research does show that their business goals are usually commercial: attracting customers, increasing sales/revenue, awareness, and leads.
+> “Our audience isn't big enough.”
 
-### Diagnostic question
+## Actual problem to investigate
 
-> **What business result are additional followers expected to produce?**
+> **What business outcome are followers expected to create, and is follower count actually the bottleneck?**
 
-### Stated → Actual
+BrightLocal’s primary marketing-goal data shows owners prioritizing outcomes such as:
 
-> **“We need more followers.” → “We need to identify the business outcome followers are expected to create and whether follower growth is actually the limiting factor.”**
+- new customers — **20%**;
+- sales/revenue — **18%**;
+- satisfaction — **15%**;
+- awareness — **13%**;
+- leads/inquiries — **10%**.
 
-**Confidence:** 🟢 for commercial business goals; 🔴 for prevalence of “more followers” as a dominant stated problem.
+That is strong evidence that business goals extend beyond follower count.
 
----
+But current research does **not** establish how often CMS’s ICP literally says “I need more followers.”
 
-# 4. “Our social media isn't working.”
+### B3 interpretation
 
-BrightLocal's 2025 data shows businesses report very different levels of perceived impact from organic and paid social.
+Follower growth can be useful.
 
-The phrase “not working” is therefore incomplete unless the business defines what success means.
+But CMS must ask:
 
-### Possible actual problem
+> **“What is the larger business result this audience growth is supposed to support?”**
 
-- undefined outcome;
-- measurement problem;
-- poor audience/message fit;
-- conversion issue;
-- channel mismatch.
-
-### Stated → Actual
-
-> **“Social media isn't working.” → “We first need to establish the intended business outcome, measurement method, and role social is supposed to play.”**
-
-**Confidence:** 🟢 for variation in perceived impact; 🟡 for measurement-definition as a root cause.
+**Confidence: 🟢 that business objectives extend beyond followers; 🔴 for prevalence of this exact phrase within CMS’s audience**
 
 ---
 
-# 5. “We need better graphics.”
+# 4. “We need better graphics.”
 
-The Track B guide includes this as real-world owner-style wording. Current evidence does not support visual quality as a universal top constraint for Western owner-led businesses.
+## Stated problem
 
-Better graphics can solve a presentation problem but do not automatically solve:
+> “Our content doesn't look good enough.”
 
-**message → audience → offer → funnel → conversion → measurement**
+## Actual problem to investigate
 
-### Stated → Actual
+> **Is visual quality actually limiting performance, or is design simply the easiest visible part of a deeper messaging/strategy problem?**
 
-> **“We need better graphics.” → “We need to determine whether visual execution is actually limiting performance or is simply the most visible part of a deeper messaging or strategy problem.”**
+The Track B guide includes this phrase because it is a plausible owner complaint, but external evidence does not establish design quality as a leading constraint across CMS’s audience.
 
-**Confidence:** 🟡 as a diagnostic principle; 🔴 for prevalence.
+Better visuals may absolutely matter in some cases.
+
+But they cannot independently repair:
+
+- unclear positioning;
+- weak offer;
+- irrelevant content;
+- poor audience understanding;
+- inconsistent brand message;
+- no commercial path.
+
+### B3 interpretation
+
+> **Do not turn an easy-to-see problem into an automatic diagnosis.**
+
+**Confidence: 🟡 diagnostic principle; 🔴 prevalence**
 
 ---
 
-# 6. “We need better reach.”
+# 5. “Social media isn't working.”
 
-Potential causes include:
+## Stated problem
+
+> “We're doing social but getting nothing from it.”
+
+## Actual problem to investigate
+
+First establish:
+
+1. what outcome social was expected to create;
+2. what success metric was being used;
+3. how the business was attributing results;
+4. what role social was supposed to play in the customer journey.
+
+BrightLocal’s research shows major variation in perceived social impact.
+
+Organic social:
+
+- high — 30%;
+- medium — 38%;
+- low — 22%;
+- none — 10%.
+
+Paid social:
+
+- high — 32%;
+- medium — 35%;
+- low — 20%;
+- none — 13%.
+
+That variation demonstrates that social does not perform uniformly across businesses.
+
+It does **not** reveal why.
+
+### B3 interpretation
+
+> **“Not working” is incomplete until “working toward what?” is answered.**
+
+**Confidence: 🟢 for performance variation; 🟡 for measurement definition as root cause**
+
+---
+
+# 6. “We need more reach.”
+
+## Stated problem
+
+> “Not enough people are seeing us.”
+
+## Actual problem to investigate
+
+Possible constraints include:
 
 - distribution;
-- audience quality;
-- content relevance;
 - platform fit;
-- organic/paid mix;
-- low brand demand.
+- audience size;
+- audience relevance;
+- content relevance;
+- format;
+- paid amplification;
+- underlying demand.
 
-### Stated → Actual
+Low reach may genuinely be the problem.
 
-> **“We need more reach.” → “We need to identify whether the bottleneck is distribution, audience selection, relevance, platform fit, or demand.”**
+But increasing reach to the wrong audience can create larger numbers without creating business value.
 
-**Confidence:** 🟡 Moderate
+### B3 interpretation
+
+> **Reach is useful only when connected to relevant people and a useful next step.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 7. “We need more leads.”
 
-Lead generation is a legitimate SMB marketing objective, but low lead volume can originate from several layers:
+## Stated problem
 
-- insufficient demand generation;
-- weak offer;
+> “Social isn't bringing enough inquiries.”
+
+## Actual problem to investigate
+
+Possible bottlenecks include:
+
+- insufficient demand;
 - wrong audience;
+- weak offer;
 - low trust;
-- poor conversion;
+- poor landing page;
+- poor call-to-action;
 - weak follow-up;
+- unclear positioning;
+- poor conversion;
 - attribution failure.
 
-### Stated → Actual
+BrightLocal establishes that customer and lead acquisition are real SMB marketing goals.
 
-> **“We need more leads.” → “We need to determine whether the constraint is demand, audience quality, conversion, offer, trust, follow-up, or attribution.”**
+But the existence of the goal does not prove that social distribution is the limiting factor.
 
-**Confidence:** 🟢 for lead/customer acquisition as an important goal; 🟡 for the individual root-cause framework.
+### B3 interpretation
+
+> **Lead problems need a journey diagnosis, not automatically more top-of-funnel content.**
+
+**Confidence: 🟢 for the importance of leads/customers; 🟡 for root-cause categories**
 
 ---
 
 # 8. “We need more sales.”
 
-Sales/revenue is one of the strongest SMB marketing goals in current surveys. Social media can influence sales without controlling the entire sales system.
+## Stated problem
 
-Potential constraints may sit in:
+> “Marketing isn't generating enough revenue.”
 
-**awareness → consideration → trust → offer → website → lead capture → follow-up → pricing → product-market fit → retention**
+## Actual problem to investigate
 
-### Stated → Actual
+Which stage is actually restricting conversion?
 
-> **“We need more sales from social.” → “We need to determine which part of the customer journey is limiting conversion and whether social is responsible for that stage.”**
+Possible stages include:
 
-**Confidence:** 🟢 High
+**awareness → interest → trust → inquiry → sales conversation → offer → purchase → retention**
+
+BrightLocal found **18%** of SMB respondents naming sales/revenue as their single primary marketing goal.
+
+That supports the relevance of the outcome.
+
+But:
+
+> low sales ≠ automatically poor social-media management.
+
+The constraint could exist in:
+
+- pricing;
+- offer;
+- sales process;
+- product-market fit;
+- site conversion;
+- follow-up;
+- trust;
+- capacity to fulfill.
+
+### B3 interpretation
+
+> **Social can contribute to sales without owning every stage that produces the sale.**
+
+**Confidence: 🟢 High for the goal; 🟡 for root diagnosis**
 
 ---
 
 # 9. “We don't know what to post.”
 
-Verizon's content-freshness findings support this as a meaningful operational difficulty.
+## Stated problem
 
-Possible deeper problems:
+> “We keep running out of ideas.”
 
+## Actual problem to investigate
+
+The business may lack a repeatable system for converting:
+
+**business expertise + audience needs + customer questions + commercial priorities**
+
+into content.
+
+Verizon’s finding that **54% struggle to keep content fresh and current** directly supports the surface difficulty.
+
+But the reasons can vary:
+
+- no content pillars;
 - no audience clarity;
-- no content architecture;
-- no funnel logic;
-- no source system for turning business knowledge into content;
-- no accountable owner of content operations.
+- weak access to subject-matter expertise;
+- no capture system;
+- unclear strategy;
+- approval bottlenecks;
+- too few production resources.
 
-### Stated → Actual
+### B3 interpretation
 
-> **“We don't know what to post.” → “We may lack a repeatable system that turns business knowledge, audience needs, and commercial priorities into content.”**
+> **The problem may be architecture rather than creativity.**
 
-**Confidence:** 🟢 for content freshness difficulty; 🟡 for exact underlying causes.
+**Confidence: 🟢 surface problem / 🟡 root causes**
 
 ---
 
 # 10. “We can't keep up.”
 
-Verizon found 54% of U.S. SMBs struggled to keep content fresh and stay current with social trends. B1 also established that marketing competes with multiple operational responsibilities.
+## Stated problem
 
-### Possible actual problem
+> “There is too much to manage.”
 
-The underlying constraint may be **capacity + complexity**, not individual productivity.
+## Actual problem to investigate
 
-### Stated → Actual
+> **Does the current marketing operating model still fit the complexity of the business?**
 
-> **“We can't keep up.” → “The marketing operating model may no longer match the complexity of the business and channels being managed.”**
+This is one of the strongest B3 findings because B1 and B2 already establish:
 
-**Confidence:** 🟢 for operational strain; 🟡 for operating-model diagnosis.
+- limited owner attention;
+- increasing content demand;
+- multiple platforms;
+- AI/tools;
+- mixed ownership;
+- growing marketing complexity.
+
+The owner may not need greater personal productivity.
+
+They may need a different operating model.
+
+### B3 interpretation
+
+> **“Can't keep up” can be evidence that the business has outgrown the current way marketing is organized.**
+
+**Confidence: 🟢 operational strain / 🟡 operating-model diagnosis**
 
 ---
 
 # 11. “Marketing costs too much.”
 
-BrightLocal found 36% of SMB respondents said cost held them back from investing in marketing channels.
+## Stated problem
 
-But “too expensive” may mean:
+> “We can't justify the spend.”
 
-- genuinely insufficient cash;
-- unclear return;
+## Actual problem to investigate
+
+Cost objections can come from several different realities:
+
+- genuine cash constraint;
+- uncertain ROI;
 - oversized scope;
-- previous disappointment;
-- poor prioritization.
+- wrong provider;
+- wrong priority;
+- prior failed investment;
+- low trust;
+- weak value explanation.
 
-### Stated → Actual
+BrightLocal found:
 
-> **“Marketing is too expensive.” → “The constraint may be cash, confidence in ROI, inappropriate scope, poor prioritization, or previous failed investment.”**
+- **36%** said cost prevents investment in some marketing channels;
+- **26%** cited declining cash flow/profitability.
 
-Sometimes the correct diagnosis may genuinely be **do less**.
+### Critical CMS implication
 
-**Confidence:** 🟢 for cost as a constraint; 🟡 for root-cause categories.
+CMS should not automatically treat every price objection as something to overcome.
+
+Sometimes the correct diagnosis may be:
+
+> **do less.**
+
+Or:
+
+> **not yet.**
+
+Or:
+
+> **fix another constraint first.**
+
+That is consistent with Diagnosis Before Prescription.
+
+**Confidence: 🟢 for cost constraints; 🟡 for root categories**
 
 ---
 
 # 12. “We need someone to manage social.”
 
-Owner-managed marketing is common in SMB research, but outsourcing is not automatically the correct response.
+## Stated problem
 
-The actual need could be:
+> “We need to outsource this.”
 
-- execution capacity;
-- strategic guidance;
-- partial delegation;
+## Actual problem to investigate
+
+What exactly requires external ownership?
+
+Possible answers:
+
+- execution only;
+- scheduling;
 - content production;
-- paid-media expertise;
+- video;
+- strategy;
+- community management;
+- paid media;
 - analytics;
 - training;
-- temporary system setup;
-- full outsourced management.
+- setup;
+- full management.
 
-### Stated → Actual
+BrightLocal’s finding that **54% manage marketing themselves** supports the existence of substantial DIY ownership.
 
-> **“We need someone to manage social media.” → “We need to determine which responsibilities actually need external ownership and which should remain with the business.”**
+But it does **not** prove outsourcing is automatically the right solution.
 
-**Confidence:** 🟢 for DIY prevalence; 🟡 for delegation diagnosis.
+### B3 interpretation
+
+> **The decision to outsource should follow diagnosis of which responsibility actually needs to move.**
+
+**Confidence: 🟢 DIY prevalence; 🟡 delegation diagnosis**
 
 ---
 
-# B3 Problem Matrix
+# B3 Stated Problem → Actual Problem Matrix
 
 | Stated problem | Actual problem to investigate | Confidence |
 |---|---|---|
-| “We need more content.” | Capacity, workflow, strategy, expertise | 🟢/🟡 |
-| “We need to post more.” | Objectives, role, sustainability | 🟡 |
-| “We need more followers.” | Business outcome behind follower growth | 🟢 objective gap / 🔴 prevalence |
-| “We need better graphics.” | Whether design is truly the bottleneck | 🟡/🔴 |
-| “Social isn't working.” | Definition and measurement of success | 🟢/🟡 |
-| “We need more reach.” | Distribution, relevance, audience, platform | 🟡 |
-| “We need more leads.” | Demand, conversion, offer, trust, follow-up | 🟢/🟡 |
-| “We need more sales.” | Customer-journey bottleneck | 🟢 |
-| “We don't know what to post.” | Content system/audience clarity | 🟢/🟡 |
-| “We can't keep up.” | Capacity + complexity | 🟢/🟡 |
-| “Marketing costs too much.” | Cash, ROI confidence, scope, prioritization | 🟢/🟡 |
-| “We need someone to manage it.” | Exact responsibility that needs external ownership | 🟢/🟡 |
+| More content | Capacity, workflow, audience clarity, strategy | 🟢/🟡 |
+| Post more | Objective, publishing system, relevance | 🟡 |
+| More followers | Undefined business outcome or real audience constraint | 🟢 objective gap / 🔴 prevalence |
+| Better graphics | Visual quality vs. messaging/strategy constraint | 🟡 / 🔴 prevalence |
+| Social isn't working | Success definition, measurement, role in journey | 🟢/🟡 |
+| More reach | Distribution, audience, relevance, platform fit | 🟡 |
+| More leads | Demand, conversion, offer, trust, follow-up | 🟢/🟡 |
+| More sales | Bottleneck elsewhere in the customer journey | 🟢/🟡 |
+| Don't know what to post | Content architecture and source system | 🟢/🟡 |
+| Can't keep up | Operating-model mismatch | 🟢/🟡 |
+| Marketing costs too much | Cash, ROI, scope, priority, past failure | 🟢/🟡 |
+| Need a manager | Determine which role actually needs external ownership | 🟢/🟡 |
 
 ---
 
-# Where Stated and Actual Problems Diverge
+# Three Important Divergences
 
-Three recurring forms of divergence appear:
+## 1. Output problem vs. system problem
 
-1. **Output vs system** — not enough posts may actually mean no sustainable production system.
-2. **Metric vs business outcome** — followers/reach may be intermediate metrics while customers/revenue are the real objective.
-3. **Channel symptom vs business-system constraint** — weak social results may originate in offer, website, lead handling, or another stage.
+The owner sees:
 
-The framework is strongly useful diagnostically, but its prevalence inside CMS's exact ICP remains unmeasured.
+> “Not enough posts.”
+
+The deeper issue may be:
+
+> **No process for deciding, producing, approving, publishing, and learning from content.**
+
+This is the strongest divergence in B3.
 
 ---
 
-# Core B3 Finding
+## 2. Metric problem vs. business-outcome problem
 
-> **Owners often experience marketing problems through visible symptoms such as content volume, consistency, reach, followers, leads, design, cost, or lack of time. Those symptoms do not always identify the constraint actually limiting the business outcome.**
+The owner may notice:
 
-CMS's strategic opportunity is:
+- followers;
+- reach;
+- views;
+- engagement.
 
-**symptom → investigation → root constraint → appropriate response**
+But the business may actually care about:
+
+- customers;
+- inquiries;
+- revenue;
+- awareness;
+- retention.
+
+The platform metric is not automatically the business objective.
+
+---
+
+## 3. Channel symptom vs. business-system constraint
+
+The owner may say:
+
+> “Social isn't generating sales.”
+
+The constraint might instead be:
+
+- offer;
+- trust;
+- website;
+- lead response;
+- price;
+- sales process;
+- audience fit.
+
+This framework is conceptually strong, but the current research does **not** quantify how often CMS’s exact audience misdiagnoses the constraint.
+
+**Framework confidence: 🟡  
+Prevalence: 🔴 Unverified**
+
+---
+
+# The Core B3 Finding
+
+> **Owners often experience marketing problems through their most visible symptoms: content volume, consistency, reach, followers, leads, design, cost, or lack of time. Those symptoms do not always identify the constraint that is actually limiting the business outcome.**
+
+CMS’s role should therefore be:
+
+**symptom → investigation → actual constraint → appropriate response**
 
 rather than:
 
-**request → service package**
+**request → package**
 
 ---
 
-# What This Evidence Does Not Prove
+# B1 → B2 → B3
 
-- that business owners generally misunderstand marketing;
-- that one root problem dominates across industries;
-- that outsourcing is usually the right answer;
-- that any percentage of CMS's exact audience misdiagnoses its problem;
-- that a visible social problem necessarily originates in social media.
+### B1
+The owner is operationally overloaded and balancing multiple business responsibilities.
+
+### B2
+Social media is already inside the business, but ownership and maturity vary.
+
+### B3
+When something goes wrong, the problem may appear as a visible social-media symptom rather than the underlying strategic or operational constraint.
+
+Combined:
+
+> **The business does not necessarily need “more social media.” It needs clarity on what is failing, why it is failing, and which part actually deserves intervention.**
+
+This is a Track B synthesis, not a locked strategic claim.
 
 ---
 
-# Source Base
+# What B3 Does Not Prove
 
-- Verizon Business + Morning Consult, *2025 State of Small Business Survey*
-- BrightLocal, *SMB Marketing Report 2025*
-- Track B guide, examples and Audience Problem Matrix framing
+The evidence does **not** establish:
+
+- how many CMS prospects misdiagnose their marketing problem;
+- which stated problem is most common;
+- that owners generally care most about followers;
+- that design complaints are common;
+- that outsourcing is usually the correct answer;
+- that every low-sales problem sits outside social media;
+- one dominant root cause across the audience.
+
+This is why diagnosis itself must remain evidence-based.
 
 ---
 
-*This document covers Track B3 only. Findings remain Draft for review and should not be merged automatically into locked Phase 2.*
+# Source Reliability
+
+## 🟢 High
+
+**Verizon Business / Morning Consult 2025**  
+600 U.S. SMB decision-makers. Strong evidence for increasing content investment and difficulty keeping content fresh/current.
+
+## 🟡 Moderate
+
+**BrightLocal SMB Marketing Report 2025**  
+778 U.S. SMB owners/managers. Useful direct evidence for DIY marketing, cost constraints, business-oriented goals, and varied perceived social impact; vendor study and not exact CMS ICP.
+
+## 🟠 Anecdotal
+
+Direct owner comments become especially useful in B4/B8 for emotional reality and language, but should not establish prevalence here.
+
+## 🔴 Unverified
+
+Excluded from firm findings:
+
+- percentage saying “we need followers”;
+- percentage blaming design;
+- percentage misdiagnosing their social problem;
+- one most common root problem;
+- outsourcing as the generally correct solution.
+
+---
+
+# B3 → B4 Research Implication
+
+B3 identifies a structural gap between **what the owner notices** and **what may actually be wrong**.
+
+B4 should not simply add more operational evidence.
+
+The Track B guide specifically requires stronger first-party evidence for the emotional layer:
+
+> **What does it feel like to keep working on marketing without being sure what is actually wrong?**
+
+That requires surveys, interviews, comments, owner discussions, sales conversations, and direct language rather than agency interpretation alone.
+
+---
+
+*Draft for review. Do not merge into locked Phase 2 until human review.*
