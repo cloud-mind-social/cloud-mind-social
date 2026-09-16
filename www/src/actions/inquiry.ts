@@ -5,7 +5,7 @@ import { headers } from "next/headers";
 import { getEnv, siteUrl } from "@/lib/env";
 import { getDb } from "@/lib/env";
 import { consumeRateLimit, hashIp, purgeExpiredRateLimits } from "@/lib/rate-limit";
-import { createInquiry } from "@/lib/inquiries";
+import { createInquiry, recordAcknowledgement } from "@/lib/inquiries";
 import { sendEmail } from "@/lib/email/send";
 import { inquiryAlertEmail, inquiryReceivedEmail } from "@/lib/email/templates";
 import { parseInquiry } from "@/lib/validation";
@@ -13,6 +13,10 @@ import type { InquiryFormState } from "@/lib/form-state";
 
 const GENERIC_FAILURE =
   "Something went wrong on our end. Please try again, or email us directly.";
+
+function messageOf(cause: unknown): string {
+  return cause instanceof Error ? cause.message : String(cause);
+}
 
 export async function submitInquiry(
   _prev: InquiryFormState,
@@ -95,8 +99,19 @@ export async function submitInquiry(
         : Promise.resolve({ ok: true as const, id: null, mode: "logged" as const }),
     ]);
 
-    if (ack.status === "rejected" || (ack.status === "fulfilled" && !ack.value.ok)) {
-      console.error("[inquiry] acknowledgement email failed", ack);
+    // Record how the acknowledgement went, so the inbox can say "we never
+    // reached them" instead of showing an inquiry that looks fully handled.
+    // Until a sending domain is onboarded this fails for every real address
+    // with E_RECIPIENT_NOT_ALLOWED, and that was previously invisible outside
+    // the Worker logs.
+    if (ack.status === "rejected") {
+      console.error("[inquiry] acknowledgement email failed", ack.reason);
+      await recordAcknowledgement(inquiry.id, "failed", messageOf(ack.reason));
+    } else if (!ack.value.ok) {
+      console.error("[inquiry] acknowledgement email failed", ack.value.error);
+      await recordAcknowledgement(inquiry.id, "failed", ack.value.error);
+    } else {
+      await recordAcknowledgement(inquiry.id, ack.value.mode, null);
     }
     if (notify.status === "rejected" || (notify.status === "fulfilled" && !notify.value.ok)) {
       console.error("[inquiry] alert email failed", notify);

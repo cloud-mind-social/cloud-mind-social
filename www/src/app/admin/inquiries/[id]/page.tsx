@@ -125,6 +125,23 @@ export default async function InquiryPage({
             </div>
           </Panel>
 
+          {inquiry.ack_delivery === "failed" ? (
+            <div className="rounded-2xl border border-amber/50 bg-amber/10 p-6">
+              <p className="text-[15px] leading-relaxed text-cream">
+                <strong className="font-medium">
+                  {inquiry.name} never got the acknowledgement.
+                </strong>{" "}
+                The inquiry was saved, but the automatic reply the site promises
+                did not go out — so as far as they know, nothing happened.
+              </p>
+              {inquiry.ack_error ? (
+                <p className="mt-3 font-mono text-[11px] leading-relaxed text-amber-soft">
+                  {inquiry.ack_error}
+                </p>
+              ) : null}
+            </div>
+          ) : null}
+
           <Panel title="Reply">
             <ReplyComposer
               inquiryId={inquiry.id}
