@@ -1,0 +1,211 @@
+@import "tailwindcss";
+
+/* Cloud Mind Social palette — the paper and navy ink the mark is drawn in,
+   with sage and amber as the two accents. Mirrors www/src/app/globals.css so
+   the inbox and the site read as one brand. */
+:root {
+  --paper: #fbfaf7;
+  --paper-raised: #f4f2ea;
+  --ink: #1e2b48;
+  --ink-soft: #4a5878;
+  --ink-faint: #616c86;
+  --hairline: #e0dcd0;
+  --hairline-strong: #b6b0a0;
+  --accent: #5e7448;
+  --accent-strong: #46572f;
+  --accent-soft: #e6ebdd;
+  --brass: #c2731a;
+  --brass-soft: #f6e6d0;
+  --danger: #96393f;
+  --danger-soft: #f6dfe0;
+
+  --shadow-lift: 0 1px 2px rgba(30, 43, 72, 0.06), 0 8px 24px -12px rgba(30, 43, 72, 0.18);
+}
+
+:root[data-theme="dark"] {
+  --paper: #1e2b48;
+  --paper-raised: #26365a;
+  --ink: #f6f4ee;
+  --ink-soft: #b9c0d0;
+  --ink-faint: #8b93a8;
+  --hairline: #2e4068;
+  --hairline-strong: #4a5878;
+  --accent: #a8bf8a;
+  --accent-strong: #c6d8ad;
+  --accent-soft: #2b3a25;
+  --brass: #e9b878;
+  --brass-soft: #3a2a15;
+  --danger: #dd9483;
+  --danger-soft: #3a2320;
+  --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #1e2b48;
+    --paper-raised: #26365a;
+    --ink: #f6f4ee;
+    --ink-soft: #b9c0d0;
+    --ink-faint: #8b93a8;
+    --hairline: #2e4068;
+    --hairline-strong: #4a5878;
+    --accent: #a8bf8a;
+    --accent-strong: #c6d8ad;
+    --accent-soft: #2b3a25;
+    --brass: #e9b878;
+    --brass-soft: #3a2a15;
+    --danger: #dd9483;
+    --danger-soft: #3a2320;
+    --shadow-lift: 0 1px 2px rgba(0, 0, 0, 0.4), 0 8px 24px -12px rgba(0, 0, 0, 0.6);
+  }
+}
+
+@theme inline {
+  --color-paper: var(--paper);
+  --color-paper-raised: var(--paper-raised);
+  --color-ink: var(--ink);
+  --color-ink-soft: var(--ink-soft);
+  --color-ink-faint: var(--ink-faint);
+  --color-hairline: var(--hairline);
+  --color-hairline-strong: var(--hairline-strong);
+  --color-accent: var(--accent);
+  --color-accent-strong: var(--accent-strong);
+  --color-accent-soft: var(--accent-soft);
+  --color-brass: var(--brass);
+  --color-brass-soft: var(--brass-soft);
+  --color-danger: var(--danger);
+  --color-danger-soft: var(--danger-soft);
+  --font-display: var(--font-display);
+  --font-body: var(--font-body);
+  --font-mono: var(--font-mono);
+}
+
+* {
+  border-color: var(--hairline);
+}
+
+html {
+  color-scheme: light;
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body), ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+.font-display {
+  font-family: var(--font-display), ui-serif, Georgia, serif;
+  font-optical-sizing: auto;
+}
+
+/* Subtle paper grain, layered under content so it never fights legibility. */
+.grain {
+  position: relative;
+  isolation: isolate;
+}
+.grain::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.5;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix type='matrix' values='0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.03 0'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+:root[data-theme="dark"] .grain::before {
+  mix-blend-mode: overlay;
+  opacity: 0.35;
+}
+
+@keyframes rise-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.rise-in {
+  animation: rise-in 0.4s cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.fade-in {
+  animation: fade-in 0.25s ease-out both;
+}
+
+::selection {
+  background: var(--brass-soft);
+  color: var(--ink);
+}
+
+/* Scrollbar tuned to the palette, WebKit + Firefox. */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--hairline-strong) transparent;
+}
+*::-webkit-scrollbar {
+  width: 10px;
+  height: 10px;
+}
+*::-webkit-scrollbar-thumb {
+  background: var(--hairline-strong);
+  border-radius: 999px;
+  border: 2px solid var(--paper);
+}
+
+/* Composer body (Tiptap/ProseMirror) */
+.ProseMirror {
+  min-height: 220px;
+  outline: none;
+  font-size: 0.9375rem;
+  line-height: 1.7;
+  color: var(--ink);
+}
+.ProseMirror p {
+  margin: 0 0 0.75em;
+}
+.ProseMirror ul,
+.ProseMirror ol {
+  margin: 0 0 0.75em;
+  padding-left: 1.4em;
+}
+.ProseMirror ul {
+  list-style: disc;
+}
+.ProseMirror ol {
+  list-style: decimal;
+}
+.ProseMirror a {
+  color: var(--accent-strong);
+  text-decoration: underline;
+  text-decoration-color: var(--hairline-strong);
+  text-underline-offset: 2px;
+}
+.ProseMirror blockquote {
+  margin: 0.75em 0;
+  padding-left: 0.9em;
+  border-left: 2px solid var(--hairline-strong);
+  color: var(--ink-soft);
+}
+.ProseMirror p.is-editor-empty:first-child::before {
+  content: attr(data-placeholder);
+  float: left;
+  height: 0;
+  color: var(--ink-faint);
+  pointer-events: none;
+}
