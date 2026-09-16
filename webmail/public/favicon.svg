@@ -1,0 +1,10 @@
+<svg width="100" height="100" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cct" x1="0" y1="0" x2="100" y2="100" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0d98ba"/>
+      <stop offset="1" stop-color="#0a7e9b"/>
+    </linearGradient>
+  </defs>
+  <rect width="100" height="100" rx="26" fill="url(#cct)"/>
+  <text x="50" y="66" text-anchor="middle" font-family="Georgia, 'Times New Roman', serif" font-size="46" font-weight="600" fill="#f7f3e9">CT</text>
+</svg>

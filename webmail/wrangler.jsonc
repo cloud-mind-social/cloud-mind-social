@@ -1,0 +1,53 @@
+/**
+ * For more details on how to configure Wrangler, refer to:
+ * https://developers.cloudflare.com/workers/wrangler/configuration/
+ */
+{
+	"$schema": "node_modules/wrangler/config-schema.json",
+	// Distinct per tenant, and load-bearing. This Cloudflare account already
+	// runs `webmail` (rmyllc.com), `webmail-cct` and `fch-webmail`. Two Workers
+	// sharing a name make every deploy overwrite the other AND reassign its
+	// custom domains — that is how webmail.coastalcarolinatech.com was dropped
+	// once already. Keep WORKER_SELF_REFERENCE below in step with this name.
+	"name": "webmail-cloudmind",
+	"main": ".open-next/worker.js",
+	"compatibility_date": "2026-07-22",
+	"compatibility_flags": [
+		"nodejs_compat",
+		"global_fetch_strictly_public"
+	],
+	"assets": {
+		"binding": "ASSETS",
+		"directory": ".open-next/assets"
+	},
+	"images": {
+		// Enable image optimization
+		// see https://opennext.js.org/cloudflare/howtos/image
+		"binding": "IMAGES"
+	},
+	"services": [
+		{
+			// Self-reference service binding; the service name MUST equal the
+			// Worker name above. Left pointing at another tenant's Worker, this
+			// app's OpenNext cache calls land in that tenant's Worker instead —
+			// and nothing errors, so it is only noticed by the wrong cache being
+			// served. see https://opennext.js.org/cloudflare/caching
+			"binding": "WORKER_SELF_REFERENCE",
+			"service": "webmail-cloudmind"
+		}
+	],
+	"observability": {
+		"enabled": true
+	},
+	"upload_source_maps": true,
+	// The API's CSRF check and CORS origin trust exactly one origin —
+	// https://webmail.<ORG_DOMAIN> — so the workers.dev URL must not serve the
+	// app: signing in from it fails with "invalid origin".
+	"workers_dev": false,
+	// A preview version of this Worker resolves this Worker's own bindings, so
+	// a workers.dev preview URL would serve real webmail with none of the
+	// custom-domain routing in front of it. Builds still prove the branch
+	// compiles; they just must not be reachable.
+	"preview_urls": false,
+	"routes": [{ "pattern": "webmail.cloudmindsocial.com", "custom_domain": true }]
+}
