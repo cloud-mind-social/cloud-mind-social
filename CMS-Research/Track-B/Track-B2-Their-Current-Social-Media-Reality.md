@@ -2,274 +2,621 @@
 ## Track B — Western Audience Reality
 ### B2. Their Current Social Media Reality
 
-**Status:** Draft for review — standalone research, not yet merged into Phase 2  
-**Research date:** September 16, 2026  
-**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY / fragmented social media marketing
+**Status:** Draft for review — standalone document, not yet merged into Phase 2  
+**Scope:** Western-primary audience only. This document examines how social media currently appears to operate inside the kinds of growth-stage, owner-led businesses CMS intends to serve.  
+**Research standard:** 🟢 High / 🟡 Moderate / 🟠 Anecdotal / 🔴 Unverified.
 
 ---
 
-## How to Read This Document
+# The Core Question
 
-| Tag | Meaning |
-|---|---|
-| 🟢 **High** | Named survey/body with disclosed sample or strong primary evidence |
-| 🟡 **Moderate** | Vendor/trade survey, narrower population, or interpretive synthesis |
-| 🟠 **Anecdotal** | Individual practitioner/owner accounts |
-| 🔴 **Unverified** | Not strong enough for a firm CMS finding |
+> **How is social media actually being operated inside the business right now?**
 
----
+B1 established that the owner is often balancing operations, compliance, staff, customers, financial administration, and growth decisions. B2 moves directly into the marketing environment and asks:
 
-## Related Track A Evidence
+- who manages social;
+- how often content is published;
+- who creates it;
+- whether strategy exists;
+- whether there is a content calendar;
+- how involved the owner remains;
+- whether VAs, freelancers, employees, agencies, or AI are involved;
+- which platforms matter;
+- what social is expected to accomplish;
+- how success is measured.
 
-Track A6 established the market-level gap between **strategy and execution**. Track A4 established that businesses can obtain social support through multiple operating models. B2 changes altitude from the service market to the buyer's operating environment: it tests whether CMS's audience runs social through coherent ownership and strategy or through a fragmented combination of owners, employees, tools, AI, freelancers, and outside providers.
+The strongest overall finding is:
 
----
-
-# Core Question
-
-> What does social media currently look like inside the businesses CMS wants to serve?
-
-The central B2 finding is:
-
-> **Social media is already inside the business; the question is how coherently it is being operated.**
+> **Social media is already inside the business. The important question is not whether the business “uses social,” but how coherently that social activity is being operated.**
 
 ---
 
-# 1. Social media is already part of the operating reality
+# Related Track A Evidence
 
-🟢 **High**
+Track A6 established a market-level gap between **strategy and execution**. Track A4 established that businesses can obtain social-media support through multiple operating models: DIY, freelancer, VA, agency, AI, and in-house.
 
-Verizon/Morning Consult's 2025 U.S. small-business survey (600 SMB decision-makers) found 76% agreed social media positively affects business performance, while 62% had begun creating content or increased content investment in the prior year.
+B2 changes altitude from the service market to the buyer’s actual operating environment.
 
-CFIB's September 2025 Canadian survey of 2,400+ independent owners found nine in ten used at least one digital channel; 59% used Facebook and 41% Instagram. Adoption of Instagram and LinkedIn increased with business size.
-
-**Finding:** the practical question for CMS is less "Should this business be on social?" and more "What role is social playing, and is the operating model appropriate to the business goal?"
+> **B2 tests whether CMS’s audience runs social through coherent strategy and ownership, or through a fragmented combination of owner effort, employees, tools, AI, freelancers, and outside providers.**
 
 ---
 
-# 2. Who manages social media?
+# 1. Social media is already part of the business environment
 
-🟡 **Mixed models supported; exact distribution unverified**
+🟢 **This is one of the strongest B2 findings.**
 
-Public research confirms that owners, internal staff, tools, external specialists, and agencies all participate in SMB social-media management. However, there is not enough strong Western evidence to provide one precise owner/employee/VA/freelancer/agency distribution for CMS's exact ICP.
+Verizon Business/Morning Consult’s 2025 U.S. small-business survey of 600 decision-makers found:
 
-**Do not invent percentages here.**
+- **76%** agreed social media positively affects business performance;
+- **62%** had either begun creating content or increased investment in content during the previous year.
+
+CFIB’s September 2025 Canadian small-business research, covering more than 2,400 independent business owners, found:
+
+- roughly **9 in 10** use at least one digital channel;
+- **59%** use Facebook;
+- **41%** use Instagram;
+- adoption of Instagram and LinkedIn rises with business size.
+
+### Interpretation
+
+For much of the CMS audience, the starting problem is unlikely to be:
+
+> “Should we exist on social media?”
+
+The more useful question is:
+
+> **“What role is social media currently playing, and is the way it is being operated appropriate to what the business expects from it?”**
+
+**Confidence: 🟢 High**
 
 ---
 
-# 3. Publishing frequency creates capacity pressure
+# 2. Who currently manages social media?
 
-🟢 **High for consistency pressure; 🟡 for universal cadence**
+This is one of B2’s biggest evidence gaps.
 
-Adobe Express's 2025 owner survey reported 44% posting weekly and 18% daily, while many owners felt pressure to increase volume. HubSpot's broader marketer research showed substantial variation in publishing cadence.
+Public research shows that social media is commonly handled through a mix of:
 
-Verizon found 54% of SMB respondents struggled to keep online content fresh and stay current with social trends.
+- owner involvement;
+- employees;
+- dedicated marketing staff;
+- freelancers;
+- agencies;
+- tools;
+- AI.
 
-**Finding:** the issue is not that every owner must post daily; it is that recurring publishing creates a continuing capacity burden.
+But the current research does **not** provide a defensible Western CMS-specific distribution such as:
+
+> “40% owner, 20% VA, 15% freelancer…”
+
+That type of percentage would be invented.
+
+TechBehemoths’ small-business social research provides indirect evidence that many businesses still operate social manually or semi-manually. Across platforms, roughly **47–77%** were not using scheduling tools, with manual behavior especially visible on TikTok and YouTube.
+
+That demonstrates operational informality, but it does **not** tell us exactly who owns the function.
+
+### B2 conclusion
+
+> **Mixed ownership is well-supported; exact ownership distribution is not.**
+
+**Confidence: 🟡 Moderate for mixed models; 🔴 for exact role distribution**
+
+---
+
+# 3. How frequently are they publishing?
+
+Adobe Express’s 2025 research among business owners reported:
+
+- **44%** posting weekly;
+- **18%** posting daily;
+- **44%** feeling pressure to increase content volume;
+- **24%** believing their audience expects daily content.
+
+A related Adobe finding reported **63%** feeling pressure to post daily.
+
+HubSpot’s broader 2025 marketer dataset found:
+
+- **19.7%** publishing multiple times per day;
+- **30.9%** publishing multiple times per week;
+- **64%** publishing less than daily.
+
+Verizon’s SMB survey adds a more useful operational finding:
+
+- **54%** struggle to keep content fresh and current.
+
+### Interpretation
+
+The evidence does not support one universal “correct” cadence.
+
+What it does show is that **maintaining a recurring flow of relevant content is itself a management problem** for a substantial portion of SMBs.
+
+The relevant question for CMS is therefore not:
+
+> “Are they posting every day?”
+
+It is:
+
+> **“Can the current system reliably produce useful content at a sustainable frequency?”**
+
+**Confidence: 🟢 for content-freshness pressure; 🟡 for universal cadence conclusions**
 
 ---
 
 # 4. Who creates the content?
 
-🟢 **Content investment is strong; 🔴 exact creator mix**
+Verizon shows strong growth in SMB content investment, but its public findings do not give a clean owner-vs-employee-vs-provider split.
 
-Verizon's data shows increased content creation and investment, but public evidence is insufficient to state exactly how much is created by owners versus employees, freelancers, VAs, or agencies within CMS's ICP.
+This means B2 cannot responsibly state:
+
+> “Most owners create the content themselves.”
+
+What the evidence does establish is that content creation is already being treated as an ongoing business activity, and that many businesses are increasing their investment in it.
+
+The creator may be:
+
+- the owner;
+- a staff member;
+- a marketer;
+- an assistant;
+- a freelancer;
+- an agency;
+- AI-assisted combinations of the above.
+
+### B2 conclusion
+
+> **Content production exists as a recurring operational responsibility; who carries that responsibility varies and remains insufficiently quantified.**
+
+**Confidence: 🟢 for increased content activity; 🔴 for exact creator mix**
 
 ---
 
-# 5. Does the business have a strategy?
+# 5. Do they have a strategy?
 
-🟡 **Moderate**
+This question requires caution.
 
-High social adoption combined with widespread difficulty maintaining fresh content suggests that **perceived importance does not automatically equal operational maturity**.
+The evidence shows:
 
-This does **not** prove that 54% have no strategy. Content pressure and strategy absence are different claims.
+- strong belief that social contributes to performance;
+- increasing content activity;
+- substantial difficulty keeping content fresh/current;
+- uneven use of planning/scheduling systems.
+
+Those facts suggest that **perceived importance does not automatically equal operational maturity**.
+
+However, B2 must not convert Verizon’s “54% struggle to keep content fresh” into:
+
+> “54% have no social-media strategy.”
+
+That is not what the survey measured.
+
+A business can have a strategy and still struggle with execution.
+
+Another business can post consistently with no meaningful strategy.
+
+### B2 conclusion
+
+> **There is evidence of uneven social-media maturity, but not enough evidence to quantify the percentage of CMS’s audience operating without strategy.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
-# 6. Do they use a content calendar or scheduling system?
+# 6. Do they use a content calendar?
 
-🟡 **Moderate**
+TechBehemoths’ research gives a useful but imperfect view:
 
-TechBehemoths' platform-management research found businesses using a mix of scheduling tools, manual planning, and spontaneous posting. In its sample, 26.5% scheduled with tools, 26% planned manually, and 15.3% reported spontaneous posting.
+- **26.5%** reported scheduling through tools;
+- **26%** reported manually planning content;
+- **15.3%** described more spontaneous posting.
 
-This is vendor evidence and should not be generalized as a population benchmark. Lack of scheduling software also does not equal lack of planning.
+This suggests multiple planning styles rather than one dominant system.
+
+But:
+
+> not using a scheduling tool ≠ not having a calendar.
+
+A business can plan in spreadsheets, notes, documents, project-management tools, or informal recurring routines.
+
+### B2 conclusion
+
+> **Formalized planning exists, but many businesses still appear to operate social through lightweight or manual systems.**
+
+**Confidence: 🟡 Moderate**
 
 ---
 
 # 7. How involved is the owner?
 
-🟡 **Moderate**
+Adobe and other owner-focused research demonstrates that owners remain exposed to marketing work, but it does not define the exact form of that involvement.
 
-Owner-focused surveys on posting pressure and content creation demonstrate direct owner exposure to social-media work, but do not establish one universal role.
+Owner involvement could mean:
 
-Owner involvement can include:
+- writing posts;
+- creating video;
+- approving content;
+- being the on-camera face;
+- supplying ideas;
+- reviewing strategy;
+- answering comments;
+- choosing campaigns;
+- supervising a provider.
 
-- execution;
-- idea generation;
-- appearing on camera;
-- approvals;
-- strategic decisions;
-- reporting review.
+### Important distinction
 
----
+CMS should not assume:
 
-# 8. Virtual assistants
+> “Owner involvement = owner personally executing everything.”
 
-🔴 **Prevalence unverified**
+The owner may be deeply involved strategically while execution is delegated.
 
-VA use is clearly present in the broader small-business support market, but direct Western evidence is not strong enough to say how common it is among CMS's exact ICP or whether the VA typically handles strategy versus execution.
+Or the owner may be doing everything because no one else owns the function.
 
----
-
-# 9. Freelancers
-
-🔴 **Prevalence unverified**
-
-Track A confirms freelancers are a significant marketing-services option. B2 cannot yet establish their exact prevalence inside CMS's audience.
+**Confidence: 🟡 Moderate**
 
 ---
 
-# 10. Employees / internal staff
+# 8. Are VAs involved?
 
-🔴 **Exact role distribution unverified**
+Direct Western evidence on the prevalence of virtual assistants specifically managing social media for CMS’s ICP is inadequate.
 
-Internal involvement is common, but "employee-managed social" can mean a dedicated marketer, admin assistant, salesperson, founder's assistant, or another staff member with social added to their role.
+Track A4 shows that VAs commonly perform execution-oriented social tasks such as:
 
----
+- scheduling;
+- posting;
+- repurposing;
+- basic creation;
+- community management;
+- basic reporting.
 
-# 11. AI is now part of the operating environment
+But B2 cannot claim that VA use is common within the exact target audience without stronger buyer-side evidence.
 
-🟢 **High**
+### Status
 
-Verizon 2025 found 38% of U.S. SMBs using AI somewhere in their businesses and 28% specifically using AI for marketing/social.
-
-Constant Contact/Ascend2's 2025 survey of 2,500 decision-makers across the U.S., Canada, UK, and Australia found 48% using AI in marketing; common applications included email/social copy, visuals, and data analysis.
-
-National ACE/Reimagine Main Street's 2025 research of nearly 1,000 U.S. small businesses found 25% had integrated AI into daily operations, with more than half exploring it.
-
-**Finding:** AI is no longer an edge case, but it is not universal and does not necessarily operate the entire marketing function.
-
----
-
-# 12. Platform use varies by business context
-
-🟢 **High**
-
-Across Verizon, CFIB, LocaliQ, and other 2025–2026 SMB research:
-
-- Facebook repeatedly appears as a major SMB platform;
-- Instagram is also widely used;
-- LinkedIn rises in importance for B2B and larger businesses;
-- YouTube and TikTok vary significantly by audience, country, industry, and content capability.
-
-There is **no single Western platform hierarchy** that should be applied to every CMS prospect.
+**Role pattern: 🟡 Moderate**  
+**Prevalence: 🔴 Unverified**
 
 ---
 
-# 13. What is social supposed to accomplish?
+# 9. Are freelancers involved?
 
-🟢 **High**
+Track A establishes a large active freelance market for marketing services.
 
-BrightLocal's 2025 SMB marketing survey found primary goals including:
+But again, market existence is different from audience prevalence.
 
-- attract new customers — 20%;
-- increase sales/revenue — 18%;
-- customer satisfaction — 15%;
-- brand awareness — 13%;
-- increase leads/inquiries — 10%.
+B2 can safely state:
 
-Across Verizon and Intuit research, social is used for promotion, customer connection, engagement, traffic, reach, and customer acquisition.
+> **Freelancers are one available operating model used by small businesses.**
 
-The underlying expectation is usually commercial:
+B2 cannot safely state:
 
-> **visibility → engagement → traffic → inquiries → acquisition → sales/revenue**
+> “Most growth-stage owner-led businesses use freelancers.”
+
+The stronger question becomes B6:
+
+> why did they hire one, and what happened?
+
+**Confidence: 🟡 market existence / 🔴 exact ICP prevalence**
+
+---
+
+# 10. Are employees handling social?
+
+Yes, clearly in some businesses.
+
+Verizon’s broader SMB population includes businesses with internal content staff. Other datasets show marketing ownership increasingly shifts internally as firm size rises.
+
+But CMS’s commercial ICP includes businesses at different growth stages, so the exact role could range from:
+
+- general employee doing social “on the side”;
+- one marketing generalist;
+- dedicated social-media staff;
+- broader internal marketing team.
+
+### B2 conclusion
+
+> **Internal social ownership exists across multiple maturity levels; exact staffing structures within CMS’s audience remain unquantified.**
+
+**Confidence: 🟡 Moderate**
+
+---
+
+# 11. Is AI involved?
+
+🟢 **Yes. AI is now part of normal SMB marketing behavior, although it is not universal.**
+
+Verizon’s 2025 SMB research found:
+
+- **38%** using AI somewhere in the business;
+- **28%** using AI for marketing/social media.
+
+Constant Contact/Ascend2’s 2025 survey of 2,500 SMB decision-makers across the U.S., Canada, UK, Australia and New Zealand found:
+
+- **48%** using AI in marketing;
+- **37%** using AI for email/social copy;
+- **29%** for visual creation;
+- **25%** for analysis.
+
+National ACE/Reimagine Main Street’s 2025 U.S. research, covering nearly 1,000 small businesses, found:
+
+- **25%** already integrating AI into daily operations;
+- more than half exploring AI implementation.
+
+### Interpretation
+
+AI appears especially suited to:
+
+- ideation;
+- drafting;
+- copy;
+- visuals;
+- repurposing;
+- research;
+- analysis.
+
+But B2 does **not** establish that AI is managing the entire social function.
+
+### B2 conclusion
+
+> **AI is no longer an edge case. It is becoming another layer inside the social operating model, usually supporting tasks rather than replacing the entire function.**
+
+**Confidence: 🟢 High**
+
+---
+
+# 12. Which platforms are they using?
+
+There is no single Western platform hierarchy that applies cleanly across all businesses.
+
+### U.S. evidence
+
+Verizon reported:
+
+- Facebook — **82%**;
+- TikTok — **58%**;
+- YouTube becoming the third most-used platform in its sample.
+
+Another 2025 U.S. small-business survey reported approximately:
+
+- Facebook — **83%**;
+- Instagram — **60%**;
+- LinkedIn — **30%**;
+- YouTube — **23%**;
+- X — **12%**;
+- Nextdoor — **11%**.
+
+LocaliQ’s 2026 SMB research reported:
+
+- Facebook — over **90%**;
+- Instagram — **74%**;
+- LinkedIn — **48%**;
+- TikTok — **22%**.
+
+### Canada
+
+CFIB reported:
+
+- Facebook — **59%**;
+- Instagram — **41%**;
+- TikTok and X — under **10%**;
+- LinkedIn usage increasing with business size.
+
+### B2 interpretation
+
+The evidence does **not** support:
+
+> “Facebook is always the correct first platform.”
+
+It supports:
+
+> **Facebook and Instagram repeatedly appear as major SMB platforms; LinkedIn becomes more relevant in B2B/professional contexts; YouTube and TikTok vary considerably by market, audience, and business model.**
+
+**Confidence: 🟢 High**
+
+---
+
+# 13. What is social media supposed to accomplish?
+
+This is one of the most important B2 findings.
+
+BrightLocal’s 2025 U.S. SMB research found primary marketing goals including:
+
+- new customers — **20%**;
+- sales/revenue — **18%**;
+- customer satisfaction — **15%**;
+- awareness — **13%**;
+- leads/inquiries — **10%**.
+
+Verizon’s social-media findings similarly emphasize:
+
+- product promotion;
+- customer connection;
+- engagement;
+- website traffic;
+- reaching new customers.
+
+Intuit’s 2025 SMB research found **75%** considered social an effective advertising channel.
+
+### B2 conclusion
+
+For owners, social media is often expected to contribute to a business chain such as:
+
+**visibility → engagement → traffic → inquiries → customer acquisition → sales/revenue**
+
+This matters because it prevents CMS from confusing intermediate platform activity with the owner’s real objective.
+
+**Confidence: 🟢 High**
 
 ---
 
 # 14. How do they measure success?
 
-🟡 **Moderate**
+The evidence shows both business goals and platform metrics matter, but attribution maturity varies.
 
-Public evidence supports the importance of business outcomes but is weaker on how consistently SMBs attribute social activity to those outcomes.
+CMS should distinguish three layers:
 
-CMS should distinguish:
+### Objective
+What the business actually wants.
 
-- **objective:** customers / revenue / awareness;
-- **platform metric:** views / reach / engagement / followers / clicks;
-- **business result:** lead / appointment / sale / revenue.
+Examples:
 
-Do not claim that the entire audience is primarily driven by vanity metrics.
+- new customers;
+- leads;
+- awareness;
+- revenue;
+- retention.
 
----
+### Platform metric
+What social platforms can directly show.
 
-# Working Social-Media Maturity Spectrum
+Examples:
 
-This is an analytical model, **not an evidence-based segmentation**:
+- reach;
+- views;
+- followers;
+- clicks;
+- engagement.
 
-**Owner does everything → informal assistance → employee-supported → tool/AI-assisted → freelancer/VA support → dedicated marketing role → agency support → coordinated internal/external system**
+### Business result
+What eventually happens commercially.
 
----
+Examples:
 
-# B1 → B2 Working Hypothesis
+- inquiry;
+- appointment;
+- sale;
+- repeat purchase;
+- revenue.
 
-> **The owner may believe social contributes to the business while lacking the capacity, system, expertise, or role clarity to operate it consistently.**
+BrightLocal explicitly cautions against desirable-looking marketing metrics that are disconnected from actual business goals.
 
-This should be tested further through B3, B5, and B6.
+### Evidence boundary
 
----
+B2 does **not** prove that the typical CMS prospect relies primarily on vanity metrics.
 
-# B2 Evidence Matrix
+It proves that businesses can experience a measurement gap between **what social reports** and **what the business ultimately needs**.
 
-| Question | Current finding | Confidence |
-|---|---|---|
-| Is social already used? | Yes, widely | 🟢 |
-| Who manages it? | Mixed models; exact distribution unknown | 🟡/🔴 |
-| Is publishing consistent? | Recurring content creates real capacity pressure | 🟢 |
-| Who creates content? | Investment rising; exact creator mix unknown | 🟢/🔴 |
-| Strategy? | Importance does not guarantee strategic maturity | 🟡 |
-| Calendar/tools? | Mix of scheduling, manual planning, spontaneous work | 🟡 |
-| Owner involved? | Yes in many businesses, role varies | 🟡 |
-| VA prevalence? | Not established | 🔴 |
-| Freelancer prevalence? | Not established | 🔴 |
-| Employee role? | Present but highly variable | 🔴 |
-| AI? | Material and growing | 🟢 |
-| Platforms? | Vary by context | 🟢 |
-| Purpose? | Customers, sales, leads, awareness, connection | 🟢 |
-| Measurement? | Business outcomes matter; attribution maturity varies | 🟡 |
+**Confidence: 🟡 Moderate**
 
 ---
 
-# Core B2 Finding
+# 15. A working social-media maturity spectrum
+
+The evidence supports thinking about social-media operation as a spectrum rather than a binary “DIY vs agency” choice.
+
+This spectrum is analytical, not a validated population segmentation:
+
+1. **Owner does everything**
+2. **Informal assistance** from staff/family
+3. **Employee-supported** social
+4. **Tool/AI-assisted** social
+5. **Freelancer/VA support**
+6. **Dedicated marketing/social role**
+7. **Agency support**
+8. **Coordinated internal/external system**
+
+The important point is that businesses can move between these models depending on growth stage, budget, complexity, and previous experience.
+
+---
+
+# 16. B1 → B2 hypothesis
+
+B1 showed that the owner operates under competing demands.
+
+B2 now shows that social media is often already present and valued.
+
+That produces a strong working hypothesis:
+
+> **The owner may believe social media contributes to the business while lacking the capacity, system, expertise, ownership clarity, or measurement framework to operate it consistently.**
+
+This is a better hypothesis than:
+
+> “The owner does not understand social media.”
+
+The problem may be operating design, not awareness.
+
+---
+
+# The Core B2 Finding
 
 > **Social media is already inside the business; the question is how coherently it is being operated.**
 
+The audience may already have:
+
+- platforms;
+- content;
+- AI;
+- employees;
+- freelancers;
+- scheduling tools;
+- occasional strategy;
+
+while still lacking one coherent operating model that clearly answers:
+
+**Who owns this?**  
+**What are we trying to accomplish?**  
+**What should we publish?**  
+**Why these platforms?**  
+**How do we measure whether it matters?**
+
+That is the audience reality B2 adds to Track B.
+
 ---
 
-# What This Evidence Does Not Prove
+# What B2 Does Not Prove
 
-- most owners lack strategy;
-- most owners personally manage social;
-- VAs are common in CMS's ICP;
-- freelancers dominate execution;
-- AI has replaced social-media managers;
+B2 does **not** prove that:
+
+- most owners manage social personally;
+- most businesses lack strategy;
+- VAs are common;
+- freelancers dominate;
+- AI has replaced SMMs;
 - followers are the primary goal;
-- Facebook is always the correct platform.
+- Facebook is always the right platform;
+- every business needs an agency;
+- posting more frequently automatically improves performance.
+
+These would overstate the evidence.
 
 ---
 
-# Source Base
+# Source Reliability
 
-- Verizon Business + Morning Consult, *2025 State of Small Business Survey*
-- Canadian Federation of Independent Business (CFIB), 2025 digital-channel research
-- Constant Contact / Ascend2, 2025 SMB marketing research
-- National ACE / Reimagine Main Street, 2025 AI adoption research
-- Adobe Express, 2025 business-owner social/content survey
-- BrightLocal, *SMB Marketing Report 2025*
-- LocaliQ, *Small Business Marketing Trends Report 2026*
-- TechBehemoths, 2025 social-media scheduling/management research
-- Intuit SMB MediaLabs research
+## 🟢 High
+
+- Verizon Business / Morning Consult 2025 SMB survey.
+- CFIB Canada 2025 small-business digital-channel research.
+- Constant Contact / Ascend2 2025 SMB marketing research.
+- Intuit SMB MediaLabs research.
+- National ACE / Reimagine Main Street AI adoption research.
+
+## 🟡 Moderate
+
+- Adobe Express business-owner posting research.
+- BrightLocal SMB Marketing Report.
+- LocaliQ SMB marketing trends.
+- TechBehemoths social-management research.
+
+## 🔴 Unverified
+
+Excluded from firm findings:
+
+- exact owner/VA/freelancer/employee/agency management distribution;
+- exact percentage with formal strategy;
+- exact percentage with formal content calendars.
 
 ---
 
-*This document covers Track B2 only. Findings remain Draft for review and should not be merged automatically into locked Phase 2.*
+# B2 → B3 Research Implication
+
+B2 establishes that social media can already be active while the system around it remains uneven.
+
+The next question is therefore:
+
+> **When the owner says “social media isn’t working,” what problem are they actually describing?**
+
+B3 moves from operating structure into the distinction between **stated problem and actual problem**.
+
+---
+
+*Draft for review. Do not merge into locked Phase 2 until human review.*
