@@ -2,239 +2,439 @@
 ## Track B — Western Audience Reality
 ### B7. Information-Seeking Behavior
 
-**Status:** Draft for review — standalone research, not yet merged into Phase 2  
-**Research date:** September 16, 2026  
-**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY / fragmented social media marketing
+**Status:** Draft for review — standalone document, not yet merged into Phase 2  
+**Audience:** Growth-stage, owner-led Western businesses that have outgrown DIY or fragmented social media marketing  
+**Core question:** What does the audience actually do when trying to understand or solve a marketing/social-media problem?
 
 ---
 
-# Core B7 Finding
+# Why B7 Matters
 
-> **Business buyers increasingly discover through search, AI, social content, and vendor sites, then validate what they find through people, communities, reviews, and other independent sources.**
+B7 is not just a platform-usage question.
 
-The key distinction is:
+It asks how an owner moves through uncertainty:
 
-**Discovery ≠ Validation**
+- what they Google;
+- what questions they ask;
+- what they search on social platforms;
+- what content they consume;
+- whom they follow;
+- what advice they trust;
+- what they save/share;
+- what makes them distrust advice;
+- whether they look for agencies directly;
+- whether they ask peers or Facebook groups;
+- whether they use ChatGPT or other AI tools.
+
+The strongest overall finding is:
+
+> **Business buyers increasingly discover through search, AI, social content, and vendor sites, then validate what they find through people, communities, reviews, and independent sources.**
+
+That means **discovery and validation are two different jobs**.
 
 ---
 
-# 1. Where do they begin?
+# 1. Where do they begin researching?
 
-🟢 **High**
+SurveyMonkey and Reddit’s 2026 study of **1,202 U.S. B2B decision-makers** found **57% used search engines** during early-stage vendor research.
 
-SurveyMonkey + Reddit's 2026 study of 1,202 U.S. B2B decision-makers found search engines remain a major early-stage research source. The same research found most buyers complete substantial self-directed research before engaging sales.
+But the same research showed that search often functions as a navigation layer rather than the final source of truth.
 
-### Finding
+It also found **83% complete substantial research through peer communities and self-directed channels before engaging sales.**
 
-A more realistic journey than **Google → website → contact form** is:
+### Interpretation
 
-**Problem → search → options → independent validation → shortlist → vendor investigation → contact**
+The buying journey is not simply:
+
+**Google → agency website → contact form**
+
+A more realistic pattern is:
+
+**problem → search → options → independent validation → shortlist → vendor investigation → contact**
+
+### B7 finding
+
+> **Search remains a major entry point, but buyers frequently continue researching after the search result rather than treating the vendor website as sufficient evidence.**
+
+**Confidence: 🟢 High**
 
 ---
 
 # 2. What do they Google?
 
-🟢 **High for search use / 🟠 for exact wording**
+There is strong evidence that buyers use search engines.
 
-Direct owner discussions show recurring query categories rather than one universal keyword set:
+There is **not** strong representative evidence establishing the exact search strings used by CMS’s ICP.
 
-- problem searches;
-- task/how-to searches;
-- delegation questions;
-- provider searches;
-- comparison searches;
-- validation searches.
+B7 should therefore not invent a keyword list and call it audience research.
 
-Examples of likely categories include:
+Direct owner/community questions nevertheless reveal recurring search categories:
 
-- “How do I get more customers?”
-- “Do I need a social media manager?”
-- “Freelancer vs agency”
-- “Social media agency for small business”
-- “[agency name] reviews”
+- how to market a small business;
+- whether to hire a social-media manager;
+- whether social media is worth the time;
+- how to improve Instagram;
+- how to create content consistently;
+- whether AI can help;
+- how to find a good marketing agency;
+- how to promote a local business;
+- freelancer vs. agency;
+- how much social media management costs.
 
-These are **research hypotheses**, not verified keyword rankings.
+### Useful search-intent categories
+
+**Problem searches**  
+“How do I get more customers?”
+
+**Task searches**  
+“How do I make Instagram content consistently?”
+
+**Decision searches**  
+“Do I need a social-media manager?”
+
+**Provider searches**  
+“Social media agency for small business”
+
+**Comparison searches**  
+“Freelancer vs agency”
+
+**Validation searches**  
+“[agency name] reviews”
+
+These are **hypotheses for keyword validation**, not ranked search-volume findings.
+
+**Confidence: 🟢 search-engine use / 🟠 exact wording**
 
 ---
 
 # 3. What questions do they ask?
 
-🟡 **Moderate**
+The questions become more useful when grouped by decision stage.
 
-Questions cluster by stage:
+## Problem recognition
 
-### Problem recognition
 - Is this actually a marketing problem?
-- Why isn't social producing results?
+- Why is social not producing results?
+- Is social worth doing for my business?
 
-### DIY improvement
+## DIY improvement
+
+- How can I do this better myself?
 - What should I post?
 - Which platform matters?
-- Can AI help me?
+- Can AI help?
 
-### Delegation
+## Delegation
+
 - Should I hire someone?
 - VA, freelancer, employee, or agency?
+- What should they actually handle?
 
-### Provider evaluation
-- Who has actually used them?
+## Provider evaluation
+
+- Who has actually used this provider?
 - Are they reliable?
 - What results did you get?
 - What should this cost?
 
-### Final validation
+## Final validation
+
 - Is this provider worth the money?
-- How does it compare with alternatives?
+- How do they compare with alternatives?
+
+SurveyMonkey/Reddit’s research found that when buyers wanted to know things vendors may have incentives to frame positively, they preferred peers/communities.
+
+For example:
+
+- **66%** would ask an industry peer/community about how helpful customer service is, versus 24% asking the vendor;
+- **63%** preferred peers/community for cost comparison versus 28% asking the vendor.
+
+### B7 finding
+
+> **The closer the question gets to actual experience, weakness, pricing, or value, the more likely buyers are to seek information outside the provider’s controlled messaging.**
+
+**Confidence: 🟢 High**
 
 ---
 
 # 4. Do they ask peers?
 
-🟢 **High**
+Yes. This is one of the strongest B7 findings.
 
-SurveyMonkey/Reddit found peer recommendations among the most trusted business-information sources. LinkedIn's 2025 professional research likewise found professional networks playing a major role in work advice and decision confidence.
+SurveyMonkey/Reddit found **peer recommendations were the most trusted information source at 73%**.
 
-### Finding
+Their trust hierarchy included:
 
-> **The buyer does not merely want information; they want someone else's experience with the information.**
+| Source | Trust |
+|---|---:|
+| Peer recommendations | 73% |
+| Vendor websites | 55% |
+| Search engines | 54% |
+| Review sites | 46% |
+| AI chatbots | 39% |
+| Social media | 36% |
+
+LinkedIn’s 2025 professional research points in the same direction: **43% of professionals named their network as their number-one source for work advice**, ahead of search and AI; 64% said colleagues help them decide faster and with more confidence.
+
+### B7 finding
+
+> **The buyer does not merely want information. They want someone else’s experience with that information.**
+
+**Confidence: 🟢 High**
 
 ---
 
-# 5. Do they use social media for business research?
+# 5. Do they use social media for business-purchase research?
 
-🟢 **High**
+Yes.
 
-Gartner and other recent B2B research show widespread use of social media during business-purchase consideration. Forrester's 2026 buyer research also placed social among the most meaningful information sources in modern buying journeys.
+Gartner reported in 2025 that **90% of B2B buyers use social media when considering a purchase**.
 
-### Finding
+SurveyMonkey/Reddit found **70% of decision-makers had used social media at least once to research business purchases**.
 
-Social can participate in:
+Forrester’s 2026 research of **17,000+ business buyers** found social media had become the **second most meaningful information source**, behind generative-AI search tools.
 
-**discovery → education → validation → provider evaluation**
+### B7 implication
+
+Social content is not only an awareness mechanism.
+
+Depending on platform and content, it can participate in:
+
+**discovery → education → validation → vendor evaluation**
+
+**Confidence: 🟢 High**
 
 ---
 
-# 6. Platform roles vary
+# 6. Which social platforms matter for research?
 
-🟡 **Moderate**
+There is no universal hierarchy across the entire Western owner-led audience.
 
-### LinkedIn
-Strong for professional discovery, expertise, and B2B evaluation.
+## LinkedIn
 
-### YouTube
-Useful for deeper explanation, demonstrations, case studies, interviews, and thought leadership.
+A 2025 Resonance study of 100 B2B tech decision-makers found **76% used LinkedIn for vendor discovery and shortlisting**.
 
-### Reddit / peer communities
-Strong for firsthand experience, trade-offs, and independent validation.
+LinkedIn’s own research found **59% of B2B buyers consume creator content on LinkedIn**.
 
-### Instagram / TikTok
-More dependent on generation, category, and buyer context; useful for discovery and humanization but not proven as universal provider-selection channels for CMS's ICP.
+This supports LinkedIn as a professional discovery and expertise-validation environment, particularly for B2B audiences.
 
-There is no single universal platform hierarchy.
+## YouTube
+
+Resonance found **36%** of its B2B technology buyers using YouTube in decision research.
+
+The platform naturally supports depth:
+
+- tutorials;
+- demonstrations;
+- long explanations;
+- interviews;
+- case studies;
+- thought leadership.
+
+## Reddit
+
+The strongest role appears to be **validation and firsthand experience** rather than traditional branded discovery.
+
+Buyers use communities to ask questions vendors may answer selectively.
+
+Forrester also notes that community discussions can become increasingly discoverable through LLM-powered research.
+
+## Instagram and TikTok
+
+These appear more dependent on generation and category. Resonance found Instagram used by 30% of its small B2B-tech sample, with TikTok/Reddit showing more traction among younger buyers.
+
+The evidence is not strong enough to call TikTok a major provider-selection channel across CMS’s entire audience.
+
+**Confidence: 🟢 for social research generally / 🟡 platform weighting for exact CMS ICP**
 
 ---
 
 # 7. What content do they consume?
 
-🟢/🟡 **High to Moderate**
+The evidence does not point to one universal format.
 
-Current evidence supports several content jobs:
+The strongest content categories appear to perform different informational jobs.
 
-- **Educational content** — understand the problem
-- **Comparative content** — distinguish options
-- **Experience-based content** — see what happened to others
-- **Case studies** — connect action to outcome
-- **Expert commentary** — understand why something happens
-- **Peer discussion** — expose trade-offs polished vendor pages may omit
+## Educational content
 
-### Finding
+Helps the buyer understand the problem.
 
-The audience does not want only “tips.” It consumes content to:
+## Comparative content
 
-**understand → compare → verify → reduce risk**
+Helps distinguish options.
+
+## Experience-based content
+
+Shows what happened to someone else.
+
+## Case studies
+
+Connect action to outcome.
+
+## Expert commentary
+
+Explains why something happens.
+
+## Peer discussions
+
+Expose trade-offs, problems, and lived experience that polished vendor pages may omit.
+
+Resonance identifies short video, case studies, and live Q&A among useful B2B formats in its sample. LinkedIn’s research emphasizes subject-matter experts and creators. SurveyMonkey/Reddit emphasizes firsthand experience.
+
+### B7 finding
+
+> **The audience does not consume content only for “tips.” It consumes content to understand, compare, verify, and reduce risk.**
+
+**Confidence: 🟢/🟡**
 
 ---
 
 # 8. Who do they follow?
 
-🟢 **High for trusted-human influence / 🔴 for exact creator names**
+The strongest evidence is not for one set of famous marketing personalities.
 
-Evidence points toward:
+It is for **trusted people with relevant expertise or proximity**:
 
 - subject-matter experts;
 - professional creators;
-- executives/founders;
+- executives;
+- company employees;
+- peers;
 - customers;
 - analysts;
-- trusted peers;
-- people with relevant experience.
+- specialists.
 
-The evidence does not establish that business owners primarily follow generic marketing influencers.
+LinkedIn research shows networks and visible experts matter strongly in professional advice and evaluation.
+
+### Important distinction
+
+The evidence does **not** prove:
+
+> “Business owners primarily follow marketing influencers.”
+
+It supports:
+
+> **They value people whose experience helps reduce uncertainty around the problem.**
+
+**Confidence: 🟢 trusted-human influence / 🔴 specific personalities**
 
 ---
 
 # 9. What advice do they trust?
 
-🟢 **High**
+The hierarchy is becoming clear.
 
-Current B2B research indicates:
+## Highest: direct experience and peer recommendation
 
-- peer recommendations are very strong;
-- vendor websites still matter;
-- search engines remain important;
-- reviews support validation;
-- AI and social can be heavily used even when trust in them is lower.
+Peer recommendations lead at 73% trust in SurveyMonkey/Reddit’s research.
 
-### Finding
+## Strong: vendor-owned information, but not alone
+
+Vendor websites still receive 55% trust.
+
+This means websites matter substantially, but buyers often supplement them with outside validation.
+
+## Moderate: search and reviews
+
+Search engines: 54%.  
+Review sites: 46%.
+
+## Lower trust does not mean low usage
+
+AI chatbots: 39%.  
+Social media: 36%.
+
+A buyer may use ChatGPT to discover a provider while still validating the recommendation elsewhere.
+
+### B7 finding
 
 > **Usage and trust are different variables.**
 
-A buyer may use ChatGPT to discover providers and still validate those recommendations elsewhere.
+**Confidence: 🟢 High**
 
 ---
 
-# 10. What creates distrust?
+# 10. What makes them distrust marketing advice?
 
-🟢/🟡 **High to Moderate**
+SurveyMonkey/Reddit found **55% of decision-makers struggle to know which sources to trust**.
 
-Recent buyer research identifies skepticism toward:
+Buyers explicitly struggle to distinguish real value from:
 
-- overly sales-oriented content;
-- unverifiable claims;
-- generic/artificial communication;
-- content that appears mass-produced or detached from genuine expertise.
+- sales pitches;
+- marketing hype;
+- biased vendor claims.
 
-### Finding
+Resonance found:
 
-> **The audience is not anti-marketing; it becomes skeptical when persuasion arrives without enough specificity, independent evidence, or lived credibility.**
+- **44%** distrusted content that felt too sales-oriented;
+- **55%** distrusted AI-generated content.
+
+### Distrust triggers
+
+**Obvious sales motive**  
+The content seems designed only to push a product.
+
+**Lack of firsthand evidence**  
+Claims cannot be checked.
+
+**Artificial/generic communication**  
+Content feels mass-produced or detached from real expertise.
+
+### B7 finding
+
+> **The audience is not inherently anti-marketing. It becomes skeptical when persuasion arrives without enough evidence, specificity, or lived credibility.**
+
+**Confidence: 🟢/🟡**
 
 ---
 
 # 11. Do they look for agencies directly?
 
-🟡 **Moderate**
+Yes, but direct provider search appears to be only one route.
 
-Some buyers search directly for agencies. Others begin with the underlying problem and only later become provider-aware.
+Some owners explicitly ask:
 
-Two possible journeys:
+- where to find a good agency;
+- how to choose one;
+- whether an agency is worth it.
 
-### Provider-aware
-“Social media marketing agency for [industry]”
+But broader buyer research suggests many journeys begin **problem-first**, not provider-first.
 
-### Problem-aware
-“Why isn't my social media bringing leads?” → research → solution category → provider
+### Provider-aware journey
 
-### Finding
+> “Social media marketing agency for [industry].”
 
-> **CMS should not assume every future client starts by searching “social media agency.”**
+### Problem-aware journey
+
+> “Why isn’t social media bringing leads?”
+
+↓
+
+learn about possible solutions
+
+↓
+
+consider outsourcing
+
+↓
+
+search for provider
+
+### B7 finding
+
+> **CMS should not assume every future client begins by searching “social media agency.”**
+
+Some may encounter CMS while researching the underlying problem.
+
+**Confidence: 🟡**
 
 ---
 
 # 12. Do they ask communities?
 
-🟢 **High**
+Yes, strongly.
 
-Community and peer research is particularly important for questions involving:
+SurveyMonkey/Reddit found buyers often choose peers and community discussions over vendors for questions involving:
 
 - customer service;
 - pricing;
@@ -242,95 +442,179 @@ Community and peer research is particularly important for questions involving:
 - competitive comparison;
 - real experience.
 
-### Finding
+### B7 finding
 
 > **Communities function as an informal due-diligence layer.**
 
----
+The buyer may be asking:
 
-# 13. Facebook groups
+> “Has anyone actually done this?”
 
-🟠 **Anecdotal**
+> “What happened?”
 
-Facebook groups clearly exist as local/industry advice environments, but strong representative evidence is lacking on how often CMS's exact audience uses them to select marketing providers.
+> “Was it worth it?”
 
-### Finding
-
-Facebook groups are plausible peer-advice environments, but their relative importance remains unquantified.
+**Confidence: 🟢 High**
 
 ---
 
-# 14. ChatGPT and AI assistants
+# 13. Do they ask Facebook groups?
 
-🟢 **High for growing use / 🟡 for exact provider-selection influence**
+Facebook groups clearly function as peer-advice spaces for many business categories.
 
-OnDeck's 2025 small-business research found meaningful use of AI for information search, with ChatGPT the dominant assistant among respondents using AI search.
+But the current research does not provide a strong representative Western study quantifying how often CMS’s exact audience uses Facebook groups specifically to select marketing providers.
 
-Forrester's 2026 business-buyer research also shows generative AI search becoming a major information source.
+### B7 conclusion
 
-Direct owner discussions now include owners using ChatGPT to analyze social profiles, brainstorm marketing, and understand what to do before hiring a professional.
+> **Facebook groups are a plausible peer-advice environment, but their importance relative to Reddit, LinkedIn, Google, and direct referrals remains unquantified for CMS’s ICP.**
 
-### Finding
+**Confidence: 🟠 Anecdotal**
+
+---
+
+# 14. Do they ask ChatGPT or other AI assistants?
+
+Yes. This is no longer speculative.
+
+OnDeck’s 2025 small-business research found **46% of surveyed small-business owners were using AI to search for information**.
+
+Among those AI-search users:
+
+- **85% used ChatGPT**;
+- 31% Gemini;
+- 25% Copilot.
+
+Forrester’s 2026 study of 17,000+ global business buyers found generative-AI search had become the most meaningful information source in its research, with social media immediately behind it.
+
+Other B2B research shows buyers using AI to research vendors and solutions, then continuing into:
+
+- vendor websites;
+- Google;
+- reviews;
+- competitor comparisons.
+
+Direct owner discussions also include people asking ChatGPT to analyze social profiles or marketing problems before feeling ready to hire a professional.
+
+### B7 finding
 
 AI can participate in:
 
 **problem diagnosis → education → idea generation → provider discovery → shortlist creation**
 
-but buyers frequently continue validating elsewhere.
+but often does not end the journey.
 
 > **AI can suggest. Buyers still validate.**
 
----
-
-# 15. AI, Google, social, and peers are additive
-
-🟢 **High for multi-source behavior**
-
-A plausible modern sequence is:
-
-**Ask AI → Google recommendations → visit vendor website → check LinkedIn/social → search reviews/communities → ask peer → contact shortlist**
-
-The exact order varies, but the important finding is multi-source validation rather than single-channel replacement.
+**Confidence: 🟢 High for AI as an information source / 🟡 exact provider-selection influence**
 
 ---
 
-# 16. What gets saved/shared?
+# 15. AI, Google, and peer research are additive, not mutually exclusive
 
-🟡 **Moderate for utility/relevance / 🔴 for exact format preference**
+It is tempting to interpret rising AI usage as:
 
-Evidence supports utility, comparison, practical decision-making, firsthand evidence, and expertise as useful content characteristics.
+> “Google is dying.”
 
-It does **not** establish that CMS's audience saves carousels more than videos or shares case studies more than checklists.
+The evidence does not support that simplification.
+
+A plausible contemporary journey is:
+
+**Ask ChatGPT**  
+↓  
+**Google the recommendations**  
+↓  
+**Visit company website**  
+↓  
+**Check LinkedIn/social**  
+↓  
+**Search reviews/Reddit**  
+↓  
+**Ask colleague/peer**  
+↓  
+**Contact shortlist**
+
+That exact sequence is a synthesis, not a universal funnel.
+
+The underlying multi-source behavior is strongly supported.
+
+### B7 finding
+
+> **The buyer journey appears additive rather than substitutional. Different sources perform different jobs within the same decision.**
+
+**Confidence: 🟢 High**
 
 ---
 
-# Discovery vs Validation Framework
+# 16. What makes someone save or share content?
+
+This is one of the weaker B7 questions.
+
+Current research does not provide strong CMS-specific evidence for exact save/share triggers.
+
+The broader evidence suggests useful content often addresses:
+
+- an active business problem;
+- comparison;
+- practical decision-making;
+- firsthand evidence;
+- risk;
+- specific expertise.
+
+But B7 cannot responsibly conclude:
+
+> “CMS’s audience saves checklists most.”
+
+or:
+
+> “They share case studies more than videos.”
+
+Those claims require platform analytics or first-party observation.
+
+**Confidence: 🟡 utility/relevance / 🔴 exact format preferences**
+
+---
+
+# 17. Discovery and validation should be separated
+
+This is the clearest strategic framework emerging from B7.
 
 ## Discovery sources
-- Google/search
-- ChatGPT/AI
-- LinkedIn/social
-- YouTube
-- vendor content
+
+Used to find ideas or options:
+
+- Google/search;
+- ChatGPT/AI;
+- LinkedIn/social;
+- YouTube;
+- vendor content.
 
 ## Validation sources
-- peers
-- professional networks
-- communities/Reddit
-- reviews
-- customer testimony
-- case studies
-- vendor website
+
+Used to pressure-test options:
+
+- professional network;
+- peers;
+- Reddit/community discussion;
+- reviews;
+- customer testimony;
+- case studies;
+- vendor website.
 
 ## Decision-support sources
-- pricing
-- comparisons
-- consultation
-- process explanation
-- references
-- peer reassurance
 
-The same channel can perform more than one job depending on buyer intent.
+Used once the shortlist is serious:
+
+- pricing;
+- comparisons;
+- consultation;
+- process explanation;
+- case studies;
+- references;
+- peer reassurance.
+
+The same channel can perform more than one role.
+
+The critical variable is **buyer intent**.
 
 ---
 
@@ -338,51 +622,122 @@ The same channel can perform more than one job depending on buyer intent.
 
 | Research question | Current finding | Confidence |
 |---|---|---|
-| What do they Google? | Problem, solution, provider, validation searches | 🟢 search / 🟠 wording |
-| What questions? | Practical, comparative, experience-based | 🟡 |
-| Social research? | Widely used | 🟢 |
-| What content? | Education, expertise, case studies, comparison, firsthand experience | 🟢/🟡 |
-| Who do they follow? | Experts, peers, creators, customers, networks | 🟢 |
-| What advice is trusted? | Peer recommendation especially strong | 🟢 |
-| What gets saved/shared? | Utility likely; exact formats unverified | 🟡/🔴 |
-| What creates distrust? | Sales-heavy, unverifiable, generic/artificial content | 🟢/🟡 |
-| Do they look for agencies? | Yes, but many journeys begin problem-first | 🟡 |
-| Do they ask peers? | Strongly supported | 🟢 |
-| Facebook groups? | Used by some; prevalence unclear | 🟠 |
-| ChatGPT/AI? | Increasingly yes; often followed by validation | 🟢 |
+| What do they Google? | Problem, solution, provider, and validation searches are likely; exact queries unmeasured. | 🟢 search / 🟠 wording |
+| What questions do they ask? | Practical, comparative, and experience-based questions dominate. | 🟡 |
+| Social-platform searches? | Social is widely used for business-purchase research. | 🟢 |
+| What content? | Education, expert insight, case studies, comparison, firsthand experience. | 🟢/🟡 |
+| Who do they follow? | Experts, peers, creators, customers, professional networks. | 🟢 |
+| What advice is trusted? | Peer recommendation leads; vendor sites/search still matter. | 🟢 |
+| What gets saved/shared? | Utility/relevance plausible; exact formats unknown. | 🟡/🔴 |
+| What creates distrust? | Sales-heavy, unverifiable, or artificial content. | 🟢/🟡 |
+| Do they look for agencies? | Yes, but many journeys likely begin problem-first. | 🟡 |
+| Do they ask peers? | Strongly supported. | 🟢 |
+| Facebook groups? | Used by some owners; provider-selection prevalence unknown. | 🟠 |
+| ChatGPT/AI? | Increasingly yes; often followed by verification elsewhere. | 🟢 |
 
 ---
 
-# Core B7 Finding
+# The Core B7 Finding
+
+The audience appears to operate a **multi-source verification process**.
+
+They may discover information through:
+
+**Google + AI + LinkedIn + YouTube + social content**
+
+while confidence comes increasingly from:
+
+**peers + communities + firsthand experience + reviews + expert voices + independent validation**
+
+This produces a critical CMS distinction:
 
 > **Being discoverable and being believable are two different marketing jobs.**
 
-CMS may be discovered through search, AI, LinkedIn, YouTube, or social content, while confidence may come from peers, reviews, communities, case studies, and independent validation.
+---
+
+# B6 → B7 Acquisition Picture
+
+B6 established that many owners may already have tried:
+
+**DIY → tools → AI → people → providers.**
+
+That means the B7 researcher may not be a novice.
+
+They may be searching questions like:
+
+- why did my social-media manager fail?
+- is an agency worth it?
+- should I hire in-house?
+- what should social management cost?
+- how do I know an agency is actually good?
+
+Those exact sentences still require B8 language validation, but the underlying comparison/validation behavior is strongly supported.
+
+A more sophisticated CMS acquisition model is:
+
+**problem-aware research → self-education → possible DIY attempt → peer/community validation → solution-category comparison → provider discovery → independent validation → website/social review → contact**
+
+Not every buyer follows every stage.
 
 ---
 
-# Source Base
+# What B7 Does Not Prove
 
-- SurveyMonkey + Reddit, *The Hidden B2B Journey 2026* — 1,202 U.S. business decision-makers
-- Forrester, 2026 business-buyer research — 17,000+ global business buyers
-- Gartner, current B2B social/digital buyer research
-- LinkedIn professional-network and creator research, 2025
-- OnDeck, 2025 small-business AI/search research
-- Resonance, 2025 B2B technology-buyer social research (narrower sample)
-- Direct owner/community discussions used as 🟠 language/behavior evidence
+Current evidence does not establish that:
 
----
-
-# What This Evidence Does Not Prove
-
-- Facebook is the primary peer-recommendation channel;
-- LinkedIn is the primary research platform for every CMS buyer;
-- YouTube outranks Google;
+- Facebook is the primary place for agency recommendations;
+- LinkedIn is primary for every CMS prospect;
+- YouTube is more important than Google;
 - Reddit is universally trusted;
-- ChatGPT replaces Google;
-- AI recommendations directly create agency purchases;
-- one platform can carry the entire discovery-to-purchase journey.
+- owners prefer influencers over brands;
+- owners usually search “social media agency” directly;
+- ChatGPT is replacing Google;
+- AI recommendations directly produce agency purchases;
+- owners save carousels more than videos;
+- one platform can carry the whole discovery-to-purchase journey.
 
 ---
 
-*This document covers Track B7 only. Findings remain Draft for review and should not be merged automatically into locked Phase 2.*
+# Source Reliability
+
+## 🟢 High
+
+- SurveyMonkey + Reddit, Hidden B2B Journey 2026; 1,202 U.S. decision-makers.
+- Forrester 2026 buyer research; 17,000+ global business buyers.
+- Gartner B2B social/digital research.
+- LinkedIn professional-network research; platform-authored but directly relevant.
+
+## 🟡 Moderate
+
+- Resonance B2B tech buyer survey; small n=100 technology sample.
+- LinkedIn creator research.
+- OnDeck small-business AI-search research.
+
+## 🟠 Anecdotal
+
+Direct owner/community questions are useful for the kinds of questions buyers ask, not prevalence.
+
+## 🔴 Unverified
+
+Still unknown:
+
+- CMS’s highest-volume Google keywords;
+- Facebook-group usage rate;
+- dominant YouTube queries;
+- most-followed creators;
+- save/share preferences;
+- exact source used immediately before contacting an agency.
+
+---
+
+# B7 → B8 Research Implication
+
+B7 tells us **where** owners research.
+
+B8 must now capture **how they actually speak while doing it**.
+
+That means preserving real phrases, objections, complaints, and questions rather than translating everything into agency language.
+
+---
+
+*Draft for review. Do not merge into locked Phase 2 until human review.*
