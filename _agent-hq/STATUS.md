@@ -41,15 +41,15 @@ Track A remains a separate evidence layer and is not automatically merged into l
 
 ## Current work
 
-**🔄 IN PROGRESS — Phase 2.5.4 Positioning Clarity Validation**
+**🔄 IN PROGRESS — Phase 2.5.6 Offer and Pricing Architecture**
 
 Actions being handled in this work:
 
-- Translate Strategic Social Intelligence into plain buyer language.
-- Test whether the diagnosis-first distinction is clear and commercially meaningful.
-- Compare CMS with the alternatives buyers already consider.
-- Define proof requirements, confusion controls, and the Western live-validation gate.
-- Keep final public positioning, pricing, service packages, and Phase 3 content architecture unlocked until evidence supports them.
+- Formalize the approved Phase 2.5.5 hook ladder.
+- Use CMS-Research/Pricing-Rate-Research-CMS.md and Target-Market-Research-CMS.md as internal pricing inputs.
+- Conceptualize a Western-first offer and pricing structure in chat before creating a Phase 2.5.6 source-of-truth file.
+- Keep pricing, packages, margins, capacity, and qualification rules open until explicit approval.
+- Keep Phase 3 content architecture unopened.
 
 ## Phase 2.5.2 — First Buyer Architecture
 
@@ -63,12 +63,20 @@ Actions being handled in this work:
 
 **Conceptualized:** CMS's diagnosis-first positioning has been translated into buyer-facing test language and a live validation protocol. Strategic Social Intelligence remains the intellectual territory; final public positioning remains unlocked until the clarity gate is met.
 
+## Phase 2.5.5 — Hook Offer and Lead Generation Architecture
+
+**Approved direction:** CMS will use one diagnostic ladder across funnel stages: Social Signal Check for ToFu, Signal-to-Strategy Review for MoFu, Social Clarity Intensive for BoFu, followed by right-sized strategy or execution. Live testing remains pending.
+
+## Phase 2.5.6 — Offer and Pricing Architecture
+
+**In chat conceptualization:** Use existing CMS market-rate research and service-depth logic to design sustainable offers and price ranges. No Phase 2.5.6 source-of-truth file or pricing decision has been approved yet.
+
 ## Next in line
 
-1. Run live positioning-card validation with Western primary and secondary respondents.
-2. Validate recurring problems, urgency, and commercially plausible next steps.
-3. Revise the working positioning and proof requirements from observed buyer language.
-4. Decide whether validated positioning is clear enough to support initial offer design.
+1. Complete the Phase 2.5.6 offer and pricing conceptualization in chat.
+2. Decide whether the price ranges, scope, and qualification logic are commercially viable.
+3. Create the Phase 2.5.6 source-of-truth file only after explicit approval.
+4. Run live hook and paid-diagnostic testing.
 5. Complete the human review of Track A1–A10 as a separate evidence sequence.
 6. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
 
