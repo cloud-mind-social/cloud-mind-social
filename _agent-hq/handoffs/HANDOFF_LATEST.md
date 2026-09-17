@@ -19,6 +19,14 @@
 
 A hot lead may enter directly at the paid diagnostic stage. Do not use a generic free social media audit as CMS's main hook.
 
+## À La Carte structure clarification
+
+The approved working menu can include finite services such as Reels, carousels, infographics, static posts, captions, repurposing, profile optimization, limited branding direction, scheduling-only, limited community management, analytics reports, content calendars, and bounded diagnostic services.
+
+Full social media management, full branding, ongoing strategy, continuous optimization, and growth leadership remain under Presence, Momentum, Authority, and Growth Partner.
+
+This menu is provisional. It may be updated after Phase 2.5.6 À La Carte pricing and scope decisions are finalized.
+
 ## Phase 2.5.6 currently being conceptualized
 
 Use the following repository resources as internal pricing inputs:
