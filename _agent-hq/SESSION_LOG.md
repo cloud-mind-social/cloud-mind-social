@@ -131,3 +131,21 @@ that says so.
 **Next:**
 - Continue Phase 2.5.6 pricing conceptualization in chat.
 - Do not create the Phase 2.5.6 source-of-truth file until explicit approval.
+
+
+## 2026-09-17 — Phase 2.5 attribution correction and 2.5.6 working draft
+**Track:** Brand & Strategy — Commercial Viability & Validation Gate
+**Status:** WORKING DRAFT — will be updated once figures are finalized.
+
+**Actions Taken:**
+- Corrected the phase sequence: 2.5.5 is Hook Offer and Lead Generation; 2.5.6 owns Offer and Pricing Architecture.
+- Created Social-Media-Structure/PHASE_2.5.6_Offer_and_Pricing_Architecture.md.
+- Moved the À La Carte clarification into the Phase 2.5.6 working architecture.
+- Documented finite À La Carte content, profile, operations, reporting, and diagnostic services.
+- Kept full management, full branding, ongoing strategy, continuous optimization, and growth leadership under the core tiers.
+- Tagged the document as updateable once figures and final scope are finalized.
+- Updated the Phase 2.5.5 document, strategy task list, Agent HQ STATUS, TASKS, DECISIONS, and latest handoff.
+
+**Next:**
+- Finalize figures, scope, qualification, capacity, and margin through paid pilot evidence.
+- Update the Phase 2.5.6 draft once pricing decisions are finalized.
