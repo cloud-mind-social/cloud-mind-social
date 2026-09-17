@@ -183,9 +183,11 @@ CMS currently addresses **nine audience segments** across three cultural context
 > **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**
 
 **Primary commercial market:** Western clients  
-**Secondary commercial market:** Philippine clients
+**Primary commercial beachhead:** Western founder or owner-led expertise and high-value service businesses  
+**Secondary development ICP:** Western early-stage owner-operators who want to build their business and social foundation with strategic clarity  
+**Secondary geographic market:** Philippine growth-stage, owner-led businesses
 
-The nine segments above remain useful audience/persona variations; they are not equal commercial priorities.
+The nine segments above remain useful audience/persona variations; they are not equal commercial priorities. Early-stage owner-operators are developed as a relationship, partnership, and future referral audience; they are not treated as the same buying stage as the primary growth-stage ICP.
 
 CMS adapts its proof and relationship style to the audience. Western audiences tend to require stronger data, case studies, and process clarity; Asian and Filipino audiences place greater weight on credibility, relationship, warmth, reliability, and reassurance.
 
