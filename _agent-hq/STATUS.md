@@ -14,7 +14,11 @@ Social Media Marketer for CMS. Working track: Brand & Strategy only. `www/` is o
 
 **Current commercial ICP:** **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**.
 
-**Commercial priority:** Western first; Philippines second.
+**Primary commercial beachhead:** Western founder or owner-led expertise and high-value service businesses.
+
+**Secondary development ICP:** Western early-stage owner-operators; relationship, future-growth, partnership, and referral development.
+
+**Commercial priority:** Western first; Philippines second. The Philippine audience remains a separate secondary geographic market.
 
 **Current social-platform scope:** Facebook, Instagram, TikTok, LinkedIn, YouTube Channel, Threads. **X is not currently in scope.**
 
@@ -46,6 +50,10 @@ Actions being handled in this work:
 - Document the repository architecture so future AI sessions know where strategy, research, content, platform work, and operational/client material belong.
 - Align CMS Branding with the approved Western-first / Philippines-second commercial priority.
 - Reconcile Agent HQ narrative, dated actions, and task status.
+
+## Phase 2.5.2 — First Buyer Architecture
+
+**Approved direction:** The primary Western growth-stage beachhead remains the first revenue audience. Western early-stage owner-operators are added as a secondary development ICP. Live validation and entry-offer design remain open.
 
 ## Next in line
 
