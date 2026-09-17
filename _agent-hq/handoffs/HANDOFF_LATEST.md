@@ -1,6 +1,6 @@
 # Cloud Mind Social | Latest Handoff
 
-**Status:** Phase 2.5.6 working draft remains open; Phase 2.5.7 trust architecture, Phase 2.5.8 theoretical acquisition test, and Phase 2.5.9 theoretical commercial assumptions drafts created; live validation pending.
+**Status:** Phase 2.5.6 remains open; Phase 2.5.7 through 2.5.9 remain working drafts; Phase 2.5.10 approved with explicit assumptions; live validation pending.
 **Date:** September 17, 2026
 **Track:** Brand & Strategy; Commercial Viability & Validation Gate.
 
@@ -12,6 +12,11 @@
 - **Phase 2.5.7:** Trust signal and proof architecture, including agency and freelancer competitor benchmarks.
 - **Phase 2.5.8:** Theoretical first acquisition test and qualified sales-conversation plan.
 - **Phase 2.5.9:** Theoretical commercial assumptions baseline based on current research.
+- **Phase 2.5.10:** Commercial validation gate and Phase 3 readiness decision; proceed with explicit assumptions.
+
+## Track A evidence decision
+
+Track A1–A10 findings are approved as evidence input for Phase 2.5.10 and Phase 3 planning. Track A remains a distinct evidence layer; it does not silently rewrite locked Phase 2 decisions.
 
 ## Current audience architecture
 
@@ -93,6 +98,12 @@ The document explicitly separates:
 
 It does not claim market validation, willingness to pay, conversion, or product-market fit.
 
+## Phase 2.5.10 approved direction
+
+CMS will proceed toward Phase 3 with explicit, research-supported assumptions. This is an operating decision for controlled learning, not a claim of market validation, willingness to pay, conversion, or product-market fit.
+
+The Phase 3 handoff must carry visible assumption labels, unresolved risks, prohibited claims, and a validation backlog. Formal Phase 3 opening remains dependent on acceptance of that handoff.
+
 ## Current constraints
 
 - Diagnosis before prescription.
@@ -101,7 +112,7 @@ It does not claim market validation, willingness to pay, conversion, or product-
 - No generic posting-volume packages, unsupported claims, or unpaid incubation.
 - À La Carte remains finite and separate from core retainers.
 - Western first; Philippines second.
-- Formal Phase 3 content architecture remains unopened.
+- Formal Phase 3 content architecture remains gated by the 2.5.10 handoff and may proceed only with explicit assumptions.
 - www/ remains out of scope.
 
 ## Next actions
