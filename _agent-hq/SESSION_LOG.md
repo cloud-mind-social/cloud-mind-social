@@ -117,3 +117,17 @@ that says so.
 **Next:**
 - Conceptualize Phase 2.5.6 offer and pricing architecture in chat using CMS repository pricing research.
 - Do not create the Phase 2.5.6 source-of-truth file until explicit approval.
+
+
+## 2026-09-17 — À La Carte structure clarification approved
+**Track:** Brand & Strategy — Commercial Viability & Validation Gate
+**Status:** APPROVED WORKING DIRECTION — pricing and final scope pending.
+
+**Actions Taken:**
+- Confirmed that finite Reels, carousels, infographics, static posts, captions, repurposing, profile optimization, limited branding direction, scheduling-only, limited community management, analytics reports, content calendars, and diagnostic services may be offered À La Carte.
+- Confirmed that broad social media management, full branding, ongoing strategy, continuous optimization, and growth leadership remain in Presence, Momentum, Authority, and Growth Partner.
+- Recorded that the À La Carte menu may be updated when Phase 2.5.6 pricing and scope decisions are finalized.
+
+**Next:**
+- Continue Phase 2.5.6 pricing conceptualization in chat.
+- Do not create the Phase 2.5.6 source-of-truth file until explicit approval.
