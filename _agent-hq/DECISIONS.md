@@ -42,3 +42,8 @@ specific session.
 ## 2026-09-17 — Phase 2.5.2 first buyer architecture approved
 **Why:** The Western growth-stage, owner-led expertise and high-value service business remains CMS's primary commercial beachhead. Western early-stage owner-operators are added as a secondary development ICP because CMS can provide right-sized strategic guidance early, grow with those owners, and develop future partnership and referral relationships. The Philippine audience remains a separate secondary geographic market.
 **Revisit when:** Live validation shows that the early-stage relationship model is commercially unsuitable, or a different buyer cohort produces stronger conversion, delivery, proof, and partnership results. See Social-Media-Structure/PHASE_2.5.2_First_Buyer_Architecture_Approved_Direction.md.
+
+
+## 2026-09-17 — Phase 2.5.5 hook offer and lead generation architecture approved
+**Why:** CMS needs a lead path that reflects diagnosis before prescription, business before content, and right-sized help. One diagnostic ladder creates a coherent path from recognition to conversation to paid engagement without turning CMS into a generic posting-volume agency or an open-ended free consultancy. The approved ladder is Social Signal Check for ToFu, Signal-to-Strategy Review for MoFu, and Social Clarity Intensive for BoFu, followed by an appropriately scoped strategy or execution engagement.
+**Revisit when:** Live hook testing shows a different entry sequence produces stronger qualified conversations, paid diagnostic acceptance, delivery fit, or retention. See Social-Media-Structure/PHASE_2.5.5_Hook_Offer_and_Lead_Generation_Architecture.md.
