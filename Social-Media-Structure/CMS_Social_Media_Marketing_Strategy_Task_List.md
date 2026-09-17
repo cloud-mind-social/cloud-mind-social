@@ -50,6 +50,7 @@
 - [x] Audience Objection Bank
 - [x] Commercial ICP confirmed as **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY / Fragmented Social Media Marketing**
 - [x] Commercial priority confirmed as **Western first; Philippines second**
+- [x] Phase 2.5.2 approved direction: Western early-stage owner-operators added as a secondary development ICP
 
 **Source of truth:** Phase 2 Part 1 approved / locked document
 
@@ -63,6 +64,19 @@
 - [x] Approved Part 2 framework
 
 **Source of truth:** Phase 2 Part 2 locked document
+
+## Phase 2.5 — Commercial Viability & Validation Gate
+
+### 2.5.2 — First Buyer Architecture
+
+**STATUS: [x] APPROVED DIRECTION — LIVE VALIDATION PENDING**
+
+- [x] Primary commercial beachhead: Western founder or owner-led expertise and high-value service businesses
+- [x] Secondary development ICP: Western early-stage owner-operators
+- [x] Secondary geographic market: Philippine growth-stage owner-led businesses
+- [x] Define separate relationship roles, qualification signals, and guardrails
+- [ ] Test the two Western audience layers through live conversations and commercial behavior
+- [ ] Confirm which early-stage entry support is commercially viable
 
 ## Supplementary Track A — Western Market Reality
 
