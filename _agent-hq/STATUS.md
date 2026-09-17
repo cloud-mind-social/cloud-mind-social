@@ -55,6 +55,10 @@ Actions being handled in this work:
 
 **Approved direction:** The primary Western growth-stage beachhead remains the first revenue audience. Western early-stage owner-operators are added as a secondary development ICP. Live validation and entry-offer design remain open.
 
+## Phase 2.5.3 — Problem and Buying Urgency
+
+**Conceptualized:** The primary problem is fragmented social activity creating a visible business cost; the secondary early-stage problem is lack of strategic foundation and clarity. Live prospect validation remains open.
+
 ## Next in line
 
 1. Human batch review of Track A1–A10.
