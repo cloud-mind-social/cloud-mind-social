@@ -211,6 +211,19 @@ Track movement through the ladder:
 
 Reach and follower growth are supporting indicators, not the primary success measure.
 
+## À La Carte clarification
+
+The approved working À La Carte menu may include finite, clearly scoped services such as:
+
+- Reels, carousels, static posts, story sets, infographics, captions, repurposing, and thumbnails.
+- Profile or bio optimization, social profile visual refresh, limited branding direction, and template starter sets.
+- Scheduling-only, a finite Social Operations Pilot, limited community management, analytics reports, and defined content calendars.
+- Social Clarity Intensive and other bounded diagnostic or strategic micro-projects.
+
+Full social media management, full brand identity, ongoing strategy, continuous optimization, and strategic growth leadership remain under Presence, Momentum, Authority, and Growth Partner.
+
+This menu is an approved working direction, not a final price list. Service inclusion, scope, packaging, and pricing may be revised when Phase 2.5.6 À La Carte pricing decisions are finalized.
+
 ## Guardrails
 
 - Do not make a generic free social media audit CMS's main hook.
