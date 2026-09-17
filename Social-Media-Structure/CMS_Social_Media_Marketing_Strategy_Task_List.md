@@ -176,9 +176,23 @@
 
 **Source of truth:** `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`
 
+### 2.5.10 — Commercial Validation Gate and Phase 3 Readiness Decision
+
+**STATUS: [x] APPROVED DIRECTION — PROCEED WITH EXPLICIT ASSUMPTIONS**
+
+- [x] Approve research-supported assumptions as the initial operating basis.
+- [x] Approve Track A findings as evidence input for the readiness decision.
+- [x] Define Green, Amber, and Red readiness dimensions.
+- [x] Define the Phase 3 handoff requirements and guardrails.
+- [ ] Execute the assumption-based handoff.
+- [ ] Record live buyer, acquisition, pricing, trust, and delivery evidence as it becomes available.
+- [ ] Revisit the gate after meaningful evidence or a material contradiction.
+
+**Source of truth:** `Social-Media-Structure/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md`
+
 ## Supplementary Track A — Western Market Reality
 
-**STATUS: [ ] 🔄 CURRENT — A1–A10 drafted; human review pending**
+**STATUS: [x] APPROVED AS EVIDENCE INPUT — A1–A10 findings approved for 2.5.10 and Phase 3 planning**
 
 These files remain standalone evidence documents. They are not automatically merged into the locked Phase 2 documents.
 
@@ -192,8 +206,8 @@ These files remain standalone evidence documents. They are not automatically mer
 - [x] A8 — AI Changes the Market — drafted / revised
 - [x] A9 — Pricing & Budget — drafted
 - [x] A10 — Retention & Partnership — drafted
-- [ ] **⏭ NEXT:** Human batch review of A1–A10
-- [ ] **⏭ NEXT:** Decide which reviewed evidence should inform Phase 2 without overriding locked decisions
+- [x] Track A1–A10 findings approved as evidence input for 2.5.10 and Phase 3 planning
+- [ ] Decide which approved findings, if any, require a separately approved change to locked Phase 2
 
 **Rule:** Do not edit Tracks A1–A9 during the current repository reconciliation.
 
@@ -211,7 +225,7 @@ These files remain standalone evidence documents. They are not automatically mer
 - [ ] Define proof requirements
 - [ ] Define content governance / decision rules
 
-**Dependency:** Complete the Track A human review sufficiently before formally opening Phase 3.
+**Dependency:** Complete the Phase 2.5.10 handoff and readiness decision before formally opening Phase 3. Track A is approved as evidence input; it does not silently rewrite locked Phase 2 decisions.
 
 **Note:** Existing post or carousel brainstorming does not count as Phase 3 completion.
 
@@ -295,7 +309,7 @@ These are intentionally untouched by this reconciliation task.
 3. Western is the primary commercial market; Philippines is secondary.
 4. X is not currently part of CMS platform scope.
 5. Track A1–A9 are not to be changed during this reconciliation.
-6. Research marked Draft for review remains evidence, not approved strategy.
+6. Track A findings are approved evidence input; they remain separate from locked strategy unless a specific change is explicitly approved.
 7. Do not advance to a later strategy phase merely because exploratory work exists.
 8. Do not modify post documents during this reconciliation.
 9. Keep `www/` completely out of scope unless explicitly reopened for a specific session.
