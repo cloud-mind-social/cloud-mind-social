@@ -23,6 +23,12 @@ Real backlog:
 - [x] Keep Philippine growth-stage businesses as the separate secondary geographic market.
 - [ ] Validate early-stage entry support, conversion path, and referral/partnership potential.
 
+### Phase 2.5.3 — Conceptualized; validation pending
+- [x] Map stated problems to underlying business constraints and consequences.
+- [x] Define urgency triggers for the primary growth-stage beachhead.
+- [x] Define the distinct foundation and relationship urgency for early-stage owner-operators.
+- [ ] Validate problem recurrence, urgency, and willingness to pay with live prospects.
+
 ### 🔄 Currently in progress
 - [ ] Repository/source-of-truth reconciliation — final verification.
 
