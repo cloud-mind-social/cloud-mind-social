@@ -37,3 +37,8 @@ specific session.
 ## 2026-09-14 — A6 research file located (was temporarily missing from the working copy)
 **Why:** Earlier review flagged Track A6 as apparently missing (A7 referenced "Track A1–A6" but no file was present). It turned out to just not have been uploaded yet — Track-A6-Strategy-vs-Execution-Market-Gap.md was added Sept 14 and is now confirmed in the repo, dated to Sept 13 research. No content needs to be reconstructed.
 **Revisit when:** N/A — resolved. Note for future reference: it carries the same "Draft for review, not yet merged into Phase 2" status as A1–A5 and A7, so the whole A-series is still pending formal review as a batch.
+
+
+## 2026-09-17 — Phase 2.5.2 first buyer architecture approved
+**Why:** The Western growth-stage, owner-led expertise and high-value service business remains CMS's primary commercial beachhead. Western early-stage owner-operators are added as a secondary development ICP because CMS can provide right-sized strategic guidance early, grow with those owners, and develop future partnership and referral relationships. The Philippine audience remains a separate secondary geographic market.
+**Revisit when:** Live validation shows that the early-stage relationship model is commercially unsuitable, or a different buyer cohort produces stronger conversion, delivery, proof, and partnership results. See Social-Media-Structure/PHASE_2.5.2_First_Buyer_Architecture_Approved_Direction.md.
