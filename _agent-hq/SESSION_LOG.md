@@ -44,3 +44,20 @@ that says so.
 - Human batch review of Track A1–A10.
 - Decide which reviewed evidence should inform Phase 2 without overriding locked decisions.
 - Complete any remaining project-control reconciliation before Phase 3.
+
+
+## 2026-09-17 — Phase 2.5.2 audience architecture
+**Track:** Brand & Strategy — Commercial Viability & Validation Gate
+**Status:** APPROVED DIRECTION — primary beachhead retained; secondary development ICP added.
+
+**Actions Taken:**
+- Recorded Western founder or owner-led expertise and high-value service businesses as the primary commercial beachhead.
+- Added Western early-stage owner-operators as a secondary development ICP for right-sized guidance, future growth, partnership, and referral development.
+- Kept Philippine growth-stage owner-led businesses as the separate secondary geographic market.
+- Added qualification, disqualification, relationship-role, and live-validation guidance.
+- Created Social-Media-Structure/PHASE_2.5.2_First_Buyer_Architecture_Approved_Direction.md.
+- Updated Phase 2 Part 1, README, CMS Branding, strategy task list, STATUS, TASKS, and DECISIONS.
+
+**Next:**
+- Validate the two Western audience layers through live conversations and commercial behavior.
+- Proceed to the next Phase 2.5 task only after the first-buyer assumptions are sufficiently tested.
