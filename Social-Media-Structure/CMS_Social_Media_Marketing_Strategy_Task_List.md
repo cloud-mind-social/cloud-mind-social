@@ -90,6 +90,19 @@
 - [ ] Validate recurring root problems through live prospect conversations
 - [ ] Confirm which problem is urgent enough to support a paid diagnosis or scoped engagement
 
+### 2.5.4 — Positioning Clarity Validation
+
+**STATUS: [x] CONCEPTUALIZED — LIVE VALIDATION PENDING**
+
+- [x] Translate Strategic Social Intelligence into plain buyer language.
+- [x] Test diagnosis before prescription and business before content as the working distinction.
+- [x] Compare CMS against DIY/AI, VA, freelancer, generic agency, full-service agency, consultant, and in-house alternatives.
+- [x] Map positioning confusion risks and required proof.
+- [x] Define a Western primary and secondary ICP validation protocol.
+- [ ] Run live positioning-card interviews and capture exact buyer language.
+- [ ] Confirm category clarity, differentiation, relevance, and next-step intent.
+- [ ] Lock final public positioning only after the validation gate is met.
+
 ## Supplementary Track A — Western Market Reality
 
 **STATUS: [ ] 🔄 CURRENT — A1–A10 drafted; human review pending**
@@ -173,19 +186,14 @@ These files remain standalone evidence documents. They are not automatically mer
 
 # Current Work Queue
 
-## [ ] 🔄 CURRENT — Repository / Source-of-Truth Reconciliation
+## [ ] 🔄 CURRENT — Phase 2.5.4 Positioning Clarity Validation
 
-- [x] Confirm Phase 2 Part 1 commercial ICP
-- [x] Confirm Western-first / Philippines-second commercial priority
-- [x] Remove X from current platform scope
-- [x] Confirm six reserved platforms
-- [x] Correct README source/document paths
-- [x] Add repository architecture guidance to README
-- [x] Align CMS Branding with the approved commercial ICP
-- [x] Update Agent HQ STATUS
-- [x] Create a dated narrative handoff
-- [x] Add dated session-log action record
-- [ ] Final verification of remaining project-control documents
+- [x] Create the Phase 2.5.4 positioning clarity framework.
+- [x] Translate the CMS territory into primary and early-stage buyer-facing language.
+- [x] Define alternatives, confusion risks, proof requirements, and a live validation gate.
+- [ ] Run live buyer validation with Western primary and secondary respondents.
+- [ ] Revise wording and proof needs from observed interpretation.
+- [ ] Confirm whether validated positioning can support initial offer design.
 
 ## [ ] ⏭ NEXT IN LINE
 
