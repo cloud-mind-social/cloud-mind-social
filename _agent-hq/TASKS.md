@@ -15,6 +15,13 @@ Real backlog:
 - [x] Reconcile README paths and repository architecture.
 - [x] Align CMS Branding with the approved commercial audience direction.
 - [x] Update Agent HQ status, handoff, and dated session record.
+- [x] Approve Phase 2.5.2 primary beachhead and secondary early-stage development ICP.
+
+### Phase 2.5.2 — Approved direction; validation pending
+- [x] Primary beachhead: Western growth-stage founder or owner-led expertise and high-value service businesses.
+- [x] Secondary development ICP: Western early-stage owner-operators.
+- [x] Keep Philippine growth-stage businesses as the separate secondary geographic market.
+- [ ] Validate early-stage entry support, conversion path, and referral/partnership potential.
 
 ### 🔄 Currently in progress
 - [ ] Repository/source-of-truth reconciliation — final verification.
