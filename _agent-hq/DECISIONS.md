@@ -52,3 +52,12 @@ specific session.
 ## 2026-09-17 — À La Carte service structure approved as working direction
 **Why:** À La Carte services give prospects a finite, low-commitment way to try CMS while preserving the distinction between execution, management, strategy, and strategic partnership. Approved examples include Reels, carousels, infographics, static posts, captions, repurposing, profile optimization, limited social branding direction, scheduling-only, limited community management, analytics reports, content calendars, and bounded diagnostic services. Full social media management, full branding, ongoing strategy, continuous optimization, and growth leadership remain in the core service-depth tiers.
 **Revisit when:** Phase 2.5.6 pricing and scope decisions are finalized, or live sales and delivery data show that a service should be removed, re-scoped, bundled, or moved into a deeper tier. The current menu must be treated as updateable until then. See Social-Media-Structure/PHASE_2.5.5_Hook_Offer_and_Lead_Generation_Architecture.md.
+
+
+## 2026-09-17 — Phase 2.5 phase attribution corrected
+**Why:** The hook and lead-generation ladder belongs to Phase 2.5.5. The À La Carte service menu, service-depth boundaries, and pricing architecture developed after that file was created belong to Phase 2.5.6. This correction keeps the source-of-truth sequence clear.
+**Revisit when:** N/A; this is a record correction. Phase 2.5.6 remains updateable until figures and scope are finalized.
+
+## 2026-09-17 — Phase 2.5.6 offer and pricing architecture working draft created
+**Why:** The approved CMS hook ladder now needs a commercial offer structure that distinguishes finite À La Carte services from Presence, Momentum, Authority, and Growth Partner engagements. The working draft uses the repository's Pricing Rate Research and Target Market Research as directional inputs while preserving Western-first pricing, separate Philippine reference ranges, diagnosis before prescription, and no generic posting-volume positioning.
+**Revisit when:** Figures, scope, qualification, capacity, and margin are finalized through pricing approval and paid pilot evidence. See Social-Media-Structure/PHASE_2.5.6_Offer_and_Pricing_Architecture.md.
