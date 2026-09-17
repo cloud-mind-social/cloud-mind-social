@@ -285,10 +285,11 @@ These files remain standalone evidence documents. They are not automatically mer
 
 ## [ ] ⏭ NEXT IN LINE
 
-1. Human batch review of Track A1–A10.
-2. Decide which reviewed findings should inform Phase 2 without changing locked decisions.
-3. Complete any remaining project-control reconciliation.
-4. Formally begin Phase 3 — Content Architecture only after the Track A review is sufficiently complete.
+1. Execute the 2.5.10 proceed-with-assumptions handoff.
+2. Run the first controlled acquisition and proxy tests.
+3. Finalize Phase 2.5.6 figures, scope, capacity, margin, and qualification rules.
+4. Validate Phase 2.5.7 trust architecture and proof placements.
+5. Formally begin Phase 3 — Content Architecture after the 2.5.10 handoff is accepted.
 
 ## [ ] HOLD
 
