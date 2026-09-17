@@ -41,7 +41,7 @@ Track A remains a separate evidence layer and is not automatically merged into l
 
 ## Current work
 
-**🔄 IN PROGRESS — Phase 2.5.6 Offer and Pricing Architecture**
+**🔄 IN PROGRESS — Phase 2.5.6 Offer and Pricing Architecture; 2.5.7 and 2.5.8 drafts created**
 
 Actions being handled in this work:
 
@@ -71,12 +71,25 @@ Actions being handled in this work:
 
 **Working draft created:** The offer, À La Carte boundaries, and directional ranges are documented in the Phase 2.5.6 source-of-truth draft. It will be updated once figures and final scope are finalized; no final public pricing decision is approved yet.
 
+
+## Phase 2.5.7 — Trust Signal and Proof Architecture
+
+**Working draft created:** Trust architecture now includes agency and freelancer competitor benchmarks, website and platform trust requirements, proof standards, testimonial and review guardrails, CMS's human trust layer, and the agency advantages that must be visible. Live audit and validation remain pending.
+
+Source of truth: `Social-Media-Structure/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`.
+
+## Phase 2.5.8 — First Acquisition Test
+
+**Working draft created:** The first acquisition experiment is a relationship-led loop using warm introductions, permission-based outreach, LinkedIn, Facebook, and the CMS website. The Social Signal Check creates curiosity; the Signal-to-Strategy Review qualifies interest; the Social Clarity Intensive tests willingness to pay. The first test has not yet run.
+
+Source of truth: `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`.
+
 ## Next in line
 
 1. Finalize Phase 2.5.6 figures, scope, and qualification rules.
-2. Validate price and delivery assumptions through paid pilots and actual close behavior.
-3. Update the Phase 2.5.6 working draft once figures are finalized.
-4. Run live hook and paid-diagnostic testing.
+2. Validate the 2.5.7 trust architecture with website and platform audits.
+3. Run the 2.5.8 first acquisition test and record buyer evidence.
+4. Update Phase 2.5.6 once figures and final scope are finalized.
 5. Complete the human review of Track A1–A10 as a separate evidence sequence.
 6. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
 
