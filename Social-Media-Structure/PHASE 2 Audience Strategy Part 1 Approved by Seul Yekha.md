@@ -21,7 +21,9 @@ This Part 1 contains **only the six approved strategic components**:
 5. Cultural Communication Adaptation
 6. Audience Objection Bank
 
-> **Important:** CMS's audience architecture is commercially **Western-first and Philippine-second**. Western clients are the primary revenue market. Philippine clients are the secondary ICP and an important market for building measurable proof, numbers, case studies, and local credibility. These markets must not be blended into one undifferentiated audience model.
+> **Important:** CMS's audience architecture is commercially **Western-first and Philippine-second**. Western clients are the primary revenue market. Philippine clients are the secondary geographic market and an important source of measurable proof, numbers, case studies, and local credibility. These markets must not be blended into one undifferentiated audience model.
+>
+> CMS also maintains a **secondary development ICP** of Western early-stage owner-operators. They are developed through right-sized guidance, strategic education, and relationship building so CMS can grow with them and remain a credible future partner or referral connection. This does not replace the primary growth-stage commercial beachhead.
 
 ---
 
@@ -34,7 +36,8 @@ This Part 1 contains **only the six approved strategic components**:
 ### Commercial Priority
 
 **Primary market:** Western clients  
-**Secondary market:** Philippine clients
+**Secondary geographic market:** Philippine clients  
+**Secondary development ICP:** Western early-stage owner-operators
 
 The ICP is defined primarily by **business maturity + marketing problem**, not by industry alone.
 
@@ -131,6 +134,7 @@ These are not replacements for the primary ICP. They are persona variations that
 1. Founder-Led Expert / Professional
 2. Social-First Startup / Emerging Brand
 3. Established Small/Mid-Market Brand With a Marketing Gap
+4. Early-Stage Owner-Operator / Future Growth Partner
 
 These personas may require different messaging and service depth while remaining governed by the same CMS strategic philosophy.
 
