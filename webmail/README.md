@@ -57,7 +57,24 @@ npm run build
 npm run deploy
 ```
 
-The Worker and its custom domain do not exist yet. Standing this up is §8 of
-`docs/cloudmindsocial-deploy.md` in `Coastal-Carolina-Tech/email-server`, and
-it depends on the `cloudmind` API environment being deployed first — until
-`api.cloudmindsocial.com` resolves, this app has nothing to talk to.
+**The API side is now live.** `Coastal-Carolina-Tech/email-server` provisioned
+the `cloudmind` environment on 2026-09-17: `api.cloudmindsocial.com` resolves
+and `/health` returns `{"ok":true}`, and the zone's Email Routing catch-all
+points at `email-server-cloudmind`. The dependency this app was waiting on is
+satisfied.
+
+The Worker and its custom domain still do not exist — nothing has deployed
+this app yet, so `webmail.cloudmindsocial.com` does not resolve. `npm run
+deploy` is the whole step; it creates `webmail-cloudmind` and attaches the
+custom domain from `wrangler.jsonc`. Run `npm run test:tenant` first.
+
+Two things on the API side are still outstanding and neither blocks this
+deploy, but both are worth knowing about before testing against it:
+
+- The zone has no mailboxes yet, so inbound mail is rejected `550 5.1.2` until
+  `seed:owner` runs on `email-cloudmind`. Signing in needs that owner account.
+- `cloudmindsocial.com` is not onboarded to Cloudflare Email **Sending**
+  (dashboard-only), so outbound mail fails `E_RECIPIENT_NOT_ALLOWED`.
+
+Full sequence: `docs/adding-a-tenant.md` and §8 of
+`docs/cloudmindsocial-deploy.md` in `Coastal-Carolina-Tech/email-server`.
