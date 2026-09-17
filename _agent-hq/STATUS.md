@@ -24,24 +24,24 @@ Social Media Marketer for CMS. Working track: Brand & Strategy only. `www/` is o
 
 ## Supplementary Track A
 
-Track A remains a separate evidence layer and is not automatically merged into locked Phase 2.
+Track A is approved as an evidence input for Phase 2.5.10 and Phase 3 planning. It remains a separate evidence layer; it does not silently rewrite locked Phase 2 decisions.
 
-- A1: ✅ Drafted — pending human review / merge decision
-- A2: ✅ Drafted — pending human review / merge decision
-- A3: ✅ Drafted — pending human review / merge decision
-- A4: ✅ Drafted — pending human review / merge decision
-- A5: ✅ Drafted — pending human review / merge decision
-- A6: ✅ Drafted — pending human review / merge decision
-- A7: ✅ Drafted — pending human review / merge decision
-- A8: ✅ Drafted / revised — AI Changes the Market; pending human review
-- A9: ✅ Drafted — Pricing & Budget; pending human review
-- A10: ✅ Drafted — Retention & Partnership; pending human review
+- A1: ✅ Approved as evidence input
+- A2: ✅ Approved as evidence input
+- A3: ✅ Approved as evidence input
+- A4: ✅ Approved as evidence input
+- A5: ✅ Approved as evidence input
+- A6: ✅ Approved as evidence input
+- A7: ✅ Approved as evidence input
+- A8: ✅ Approved as evidence input; AI Changes the Market
+- A9: ✅ Approved as evidence input; Pricing & Budget
+- A10: ✅ Approved as evidence input; Retention & Partnership
 
 **Important:** Do not change Tracks A1–A9 as part of this reconciliation. They remain standalone research documents pending human review.
 
 ## Current work
 
-**🔄 IN PROGRESS — Phase 2.5.6 Offer and Pricing Architecture; 2.5.7, 2.5.8, and 2.5.9 working drafts created**
+**🔄 IN PROGRESS — Phase 2.5.6 remains open; 2.5.7 through 2.5.9 are working drafts; 2.5.10 approved with explicit assumptions**
 
 Actions being handled in this work:
 
@@ -91,23 +91,29 @@ Source of truth: `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`.
 
 Source of truth: `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`.
 
+## Phase 2.5.10 — Commercial Validation Gate and Phase 3 Readiness Decision
+
+**Approved direction:** CMS will proceed with explicit research-supported assumptions because live prospect evidence is not yet sufficient. Track A findings are approved as evidence input for the gate and for Phase 3 planning. The phase defines readiness dimensions, assumptions, guardrails, and the handoff required before formal Phase 3 opening; it does not claim commercial validation.
+
+Source of truth: `Social-Media-Structure/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md`.
+
 ## Next in line
 
-1. Finalize Phase 2.5.6 figures, scope, and qualification rules.
-2. Validate the 2.5.7 trust architecture with website and platform audits.
-3. Run proxy and public behavior tests defined in the theoretical 2.5.9 baseline.
-4. Run the 2.5.8 first acquisition test and record buyer evidence.
-5. Update Phase 2.5.6 once figures and final scope are finalized.
-6. Complete the human review of Track A1–A10 as a separate evidence sequence.
-7. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
+1. Execute the Phase 2.5.10 proceed-with-assumptions handoff.
+2. Finalize Phase 2.5.6 figures, scope, capacity, margin, and qualification rules.
+3. Validate the 2.5.7 trust architecture with website and platform audits.
+4. Run proxy and public behavior tests defined in the theoretical 2.5.9 baseline.
+5. Run the 2.5.8 first acquisition test and record buyer evidence.
+6. Prepare the Phase 3 handoff brief with explicit assumptions and guardrails.
+7. Formally begin Phase 3 only after the 2.5.10 handoff is accepted.
 
 ## Not started
 
-- Phase 3 — Content Architecture
+- Phase 3 — Content Architecture; formally gated by the 2.5.10 handoff
 - Phase 4 — Funnel Content Strategy
 - Phase 5 — Formal Platform Strategies
 
-`Social-Media-Structure/Platform Research.md` remains preparatory research; it does not mean Phase 5 has started.
+Social-Media-Structure/Platform Research.md remains preparatory research; it does not mean Phase 5 has started.
 
 ## Explicitly not part of this work
 
