@@ -1,6 +1,6 @@
 # Cloud Mind Social | Latest Handoff
 
-**Status:** Phase 2.5.6 working draft remains open; Phase 2.5.7 trust architecture and Phase 2.5.8 first acquisition test drafts created; live validation pending.
+**Status:** Phase 2.5.6 working draft remains open; Phase 2.5.7 trust architecture, Phase 2.5.8 theoretical acquisition test, and Phase 2.5.9 theoretical commercial assumptions drafts created; live validation pending.
 **Date:** September 17, 2026
 **Track:** Brand & Strategy; Commercial Viability & Validation Gate.
 
@@ -10,7 +10,8 @@
 - **Phase 2.5.5:** Hook offer and lead generation architecture.
 - **Phase 2.5.6:** Offer and pricing architecture, including À La Carte scope and service-depth boundaries.
 - **Phase 2.5.7:** Trust signal and proof architecture, including agency and freelancer competitor benchmarks.
-- **Phase 2.5.8:** First acquisition test and qualified sales-conversation plan.
+- **Phase 2.5.8:** Theoretical first acquisition test and qualified sales-conversation plan.
+- **Phase 2.5.9:** Theoretical commercial assumptions baseline based on current research.
 
 ## Current audience architecture
 
@@ -63,7 +64,7 @@ The draft defines:
 
 The freelancer benchmark is now an explicit part of the phase. Live profile and website auditing remain pending.
 
-## Phase 2.5.8 working draft
+## Phase 2.5.8 theoretical working draft
 
 See `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`.
 
@@ -75,7 +76,22 @@ The draft defines:
 - Social Signal Check, Signal-to-Strategy Review, and Social Clarity Intensive routing;
 - qualification, discovery, follow-up, ownership, measurement, and pass/revise/stop gates.
 
-The first acquisition test has not yet run.
+The first acquisition test has not yet run. Its route, audience response, pricing, and success thresholds remain theoretical and research-based.
+
+## Phase 2.5.9 theoretical baseline
+
+See `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`.
+
+The document explicitly separates:
+
+- approved Phase 1 and Phase 2 decisions;
+- completed Track B findings;
+- Track A evidence pending human review;
+- agency and freelancer competitor observations;
+- strategic inference;
+- unknowns requiring buyer behavior.
+
+It does not claim market validation, willingness to pay, conversion, or product-market fit.
 
 ## Current constraints
 
@@ -91,6 +107,7 @@ The first acquisition test has not yet run.
 ## Next actions
 
 - Audit and validate the Phase 2.5.7 trust architecture across the website and planned profiles.
+- Run proxy and public behavior tests defined in the theoretical 2.5.9 baseline.
 - Run the Phase 2.5.8 first acquisition test with qualified prospects and connectors.
 - Test the Social Clarity Intensive and selected À La Carte services with qualified buyers.
 - Track actual delivery hours, scope changes, capacity, margin, objections, and close behavior.
