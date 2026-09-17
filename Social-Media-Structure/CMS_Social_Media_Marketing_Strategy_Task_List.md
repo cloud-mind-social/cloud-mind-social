@@ -117,13 +117,14 @@
 
 ### 2.5.6 — Offer and Pricing Architecture
 
-**STATUS: [ ] CONCEPTUALIZATION IN CHAT — NOT YET APPROVED**
+**STATUS: [x] WORKING DRAFT — FIGURES AND FINAL SCOPE PENDING**
 
 - [ ] Use CMS-Research/Pricing-Rate-Research-CMS.md as the internal price basis.
 - [ ] Translate the research into a sustainable diagnostic, a-la-carte, and tiered offer structure.
 - [ ] Set Western-first price ranges and separate Philippine reference ranges.
 - [ ] Define scope, capacity, margin, qualification, and discount rules.
-- [ ] Approve pricing and offer architecture before creating the Phase 2.5.6 source-of-truth file.
+- [x] Create the Phase 2.5.6 working draft with provisional scope and directional ranges.
+- [ ] Finalize figures, service scope, and qualification rules before public use.
 
 ## Supplementary Track A — Western Market Reality
 
@@ -212,10 +213,11 @@ These files remain standalone evidence documents. They are not automatically mer
 
 - [x] Mark Phase 2.5.5 hook offer and lead generation architecture as approved direction.
 - [x] Create the Phase 2.5.5 source-of-truth document.
-- [ ] Conceptualize the offer and pricing architecture in chat.
-- [ ] Use the CMS pricing research as the internal basis for price ranges.
+- [x] Conceptualize the initial offer and pricing architecture in chat.
+- [x] Use the CMS pricing research as the directional internal basis for price ranges.
 - [ ] Confirm price, scope, capacity, margin, and qualification rules.
-- [ ] Create the Phase 2.5.6 source-of-truth file only after explicit approval.
+- [x] Create the Phase 2.5.6 working source-of-truth draft.
+- [ ] Update the draft once figures and final scope are finalized.
 
 ## [ ] ⏭ NEXT IN LINE
 
