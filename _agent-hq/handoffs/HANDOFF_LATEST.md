@@ -1,6 +1,6 @@
 # Cloud Mind Social | Latest Handoff
 
-**Status:** Phase 2.5.6 offer and pricing architecture working draft created; figures and final scope pending.
+**Status:** Phase 2.5.6 working draft remains open; Phase 2.5.7 trust architecture and Phase 2.5.8 first acquisition test drafts created; live validation pending.
 **Date:** September 17, 2026
 **Track:** Brand & Strategy; Commercial Viability & Validation Gate.
 
@@ -9,6 +9,8 @@
 - **Phase 2.5.4:** Positioning clarity validation.
 - **Phase 2.5.5:** Hook offer and lead generation architecture.
 - **Phase 2.5.6:** Offer and pricing architecture, including À La Carte scope and service-depth boundaries.
+- **Phase 2.5.7:** Trust signal and proof architecture, including agency and freelancer competitor benchmarks.
+- **Phase 2.5.8:** First acquisition test and qualified sales-conversation plan.
 
 ## Current audience architecture
 
@@ -44,6 +46,37 @@ The draft uses directional Western and Philippine bands based on:
 
 It is explicitly tagged: **will be updated once figures are finalized**. The figures are not public or final.
 
+
+## Phase 2.5.7 working draft
+
+See `Social-Media-Structure/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`.
+
+The draft defines:
+
+- website trust architecture;
+- platform-specific trust roles for Facebook, Instagram, TikTok, LinkedIn, YouTube, and Threads;
+- agency competitor trust signals;
+- freelancer and independent consultant trust signals;
+- CMS's human trust layer and agency advantage;
+- proof, testimonial, review, disclosure, and claim guardrails;
+- validation questions and definition of done.
+
+The freelancer benchmark is now an explicit part of the phase. Live profile and website auditing remain pending.
+
+## Phase 2.5.8 working draft
+
+See `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`.
+
+The draft defines:
+
+- a relationship-led acquisition loop;
+- warm, permission-based, and connector lanes;
+- LinkedIn as primary prospecting, Facebook as secondary relationship support, and the website as the conversion environment;
+- Social Signal Check, Signal-to-Strategy Review, and Social Clarity Intensive routing;
+- qualification, discovery, follow-up, ownership, measurement, and pass/revise/stop gates.
+
+The first acquisition test has not yet run.
+
 ## Current constraints
 
 - Diagnosis before prescription.
@@ -57,6 +90,8 @@ It is explicitly tagged: **will be updated once figures are finalized**. The fig
 
 ## Next actions
 
+- Audit and validate the Phase 2.5.7 trust architecture across the website and planned profiles.
+- Run the Phase 2.5.8 first acquisition test with qualified prospects and connectors.
 - Test the Social Clarity Intensive and selected À La Carte services with qualified buyers.
 - Track actual delivery hours, scope changes, capacity, margin, objections, and close behavior.
 - Finalize the figures and service boundaries.
