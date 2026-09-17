@@ -44,12 +44,13 @@ Real backlog:
 - [ ] Run live hook and paid-diagnostic testing.
 
 ### Phase 2.5.6 — Offer and Pricing Architecture
-- [ ] Conceptualize pricing and scope in chat using CMS repository research.
+- [x] Conceptualize initial pricing and scope in chat using CMS repository research.
+- [x] Create the Phase 2.5.6 working draft with provisional figures.
 - [ ] Confirm Western-first ranges, Philippine reference ranges, capacity, margin, and qualification rules.
-- [ ] Create the Phase 2.5.6 source-of-truth file after explicit approval.
+- [ ] Finalize figures, scope, and qualification rules; update the working draft.
 
 ### 🔄 Currently in progress
-- [ ] Phase 2.5.6 offer and pricing conceptualization in chat.
+- [ ] Phase 2.5.6 figures, scope, and qualification finalization.
 - [ ] Final project-control verification where it affects the current strategy record.
 
 ### ⏭ Next in line
