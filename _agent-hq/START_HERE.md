@@ -27,17 +27,17 @@ and TASKS.md over the checklist's raw checkbox state. As of this writing,
 the active work is the supplementary Track A research series in
 `CMS-Research/` (A8 specifically — see handoffs/HANDOFF_LATEST.md).
 
-## Checkpoint discipline
-Periodically during a session — after a meaningful chunk of work, roughly
-every 30–45 minutes, or before starting something that could take a while —
-proactively write a checkpoint to `handoffs/HANDOFF_LATEST.md` and archive a
-timestamped copy in `handoffs/archive/`. Don't wait to be asked.
+## Agent HQ update rule
+Reading the required HQ files is part of session orientation. Writing to files inside `_agent-hq/` is not automatic.
 
-The user can also say:
+Do not update, checkpoint, archive, append, overwrite, or otherwise modify any file inside `_agent-hq/` unless the user literally says **"update everything"** or explicitly requests a specific HQ file or action. Normal task completion does not authorize HQ updates.
+
+The user can say:
 - **"checkpoint"** → write/archive a handoff now, mark it "Checkpoint," keep working.
-- **"wrap up"** → do the full end-of-session protocol (update STATUS.md,
-  SESSION_LOG.md, DECISIONS.md, TASKS.md, write a "Final" handoff, and give
-  git commands to commit + push).
+- **"wrap up"** → update the full HQ record and write a "Final" handoff.
+- **"update everything"** → update all relevant HQ files and complete the full session protocol.
+
+If none of those instructions is given, leave `_agent-hq/` unchanged.
 
 ## Before starting work
 State back to the user what you understood from these files — current
