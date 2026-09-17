@@ -109,13 +109,21 @@ CMS uses a service-depth progression:
 
 ## Primary / Secondary / Expansion Architecture
 
-### Primary ICP — Western
+### Primary commercial beachhead — Western
 
 **Growth-stage, owner-led Western businesses that have outgrown DIY / fragmented social media marketing.**
 
-Purpose: **primary revenue generation.**
+Purpose: **primary revenue generation, delivery proof, and case-study development.**
 
-### Secondary ICP — Philippines
+### Secondary development ICP — Western early-stage owner-operators
+
+**Western early-stage owner-operators with a real offer, early traction, or a credible business direction who want to build their business and social foundation with strategic clarity.**
+
+Purpose: **long-term relationship development, future growth, partnership, referrals, and right-sized early guidance.**
+
+This audience is not an unpaid incubation program. Support must have a defined scope and an appropriate commercial exchange.
+
+### Secondary geographic market — Philippines
 
 **Growth-stage, owner-led Philippine businesses that have outgrown DIY / fragmented social media marketing.**
 
