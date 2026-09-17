@@ -127,6 +127,39 @@
 - [x] Create the Phase 2.5.6 working draft with provisional scope and directional ranges.
 - [ ] Finalize figures, service scope, and qualification rules before public use.
 
+
+### 2.5.7 — Trust Signal and Proof Architecture
+
+**STATUS: [x] WORKING DRAFT — LIVE VALIDATION PENDING**
+
+- [x] Define website trust architecture and platform-specific trust roles.
+- [x] Benchmark agency trust signals.
+- [x] Add freelancer and independent consultant trust-signal benchmark.
+- [x] Define CMS human trust layer and agency advantage.
+- [x] Define proof, testimonial, review, disclosure, and claims guardrails.
+- [ ] Audit current website and planned platform profiles.
+- [ ] Publish and validate proof-of-method assets.
+- [ ] Test trust clarity with target respondents.
+- [ ] Lock public trust claims and placements after validation.
+
+**Source of truth:** `Social-Media-Structure/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`
+
+### 2.5.8 — First Acquisition Test
+
+**STATUS: [x] WORKING DRAFT — FIRST TEST NOT YET RUN**
+
+- [x] Define the first acquisition hypothesis.
+- [x] Select the relationship-led acquisition loop.
+- [x] Define primary, secondary, and connector acquisition lanes.
+- [x] Map Social Signal Check, Signal-to-Strategy Review, and Social Clarity Intensive routing.
+- [x] Define qualification, discovery, follow-up, ownership, measurement, and decision gates.
+- [ ] Build the first prospect and connector lists.
+- [ ] Run the initial acquisition test.
+- [ ] Review buyer language, objections, response quality, and commercial movement.
+- [ ] Decide whether to pass, revise, or stop.
+
+**Source of truth:** `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`
+
 ## Supplementary Track A — Western Market Reality
 
 **STATUS: [ ] 🔄 CURRENT — A1–A10 drafted; human review pending**
