@@ -226,33 +226,26 @@ WORKING RULES:
   finished platform content while Phase 1 is still open.
 - Keep commits small, with commit messages describing the actual change.
 
-CHECKPOINT DISCIPLINE (safety net against sudden usage-limit cutoffs):
-Periodically during a session — after finishing a meaningful chunk of work,
-roughly every 30–45 minutes of active work, or before starting something
-that could take a while — proactively write an updated
-/agent-hq/handoffs/HANDOFF_LATEST.md (marked "Checkpoint"), save a copy to
-/agent-hq/handoffs/archive/ with a timestamped filename, and tell the user
-you've done this. Don't wait to be asked. The goal: if the session ends
-without warning, the most recent checkpoint is never more than one chunk of
-work old.
+AGENT HQ UPDATE RULE:
+Reading the required `/agent-hq/` files is part of session orientation. Writing
+to any file inside `/agent-hq/` is opt-in and must not happen automatically.
 
-The user can also say "checkpoint" or "wrap up" at any time to trigger this
-immediately:
-- "checkpoint" → write/archive the handoff now, mark it "Checkpoint",
-  keep working.
-- "wrap up" → do the full end-of-session protocol below.
+Do not update, checkpoint, archive, append, overwrite, or otherwise modify any
+file inside `/agent-hq/` unless the user literally says **"update everything"**
+or explicitly requests a specific HQ file or action. Completing a normal task,
+reaching a time interval, or switching sessions does not authorize an HQ update.
 
-AT THE END OF EVERY SESSION (or when the user says "wrap up," they're
-stopping, low on usage, or switching accounts/tools):
-1. Write the final /agent-hq/handoffs/HANDOFF_LATEST.md, marked "Final,"
-   and archive a timestamped copy.
-2. Update /agent-hq/STATUS.md.
-3. Append a full entry to /agent-hq/SESSION_LOG.md (date/time range, who,
-   AI tool, track, goal, what was done, where it was left off, next step,
-   commit hash(es), and a pointer to the matching archived handoff file).
-4. Append any new decisions to /agent-hq/DECISIONS.md.
-5. Update /agent-hq/TASKS.md.
-6. Give the user the exact git commands to commit and push everything.
+The user can say:
+- "checkpoint" → write/archive a handoff now, marked "Checkpoint."
+- "wrap up" → complete the full HQ record and write a "Final" handoff.
+- "update everything" → update all relevant HQ files and complete the full session
+  protocol.
+
+If none of these instructions is given, leave `/agent-hq/` unchanged and do not
+spend tokens generating HQ status, log, task, decision, or handoff updates.
+
+When an HQ update is explicitly authorized, keep it scoped to the requested files
+or the relevant full protocol; do not update unrelated HQ files.
 
 Be concrete everywhere — assume the next session is a different person, on
 a different AI tool, with zero context beyond these files.
