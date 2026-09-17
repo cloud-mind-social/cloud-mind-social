@@ -1,9 +1,9 @@
 # Phase 2.5.8 — First Acquisition Test
 
-**Status:** Working draft; first test not yet run  
+**Status:** Theoretical working draft; research-supported hypotheses; live acquisition test pending  
 **Track:** Brand & Strategy; Commercial Viability & Validation Gate  
 **Date:** September 17, 2026  
-**Phase boundary:** This document designs the first acquisition experiment. It does not authorize a full platform launch, paid advertising, mass outbound, or permanent sales policy.
+**Phase boundary:** This document designs a theoretical first acquisition experiment from CMS research. It does not claim response rates, qualified demand, willingness to pay, or commercial validation. It does not authorize a full platform launch, paid advertising, mass outbound, or permanent sales policy.
 
 ## Purpose
 
@@ -18,6 +18,40 @@ The objective is learning and commercial evidence:
 - which objections block progression;
 - whether qualified prospects will pay for diagnosis;
 - whether early-stage relationships create future referrals or partnerships.
+
+
+## Theoretical basis and evidence limits
+
+CMS has not yet had sufficient opportunity to speak with prospects. The acquisition route, audience response, offer progression, and success thresholds in this document are hypotheses based on:
+
+- approved Phase 1 and Phase 2 decisions;
+- completed Track B Western Audience Reality research;
+- Track A market research, pending human review;
+- agency and freelancer competitor observations;
+- the Phase 2.5.5 hook architecture;
+- the Phase 2.5.6 provisional offer and pricing architecture;
+- the Phase 2.5.7 trust signal and proof architecture.
+
+### Research-supported assumptions
+
+- Western founder or owner-led expertise businesses are the primary commercial beachhead.
+- Early-stage owner-operators are a separate development and relationship lane.
+- Diagnosis before prescription is more credible than generic management language.
+- Social Signal Check is a reasonable ToFu curiosity asset.
+- Warm introductions and permission-based conversations are appropriate while proof is still limited.
+- The website should be the owned conversion and qualification environment.
+
+### Assumptions requiring live evidence
+
+- Which channel produces the strongest response.
+- Whether prospects complete the Social Signal Check.
+- Whether the problem is urgent enough to pay to solve.
+- Whether the Signal-to-Strategy Review creates progression.
+- Whether the Social Clarity Intensive price and scope are acceptable.
+- Whether early-stage relationships produce future commercial or referral value.
+- Whether CMS can deliver the offer within capacity and margin.
+
+Any response, conversion, price, or qualification figure in this document is a future test criterion, not current evidence.
 
 ## Strategic context
 
@@ -329,9 +363,9 @@ Track each contact:
 
 Do not use reach or follower growth as the primary success measure for this experiment.
 
-## Provisional success criteria
+## Future live test success criteria
 
-The first test should be considered useful if it produces:
+When the live test begins, it should be considered useful if it produces:
 
 - at least 5 substantive conversations;
 - at least 3 commercially qualified primary prospects;
@@ -448,4 +482,4 @@ Update this document when:
 - a new referral or partnership route becomes viable;
 - the test reveals that the primary or secondary ICP needs revision.
 
-**Current status:** Working draft; first acquisition test not yet run.
+**Current status:** Theoretical working draft based on research data; first acquisition test not yet run.
