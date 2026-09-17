@@ -61,3 +61,21 @@ that says so.
 **Next:**
 - Validate the two Western audience layers through live conversations and commercial behavior.
 - Proceed to the next Phase 2.5 task only after the first-buyer assumptions are sufficiently tested.
+
+
+## 2026-09-17 — Phase 2.5.3 problem and buying urgency
+**Track:** Brand & Strategy — Commercial Viability & Validation Gate
+**Status:** CONCEPTUALIZED — live validation pending.
+
+**Actions Taken:**
+- Defined the primary commercial problem as fragmented social activity creating a visible cost to owner or team capacity, business growth, confidence, or marketing coordination.
+- Distinguished stated symptoms from underlying constraints and appropriate intervention depth.
+- Defined capacity, capability, performance, complexity, growth, and provider-replacement urgency families.
+- Defined a separate early-stage urgency model focused on strategic foundation, clarity, and future relationship development.
+- Added buyer-language signals, discovery questions, and proposed live validation controls.
+- Created Social-Media-Structure/PHASE_2.5.3_Problem_and_Buying_Urgency_Validation.md.
+- Updated the strategy task list, STATUS, and latest handoff.
+
+**Next:**
+- Validate repeated root problems, business consequences, current triggers, and willingness to pay with live prospects.
+- Proceed to initial offer design after the problem and urgency model has enough direct support.
