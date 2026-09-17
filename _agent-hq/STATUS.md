@@ -47,7 +47,7 @@ Actions being handled in this work:
 
 - Formalize the approved Phase 2.5.5 hook ladder.
 - Use CMS-Research/Pricing-Rate-Research-CMS.md and Target-Market-Research-CMS.md as internal pricing inputs.
-- Conceptualize a Western-first offer and pricing structure in chat before creating a Phase 2.5.6 source-of-truth file.
+- Maintain and refine the Phase 2.5.6 working draft using CMS pricing research and actual pilot data.
 - Keep pricing, packages, margins, capacity, and qualification rules open until explicit approval.
 - Keep Phase 3 content architecture unopened.
 
@@ -69,13 +69,13 @@ Actions being handled in this work:
 
 ## Phase 2.5.6 — Offer and Pricing Architecture
 
-**In chat conceptualization:** Use existing CMS market-rate research and service-depth logic to design sustainable offers and price ranges. No Phase 2.5.6 source-of-truth file or pricing decision has been approved yet.
+**Working draft created:** The offer, À La Carte boundaries, and directional ranges are documented in the Phase 2.5.6 source-of-truth draft. It will be updated once figures and final scope are finalized; no final public pricing decision is approved yet.
 
 ## Next in line
 
-1. Complete the Phase 2.5.6 offer and pricing conceptualization in chat.
-2. Decide whether the price ranges, scope, and qualification logic are commercially viable.
-3. Create the Phase 2.5.6 source-of-truth file only after explicit approval.
+1. Finalize Phase 2.5.6 figures, scope, and qualification rules.
+2. Validate price and delivery assumptions through paid pilots and actual close behavior.
+3. Update the Phase 2.5.6 working draft once figures are finalized.
 4. Run live hook and paid-diagnostic testing.
 5. Complete the human review of Track A1–A10 as a separate evidence sequence.
 6. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
