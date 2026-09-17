@@ -146,7 +146,7 @@
 
 ### 2.5.8 — First Acquisition Test
 
-**STATUS: [x] WORKING DRAFT — FIRST TEST NOT YET RUN**
+**STATUS: [x] THEORETICAL WORKING DRAFT — RESEARCH-BASED; FIRST TEST NOT YET RUN**
 
 - [x] Define the first acquisition hypothesis.
 - [x] Select the relationship-led acquisition loop.
@@ -159,6 +159,22 @@
 - [ ] Decide whether to pass, revise, or stop.
 
 **Source of truth:** `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`
+
+
+### 2.5.9 — Theoretical Commercial Assumptions Baseline
+
+**STATUS: [x] THEORETICAL WORKING DRAFT — LIVE BUYER EVIDENCE UNAVAILABLE**
+
+- [x] Separate approved strategy, research findings, competitor observations, inference, and unknowns.
+- [x] Define the commercial assumption ledger.
+- [x] Define confidence labels and evidence hierarchy.
+- [x] Define pre-validation roleplay, comprehension, and low-risk behavior tests.
+- [x] Define future live validation evidence requirements.
+- [ ] Run proxy and public behavior tests.
+- [ ] Gather live buyer behavior when prospect access becomes available.
+- [ ] Update assumptions after paid or otherwise meaningful commercial evidence.
+
+**Source of truth:** `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`
 
 ## Supplementary Track A — Western Market Reality
 
