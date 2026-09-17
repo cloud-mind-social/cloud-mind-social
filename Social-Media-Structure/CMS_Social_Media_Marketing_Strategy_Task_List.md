@@ -119,10 +119,11 @@
 
 **STATUS: [x] WORKING DRAFT — FIGURES AND FINAL SCOPE PENDING**
 
-- [ ] Use CMS-Research/Pricing-Rate-Research-CMS.md as the internal price basis.
+- [x] Use CMS-Research/Pricing-Rate-Research-CMS.md as the directional internal price basis.
 - [ ] Translate the research into a sustainable diagnostic, a-la-carte, and tiered offer structure.
 - [ ] Set Western-first price ranges and separate Philippine reference ranges.
 - [ ] Define scope, capacity, margin, qualification, and discount rules.
+- [x] Clarify provisional À La Carte service categories and core-tier boundaries.
 - [x] Create the Phase 2.5.6 working draft with provisional scope and directional ranges.
 - [ ] Finalize figures, service scope, and qualification rules before public use.
 
