@@ -78,6 +78,18 @@
 - [ ] Test the two Western audience layers through live conversations and commercial behavior
 - [ ] Confirm which early-stage entry support is commercially viable
 
+### 2.5.3 — Problem and Buying Urgency Validation
+
+**STATUS: [x] CONCEPTUALIZED — LIVE VALIDATION PENDING**
+
+- [x] Distinguish stated problems from underlying business constraints
+- [x] Map business consequences and current buying triggers
+- [x] Define primary growth-stage urgency model
+- [x] Define secondary early-stage foundation and relationship urgency model
+- [x] Define buyer-language signals and discovery questions
+- [ ] Validate recurring root problems through live prospect conversations
+- [ ] Confirm which problem is urgent enough to support a paid diagnosis or scoped engagement
+
 ## Supplementary Track A — Western Market Reality
 
 **STATUS: [ ] 🔄 CURRENT — A1–A10 drafted; human review pending**
