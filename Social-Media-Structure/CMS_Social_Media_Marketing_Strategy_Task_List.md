@@ -103,6 +103,28 @@
 - [ ] Confirm category clarity, differentiation, relevance, and next-step intent.
 - [ ] Lock final public positioning only after the validation gate is met.
 
+### 2.5.5 — Hook Offer and Lead Generation Architecture
+
+**STATUS: [x] APPROVED DIRECTION — LIVE TESTING PENDING**
+
+- [x] Define the ToFu Social Signal Check.
+- [x] Define the MoFu Signal-to-Strategy Review.
+- [x] Define the BoFu Social Clarity Intensive.
+- [x] Keep a-la-carte entry services separate from core retainers.
+- [x] Define primary and early-stage expressions, channel roles, lead temperatures, and guardrails.
+- [ ] Test hook completion, qualified conversations, paid diagnostic acceptance, and follow-on fit.
+- [ ] Use live behavior to inform Phase 2.5.6 offer economics.
+
+### 2.5.6 — Offer and Pricing Architecture
+
+**STATUS: [ ] CONCEPTUALIZATION IN CHAT — NOT YET APPROVED**
+
+- [ ] Use CMS-Research/Pricing-Rate-Research-CMS.md as the internal price basis.
+- [ ] Translate the research into a sustainable diagnostic, a-la-carte, and tiered offer structure.
+- [ ] Set Western-first price ranges and separate Philippine reference ranges.
+- [ ] Define scope, capacity, margin, qualification, and discount rules.
+- [ ] Approve pricing and offer architecture before creating the Phase 2.5.6 source-of-truth file.
+
 ## Supplementary Track A — Western Market Reality
 
 **STATUS: [ ] 🔄 CURRENT — A1–A10 drafted; human review pending**
@@ -186,14 +208,14 @@ These files remain standalone evidence documents. They are not automatically mer
 
 # Current Work Queue
 
-## [ ] 🔄 CURRENT — Phase 2.5.4 Positioning Clarity Validation
+## [ ] 🔄 CURRENT — Phase 2.5.6 Offer and Pricing Architecture
 
-- [x] Create the Phase 2.5.4 positioning clarity framework.
-- [x] Translate the CMS territory into primary and early-stage buyer-facing language.
-- [x] Define alternatives, confusion risks, proof requirements, and a live validation gate.
-- [ ] Run live buyer validation with Western primary and secondary respondents.
-- [ ] Revise wording and proof needs from observed interpretation.
-- [ ] Confirm whether validated positioning can support initial offer design.
+- [x] Mark Phase 2.5.5 hook offer and lead generation architecture as approved direction.
+- [x] Create the Phase 2.5.5 source-of-truth document.
+- [ ] Conceptualize the offer and pricing architecture in chat.
+- [ ] Use the CMS pricing research as the internal basis for price ranges.
+- [ ] Confirm price, scope, capacity, margin, and qualification rules.
+- [ ] Create the Phase 2.5.6 source-of-truth file only after explicit approval.
 
 ## [ ] ⏭ NEXT IN LINE
 
