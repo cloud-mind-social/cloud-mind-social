@@ -1,5 +1,5 @@
 # Project Status
-Last updated: 2026-09-15
+Last updated: 2026-09-17
 
 ## Role
 Social Media Marketer for CMS. Working track: Brand & Strategy only. `www/` is out of scope and was not reviewed, read, edited, or otherwise touched during this session.
@@ -41,15 +41,15 @@ Track A remains a separate evidence layer and is not automatically merged into l
 
 ## Current work
 
-**🔄 IN PROGRESS — Repository/source-of-truth reconciliation**
+**🔄 IN PROGRESS — Phase 2.5.4 Positioning Clarity Validation**
 
 Actions being handled in this work:
-- Align README with the approved commercial ICP.
-- Remove X from the active platform architecture.
-- Correct repository/document paths in README.
-- Document the repository architecture so future AI sessions know where strategy, research, content, platform work, and operational/client material belong.
-- Align CMS Branding with the approved Western-first / Philippines-second commercial priority.
-- Reconcile Agent HQ narrative, dated actions, and task status.
+
+- Translate Strategic Social Intelligence into plain buyer language.
+- Test whether the diagnosis-first distinction is clear and commercially meaningful.
+- Compare CMS with the alternatives buyers already consider.
+- Define proof requirements, confusion controls, and the Western live-validation gate.
+- Keep final public positioning, pricing, service packages, and Phase 3 content architecture unlocked until evidence supports them.
 
 ## Phase 2.5.2 — First Buyer Architecture
 
@@ -59,12 +59,18 @@ Actions being handled in this work:
 
 **Conceptualized:** The primary problem is fragmented social activity creating a visible business cost; the secondary early-stage problem is lack of strategic foundation and clarity. Live prospect validation remains open.
 
+## Phase 2.5.4 — Positioning Clarity Validation
+
+**Conceptualized:** CMS's diagnosis-first positioning has been translated into buyer-facing test language and a live validation protocol. Strategic Social Intelligence remains the intellectual territory; final public positioning remains unlocked until the clarity gate is met.
+
 ## Next in line
 
-1. Human batch review of Track A1–A10.
-2. Decide which reviewed evidence should inform Phase 2 without overriding locked decisions.
-3. Complete any remaining project-control reconciliation.
-4. Only after the Track A review is sufficiently complete, formally begin Phase 3 — Content Architecture.
+1. Run live positioning-card validation with Western primary and secondary respondents.
+2. Validate recurring problems, urgency, and commercially plausible next steps.
+3. Revise the working positioning and proof requirements from observed buyer language.
+4. Decide whether validated positioning is clear enough to support initial offer design.
+5. Complete the human review of Track A1–A10 as a separate evidence sequence.
+6. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
 
 ## Not started
 
