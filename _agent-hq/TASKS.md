@@ -38,9 +38,19 @@ Real backlog:
 - [ ] Confirm category clarity, differentiation, relevance, and next-step intent.
 - [ ] Lock final public positioning only after validation.
 
+### Phase 2.5.5 — Hook Offer and Lead Generation Architecture
+- [x] Approved the Social Signal Check, Signal-to-Strategy Review, and Social Clarity Intensive ladder.
+- [x] Keep a-la-carte diagnostic entry separate from core retainers.
+- [ ] Run live hook and paid-diagnostic testing.
+
+### Phase 2.5.6 — Offer and Pricing Architecture
+- [ ] Conceptualize pricing and scope in chat using CMS repository research.
+- [ ] Confirm Western-first ranges, Philippine reference ranges, capacity, margin, and qualification rules.
+- [ ] Create the Phase 2.5.6 source-of-truth file after explicit approval.
+
 ### 🔄 Currently in progress
-- [ ] Phase 2.5.4 live positioning validation.
-- [ ] Repository/source-of-truth reconciliation — final verification where it affects the current strategy record.
+- [ ] Phase 2.5.6 offer and pricing conceptualization in chat.
+- [ ] Final project-control verification where it affects the current strategy record.
 
 ### ⏭ Next in line
 1. Human batch review of Track A1–A10.
