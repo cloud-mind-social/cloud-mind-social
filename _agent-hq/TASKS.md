@@ -29,8 +29,18 @@ Real backlog:
 - [x] Define the distinct foundation and relationship urgency for early-stage owner-operators.
 - [ ] Validate problem recurrence, urgency, and willingness to pay with live prospects.
 
+### Phase 2.5.4 — Positioning Clarity Validation
+- [x] Translate Strategic Social Intelligence into plain buyer language.
+- [x] Define the primary and early-stage positioning expressions.
+- [x] Map buyer alternatives, confusion risks, and proof requirements.
+- [x] Define the Western live validation protocol and working gate.
+- [ ] Run live positioning-card interviews.
+- [ ] Confirm category clarity, differentiation, relevance, and next-step intent.
+- [ ] Lock final public positioning only after validation.
+
 ### 🔄 Currently in progress
-- [ ] Repository/source-of-truth reconciliation — final verification.
+- [ ] Phase 2.5.4 live positioning validation.
+- [ ] Repository/source-of-truth reconciliation — final verification where it affects the current strategy record.
 
 ### ⏭ Next in line
 1. Human batch review of Track A1–A10.
