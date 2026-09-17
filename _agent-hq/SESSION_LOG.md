@@ -100,3 +100,20 @@ that says so.
 **Next:**
 - Run live positioning-card interviews with Western primary and secondary respondents.
 - Validate interpretation, category clarity, differentiation, relevance, proof needs, and next-step intent.
+
+
+## 2026-09-17 — Phase 2.5.5 hook offer and lead generation architecture
+**Track:** Brand & Strategy — Commercial Viability & Validation Gate
+**Status:** APPROVED DIRECTION — live testing pending.
+
+**Actions Taken:**
+- Approved the one-ladder hook architecture across ToFu, MoFu, and BoFu.
+- Defined Social Signal Check, Signal-to-Strategy Review, and Social Clarity Intensive.
+- Preserved a-la-carte entry services as finite trials separate from core retainers.
+- Defined primary and early-stage expressions, channel roles, lead-temperature rules, and guardrails.
+- Created Social-Media-Structure/PHASE_2.5.5_Hook_Offer_and_Lead_Generation_Architecture.md.
+- Updated the strategy task list, Agent HQ STATUS, TASKS, DECISIONS, and latest handoff.
+
+**Next:**
+- Conceptualize Phase 2.5.6 offer and pricing architecture in chat using CMS repository pricing research.
+- Do not create the Phase 2.5.6 source-of-truth file until explicit approval.
