@@ -208,9 +208,13 @@ Nine segments across three cultures (Western, Asian, Filipino) and three generat
 
 **Primary commercial market:** Western clients.
 
-**Secondary commercial market:** Philippine clients.
+**Primary commercial beachhead:** Western founder or owner-led expertise and high-value service businesses.
 
-The nine segments remain useful persona variations for communication and proof adaptation. They are not equal commercial priorities. The commercial ICP is governed by business maturity and the marketing problem, not by generation or culture alone.
+**Secondary development ICP:** Western early-stage owner-operators who want to build their business and social foundation with strategic clarity.
+
+**Secondary geographic market:** Philippine growth-stage, owner-led businesses.
+
+The nine segments remain useful persona variations for communication and proof adaptation. They are not equal commercial priorities. The commercial ICP is governed by business maturity and the marketing problem, not by generation or culture alone. Early-stage owner-operators are a relationship, future-growth, partnership, and referral audience; they are not treated as an unpaid incubation program or as the same buying stage as the primary growth-stage ICP.
 
 **Segmentation Note:** CMS's specialist-network model is genuinely differentiated and likely appeals across segments regardless of culture — but the proof style needed to earn trust changes per segment (data-driven for Western, relationship-driven for Asian/Filipino). This directly shapes tone-of-voice adaptation per segment.
 
