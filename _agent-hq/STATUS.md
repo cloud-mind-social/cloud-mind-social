@@ -41,7 +41,7 @@ Track A remains a separate evidence layer and is not automatically merged into l
 
 ## Current work
 
-**🔄 IN PROGRESS — Phase 2.5.6 Offer and Pricing Architecture; 2.5.7 and 2.5.8 drafts created**
+**🔄 IN PROGRESS — Phase 2.5.6 Offer and Pricing Architecture; 2.5.7, 2.5.8, and 2.5.9 working drafts created**
 
 Actions being handled in this work:
 
@@ -84,14 +84,22 @@ Source of truth: `Social-Media-Structure/PHASE_2.5.7_Trust_Signal_and_Proof_Arch
 
 Source of truth: `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`.
 
+
+## Phase 2.5.9 — Theoretical Commercial Assumptions Baseline
+
+**Theoretical working draft created:** The document translates approved strategy, Track B, Track A evidence, competitor observations, and prior Phase 2.5 work into a commercial assumptions ledger. It separates research-supported hypotheses from inference and unknowns; no live buyer evidence or willingness-to-pay claim is made.
+
+Source of truth: `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`.
+
 ## Next in line
 
 1. Finalize Phase 2.5.6 figures, scope, and qualification rules.
 2. Validate the 2.5.7 trust architecture with website and platform audits.
-3. Run the 2.5.8 first acquisition test and record buyer evidence.
-4. Update Phase 2.5.6 once figures and final scope are finalized.
-5. Complete the human review of Track A1–A10 as a separate evidence sequence.
-6. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
+3. Run proxy and public behavior tests defined in the theoretical 2.5.9 baseline.
+4. Run the 2.5.8 first acquisition test and record buyer evidence.
+5. Update Phase 2.5.6 once figures and final scope are finalized.
+6. Complete the human review of Track A1–A10 as a separate evidence sequence.
+7. Only after dependencies are sufficiently complete, formally begin Phase 3 — Content Architecture.
 
 ## Not started
 
