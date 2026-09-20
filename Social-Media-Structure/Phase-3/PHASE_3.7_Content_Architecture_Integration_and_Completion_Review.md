@@ -1,8 +1,8 @@
-# Phase 3.7 — Content Architecture Integration and Completion Review
+# Phase 3.7 — Visual Identity Implementation, Content Architecture Integration and Completion Review
 
-**Status:** In Progress  
-**Phase:** 3 — Content Architecture  
-**Dependencies:** Phase 3.1 through Phase 3.6
+**Status:** Working draft; visual implementation and final public language remain subject to validation  
+**Phase:** 3 — Content Architecture and Brand Implementation  
+**Dependencies:** Phase 3.1 through Phase 3.6; approved Phase 3.2 visual identity direction
 
 ## Purpose
 
@@ -20,7 +20,184 @@ Phase 3.7 is a completion and integration gate. It does not create another conte
 | 3.4 | Content-to-Funnel Mapping | Defines where content supports audience movement |
 | 3.5 | CTA Framework | Defines the next action appropriate to audience readiness |
 | 3.6 | Proof Requirements and Content Governance | Defines what may be claimed and how content is approved |
-| 3.7 | Integration and Completion Review | Confirms that the system works as one architecture |
+| 3.7 | Visual Identity Implementation, Integration and Completion Review | Makes the approved identity usable in content while confirming that the system works as one architecture |
+
+## Visual identity implementation layer
+
+Phase 3.7 translates the approved Phase 3.2 visual direction into a usable system for content and later implementation. It does not reopen logo exploration or create platform-specific design systems.
+
+### Approved visual identity baseline
+
+The implementation must preserve:
+
+* Responsive Master System as the logo direction.
+* The default symbol as the primary visual identifier.
+* The approved logo direction stored in the repository.
+* The existing CMS color palette.
+* The existing CMS typography system.
+* The approved tagline: “We build the bridge from unknown to impact.”
+* Human, strategic, authentic and restrained photography.
+* Motion that communicates movement from complexity toward clarity.
+* Abstract, geometric and strategic supporting graphics.
+* Supporting graphics and icons that remain subordinate to the emblem.
+
+### Logo and symbol system
+
+The usable logo system should define:
+
+* Primary logo
+* Horizontal version
+* Compact version
+* Stacked version
+* Symbol-only version
+* Simplified symbol for small sizes
+* Clear space
+* Minimum size
+* Light and dark-background use
+* Single-color applications
+* Approved and prohibited use
+* Digital and print application rules
+
+The purpose is consistent implementation; it is not another round of logo concept development.
+
+### Visual design system
+
+The visual system should operationalize:
+
+* Primary and secondary color roles
+* Typography hierarchy
+* Heading, body, tagline and subtitle relationships
+* Spacing and alignment
+* Contrast and accessibility
+* Graphic density
+* Symbol-to-text balance
+* Visual emphasis for important information
+* Consistent treatment of evidence, disclaimers and limitations
+
+Existing repository assets remain the source for the palette and typography. New application rules must not silently replace those assets.
+
+### Visual identity by content function
+
+| Content function | Visual direction |
+|---|---|
+| Educational explanation | Clear hierarchy, structured information and restrained graphics |
+| Diagnostic breakdown | Contrast, pathways, annotations and focused information grouping |
+| Strategic point of view | Strong typography and symbol-led emphasis |
+| Founder or strategist reflection | Human photography with editorial treatment |
+| Proof of method | Process diagrams, decision trails and annotated examples |
+| Client proof | Authentic context, verified evidence and restrained presentation |
+| Offer explanation | Clear scope, fit, boundaries and next-step emphasis |
+| CTA content | Strong hierarchy without aggressive sales styling |
+
+### Template family system
+
+The reusable visual template families should support:
+
+* Educational explanation
+* Diagnostic breakdown
+* Decision framework
+* Strategic point of view
+* Research interpretation
+* Process walkthrough
+* Proof-of-method demonstration
+* Case study
+* Testimonial or review
+* Offer explanation
+* FAQ or objection response
+* Social Signal Check
+* Signal-to-Strategy Review
+* Social Clarity Intensive
+* Founder or strategist reflection
+
+Each template family should identify:
+
+* Content purpose
+* Visual hierarchy
+* Required brand elements
+* Evidence requirements
+* CTA placement
+* Image or graphic requirements
+* Adaptability limits
+
+### Photography, motion and supporting graphics
+
+Photography should feel human, strategic, authentic, restrained, contextual and credible.
+
+Motion should support the CMS narrative by showing:
+
+* Complexity becoming clear
+* Fragments becoming connected
+* Insight becoming action
+* Movement toward purposeful impact
+
+Motion must support meaning; it should not become decorative animation.
+
+Supporting graphics and icons should be abstract, geometric, strategic and subordinate to the symbol system. Avoid generic stock technology imagery, cliché social icons or visual elements that compete with the core emblem.
+
+### Visual proof governance
+
+The visual system must distinguish:
+
+* Real client proof
+* Verified CMS work
+* Proof of method
+* Hypothetical examples
+* Research interpretation
+* AI-generated or conceptual imagery
+
+Concept visuals must not appear to be real client evidence. Stock imagery, AI imagery and mockups must not imply actual CMS results, client relationships or commercial validation.
+
+### Visual quality assurance
+
+Before visual approval, confirm:
+
+* Correct logo version
+* Correct symbol use
+* Approved colors
+* Approved typography
+* Readability and contrast
+* Clear hierarchy
+* Consistent spacing
+* Appropriate imagery
+* Correct proof labeling
+* Correct CTA visibility
+* No visual implication of unsupported claims
+* Adaptability across the approved channels
+
+### Asset and implementation register
+
+| Asset or system | Current status |
+|---|---|
+| Logo direction | Approved direction in repository |
+| Logo variants | Implementation required |
+| Symbol system | Default identifier |
+| Color palette | Existing repository asset |
+| Typography | Existing repository asset |
+| Photography direction | Approved direction |
+| Motion direction | Approved direction |
+| Graphics and icons | Implementation required |
+| Content templates | To be developed from the approved architecture |
+| Visual QA checklist | Defined in this phase |
+| Platform-specific versions | Reserved for Phase 5 |
+
+### Handoff boundaries
+
+Phase 3.7 hands off:
+
+* Usable visual identity rules
+* Template families
+* Visual proof standards
+* Brand asset requirements
+* Visual quality checklist
+* Content production guidance
+
+Phase 3.7 does not complete:
+
+* Website implementation
+* Platform-specific publishing systems
+* Final public positioning language before clarity validation
+* Final proof claims before commercial evidence
+* The full social media operating system
 
 ## Integrated content model
 
