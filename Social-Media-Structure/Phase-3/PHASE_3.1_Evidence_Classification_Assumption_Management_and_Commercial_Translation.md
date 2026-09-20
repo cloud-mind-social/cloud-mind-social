@@ -1,306 +1,388 @@
-# Phase 3.1 — Evidence Classification, Assumption Management and Commercial Translation
+# Phase 3.1 — Audience, Positioning and Evidence Integration
 
 **Status:** In Progress  
-**Phase:** 3 — Content Architecture  
-**Scope:** Consolidated Phase 3.1 working file
+**Phase:** 3  
+**Scope:** Consolidate the approved audience foundation, Track A evidence, Track B research structure, positioning implications, commercial assumptions and remaining validation needs.
 
 ## Scope correction
 
-Phase 2 already established and validated CMS's Primary ICP. Phase 3.1 does not repeat ICP discovery or general audience validation.
+Phase 2 already established and locked CMS’s Primary ICP. Phase 3.1 must not repeat ICP discovery or reopen the approved audience architecture.
 
-Phase 3.1 classifies what CMS already knows, separates validated findings from theoretical assumptions, identifies remaining evidence gaps, and translates the approved foundation into commercial decisions.
+Phase 3.1 will:
 
----
+- Preserve the approved Primary ICP.
+- Consolidate approved Track A findings.
+- Integrate Track B B1 to B10.
+- Separate validated findings from theoretical assumptions.
+- Classify evidence by confidence level.
+- Translate audience evidence into positioning, offers, content and acquisition implications.
+- Document remaining evidence gaps.
+- Establish a controlled feedback loop for future prospect learning.
 
-## 1. Phase 3.1 Working Framework
+## 1. Approved Audience Baseline
 
+### Primary commercial ICP
 
+> **Growth-Stage, Owner-Led Businesses That Have Outgrown DIY or Fragmented Social Media Marketing**
 
-- Preserve Phase 2 decisions as the current strategic baseline.
-- Classify findings using CMS's source-confidence system.
+CMS primarily serves Western founder or owner-led expertise and high-value service businesses that:
+
+- Have an actual product or service.
+- Have existing customers and revenue.
+- Have reached a stage beyond pure idea validation.
+- Still involve the owner or founder in major decisions.
+- Already have some form of social-media presence.
+- Have managed marketing through the owner, VA, employee, freelancer, AI tools or several disconnected contributors.
+- Have limited owner time and increasing opportunity cost.
+- Produce content without a coherent business strategy behind it.
+- Recognize, or are beginning to recognize, that posting more is not automatically the answer.
+- Are willing to invest in expertise when the value is clear.
+- Want clarity, accountability, measurable progress and business understanding.
+
+### Commercial audience architecture
+
+| Audience layer | Audience | Commercial role |
+|---|---|---|
+| Primary commercial beachhead | Western founder or owner-led expertise and high-value service businesses that have outgrown DIY or fragmented social media marketing | Primary revenue, delivery proof and case-study development |
+| Secondary development ICP | Western early-stage owner-operators with a real offer, early traction or credible business direction | Bounded guidance, future growth, partnership and referrals |
+| Secondary geographic market | Philippine growth-stage, owner-led businesses that have outgrown DIY or fragmented social media marketing | Local proof, measurable numbers and secondary market development |
+| Future expansion audience | Established businesses with internal marketing resources needing specialist social strategy or oversight | Later expansion; not current priority |
+
+### Primary audience transition
+
+**Starting belief:**
+
+> “I need someone to post for me.”
+
+**Recognition:**
+
+> “Posting is not really the problem.”
+
+**Desired understanding:**
+
+> “I need someone who understands what my business needs from social media and can build the right system around it.”
+
+### Audience exclusions and qualification boundaries
+
+The following should not automatically be treated as qualified CMS clients:
+
+- Businesses without a real offer or credible business direction.
+- Businesses seeking unlimited low-cost posting.
+- Businesses requesting guaranteed followers, leads or revenue.
+- Businesses unwilling to provide context, access or decision-making participation.
+- Businesses expecting unpaid strategy or open-ended incubation.
+- Businesses that want execution without diagnosis.
+- Businesses whose needs exceed current CMS delivery capacity.
+- Businesses expecting a full marketing department without confirmed scope.
+- Businesses unwilling to define ownership, approvals, timelines or responsibilities.
+
+These are qualification boundaries, not permanent exclusions from all future CMS services.
+
+## 2. Existing Phase 3.1 Evidence Framework
+
+### Objectives
+
+- Preserve Phase 2 decisions as the strategic baseline.
+- Classify findings using CMS’s source-confidence system.
 - Separate direct evidence, market evidence, interpretation and assumptions.
 - Record unresolved questions without reopening settled decisions.
 - Translate audience and market findings into messaging, offers, trust signals and acquisition priorities.
 - Establish a controlled feedback loop for future prospect learning.
 
-## Execution status
+### Evidence-confidence methodology
 
-### Completed at Phase 3.1 start
+- 🟢 **High:** Strong, direct and relevant evidence.
+- 🟡 **Moderate:** Credible but indirect or limited evidence.
+- 🟠 **Anecdotal:** Directional evidence only.
+- 🔴 **Unverified:** Excluded from formal findings.
 
-- Confirmed that the Primary ICP was established in Phase 2.
-- Removed ICP discovery and general audience validation from this workstream.
-- Confirmed that the initial audience validation is already covered by the approved Phase 2 work.
-- Defined the remaining work as evidence classification, assumption management and commercial translation.
+Every finding must include:
 
-### Current execution order
-
-1. Inventory the approved Phase 2 findings.
-2. Classify each finding by confidence level and evidence type.
-3. Build the assumption register without reopening locked decisions.
-4. Map evidence gaps around execution and commercial behavior.
-5. Translate findings into messaging, offers, trust signals and acquisition decisions.
-6. Define the prospect feedback loop for future testing.
-7. Review the completed Phase 3.1 outputs before moving to the next Phase 3 workstream.
-
-## Work packages
-
-### 3.1.1 Phase 2 evidence inventory
-
-- Gather the approved Phase 2 positioning, ICP, audience, objection, buyer-psychology and Track A outputs.
-- Record the source and originating Phase 2 section for each finding.
-- Mark each item as decision, finding, interpretation, hypothesis or open question.
-- Preserve all locked decisions unless the user explicitly reopens them.
-
-### 3.1.2 Confidence classification
-
-Apply the existing methodology:
-
-- 🟢 High; strong and directly relevant evidence.
-- 🟡 Moderate; credible but indirect or limited evidence.
-- 🟠 Anecdotal; useful directional evidence, not sufficient for firm conclusions.
-- 🔴 Unverified; excluded from formal findings until supported.
-
-Each classification must include a short rationale and source reference.
-
-### 3.1.3 Assumption register
-
-Create a register containing:
-
-- Assumption or claim
-- Current status
-- Evidence supporting it
+- Source
+- Evidence type
 - Confidence level
-- Business decision affected
-- Risk if incorrect
-- Validation method
-- Owner
-- Review status
+- Rationale
+- Commercial implication
+- Limitation
 
-The register must not reopen the approved Primary ICP. It should identify only the assumptions surrounding execution, buying behavior, offer design, messaging and acquisition.
+### Evidence categories
 
-### 3.1.4 Evidence gap map
+1. Approved strategic decision
+2. Direct CMS evidence
+3. Research-supported market evidence
+4. Strategic interpretation
+5. Working hypothesis
+6. Unverified claim
 
-Identify what remains unknown about:
+## 3. Track A Evidence Integration
 
-- Buying triggers
-- Offer preference
-- Budget and pricing sensitivity
-- Decision-making process
-- Trust signal priority
-- Preferred conversion path
-- Objection frequency and severity
-- Required proof before purchase
+Track A remains a separate evidence layer and must not silently rewrite locked Phase 2 decisions.
 
-These are validation gaps around the existing ICP, not a new ICP discovery exercise.
+The Phase 3.1 inventory should incorporate findings from:
 
-### 3.1.5 Commercial translation
+- A1; Agency–Client Relationship Reality
+- A2; What Clients Actually Want
+- A3; ROI and Value Problem
+- A4; DIY, AI, VA, Freelancer, Agency and In-House Alternatives
+- A5; Outgrown-DIY Trigger
+- A6; Strategy versus Execution Market Gap
+- A7; Trust and Risk
+- A8; AI Changes the Market
+- A9; Pricing and Budget
+- A10; Retention and Partnership
 
-Translate approved findings into:
+Each Track A finding must record:
 
-- Messaging priorities
-- Offer and package implications
-- Trust-signal requirements
-- Website conversion requirements
-- Content-pillar priorities
-- Platform-specific acquisition roles
-- Lead qualification criteria
-- Discovery-call questions
-- Objection-handling priorities
+| Field | Requirement |
+|---|---|
+| Track A source | Exact research file |
+| Finding | What the research indicates |
+| Evidence level | High, Moderate, Anecdotal or Unverified |
+| CMS implication | What CMS should consider |
+| Limitation | What the evidence does not prove |
+| Phase 3 use | Messaging, offer, trust, website or acquisition |
 
-### 3.1.6 Feedback-loop design
+## 4. Track B Integration
 
-Define how CMS will learn from real prospects without destabilizing the strategic foundation:
+Track B remains a research guide unless a section has been separately researched and approved.
 
-- Discovery-call evidence capture
-- Lost-lead reason tracking
-- Objection tracking
-- Prospect language capture
-- Offer-response tracking
-- Content response tracking
-- Monthly assumption review
-- Rules for when a hypothesis may be upgraded to a finding
-
-## Deliverables
-
-- Phase 2 Evidence Inventory
-- Confidence Classification Matrix
-- CMS Assumption Register
-- Evidence Gap Map
-- Commercial Translation Matrix
-- Prospect Feedback Loop
-- Phase 3.1 Completion Review
-
-## File relationship
-
-This document is the Phase 3.1 working file. It should be placed in the appropriate Phase 3 or strategy task directory and referenced from the main Phase 3 task list. It must not replace or overwrite the approved Phase 2 audience or ICP files.
-
-## Completion criteria
-
-Phase 3.1 is complete when:
-
-- Phase 2 decisions are documented as the baseline.
-- The Primary ICP is treated as established.
-- Existing findings have confidence labels and source references.
-- Unverified assumptions are clearly separated from approved findings.
-- Commercial implications are documented for messaging, offers, trust, website and acquisition.
-- Future prospect validation has a defined process.
-
-## Guardrails
-
-- Do not redo Primary ICP identification.
-- Do not treat Track B's research structure as evidence by itself.
-- Do not upgrade assumptions into findings without supporting evidence.
-- Do not merge new evidence into locked Phase 2 documents automatically.
-- Do not access or modify the `www/` folder.
-
----
-
-## 2. Deliverable 01 — Phase 2 Evidence Inventory
-
-**Status:** Working document
-
-## Purpose
-
-Record the approved Phase 2 decisions and identify their source, evidence type and current confidence without reopening settled decisions.
-
-## Baseline decisions
-
-| Decision or finding | Source | Evidence type | Confidence | Notes |
-|---|---|---|---|---|
-| Primary ICP is established | Phase 2 audience architecture | Approved strategic decision | To be recorded from repo source | Do not reopen in Phase 3.1 |
-| CMS serves a Western primary market | Phase 1 and Phase 2 strategy | Approved strategic decision | To be recorded from repo source | Philippine market remains secondary |
-| CMS uses a diagnostic-first approach | CMS brand foundation | Strategic positioning | To be recorded from repo source | Diagnose before prescribing |
-| Strategic Social Intelligence is the working positioning | CMS brand foundation | Strategic positioning | To be recorded from repo source | Preserve unless explicitly changed |
-
-## Inventory rules
-
-- Add each Phase 2 finding as a separate row.
-- Record the exact originating document.
-- Distinguish approved decisions from research findings and assumptions.
-- Do not silently upgrade theoretical findings into validated evidence.
-
----
-
-## 3. Deliverable 02 — Confidence Classification Matrix
-
-**Status:** Working document
-
-| Finding | Evidence/source | Classification | Rationale | Commercial use |
-|---|---|---|---|---|
-| Primary ICP | Approved Phase 2 architecture | 🟢 High / approved decision | Established in Phase 2 | Governs targeting |
-| Western market priority | Approved CMS strategy | 🟢 High / approved decision | Existing strategic direction | Governs acquisition |
-| Buyer objections and frustrations | Track A and Phase 2 interpretation | 🟡 Moderate | Market-level and adjacent evidence | Use for hypotheses and messaging tests |
-| Exact buying triggers of CMS prospects | No direct prospect evidence recorded here | 🔴 Unverified | Requires direct commercial evidence | Do not present as fact |
-
-## Classification rules
-
-- 🟢 High; strong, direct and relevant evidence.
-- 🟡 Moderate; credible but indirect or limited evidence.
-- 🟠 Anecdotal; directional evidence only.
-- 🔴 Unverified; excluded from firm findings.
-
----
-
-## 4. Deliverable 03 — CMS Assumption Register
-
-**Status:** Working document
-
-| ID | Assumption | Affected decision | Confidence | Risk if wrong | Validation method | Status |
-|---|---|---|---|---|---|---|
-| A-001 | The established Primary ICP is commercially reachable through educational, diagnostic content | Acquisition strategy | 🟡 Moderate | Content may attract attention without qualified leads | Track qualified inquiries and discovery calls | Open |
-| A-002 | Diagnostic-first messaging will differentiate CMS from execution-only providers | Positioning and messaging | 🟡 Moderate | Differentiation may not be immediately understood | Message testing and prospect feedback | Open |
-| A-003 | Prospects will value strategic clarity before purchasing execution | Offer design | 🟡 Moderate | Entry offer may need stronger immediate utility | Test consultation and diagnostic offer responses | Open |
-| A-004 | Existing Phase 2 objections represent the most commercially important objections | Sales process | 🟡 Moderate | Sales materials may answer the wrong concerns | Track objections in real conversations | Open |
-
-## Guardrail
-
-This register surrounds the approved Primary ICP; it does not challenge or replace it.
-
----
-
-## 5. Deliverable 04 — Evidence Gap Map
-
-**Status:** Working document
-
-| Area | What is already covered | Remaining gap | Priority |
-|---|---|---|---|
-| ICP | Established in Phase 2 | None for Phase 3.1 | Closed |
-| Audience direction | Validated through existing work | Continue monitoring commercial fit | Low |
-| Buying triggers | Theoretical patterns available | Actual trigger frequency and urgency | High |
-| Offer preference | Initial service direction exists | Which entry offer creates action | High |
-| Pricing sensitivity | Market research exists | Prospect response to CMS pricing | High |
-| Trust signals | Market-level trust patterns identified | Relative importance for CMS buyers | Medium |
-| Decision process | General buyer psychology available | Actual decision-makers and timeline | Medium |
-| Conversion path | Website-led journey defined | Preferred first conversion action | High |
-
----
-
-## 6. Deliverable 05 — Commercial Translation Matrix
-
-**Status:** Working document
-
-| Strategic input | Commercial implication | Required output |
+| Section | Subject | Phase 3.1 treatment |
 |---|---|---|
-| Diagnostic-first positioning | Lead with clarity and diagnosis before service menus | Diagnostic content and consultation structure |
-| Strategic Social Intelligence | Demonstrate pattern recognition and decision quality | Educational and analytical content pillars |
-| Established Western Primary ICP | Prioritize Western buyer language, budgets and channels | Western-focused acquisition system |
-| Audience objections | Reduce perceived risk before asking for a commitment | Objection-handling content and FAQ sections |
-| Need for trust | Show process, judgment and proof consistently | Trust-signal architecture |
-| Theoretical early-stage findings | Avoid unsupported certainty | Label hypotheses and test them commercially |
+| B1 | Reality of running the business | Integrate as audience context and pressure map |
+| B2 | Current social-media reality | Map current ownership, tools and operating patterns |
+| B3 | Actual problems | Build the stated problem versus actual problem matrix |
+| B4 | Emotional reality | Require first-party evidence or mark theoretical |
+| B5 | “I need help” moment | Add possible triggers to the assumption register |
+| B6 | Previous attempts | Connect failed solutions to the objection bank |
+| B7 | Information-seeking behavior | Translate into content and acquisition implications |
+| B8 | Audience language | Build the language glossary |
+| B9 | Trust drivers | Build and classify the trust-driver matrix |
+| B10 | Buying behavior | Build and classify the buying-trigger matrix |
 
-## Translation rule
+No Track B research question should be treated as proof of audience behavior.
 
-Every Phase 2 finding used in marketing, offers or sales must have a documented commercial implication and confidence level.
+## 5. Stated Problem → Actual Problem Matrix
 
----
+| Audience language | Possible underlying problem | Business consequence | Evidence status | CMS implication |
+|---|---|---|---|---|
+| “We need more content.” | No clear content decision system | Time and budget spent on disconnected output | Research-supported assumption | Diagnose before prescribing |
+| “Our posting is inconsistent.” | Ownership, capacity or coordination problem | Presence and trust become inconsistent | Research-supported assumption | Examine operating model |
+| “We need better graphics.” | Weak message or unclear positioning | Visual improvement does not solve the real problem | Research-supported assumption | Clarify strategic role first |
+| “We need more followers.” | No defined business outcome | Vanity growth may not create commercial movement | Research-supported assumption | Connect metrics to business decisions |
+| “We need someone to manage social media.” | Lack of strategic ownership or internal capacity | Owner remains responsible for unclear decisions | Research-supported assumption | Determine whether the need is labor, management or strategy |
 
-## 7. Deliverable 06 — Prospect Feedback Loop
+This matrix must be updated when direct prospect language becomes available.
 
-**Status:** Working document
+## 6. Audience Language Glossary
 
-## Capture during every prospect interaction
+The glossary should collect real or clearly labeled research-derived language under:
 
-- Prospect type and fit with the established ICP
-- Problem stated in the prospect's own words
+- Social-media problems
+- Business pressures
+- Previous failed attempts
+- Agency and freelancer frustrations
+- Trust concerns
+- Pricing concerns
+- Buying language
+- Desired outcomes
+- Emotional expressions
+
+Each phrase must be labeled as:
+
+- Direct audience language
+- Market-reported language
+- Research-derived language
+- CMS interpretation
+
+CMS must not present research-derived language as if a specific prospect said it.
+
+## 7. Pain, Fear, Objection, Trigger and Outcome Map
+
+| Audience element | Current status | Phase 3.1 action |
+|---|---|---|
+| Pain points | Covered in Phase 2 | Classify and translate commercially |
+| Fears | Covered conceptually | Identify high-risk concerns |
+| Objections | Covered in the Audience Objection Bank | Connect to evidence and response content |
+| Buying triggers | Mostly theoretical | Keep in the assumption register |
+| Desired outcomes | Covered directionally | Connect to offers and proof |
+| Reasons for delay | Partially covered | Add to future prospect tracking |
+| Reasons for rejection | Partially covered | Track during acquisition tests |
+
+## 8. Trust-Driver Matrix
+
+Trust drivers to classify and test:
+
+- Case studies
+- Testimonials
+- Referrals
+- Founder credibility
+- Process transparency
+- Specialization
+- Pricing clarity
+- Communication
+- Business understanding
+- Results
+- Credentials
+- Personality and relationship fit
+
+Each item should be marked as:
+
+- Approved or directly evidenced
+- Track A supported
+- Track B supported
+- Theoretical
+- Pending direct prospect evidence
+
+## 9. Buying-Trigger Matrix
+
+Potential buying triggers include:
+
+- Lack of time
+- Business growth
+- Failed freelancer or VA support
+- Inconsistent posting
+- Poor results
+- Launch pressure
+- Founder burnout
+- Measurement confusion
+- Need for strategic clarity
+- Desire to replace or restructure existing support
+
+These are working hypotheses until supported by direct CMS prospect evidence.
+
+## 10. Positioning Translation
+
+Phase 3.1 should translate audience evidence into the following positioning decisions:
+
+- What CMS should be recognized for
+- What CMS should not be recognized for
+- How the diagnosis-first model should be explained
+- How CMS differs from a VA
+- How CMS differs from a freelancer
+- How CMS differs from a generic agency
+- How CMS differs from a consultant
+- What CMS promises
+- What CMS refuses to promise
+
+The positioning should preserve:
+
+- Diagnosis before prescription
+- Business before content
+- Strategic Social Intelligence
+- Right-sized support
+- Clarity over vanity metrics
+- Evidence over unsupported claims
+
+## 11. Commercial Translation Matrix
+
+| Audience evidence | Positioning implication | Offer implication | Content implication | Validation need |
+|---|---|---|---|---|
+| Fragmented social activity | Lead with diagnosis | Social Signal Check | Diagnostic education | Test problem recognition |
+| Previous provider disappointment | Emphasize clarity and accountability | Bounded diagnostic first | Trust and process content | Track objection frequency |
+| Unclear social-media role | Position CMS as decision support | Signal-to-Strategy Review | Strategic intelligence content | Test comprehension |
+| Fear of wasted spend | Show scope and limitations | Finite entry offers | Proof and transparency content | Test pricing response |
+| Capacity pressure | Show business understanding | Right-sized support | Owner-reality content | Confirm urgency |
+| Desire for growth | Connect social activity to business decisions | Strategy or growth support after diagnosis | Business-outcome content | Confirm willingness to invest |
+
+## 12. Assumption Register
+
+The assumption register must include:
+
+| Field | Purpose |
+|---|---|
+| Assumption or claim | Exact statement |
+| Source track | Phase 2, Track A, Track B or Phase 2.5 |
+| Evidence type | Decision, direct evidence, research, interpretation or hypothesis |
+| Confidence | High, Moderate, Anecdotal or Unverified |
+| Commercial decision affected | Messaging, offer, trust, website or acquisition |
+| Risk if wrong | Consequence of acting on it |
+| Confirmation method | What evidence would support it |
+| Disconfirmation method | What would challenge it |
+| Review trigger | When it must be reconsidered |
+| Status | Open, supported, revised or closed |
+
+The register must not challenge the approved Primary ICP unless explicitly reopened.
+
+## 13. Evidence Gap Map
+
+Remaining evidence gaps include:
+
+- Actual frequency of audience problems
+- Relative importance of trust signals
+- Exact buying triggers
+- Preferred entry offer
+- Pricing sensitivity
+- Time to decision
+- Preferred conversion path
+- Actual willingness to pay
+- Repeated audience language
+- Reasons for rejecting providers
+- Which content produces qualified movement
+
+## 14. Prospect Feedback Loop
+
+During every prospect interaction, capture:
+
+- Prospect fit with the approved ICP
+- Problem stated in the prospect’s own words
 - Desired outcome
 - Current solution or previous attempt
 - Main concern or objection
-- Trust signal requested or noticed
+- Trust signal requested
 - Offer that created interest
 - Reason for progressing, delaying or declining
 - Decision-maker and expected timeline
 
-## Monthly review
+Monthly review should:
 
 1. Group repeated language and objections.
-2. Compare real evidence against the assumption register.
-3. Upgrade, retain or downgrade confidence classifications.
+2. Compare real evidence with the assumption register.
+3. Upgrade, retain or downgrade confidence.
 4. Identify implications for messaging, offers and acquisition.
-5. Preserve the ICP unless the user explicitly reopens it.
+5. Preserve the approved ICP unless explicitly reopened.
 
-## Upgrade rule
+## 15. Phase 3.1 Deliverables
 
-An assumption may become a formal finding only when repeated, relevant evidence supports it and the source is documented.
+The consolidated Phase 3.1 file contains:
 
----
+- Approved audience baseline
+- Track A evidence inventory
+- Track B integration table
+- Confidence classification matrix
+- Stated Problem → Actual Problem Matrix
+- Audience language glossary
+- Pain, fear, objection, trigger and outcome map
+- Trust-driver matrix
+- Buying-trigger matrix
+- Positioning translation
+- Commercial Translation Matrix
+- Evidence Gap Map
+- Assumption Register
+- Prospect Feedback Loop
+- Phase 3.1 Completion Review
 
-## 8. Deliverable 07 — Phase 3.1 Completion Review
+## 16. Completion Criteria
 
-**Status:** Not started
+Phase 3.1 is complete when CMS has:
 
-## Completion checklist
+- Preserved the approved Primary ICP
+- Consolidated approved Track A evidence
+- Integrated Track B B1 to B10 with evidence labels
+- Distinguished validated findings from theoretical assumptions
+- Built the Stated Problem → Actual Problem Matrix
+- Built the audience language glossary
+- Mapped pain, fears, objections, triggers and outcomes
+- Classified trust drivers and buying triggers
+- Translated audience evidence into positioning, offers and content implications
+- Recorded remaining assumptions and evidence gaps
+- Established a process for updating findings from future prospect conversations
 
-- [ ] Phase 2 evidence inventory completed
-- [ ] Findings classified by confidence
-- [ ] Assumption register reviewed
-- [ ] Evidence gaps prioritized
-- [ ] Commercial translation completed
-- [ ] Prospect feedback loop documented
-- [ ] Primary ICP preserved as a Phase 2 decision
-- [ ] Outputs reviewed before Phase 3.2 begins
+## Guardrails
 
----
-
-## Consolidation note
-
-This file replaces the former standalone Phase 3.1 working file and the separate `Phase-3.1-Deliverables/` folder. All Phase 3.1 deliverables are now maintained in this single document under `Social-Media-Structure/Phase-3/`.
+- Do not redo Primary ICP identification.
+- Do not reopen locked Phase 2 audience decisions.
+- Do not treat Track B research questions as evidence.
+- Do not treat market-level Track A findings as direct CMS buyer evidence.
+- Do not convert theoretical assumptions into facts.
+- Do not fabricate audience language, testimonials, results or buying behavior.
+- Do not modify www/ or webmail/.
