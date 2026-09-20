@@ -1,4 +1,4 @@
-# Phase 3.3 — Content Formats and Strategic Roles
+# Phase 3.3 — CMS Methodology, Content Formats and Strategic Roles
 
 **Status:** In Progress  
 **Phase:** 3 — Content Architecture  
@@ -25,6 +25,308 @@ Every content asset should answer:
 7. Why is this format appropriate for this idea?
 
 Do not choose a format merely because it is popular or easy to produce.
+
+
+# CMS Methodology
+
+## Purpose
+
+CMS's methodology explains how the agency moves from a business problem to an appropriate recommendation, then into implementation, measurement and improvement.
+
+> **Discovery → Diagnosis → Strategy → Implementation → Measurement → Optimization**
+
+The methodology protects CMS's diagnosis-before-prescription positioning. Content production is an output of the process, not the process itself.
+
+## Discovery
+
+Discovery is where CMS learns what is happening before recommending anything.
+
+Discovery should examine:
+
+- Business model and offer
+- Current business stage
+- Revenue and customer context
+- Target audience
+- Business goals
+- Current marketing situation
+- Existing social platforms
+- Current content process
+- Internal and external contributors
+- Previous providers and attempted solutions
+- Existing tools and assets
+- Current frustrations
+- Available resources
+- Decision-maker involvement
+- Timeline, urgency and budget context
+
+### Discovery output
+
+Discovery should produce:
+
+- A shared understanding of the business
+- A clearly stated concern
+- Known facts
+- Working assumptions
+- Information still required for diagnosis
+
+Discovery does not automatically produce a proposal or service recommendation.
+
+## Diagnosis
+
+Diagnosis identifies the underlying problem behind the stated request.
+
+CMS should examine:
+
+- What the client is asking for
+- What appears to be the actual problem
+- What business consequence is occurring
+- Whether the issue is strategic, operational, executional or measurement-related
+- What has already been attempted
+- Why previous attempts failed or stopped
+- What level of support is required
+- What the client does not need yet
+- What evidence supports the diagnosis
+- What remains uncertain
+
+### Diagnostic categories
+
+- Capacity problem
+- Capability problem
+- Strategy problem
+- Messaging problem
+- Positioning problem
+- Coordination problem
+- Measurement problem
+- Platform-role problem
+- Provider-fit problem
+- Growth or scaling problem
+
+### Diagnosis output
+
+The diagnosis should identify:
+
+- Stated problem
+- Likely underlying problem
+- Business consequence
+- Supporting evidence
+- Confidence level
+- Recommended next decision
+- Services or actions not recommended at this stage
+
+## Strategy
+
+Strategy converts the diagnosis into a clear direction.
+
+Strategy should define:
+
+- What social media should do for the business
+- Who the business needs to reach
+- What message should be understood
+- Which platforms are relevant
+- Which content pillars matter
+- What funnel role social media should play
+- What the business should stop doing
+- What the business should begin doing
+- What should be measured
+- What level of support is appropriate
+- Which assumptions still require validation
+
+### Strategy output
+
+A strategy may include:
+
+- Strategic direction
+- Audience and message priorities
+- Content architecture
+- Funnel role
+- Platform role
+- Offer or service recommendation
+- Measurement framework
+- Implementation priorities
+- Assumptions requiring validation
+
+Strategy is not a generic content calendar presented as a complete solution.
+
+## Implementation
+
+Implementation is the execution of an approved strategy.
+
+Implementation may include:
+
+- Content development
+- Social profile work
+- Campaign execution
+- Publishing systems
+- Community management
+- Design and video production
+- Scheduling
+- Reporting setup
+- Specialist coordination
+- Client approvals
+
+### Implementation rules
+
+- Execution must follow an approved strategic direction.
+- The creator must not silently change the strategy.
+- Scope, timelines and responsibilities must be clear.
+- Work must match the diagnosed need.
+- À La Carte work remains finite and defined.
+- Ongoing support remains inside the appropriate strategic package.
+
+## Measurement
+
+Measurement determines whether strategy and implementation are producing useful movement.
+
+Measurement should examine:
+
+- Relevant attention
+- Audience understanding
+- Qualified engagement
+- Problem-language signals
+- Diagnostic requests
+- Lead quality
+- Conversion events
+- Delivery effort
+- Scope changes
+- Client confidence
+- Business-relevant progress
+- Evidence of mismatch
+
+Measurement must not rely only on:
+
+- Follower counts
+- Impressions
+- Likes
+- Raw reach
+- Posting frequency
+- Generic engagement rate
+
+A metric becomes useful when it helps CMS make a decision.
+
+## Optimization
+
+Optimization improves the system based on evidence.
+
+The optimization loop is:
+
+> **Observe → Interpret → Decide → Test → Measure → Refine**
+
+Optimization may change:
+
+- Content themes
+- Messaging
+- Format selection
+- CTA routing
+- Platform emphasis
+- Audience assumptions
+- Offer scope
+- Reporting
+- Production workflow
+- Specialist allocation
+
+Optimization does not mean changing direction every week without evidence, chasing every trend or increasing content volume automatically.
+
+## Recommendation communication
+
+Every recommendation should explain:
+
+1. What CMS observed
+2. What CMS believes may be happening
+3. What evidence supports the interpretation
+4. What remains uncertain
+5. What CMS recommends
+6. Why the recommendation fits
+7. What CMS is not recommending
+8. What the client needs to provide
+9. How progress will be evaluated
+10. What the next decision will be
+
+Recommendations must not be presented as unexplained packages.
+
+## CMS responsibilities
+
+CMS is responsible for:
+
+- Conducting structured discovery
+- Separating symptoms from likely causes
+- Explaining recommendations
+- Matching support to the diagnosed problem
+- Defining scope clearly
+- Coordinating specialists appropriately
+- Maintaining evidence and claim boundaries
+- Communicating risks and limitations
+- Reporting meaningfully
+- Adjusting when evidence supports a change
+- Declining work that is not appropriate
+
+## Client responsibilities
+
+The client is responsible for:
+
+- Providing accurate business information
+- Sharing goals and constraints
+- Providing timely access and assets
+- Identifying decision-makers
+- Giving clear feedback
+- Meeting approval deadlines
+- Maintaining account and data access
+- Disclosing restrictions or compliance requirements
+- Participating in discovery and diagnosis
+- Confirming business priorities
+- Approving scope before implementation
+- Communicating changes that affect delivery
+
+CMS cannot diagnose or execute effectively from incomplete or misleading information.
+
+## Diagnostic-first framework
+
+CMS operates by:
+
+> **Understand first. Recommend second. Execute third. Optimize continuously.**
+
+The framework identifies:
+
+- Business situation
+- Stated request
+- Actual constraint
+- Business consequence
+- Desired business movement
+- Appropriate depth of support
+
+CMS must not:
+
+- Sell a package before understanding the need
+- Treat every problem as a content problem
+- Promise results before a baseline exists
+- Recommend ongoing management when a smaller intervention is enough
+- Offer unpaid open-ended strategy
+- Use content production to hide strategic uncertainty
+
+## Prospect-facing process explanation
+
+> **We start by understanding the business, not by handing you a package. We identify what is actually getting in the way, explain what social media should do for your business, and recommend the level of support that fits the problem. Only then do we move into strategy, execution and ongoing improvement.**
+
+## Methodology outputs
+
+| Stage | Output |
+|---|---|
+| Discovery | Business and marketing context brief |
+| Diagnosis | Problem and constraint assessment |
+| Strategy | Strategic direction and recommended approach |
+| Implementation | Approved deliverables and execution record |
+| Measurement | Performance and business-movement report |
+| Optimization | Documented learning and next decision |
+
+## Methodology-to-format alignment
+
+| Methodology stage | Appropriate content formats |
+|---|---|
+| Discovery | Conversation Prompt; Founder or Strategist Reflection; FAQ |
+| Diagnosis | Diagnostic Breakdown; Checklist; Decision Framework |
+| Strategy | Educational Explanation; Strategic Point of View; Process Walkthrough |
+| Implementation | Process Walkthrough; Decision-Trace Case; Proof-of-Method Demonstration |
+| Measurement | Research Interpretation; Verified Case Study; Performance Explanation |
+| Optimization | Decision-Trace Case; Founder Reflection; Objection Response |
 
 # Core content formats and roles
 
