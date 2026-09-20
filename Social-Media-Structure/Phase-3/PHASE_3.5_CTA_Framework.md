@@ -1,14 +1,178 @@
-# Phase 3.5 — CTA Framework
+# Phase 3.5 — Messaging System and CTA Framework
 
-**Status:** In Progress  
+**Status:** Working draft; final public positioning remains subject to clarity validation  
 **Phase:** 3 — Content Architecture  
-**Dependency:** Phase 3.4 Content-to-Funnel Mapping
+**Dependency:** Phase 3.4 Offer Architecture and Content-to-Funnel Mapping
 
 ## Purpose
 
-Define how CMS uses calls to action to guide people toward the next appropriate step without forcing every audience member into a sales conversation.
+Define the CMS messaging system and how calls to action guide people toward the next appropriate step without forcing every audience member into a sales conversation.
+
+This document establishes the message hierarchy, core message architecture, audience adaptations, voice and tone rules, offer language, messaging templates and CTA system. It connects the brand foundation to funnel movement and commercial routing.
+
+Final public positioning language remains subject to the Phase 2.5.4 clarity validation gate. Final proof claims remain subject to Phase 3.6 evidence and governance controls.
 
 A CTA should clarify what the audience can do next, why that action is relevant and what level of commitment it requires.
+
+## Messaging system baseline
+
+### CMS messaging hierarchy
+
+CMS messaging follows this sequence:
+
+**Why → Belief → How → What → Evidence → CTA**
+
+| Layer | CMS messaging role |
+|---|---|
+| Why | Why the problem matters to the business and the people responsible for it |
+| Belief | What CMS believes about diagnosis, investment and right-sized support |
+| How | How CMS examines the situation and decides what should happen next |
+| What | What CMS may provide after the need and scope are understood |
+| Evidence | What supports the message and how strong that evidence is |
+| CTA | The next proportionate action for the audience's readiness |
+
+Services remain underneath the philosophy. Messaging must not reduce CMS to a list of tasks, posting volume or generic social media packages.
+
+### Core message architecture
+
+| Message element | Current CMS direction | Status |
+|---|---|---|
+| Strategic territory | Strategic Social Intelligence | Approved foundation |
+| Approved tagline | “We build the bridge from unknown to impact.” | Approved |
+| Core belief | Diagnosis first, investment second | Approved foundation |
+| Supporting belief | Business before content | Approved working principle |
+| Method | Discover → Diagnose → Strategize → Implement → Measure → Optimize | Approved working methodology |
+| Transformation direction | Move from uncertainty and fragmented effort toward clarity and purposeful action | Working language |
+| Brand philosophy | Turn digital complexity into purposeful human connection | Working foundation language |
+| Commercial principle | Right-sized help instead of one-size-fits-all service | Approved working principle |
+
+Final positioning language must not be presented as market-validated until the relevant clarity validation is complete.
+
+### CMS message house
+
+CMS content should connect the following ideas:
+
+* A business may have outgrown disconnected or fragmented social effort.
+* More content is not automatically the correct response.
+* The visible social problem may reflect a deeper issue involving capacity, capability, coordination, positioning, measurement or business clarity.
+* CMS examines the problem before recommending the depth of support.
+* Social media can be a starting point for understanding what the business needs next.
+* The appropriate response may be education, diagnosis, À La Carte support, Presence, Momentum, Authority or Growth Partner.
+* The next action should follow evidence, readiness and fit.
+
+### Audience message adaptation
+
+The message system should adapt emphasis without creating separate brands.
+
+| Audience | Message emphasis | Communication control |
+|---|---|---|
+| Western growth-stage owner-led businesses | Fragmented effort, owner burden, business consequences, coordination and right-sized support | Primary commercial messaging |
+| Western early-stage owner-operators | Foundation, clarity, credible direction, channel priorities and bounded support | Separate development expression |
+| Philippine growth-stage businesses | Similar business condition, adapted examples and a separate market context | Secondary geographic expression |
+
+CMS should preserve Western-first commercial priority while avoiding language that assumes every audience has the same budget, stage or urgency.
+
+### Problem and outcome language
+
+CMS messaging should distinguish:
+
+* Visible symptoms; inconsistent posting, disconnected channels, unclear ownership or activity without business direction.
+* Underlying constraints; capacity, capability, coordination, positioning, measurement, complexity or growth readiness.
+* Business consequences; wasted effort, owner burden, unclear decisions, weak confidence or misaligned investment.
+* Appropriate outcomes; clarity, prioritization, better decisions, right-sized support, accountable execution and documented learning.
+
+Use plain language beside strategic terms. Do not assume the audience already understands “Strategic Social Intelligence.”
+
+Avoid:
+
+* Generic “post more” language.
+* Vague promises of growth without defining the outcome.
+* Treating every problem as a content-production problem.
+* Describing services as an interchangeable task menu.
+* Making early-stage guidance sound like open-ended unpaid coaching.
+* Using overt pressure when the audience has not yet understood the problem.
+
+### Offer messaging rules
+
+Offer language must explain the problem, decision and boundary before emphasizing the service name.
+
+| Offer route | Message should emphasize | Message must not imply |
+|---|---|---|
+| Social Signal Check | Self-identification and clearer problem language | A complete audit or automatic diagnosis |
+| Signal-to-Strategy Review | Bounded interpretation of a specific situation | Unlimited consulting or a full strategy project |
+| Social Clarity Intensive | Paid diagnosis and a concise decision brief | Automatic eligibility for ongoing support |
+| À La Carte Services | Specific problem, deliverable, outcome and finite scope | Unlimited revisions or hidden strategy |
+| Presence, Momentum, Authority or Growth Partner | Increasing depth of responsibility after diagnosis | A generic posting-volume package or guaranteed growth |
+| Early-Stage Social Foundation Sprint | Bounded strategic foundation for a qualified owner-operator | Open-ended coaching or unpaid incubation |
+
+### Voice and tone system
+
+CMS voice should reflect the Sage plus Caregiver archetype:
+
+| Voice dimension | Application |
+|---|---|
+| Sage | Clear, analytical, thoughtful, structured and evidence-aware |
+| Caregiver | Respectful, grounded, supportive, human and non-judgmental |
+| Strategic | Interprets the business situation before discussing execution |
+| Practical | Explains what the audience can do next |
+| Honest | Makes limitations, assumptions and uncertainty visible |
+
+Tone may vary by context:
+
+* Educational; clear and explanatory.
+* Diagnostic; focused, curious and precise.
+* Founder or strategist perspective; reflective and decisive.
+* Commercial; direct, proportionate and non-pressuring.
+* Objection response; calm, specific and transparent.
+* Proof content; factual, permission-based and evidence-aware.
+* Uncertainty or correction; accountable and clear.
+
+### Message and claim status
+
+Messaging must distinguish:
+
+* Approved foundation; locked CMS decisions and brand principles.
+* Working language; usable during testing and subject to refinement.
+* Research-supported assumption; useful for initial operating content but not proven CMS behavior.
+* Proof-dependent claim; cannot be presented as fact until direct evidence exists.
+* Unverified claim; excluded from formal public content.
+
+Phase 3.6 owns detailed proof requirements, claim registers, permission controls and risk review. Phase 3.5 defines the message language that those controls must govern.
+
+### Reusable messaging structures
+
+The messaging system should support templates for:
+
+* Educational explanation
+* Strategic point of view
+* Diagnostic breakdown
+* Founder or strategist reflection
+* Method explanation
+* Objection response
+* Offer explanation
+* Proof-of-method content
+* Verified case study
+* Social Signal Check invitation
+* Signal-to-Strategy Review invitation
+* Social Clarity Intensive invitation
+
+These are structural templates only. They do not replace platform-specific content development.
+
+### Messaging validation
+
+Test important messages for:
+
+* Clarity
+* Relevance
+* Differentiation
+* Audience comprehension
+* Perceived credibility
+* Emotional response
+* Problem recognition
+* Next-step intent
+* Confusion or misinterpretation
+
+A message should not be treated as final merely because it sounds strong internally. Public positioning remains open until the clarity gate is met.
 
 ## CTA principle
 
