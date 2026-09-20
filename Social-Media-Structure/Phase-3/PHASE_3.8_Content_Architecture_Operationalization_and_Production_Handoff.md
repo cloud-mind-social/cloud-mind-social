@@ -1,14 +1,243 @@
-# Phase 3.8 — Content Architecture Operationalization and Production Handoff
+# Phase 3.8 — Website and Conversion Architecture, Content Operationalization and Production Handoff
 
-**Status:** In Progress  
-**Phase:** 3 — Content Architecture  
-**Dependency:** Phase 3.7 Content Architecture Integration and Completion Review
+**Status:** Approved architecture additions; implementation and live conversion validation pending  
+**Phase:** 3 — Website and Conversion Architecture; Content Operations  
+**Dependencies:** Phase 3.1–3.7; Phase 2.5.4–2.5.8 commercial guardrails
 
 ## Purpose
 
-Convert the completed Phase 3 content architecture into a practical operating handoff that CMS can use when developing content, reviewing drafts and preparing for Phase 4.
+Connect CMS content to the owned website, qualified lead capture, diagnosis and right-sized commercial action. Preserve the existing content-production handoff so collaborators can develop content, review drafts and prepare for later funnel and platform work.
 
-Phase 3.8 does not create posts, a calendar, platform strategies or a campaign. It defines how the architecture will be used consistently.
+Phase 3.8 defines architecture and implementation requirements; it does not build website functionality, create posts or a calendar, launch campaigns, configure CRM or payment systems, or finalize platform strategies. Approval of this document is not evidence that conversion mechanisms work.
+
+
+## Website assessment and evidence boundary
+
+**Reference:** https://cloudmindsocial.com/  
+**Observation date:** September 20, 2026  
+**Review method:** Public homepage HTML text, navigation links and visible form content retrieved during the approved conceptualization.
+
+Earlier retrieval attempts were unsuccessful. The subsequent successful homepage retrieval supports the observations below. This is not a rendered visual audit, a full-site audit, or evidence of commercial performance.
+
+No form was submitted. Submission handling, confirmation emails, lead storage, booking, payments, CRM, account security, client portal workflows, mobile rendering and analytics were not tested. Their absence from homepage text must not be reported as proof they do not exist. No access to or changes inside www/ or webmail/ are authorized.
+
+### Existing foundations to preserve
+
+* Diagnosis before prescription and business needs before service recommendations.
+* An illustrative diagnosis explicitly labeled as not an actual client.
+* A process that explains understanding, recommendation, execution and reporting.
+* Four service depths with conversation-based fit rather than automatic package selection.
+* Explanation of what is not recommended yet.
+* FAQs covering budget, continuity and relationship concerns.
+* A discovery form with name, business name, email, optional phone, business stage and contextual information.
+
+### Current website alignment register
+
+| Verified homepage observation | Phase 3.8 decision or required clarification |
+|---|---|
+| Main conversion prompts lead to the conversation section | Add alternative entry routes for exploration, bounded review and paid diagnosis |
+| Audience language broadly addresses businesses | Make growth-stage, owner-led businesses that have outgrown DIY or fragmented social marketing explicit |
+| Opening promises a diagnosis on the first call; another section puts recommendations after examination | Define initial fit discussion, bounded review and paid diagnosis separately; align all promises |
+| Public service paths are Content & Execution, Managed Presence, Strategy & Growth and Strategic Partnership | Reconcile with approved working offer architecture before public renaming or package commitments |
+| Broad capability language includes every capability a growing business runs into | Restrict claims to capabilities CMS can currently deliver or reliably coordinate |
+| Named specialists and continuity are promised | Explain relationship leadership, delivery ownership and handoffs; substantiate promises |
+| Visible form captures business stage but not explicit urgency or decision authority | Use progressive qualification rather than a burdensome first form |
+| The page promises a reply within one business day | Retain only when staffing and follow-up ownership can consistently support it |
+| Example diagnosis is marked illustrative | Preserve that label; do not convert it into client or outcome proof |
+
+These are dated observations and approved recommendations, not a report that the changes have already been implemented.
+
+## Website role and message architecture
+
+The website is the owned conversion and client hub. It should answer: “Should I start a business relationship with Cloud Mind Social?”
+
+The intended journey is:
+
+**Social discovery → Website understanding → Appropriate entry route → Qualification → Diagnosis → Recommendation → Proposal → Contract → Payment → Onboarding → Delivery → Reporting → Renewal or expansion**
+
+The journey is not compulsory for every visitor. A defined finite execution need may be assessed for À La Carte support without requiring an unnecessary full diagnostic.
+
+Preserve Strategic Social Intelligence, diagnosis before prescription, business before content, right-sized support, human accountability and evidence-aware recommendations. Carry the approved tagline “We build the bridge from unknown to impact.” into messaging where appropriate. Final public positioning remains subject to clarity validation; this document does not lock final website copy.
+
+**Approved journey refinement:** Account creation is not a prerequisite for initial inquiry. Introduce it when it supports assessment continuity or onboarding. This refines the account-first sequence in the original foundation checklist; it does not remove the longer-term client account vision.
+
+## Website content and destination architecture
+
+Treat this as a set of content requirements, not a mandate to create a separate page for every item immediately.
+
+| Content area | Required job | Next action |
+|---|---|---|
+| Homepage | Clarify audience, problem, method, fit and available entry routes | One context-appropriate primary CTA |
+| About and methodology | Show who is accountable and how decisions are made | Inspect the method or request an appropriate review |
+| Social Signal Check | Help identify what to examine | View preliminary result; optional emailed summary or help request |
+| Signal-to-Strategy Review | Explain a bounded review and qualification requirements | Submit specific context |
+| Social Clarity Intensive | Explain paid diagnostic scope, output, inputs and limitations | Request qualification or use a verified booking/payment route when available |
+| Services and problem-led solutions | Explain responsibility and fit, not just task quantities | Scope a finite need or explore diagnosis-supported engagement |
+| Resources and FAQs | Address questions and objections without pressure | Relevant resource or entry route |
+| Proof | Separate method, capability and permissioned client evidence | Inspect relevant evidence and the corresponding next step |
+| Qualification and confirmation | Capture useful context and explain what happens next | Assigned human review |
+| Client pathway | Support proposal, contract, payment, onboarding, reporting and renewal | Appropriate relationship action once implemented |
+
+### Public service paths and internal offer reconciliation
+
+| Current public path | Relationship to working offer architecture | Control |
+|---|---|---|
+| Content & Execution | Finite À La Carte production | Define deliverable, inputs, revisions and stop point |
+| Managed Presence | Potential overlap with Presence and Momentum | Clarify responsibility differences; no automatic one-to-one equivalence |
+| Strategy & Growth | Potential overlap with bounded strategy work or Authority | Do not equate a project fee with an ongoing tier |
+| Strategic Partnership | Potential overlap with Growth Partner | Confirm leadership scope, specialist capacity and qualification |
+
+The Early-Stage Social Foundation Sprint remains a separate bounded route for a qualified secondary development audience. Phase 2.5.6 owns final scope and pricing decisions. Do not publish directional prices as approved figures or rename offers silently.
+
+Every offer destination must state fit, problem, process, inputs, deliverables, timeline, CMS and client responsibilities, exclusions, approved pricing or pricing status, output and next action.
+
+## Lead generation after an ICP reaches the website
+
+The objective is a qualified next step, not an email address alone. An inquiry is not automatically a qualified opportunity.
+
+### Three diagnostic entry routes
+
+| Visitor situation | Entry route | Immediate value | Conversion |
+|---|---|---|---|
+| Notices a problem but cannot identify its cause | Social Signal Check | Preliminary indication of what to examine | Optional emailed summary or request for help |
+| Has a specific situation and wants perspective | Signal-to-Strategy Review | Bounded interpretation and next-decision guidance | Qualified review request |
+| Has an active business consequence and is ready for paid clarity | Social Clarity Intensive | Defined diagnosis and decision brief | Qualified paid engagement |
+
+These are alternatives, not mandatory steps. Ready buyers may enter directly at the appropriate route. Avoid giving equal visual prominence to every CTA everywhere; choose the primary action according to page purpose and audience readiness.
+
+### Social Signal Check
+
+Use a short self-assessment covering:
+
+* Whether the business has a clear offer and existing customers.
+* Who owns social media decisions.
+* Whether activity supports a defined business objective.
+* Where execution or coordination breaks down.
+* What the business currently measures.
+
+Return a preliminary indication such as direction, capacity, coordination or measurement needing attention. Explicitly label it as an indication, not a diagnosis.
+
+**Approved test direction:** Show the basic result immediately; offer an emailed summary and relevant next step afterward. Compare qualified interest against an email-before-result approach if testing becomes appropriate. This is a testable recommendation, not a proven conversion advantage.
+
+### Signal-to-Strategy Review
+
+Capture name, email, website or social profile, business role, current situation, consequence and reason for seeking help now. Use progressive capture so the first interaction does not become a full onboarding questionnaire.
+
+Explain what will be reviewed, what the interaction includes and what is excluded. Whether the review is free or paid remains an open Phase 2.5.6 commercial decision.
+
+### Social Clarity Intensive
+
+Explain scope, required inputs, diagnostic output, boundaries, timing and next steps. Use only approved pricing. Until pricing and delivery arrangements are finalized, use a request or qualification route; do not imply immediate checkout or booking is operational.
+
+The paid diagnostic must stand on its own. Buying it does not require a retainer. A first fit conversation must not promise the full work reserved for this service.
+
+## Progressive qualification and lead routing
+
+| Dimension | Question to resolve | Control |
+|---|---|---|
+| Fit | Does the business match the primary ICP or a defined secondary segment? | Preserve Western-first commercial priority without treating geography alone as readiness |
+| Problem | Is there a concrete need CMS can address? | Separate symptom from underlying constraint |
+| Urgency | Is there a meaningful consequence or trigger? | Do not manufacture urgency |
+| Readiness | Can the person provide context, participate and consider paid support? | Clarify decision role, timing and scope expectations |
+
+Budget and timing can be explored as needed during qualification, not treated as proof of willingness to pay. Do not invent validated scoring thresholds.
+
+| Lead condition | Route |
+|---|---|
+| Strong fit and active need | Human review and appropriate diagnostic |
+| Strong fit but low urgency | Relevant resource and optional ongoing communication |
+| Qualified early-stage foundation need | Bounded foundation support when appropriate |
+| Clear finite execution need | Scoped À La Carte assessment |
+| Unsupported expectations or unsuitable need | Defer, redirect or decline |
+
+Capture source platform or campaign when available, entry route, provided context, qualification outcome, assigned owner, next action and its due date. Define deferred, declined and no-response outcomes as well as successful conversion.
+
+## Confirmation, ownership and follow-up
+
+Every live capture route must have:
+
+1. A clear submission confirmation.
+2. A stated next step and realistic response expectation.
+3. An assigned human owner.
+4. A record of supplied context and any permission preferences.
+5. A follow-up action and closure or deferral decision.
+
+The one-business-day reply promise observed on the homepage requires an operational owner and sufficient capacity. Do not repeat it as a guarantee until delivery can support it.
+
+Respond to the inquiry separately from optional marketing subscriptions. Do not automatically enroll every submitter in promotional sequences. Respect declines and requests to stop follow-up.
+
+A manual lead record and human response may support an initial controlled launch if approved and tested; CRM automation is not itself proof of a working process.
+
+## Trust, experience and proof requirements
+
+* Make the human relationship lead, specialist roles and continuity approach understandable.
+* Place method evidence near methodology and diagnostic explanations.
+* Place relevant scope, exclusions and responsibilities near offer CTAs.
+* Use permissioned client proof only when available; label illustrative work clearly.
+* Match social messaging to the destination's promise and expected commitment.
+* Require readable mobile layouts, clear field labels, understandable errors and confirmation states during implementation QA.
+* Do not present capability breadth, specialist availability, results or response commitments beyond what CMS can support.
+* Avoid urgency or performance claims that exceed available evidence.
+
+These requirements are an implementation brief, not a completed accessibility, visual or functional audit.
+
+## Website conversion measurement
+
+Track events and downstream status changes without confusing click intent with completed actions.
+
+| Measure | Definition |
+|---|---|
+| Entry-route traffic | Visits to each diagnostic or service route, with source when available |
+| Assessment completion rate | Completed checks divided by started checks |
+| Inquiry conversion rate | Submissions divided by eligible route visits |
+| Qualification rate | Qualified submissions divided by total submissions |
+| Time to first human response | Time between submission and first human reply; automated receipt is separate |
+| Review attendance rate | Attended reviews divided by scheduled reviews |
+| Paid diagnostic conversion | Purchased diagnostics divided by qualified prospects offered that diagnostic |
+| Diagnostic delivery | Purchased versus delivered diagnostics, with scope and timing context |
+| Proposal acceptance rate | Accepted proposals divided by proposals issued |
+| Commercial completion | Contract and payment completion recorded separately from clicks or inquiries |
+| Continuation | Appropriate renewal, expansion or referral outcomes with their evidence |
+| Loss and friction | Abandonment, no-response, deferral and decline reasons |
+
+Use consistent measurement windows and record small sample sizes. Set baselines before performance targets. Do not assume attribution proves causation or that page traffic demonstrates commercial validation. A later measurement workstream can expand the specification without redefining these events silently.
+
+## Implementation priorities and acceptance gates
+
+### Focused first release
+
+1. Make primary-audience language explicit near the opening.
+2. Preserve the illustrative diagnosis and methodology.
+3. Introduce the three entry routes with a clear primary CTA for each context.
+4. Clarify initial conversation versus paid diagnostic boundaries.
+5. Improve progressive qualification and submission confirmation.
+6. Explain human ownership and substantiate delivery promises.
+7. Connect every capture route to an accountable follow-up process.
+
+Do not wait for a complete client portal to define or test a bounded lead journey. Stage unavailable destinations honestly rather than advertise nonworking routes.
+
+### Website team handoff
+
+For each destination provide audience state, purpose, message hierarchy, offer route, CTA, form fields, required proof, visual references, owner, measurement event, open dependencies and acceptance criteria.
+
+The team must verify working links, form validation, successful receipt, failure handling, confirmation, owner notification, lead recording and measurement before declaring a route launch-ready. Booking, contract and payment integrations require separate authorized tests.
+
+### Readiness distinctions
+
+* **Architecture ready:** Each route has a clear promise, capture specification, qualification rule, owner role, follow-up action and measurement event.
+* **Implementation ready:** Named owners, approved commercial details and required assets are available to the implementation team.
+* **Launch ready:** The implemented route and operational response have been tested.
+* **Commercially validated:** Sufficient actual buyer and delivery evidence supports the conclusion; document approval alone does not establish this.
+
+## Website boundaries and remaining decisions
+
+* Final public positioning still depends on clarity validation.
+* Review pricing, final scope and intensive pricing still depend on Phase 2.5.6 decisions.
+* Public path-to-offer mapping requires confirmation before publication.
+* Named operational owners and follow-up capacity must be assigned.
+* Form handling, email delivery, CRM, payment, portal and tracking remain untested in this review.
+* No website code, webmail, payment configuration, CRM setup, live outreach or deployment is authorized by this document.
+* Preserve the existing content-operation sections below; they govern production, not proof that the website is operational.
 
 ## Operational content chain
 
@@ -232,14 +461,17 @@ CMS is ready for platform adaptation when:
 
 The Phase 3 handoff package should contain:
 
-- Phase 3.1 evidence and assumption framework
-- Phase 3.2 pillar and theme architecture
-- Phase 3.3 format and role architecture
-- Phase 3.4 content-to-funnel mapping
-- Phase 3.5 CTA framework
-- Phase 3.6 proof and governance requirements
-- Phase 3.7 integration and completion review
-- This Phase 3.8 operational handoff
+- Phase 3.1 audience, positioning and evidence integration
+- Phase 3.2 brand foundation and content alignment
+- Phase 3.3 CMS methodology, content formats and strategic roles
+- Phase 3.4 offer architecture and content-to-funnel mapping
+- Phase 3.5 messaging system and CTA framework
+- Phase 3.6 trust, proof and content governance
+- Phase 3.7 visual identity implementation and integration review
+- This Phase 3.8 website, lead-conversion and production handoff
+- Dated website alignment register and untested-system disclosures
+- Entry-route specifications, qualification and follow-up rules
+- Website measurement definitions and implementation acceptance gates
 - Approved Phase 2.5 references
 - Content brief template
 - Claim register template
@@ -260,7 +492,14 @@ The Phase 3 handoff does not include:
 
 ## Phase 3.8 completion criteria
 
-Phase 3.8 is complete when:
+Phase 3.8 architecture is complete when:
+
+- Website observations are separated from proposed changes and untested functionality.
+- Every entry route defines its promise, capture requirements, qualification, owner role, follow-up and measurement.
+- The initial conversation and paid diagnostic have distinct boundaries.
+- Account creation does not block initial inquiry.
+- Public service paths and working offer names have a documented reconciliation decision or explicit open dependency.
+- Website implementation and launch tests are identified; completion of this document is not a claim that those tests passed.
 
 - The architecture can be used by another collaborator without oral explanation.
 - Content briefs capture strategic, commercial and evidence decisions.
@@ -271,4 +510,4 @@ Phase 3.8 is complete when:
 - Phase 4 and Phase 5 boundaries are explicit.
 - The complete Phase 3 handoff package is identified.
 
-**Current status:** Working draft; ready for owner review before Phase 4 operational planning.
+**Current status:** Approved website and lead-conversion architecture additions documented; production handoff retained. Named assignments, implementation tests, commercial decisions and live validation remain open. No whole-Phase-3 closure or website launch is implied.
