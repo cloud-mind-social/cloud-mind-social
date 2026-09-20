@@ -1,14 +1,201 @@
-# Phase 3.6 — Proof Requirements and Content Governance
+# Phase 3.6 — Trust, Proof and Content Governance
 
-**Status:** In Progress  
+**Status:** Working draft; trust and proof controls remain subject to live evidence  
 **Phase:** 3 — Content Architecture  
-**Dependency:** Phase 3.5 CTA Framework
+**Dependency:** Phase 3.5 Messaging System and CTA Framework
 
 ## Purpose
 
-Define the evidence, proof and governance requirements CMS must apply before content is approved for public use.
+Define the trust system, evidence, proof and governance requirements CMS must apply before content is approved for public use.
 
 CMS is in an early commercial stage. The content system must build trust without confusing proof of method, market research, strategic interpretation and verified client results.
+
+This document adds the operational trust layer around the existing evidence framework. It defines how CMS creates, classifies, approves, places, maintains and corrects proof while remaining honest about what has and has not been commercially validated.
+
+## Trust system architecture
+
+Trust is not created by testimonials alone. CMS trust should be built through a connected system of signals:
+
+* Clear category and audience relevance
+* Visible methodology and decision quality
+* Relevant expertise and capability
+* Transparent scope, responsibilities and limitations
+* Human accountability and communication
+* Appropriate offers and proportionate recommendations
+* Verifiable proof
+* Consistent delivery and reporting
+* Responsible correction when evidence or circumstances change
+
+The governing standard is:
+
+> When outcome proof is limited, increase transparency; do not inflate the claim.
+
+## Trust signal matrix
+
+| Audience stage | Trust requirement | CMS trust signal |
+|---|---|---|
+| Recognition | CMS understands the underlying business tension | Clear point of view and diagnostic content |
+| Realization | CMS can interpret complexity | Frameworks, breakdowns and research interpretation |
+| Trust | CMS has a defensible method | Process walkthroughs and proof-of-method examples |
+| Intent | CMS is relevant and safe to engage | Scope, responsibilities, boundaries and offer clarity |
+| Diagnostic conversation | CMS can handle business context | Structured questions, process and decision brief |
+| Recommendation | CMS will not oversell | Right-sized recommendation and transparent rationale |
+| Delivery | CMS can execute responsibly | Communication, reports and documented work |
+| Proof | CMS can show what actually happened | Permissioned case studies, results and learning |
+| Expansion or referral | CMS recommends from evidence | Review, renewal and expansion logic |
+
+## Proof inventory and maturity
+
+CMS should maintain a proof inventory so content does not imply that every proof type is equally available.
+
+| Proof category | Current use | Evidence requirement |
+|---|---|---|
+| Approved strategic foundation | May express CMS's current position | Owner-approved source |
+| Proof of method | Can be created through frameworks, walkthroughs and sample diagnostics | Clearly label as method demonstration |
+| Proof of capability | Can use relevant work samples, documented processes and experience | State what CMS did and under what conditions |
+| Research-supported market evidence | Can support qualified market observations | Preserve source, scope, date and limitation |
+| Prospect or acquisition evidence | Requires actual conversations, tests or submissions | Record context, date and response |
+| Paid pilot evidence | Requires completed paid work or diagnostic delivery | Preserve scope, delivery record and result boundaries |
+| Client proof | Requires genuine client work | Permission, context, attribution and evidence |
+| Commercial outcome proof | Requires verified business or revenue evidence | Direct record, timeframe and applicable scope |
+| Hypothetical example | May illustrate a method or decision | Label as hypothetical; never call it a case study |
+| Unverified claim | Not approved for public use | Exclude |
+
+## Claim-to-proof requirements
+
+| Claim type | Minimum support | Public language control |
+|---|---|---|
+| Brand or strategic position | Approved CMS decision | State as CMS's position, not independent market proof |
+| Method claim | Documented process or demonstration | Explain what the method does; do not imply results |
+| Capability claim | Relevant work sample or verified experience | State the conditions and limits |
+| Market claim | Credible external evidence | Include source, date, scope and limitation |
+| Prospect behavior claim | Recorded conversation, submission or test | Identify the context and avoid universal language |
+| Client result | Permissioned evidence with business context and timeframe | Do not generalize beyond the documented case |
+| Commercial outcome | Verified business record or paid engagement evidence | Avoid guarantees and unsupported causal claims |
+| Testimonial or review | Permission, attribution and authentic wording | Do not rewrite into a promise |
+| “Trusted by,” “proven” or “guaranteed” claim | Defensible evidence appropriate to the exact wording | Exclude unless explicitly supported |
+
+## Proof production workflow
+
+When CMS identifies a potential proof asset:
+
+1. Identify the proof moment.
+2. Record the business context, trigger or question.
+3. Capture the decision, work performed or outcome observed.
+4. Record the evidence, timeframe and limitations.
+5. Classify the proof type and evidence class.
+6. Confirm confidentiality and permission requirements.
+7. Draft the public wording without overstating the evidence.
+8. Obtain the required approval.
+9. Store the source record and final approved version.
+10. Set a review, update or expiration trigger.
+
+This workflow applies to diagnostics, acquisition tests, paid pilots, client delivery, reports, testimonials, case studies and internal CMS work.
+
+## Testimonial, review and case study controls
+
+### Testimonials and reviews
+
+A testimonial or review must:
+
+* Come from a real person connected to the relevant work.
+* Be used with permission.
+* Preserve the speaker's authentic meaning.
+* Identify the person, role and business context where approved.
+* Avoid implying that one experience is a universal outcome.
+* Be separated from any claim CMS did not make or cannot verify.
+
+### Case studies
+
+A case study should include where possible:
+
+* Client or approved anonymized context
+* Business problem or trigger
+* Objective or decision to be made
+* CMS role and scope
+* Work performed
+* Timeframe
+* Evidence or outcome
+* Constraints and limitations
+* Client approval and attribution status
+
+A hypothetical scenario, sample diagnostic or concept project must not be titled or presented as a client case study.
+
+### Mixed or limited outcomes
+
+CMS may document a mixed, partial or inconclusive outcome when it is relevant and approved. The purpose of proof is accurate learning, not selective success storytelling.
+
+## Trust gap response
+
+Until substantial client or commercial proof exists, CMS may build trust through:
+
+* Proof-of-method demonstrations
+* Clearly labeled hypothetical examples
+* Founder and specialist expertise
+* Research interpretation
+* Transparent process explanations
+* Publicly documented learning
+* Paid pilot evidence
+* Delivery records
+* Clear scope, accountability and limitations
+
+CMS must not compensate for limited outcome proof with inflated superlatives, fabricated social proof, unnamed “trusted by” claims, invented testimonials or unsupported performance guarantees.
+
+## Proof placement and routing
+
+| Destination | Appropriate proof |
+|---|---|
+| Social content | Point of view, educational evidence and proof of method |
+| Website method page | Process, capability, boundaries and decision logic |
+| Diagnostic page | Scope, output, limitations and decision value |
+| Offer page | Fit, responsibilities, exclusions and appropriate proof |
+| Case study page | Verified client context, work and evidence |
+| Proposal | Diagnosis, recommendation, scope and commercial rationale |
+| Client pathway | Delivery records, reports, learning and next decision |
+| Renewal or expansion review | Documented progress, next constraint and evidence-supported recommendation |
+
+Proof placement must continue the same message and expectation created by the original content or CTA.
+
+## Trust measurement
+
+Trust should be measured through quality of movement, not only reach or engagement:
+
+* Better audience understanding of who CMS serves
+* More specific and relevant questions
+* Higher-quality diagnostic submissions
+* Reduced confusion about CMS's method or offers
+* Stronger offer-fit conversations
+* Fewer repeated objections caused by unclear claims
+* More accurate expectations before delivery
+* Permissioned testimonials, reviews or referrals
+* Improved delivery confidence
+* Renewal or expansion based on documented value
+
+Likes, impressions and follower growth are not proof that trust has been established.
+
+## Proof maintenance and correction
+
+CMS must:
+
+* Update outdated statistics and market references.
+* Retire claims when the evidence no longer applies.
+* Correct published errors promptly.
+* Remove or revise proof when permission changes.
+* Recheck outcomes before reusing older case material.
+* Record new evidence that changes an assumption.
+* Preserve version history for high-risk claims.
+* Record disputes, challenges or material corrections.
+* Review whether the current CTA still matches the available proof.
+
+## Governance handoff
+
+| Phase | Responsibility |
+|---|---|
+| Phase 3.5 | Messaging language, message intent and CTA direction |
+| Phase 3.6 | Trust signals, proof, evidence, permission and claim governance |
+| Phase 3.7 | Integrated content architecture review and completion decision |
+| Phase 4 | Funnel content development and sequencing |
+| Phase 5 | Platform-specific adaptation and operating strategy |
 
 ## Proof principle
 
