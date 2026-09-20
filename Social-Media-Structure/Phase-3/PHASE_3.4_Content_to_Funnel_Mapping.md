@@ -1,14 +1,162 @@
-# Phase 3.4 — Content-to-Funnel Mapping
+# Phase 3.4 — Offer Architecture and Content-to-Funnel Mapping
 
-**Status:** In Progress  
+**Status:** Working draft; offer figures and final scope remain subject to validation  
 **Phase:** 3 — Content Architecture  
-**Dependency:** Phase 3.2 Content Pillar and Strategic Theme Architecture; Phase 3.3 Content Formats and Strategic Roles
+**Dependency:** Phase 2.5.5 Hook, Offer and Lead Generation Architecture; Phase 2.5.6 Offer and Pricing Architecture; Phase 3.2 Brand Foundation Finalization and Content Alignment; Phase 3.3 CMS Methodology, Content Formats and Strategic Roles
 
 ## Purpose
 
-Define how CMS content supports movement from recognition to a diagnostic conversation and, after diagnosis, to right-sized support.
+Define how CMS offers are structured and how content supports movement from recognition to a diagnostic conversation and, after diagnosis, to right-sized support.
 
-This document maps content to funnel purpose. It does not define platform-specific publishing, cadence, campaign budgets or final sales automation.
+This document combines the approved Phase 2.5 offer architecture with the Phase 3 content-to-funnel system. It clarifies which commercial route is appropriate for each audience state without turning content into a pressure-based sales sequence.
+
+This document does not define platform-specific publishing, cadence, campaign budgets, final public pricing, contract language, or final sales automation.
+
+## Offer architecture baseline
+
+Phase 3.4 carries forward the commercial structure developed in Phase 2.5.6. It translates that structure into content, funnel, qualification and conversion logic; it does not replace the Phase 2.5.6 working draft or treat its directional figures as final public pricing.
+
+### Commercial design principles
+
+CMS offer architecture is governed by:
+
+* Diagnosis before prescription; understand the business problem before assigning a service.
+* Business before content; content is an execution layer, not the product by itself.
+* Right-sized help; match service depth to the diagnosed problem, stage and capacity.
+* Finite entry services; À La Carte allows a defined test or micro-project without creating an undefined retainer.
+* Clear responsibility levels; use Execution → Management → Strategy → Partnership as the commercial depth logic.
+* Western first; Philippines second; maintain separate commercial reference cards.
+* No generic posting-volume packages, unsupported outcome claims, guaranteed virality or vanity-metric guarantees.
+* No unpaid incubation; early-stage support must have a defined scope, boundary and commercial path.
+
+### CMS offer ladder
+
+| Offer layer | Working offer | Commercial role | Routing rule |
+|---|---|---|---|
+| Free recognition asset | Social Signal Check | Help a prospect identify a visible social or marketing constraint | Appropriate for recognition and early realization |
+| Bounded conversation | Signal-to-Strategy Review | Review the stated problem, likely constraint, visible consequence and next decision | Appropriate for qualified interest |
+| Paid diagnostic | Social Clarity Intensive | Produce a finite diagnosis and concise decision brief | Appropriate when the buyer is ready for paid clarity |
+| Finite project or execution | À La Carte Services | Solve a specific problem with a defined deliverable, scope and stop point | Appropriate when the need is already clear |
+| Core engagement | Presence → Momentum → Authority → Growth Partner | Match ongoing responsibility to the depth of the diagnosed need | Recommended only after diagnosis supports the level |
+| Early-stage development | Early-Stage Social Foundation Sprint | Establish a bounded strategic foundation for a qualified early-stage owner-operator | Requires a real offer, credible direction and defined need |
+
+A prospect may enter at the most appropriate stage. The ladder is a routing system, not a mandatory sequence.
+
+### À La Carte boundaries
+
+À La Carte follows this structure:
+
+> Specific problem → specific deliverable → specific outcome → finite engagement.
+
+Potential categories include:
+
+* Content production; Reels, carousels, infographics, static posts, captions, repurposing, story sets and thumbnails.
+* Profile and limited brand support; profile optimization, social visual refresh, limited branding direction and template starter sets.
+* Operations and reporting; scheduling-only, a 30-day Social Operations Pilot, limited community management, analytics reports and defined content calendars.
+* Bounded diagnosis and strategy; Social Clarity Intensive, Signal-to-Strategy Review, content pillar strategy, audience segmentation, website or social integration audit and campaign direction.
+
+À La Carte services are not automatically inferior to a core engagement. They are finite by design. Full social media management, full brand identity, ongoing strategy, continuous optimization and growth leadership remain under the core engagement structure.
+
+### Offer fit and scope boundaries
+
+| Offer | Appropriate when | Core output | Must not imply |
+|---|---|---|---|
+| Social Signal Check | The prospect notices a problem but has not yet identified the cause | Self-identification and a clearer question | A complete audit or guaranteed diagnosis |
+| Signal-to-Strategy Review | The prospect can describe a specific situation and needs interpretation | Bounded review and next-decision guidance | Unlimited consulting or a full strategy project |
+| Social Clarity Intensive | The prospect is ready to pay for structured diagnosis | Finite diagnosis and decision brief | Automatic eligibility for a retainer |
+| À La Carte Services | The problem and deliverable are already clear | Defined asset, batch, project or operational support | Unlimited revisions, hidden strategy or ongoing management |
+| Presence | The client needs a credible, organized presence with limited responsibility | Defined presence and right-sized execution | Full growth leadership |
+| Momentum | The client needs consistency, coordination and reduced owner burden | Ongoing management, execution and reporting | Full strategic partnership by default |
+| Authority | The client needs positioning, strategy, measurement and optimization | Strategy connected to business goals | A posting-volume package |
+| Growth Partner | The client needs external strategic leadership and specialist coordination | Ongoing partnership and growth systems | A launch-stage default or guaranteed growth |
+| Early-Stage Social Foundation Sprint | The owner has a real offer, early traction or credible direction and a defined foundation need | Bounded foundation, channel and measurement direction | Open-ended coaching or unpaid incubation |
+
+### Commercial delivery journey
+
+The operating journey is:
+
+1. Needs assessment
+2. Diagnosis
+3. Recommendation
+4. Proposal
+5. Contract
+6. Payment
+7. Delivery
+8. Measurement
+9. Proof
+10. Renewal, expansion or referral
+
+Each transition must make the next decision, scope, responsibility and evidence requirement visible.
+
+| Responsibility area | CMS responsibility | Client responsibility |
+|---|---|---|
+| Context | Ask the right business, audience and marketing questions | Provide accurate business context |
+| Diagnosis | Interpret symptoms, constraints, risks and priorities | Share access, facts, goals and limitations |
+| Recommendation | Recommend only the depth supported by the diagnosis | Review fit, scope and tradeoffs |
+| Proposal and contract | Define deliverables, boundaries, timeline and payment terms | Approve scope and meet contract requirements |
+| Delivery | Perform the agreed work and communicate limits | Provide assets, approvals and timely decisions |
+| Measurement | Report agreed indicators and evidence boundaries | Provide business context and outcome feedback |
+| Proof and expansion | Document verified learning and recommend the next decision only when supported | Approve use of proof and decide whether to continue, expand or refer |
+
+### Qualification, disqualification and routing
+
+| Buyer signal | Recommended route |
+|---|---|
+| Wants one specific asset with clear inputs | À La Carte content production |
+| Wants content uploaded or organized | Scheduling-only or Social Operations Pilot |
+| Has a repeated activity problem but unclear cause | Signal-to-Strategy Review |
+| Has an active trigger and needs a decision | Social Clarity Intensive |
+| Needs ongoing consistency and reduced owner burden | Presence or Momentum |
+| Needs positioning, strategy, measurement and optimization | Authority |
+| Needs external marketing leadership and specialist coordination | Growth Partner |
+| Early-stage with a real offer and defined foundation need | Early-Stage Social Foundation Sprint |
+| Wants unlimited coaching, undefined support or guaranteed virality | Re-scope or decline |
+
+CMS should not route every prospect to a retainer. It should not accept work that depends on unsupported promises, unlimited access, post-count reporting alone, or a level of demand the business cannot support.
+
+### Pricing and validation status
+
+Phase 3.4 maps offer depth and commercial routing. Phase 2.5.6 remains the source of truth for directional ranges, À La Carte specifications and open pricing decisions.
+
+Current commercial status:
+
+* Offer categories and routing logic; approved working direction.
+* À La Carte boundaries; approved working direction.
+* Core engagement depth; approved working architecture.
+* Directional Western and Philippine figures; working draft, not final public pricing.
+* Final scope, capacity, margin, qualification rules, payment terms and public display; pending validation and explicit approval.
+
+Public content must not present directional figures as final, universal or guaranteed. Paid pilots, actual delivery hours, scope changes, capacity, margin, objections, close behavior, retention and repeat demand must inform later revisions.
+
+## Offer-to-funnel mapping
+
+The commercial route should follow the audience's readiness and the evidence available at that point.
+
+| Funnel stage | Audience state | Primary offer route | Content responsibility |
+|---|---|---|---|
+| Recognition | Notices a symptom but does not understand the cause | Social Signal Check | Name the visible problem without overselling a solution |
+| Realization | Suspects the visible problem has a deeper constraint | Social Signal Check or Signal-to-Strategy Review | Help the audience interpret the situation |
+| Trust | Evaluates CMS's method, judgment and credibility | Signal-to-Strategy Review or relevant method resource | Show process, boundaries and evidence |
+| Intent | Considers outside help and needs a proportionate next step | Signal-to-Strategy Review or Social Clarity Intensive | Clarify fit, risk, scope and diagnostic value |
+| Diagnostic conversation | Is ready to share context and be assessed | Social Clarity Intensive or qualified consultation | Prepare the prospect for the diagnostic process |
+| Recommendation | Has received a diagnosis and needs a right-sized solution | À La Carte, Presence, Momentum, Authority or Growth Partner | Explain why the recommended scope follows from the problem |
+| Delivery | Has selected and approved support | Selected service or engagement | Set expectations, responsibilities and measurement |
+| Proof | Has completed a meaningful work stage | Verified proof, learning or case material | Document what was actually learned or changed |
+| Renewal, expansion or referral | Is evaluating the next business constraint | Continue, expand, refer or conclude appropriately | Make the next decision visible without manufactured urgency |
+
+Content may route a person toward an offer, but only diagnosis and qualification determine whether that offer is appropriate.
+
+## Offer readiness status
+
+| Component | Status | Control |
+|---|---|---|
+| Diagnostic entry ladder | Approved working direction | Live testing remains pending |
+| À La Carte categories and boundaries | Approved working direction | Update when scope and pricing are finalized |
+| Presence, Momentum, Authority and Growth Partner | Working architecture | Final scope, capacity and qualification remain open |
+| Early-Stage Social Foundation Sprint | Working development offer | Validate demand and commercial fit |
+| Directional pricing | Working draft | Do not publish as final pricing |
+| Content-to-offer routing | Defined in this phase | Review after buyer behavior and acquisition tests |
+| Proof and outcome claims | Evidence-dependent | Use only verified proof |
 
 ## CMS funnel logic
 
