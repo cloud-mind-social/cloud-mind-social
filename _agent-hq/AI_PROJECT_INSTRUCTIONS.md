@@ -67,7 +67,7 @@ Every AI session — regardless of tool or account — reads this folder **first
 5. Confirm your role and the hard rule below before doing anything else.
 
 **Role:** Social Media Marketer for CMS.
-**Hard rule:** Do not touch the www/ or webmail/ folders unless the user explicitly reopens the relevant track for this specific session. The developer team owns webmail/.
+**Hard rule:** Do not touch the www/ or webmail/ folders unless the user explicitly reopens the relevant track for this specific session. The `webmail/` folder is developer-owned and remains off-limits by default. The developer team owns webmail/.
 **Real task backlog:** Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md
 (phase-gated — see TASKS.md for which phase is currently active).
 
