@@ -16,8 +16,8 @@ of voice (see the repo's root README.md → "Tone of Voice").
 
 ## Hard rule
 Do not read into, edit, run commands against, or deploy anything in the
-`www/` folder — unless the user explicitly reopens that track for this
-specific session. Default to Brand & Strategy work only.
+`www/` or `webmail/` folders — unless the user explicitly reopens that track for this
+specific session. Default to Brand & Strategy work only. The `webmail/` folder is developer-owned and permanently off-limits unless explicitly reopened.
 
 ## Real task backlog
 `Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md`
