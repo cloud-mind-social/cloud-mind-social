@@ -1,0 +1,128 @@
+name: Deploy webmail (cloudmindsocial.com)
+
+# Deploys `webmail/` — the Cloud Mind Social mail client — onto the Cloudflare
+# Worker `webmail-cloudmind`, serving https://webmail.cloudmindsocial.com.
+#
+# WHY THIS EXISTS
+#
+# There is no `webmail` deployment kind in the operator console
+# (DeploymentKind = "email" | "salon" | "campaign" | "advocacy"), so the
+# platform provisions this tenant's mail BACKEND and stops. Deploying the front
+# end was a manual `npm run deploy` from somebody's laptop, which is why the app
+# sat built-and-undeployed from 2026-09-16: the step was nobody's in particular.
+#
+# CREDENTIALS
+#
+# CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID are exactly the pair the suite
+# console can push into an instance repository from its credential vault — see
+# ADOPTABLE_FROM_PLATFORM in Coastal-Carolina-Tech/suite
+# (workers/api/src/domain/credentials/platform.ts), whose stated purpose is
+# "Lets an instance repository publish its own Worker and attach its domain."
+# Push them from the console rather than pasting them in by hand, so the vault
+# stays the one copy and a rotation reaches this repo with everything else.
+#
+# The token needs Workers Scripts:Edit and Zone:Read — the latter for attaching
+# the custom domain in webmail/wrangler.jsonc.
+
+on:
+  workflow_dispatch:
+  # Once merged, a change under webmail/ ships itself. Adding the workflow does
+  # not touch webmail/, so merging this PR deploys nothing — the first deploy is
+  # a deliberate dispatch.
+  push:
+    branches: [main]
+    paths:
+      - "webmail/**"
+      - ".github/workflows/deploy-webmail.yml"
+
+# A second run racing the first would have two builds uploading the same Worker
+# and reassigning the same custom domain.
+concurrency:
+  group: deploy-webmail
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: webmail
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+          cache: npm
+          cache-dependency-path: webmail/package-lock.json
+
+      - run: npm ci
+
+      - name: Check Cloudflare credentials
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ] || [ -z "$CLOUDFLARE_ACCOUNT_ID" ]; then
+            echo "::error::Set the CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID repo secrets."
+            echo "The suite console can push both from its credential vault:"
+            echo "  Credentials -> adopt from platform -> add this repo as a target -> push."
+            echo "The token needs Workers Scripts:Edit and Zone:Read."
+            exit 1
+          fi
+
+      # tsconfig.json references cloudflare-env.d.ts, which is gitignored, so a
+      # fresh checkout cannot typecheck or build until this runs.
+      - run: npm run cf-typegen
+
+      # THE GATE. Each of these three has already cost this estate something,
+      # and all three fail SILENTLY at runtime rather than failing the build:
+      #
+      #   1. NEXT_PUBLIC_API_BASE_URL is inlined by Next at build time, so a
+      #      build pointed at the wrong tenant's API cannot be corrected by any
+      #      Worker var, secret or binding afterwards.
+      #   2. WORKER_SELF_REFERENCE left inherited sends this app's OpenNext
+      #      cache calls into another tenant's Worker.
+      #   3. A Worker name shared with an existing Worker makes each deploy
+      #      overwrite the other and reassign its custom domains — which is how
+      #      webmail.coastalcarolinatech.com was dropped once already.
+      #
+      # It also asserts workers_dev and preview_urls are off: the API's CORS
+      # origin and CSRF check trust exactly one origin, so any other hostname
+      # serving this app is an origin that cannot sign in and should not exist.
+      - name: Check this build is wired to this tenant
+        run: npm run test:tenant
+
+      - run: npm run lint
+      - run: npm run test:zoned
+
+      # opennextjs-cloudflare build && opennextjs-cloudflare deploy. Creates
+      # webmail-cloudmind on first run and attaches the custom domain from
+      # wrangler.jsonc.
+      - name: Deploy
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: npm run deploy
+
+      # The upload can succeed while the custom domain does not attach — that is
+      # failure mode 3 above, and it looks like a clean deploy. This does not
+      # fail the job, because on a first-ever deploy the DNS record is genuinely
+      # still propagating; it fails loudly enough to be worth reading.
+      - name: Check the origin answers
+        continue-on-error: true
+        run: |
+          for attempt in 1 2 3 4 5 6; do
+            code=$(curl -s -o /dev/null -w "%{http_code}" --max-time 20 \
+              https://webmail.cloudmindsocial.com/login || echo 000)
+            if [ "$code" = "200" ]; then
+              echo "webmail.cloudmindsocial.com/login -> 200"
+              exit 0
+            fi
+            echo "attempt $attempt: $code"
+            sleep 30
+          done
+          echo "::warning::webmail.cloudmindsocial.com did not answer 200 within 3 minutes."
+          echo "On a first deploy this is usually DNS still propagating — re-check with:"
+          echo "  curl -sI https://webmail.cloudmindsocial.com/login"
+          echo "If it is still failing later, confirm the custom domain is attached to"
+          echo "webmail-cloudmind and not to another Worker sharing its name."
