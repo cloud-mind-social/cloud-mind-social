@@ -4,6 +4,10 @@
 **Phase:** 3 — Website and Conversion Architecture; Content Operations  
 **Dependencies:** Phase 3.1–3.7; Phase 2.5.4–2.5.8 commercial guardrails
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Connect CMS content to the owned website, qualified lead capture, diagnosis and right-sized commercial action. Preserve the existing content-production handoff so collaborators can develop content, review drafts and prepare for later funnel and platform work.
@@ -241,7 +245,7 @@ The team must verify working links, form validation, successful receipt, failure
 
 ## Operational content chain
 
-Every CMS content item must pass through this chain:
+Every CMS content item must document these internal routing decisions after identifying source material and an accountable human perspective. This is a planning workflow, not a public narrative order:
 
 **Evidence → Audience → Pillar → Theme → Angle → Realization → Funnel stage → Format → CTA → Destination → Measurement → Approval**
 
@@ -254,10 +258,18 @@ Skipping a link creates one of four risks:
 
 ## Minimum content brief
 
+Use the blank [Content Idea Seed](../../Templates/Content_Idea_Seed.md) and [Voice and Story Intake](../../Templates/Voice_and_Story_Intake.md) for authorized preparation. This brief is the authoritative operational minimum; shorter Phase 3 summaries must retain these fields. Completed client records belong in the authorized private clients repository.
+
 No content item should enter production without the following fields:
 
 | Field | Required decision |
 |---|---|
+| Source material | Documented observation, experience, conversation, question, belief or research; source location and date |
+| Grounding and interpretation | What is evidenced, inferred or assumed; distinguish research from firsthand experience |
+| Accountable human | Internal person responsible for perspective, factual accuracy and voice |
+| Voice context | Original language, expressions used or avoided, and relevant boundaries |
+| Permissions and attribution | Collection and publication permissions; public name, brand attribution or permissioned anonymity |
+| Asset classification | Audience content, including education, or separately scoped utility asset |
 | Working title | What the idea is about |
 | Audience segment | Primary Western, Western early-stage or Philippine secondary |
 | Audience problem | What tension or need is being addressed |
@@ -267,14 +279,14 @@ No content item should enter production without the following fields:
 | Audience realization | What the audience should understand |
 | Funnel stage | Recognition, realization, trust, intent, diagnostic, recommendation or continuation |
 | Format | Strategic delivery structure |
-| CTA | The next action |
-| Destination | Where the audience goes |
+| CTA | Appropriate next action, or justified absence of an explicit CTA |
+| Destination | Verified or pending destination; not applicable when no explicit CTA is used |
 | Evidence class | Approved decision, direct evidence, market evidence, interpretation, hypothesis or excluded |
 | Proof type | Method, capability, client proof or market proof |
 | Claim limitation | What the content must not imply |
 | Measurement | What useful movement looks like |
 | Risk level | Low, medium or high |
-| Reviewer | Who approves the item |
+| Reviewer | Factual/voice reviewer and final approver; version, date, decision and intended use |
 
 ## Production statuses
 
@@ -327,6 +339,15 @@ Confirm:
 
 ### Gate 4 — Production quality
 
+Apply the standard's combined review to the actual version:
+- **Grounding:** Trace sources, separate findings from interpretation and firsthand experience, and retain claim limits.
+- **Accountability:** Confirm the responsible human's factual and voice approval, permissions and appropriate public attribution.
+- **Expression:** Check natural progression and voice; reject formulaic repetition, disguised lists, stock contrasts and compulsory endings. Logical continuity is acceptable.
+- Confirm educational content is included and design has not imposed repeated slide sequences.
+- Record version, reviewer, date and outcome: revise, held, or approved for the specified stage.
+
+This gate supplements evidence review; it does not grant production or publication permission. Missing truth, voice or permission confirmation holds the affected item.
+
 Confirm:
 
 - The chosen format serves the idea.
@@ -354,8 +375,8 @@ After publication or delivery, record:
 |---|---|
 | Strategy owner | Protects positioning, pillar logic, audience relevance and evidence boundaries |
 | Content planner | Routes ideas through the content brief and funnel architecture |
-| Writer or creator | Develops the approved idea without changing the strategic claim |
-| Reviewer | Checks clarity, evidence, CTA and governance |
+| Writer or creator | Uses documented source and voice context; preserves claim limits and applies the writing standard |
+| Reviewer | Records grounding, accountability and expression review alongside evidence, CTA and governance checks |
 | Platform owner | Adapts approved content for platform context in Phase 5 |
 | Commercial owner | Confirms offer, price, scope and destination accuracy |
 | Learning owner | Records performance, language and buyer signals |
@@ -363,6 +384,8 @@ After publication or delivery, record:
 One person may hold several roles, but the responsibilities must remain distinct.
 
 ## Repurposing rules
+
+Each adaptation retains source traceability, accountable human, permissions, voice context and limitations. Recheck grounding, accountability and expression for the new version; renew permissions when the intended use changes. Preserve strategic meaning without copying sentence patterns, pacing or slide order. Record version-specific approval; adaptation approval is not publication approval.
 
 Repurposing is allowed when:
 

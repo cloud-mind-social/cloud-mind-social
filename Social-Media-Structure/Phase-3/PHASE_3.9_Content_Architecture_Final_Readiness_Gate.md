@@ -4,6 +4,10 @@
 **Phase:** 3; Social Media Operating System and Content Readiness  
 **Dependencies:** Phase 3.1–3.8; Phase 2.5 commercial guardrails. Phase 3.10 Measurement and Validation remains outstanding before whole-Phase-3 closure.
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Define how CMS consistently turns its strategy into published content, meaningful conversations, qualified website visits and usable learning. Retain the content-readiness review to assess whether the system is coherent, usable and safe for subsequent funnel-content planning.
@@ -94,11 +98,13 @@ Choose a sustainable publishing commitment only after reviewing available capaci
 
 ## 4. Content planning and production
 
-Use Phase 3.8's minimum brief, production statuses and approval gates unchanged as the shared workflow.
+Use Phase 3.8's minimum brief, production statuses and approval gates, including its writing-standard fields and Gate 4 review, as the shared workflow.
 
 ### Idea intake and selection
 
-Ideas enter a single designated backlog from research, approved strategic themes, audience questions, delivery learning or observed business problems. A trend may inform an idea but does not justify production by itself.
+Capture the Phase 3.8 source, voice, permission, attribution and asset-classification fields before selection. Educational content is covered. Hold ideas lacking support or a responsible reviewer rather than filling gaps with invented experiences.
+
+Ideas enter the designated backlog from documented observations, experiences, permissioned conversations, genuine questions, beliefs or reviewed research. Identify an accountable human and distinguish interpretation from firsthand experience. Approved strategic themes route relevance; they cannot substitute for source material. A trend alone does not justify production.
 
 Before selecting an item, identify:
 
@@ -120,6 +126,8 @@ Approval for adaptation is not publication approval. The final platform version 
 Before scheduling, verify the destination, offer availability, attribution and permissions. If a dependency fails, hold or revise the item; do not publish a broken route simply to meet a calendar date.
 
 ### Correction and repurposing record
+
+Record source/voice context, permission scope and grounding, accountability and expression review for each adapted version. Rebuild pacing for the new context without imposing repeated public structures; changed use requires a permission check and version-specific factual/voice approval.
 
 For a correction, record the affected content, issue, owner, decision, affected channels and follow-up. Correct misleading claims or nonworking destinations promptly within the authorized workflow.
 
@@ -167,10 +175,10 @@ Close the handoff loop by recording received, accepted for follow-up, deferred, 
 | Function | Accountable responsibility | Backup requirement |
 |---|---|---|
 | Planning | Select relevant work and balance scope against capacity | Another authorized person can interpret the backlog |
-| Writing | Develop approved messages without expanding claims | Accessible approved brief and source context |
+| Writing | Develop a grounded perspective in the approved voice without expanding claims or imposing formulaic structures | Accessible source/voice brief and permissions |
 | Design | Apply the approved visual system and proof labels | Approved asset references and editable working material |
-| Evidence review | Check claims, limitations, attribution and permission | Escalation to an authorized reviewer |
-| Final approval | Authorize the final content and intended use | Explicit delegated approver; no assumed approval |
+| Evidence review | Check grounding, limitations, attribution and permission; distinguish research from lived experience | Escalation to an authorized reviewer |
+| Final approval | Record grounding, accountability and expression review, factual/voice confirmation and authorization for the specified version and use | Explicit delegated approver; no assumed approval |
 | Publishing | Release only approved versions and verify destinations | Authorized account access and release record |
 | Community response | Handle questions and escalate appropriately | Coverage for the declared response window |
 | Lead handoff | Transfer context and ensure receipt by the commercial owner | Named alternate for absence or overload |
@@ -212,6 +220,10 @@ Phase 3.9 defines who records and acts on findings. Phase 3.10 will address the 
 Document approval does not advance the other readiness dimensions automatically. Do not tick readiness checks merely because this section has been written.
 
 ### Operating-system readiness checklist
+
+- [ ] Source and voice fields, accountable humans and permission boundaries are recorded.
+- [ ] Gate 4 writing review covers educational content and each repurposed version.
+- [ ] No template requires repeated audience sentence or slide sequences.
 
 - [ ] Each platform has a verified operating state.
 - [ ] Active-channel selection reflects available capacity.

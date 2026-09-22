@@ -4,6 +4,10 @@
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.2 Content Pillar and Strategic Theme Architecture
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Define the strategic role of each content format before CMS adapts content to specific platforms.
@@ -13,6 +17,10 @@ A format is not a content pillar. It is the delivery structure used to express a
 This document does not define platform dimensions, posting cadence, editing rules or platform-specific execution. Those belong in Phase 5.
 
 ## Format selection model
+
+Begin with documented source material and an accountable human perspective; then use the questions below for internal routing. A pillar or desired realization cannot replace an idea source. Choose whether the asset is audience content or a separately scoped utility asset before selecting its format.
+
+The format names describe strategic jobs. Checklists, decision frameworks, procedural walkthroughs and functional FAQs retain list structures in utility assets; an educational feed post or carousel remains governed by the writing standard even when its strategic job has the same name. Narrative explanations may serve those purposes without displaying the internal checklist. No format requires a fixed number of slides, repeated openings or a compulsory CTA.
 
 Every content asset should answer:
 
@@ -602,7 +610,7 @@ CMS must not:
 
 # Format selection rules
 
-Choose the format based on the strategic job:
+Choose the strategic job below, then apply the asset classification and writing rules above; these choices do not mandate a public structure:
 
 - Use a **Strategic Point of View** when CMS needs to clarify what it believes.
 - Use a **Diagnostic Breakdown** when the audience is misidentifying the problem.
@@ -616,6 +624,10 @@ Choose the format based on the strategic job:
 - Use a **Conversation Prompt** when audience language or relationship learning is the goal.
 
 # Format governance
+
+- Confirm the source material, accountable human, asset classification and voice context.
+- Review grounding, accountability and expression; educational content receives the same review.
+- Treat CTA entries as strategic options; record when no explicit CTA serves the piece.
 
 Before approving a format, confirm:
 

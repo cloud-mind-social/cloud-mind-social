@@ -136,3 +136,12 @@ The implementation removes exactly:
 Deletion takes effect on main only after PR merge. Historical records remain; no replacement content is created. PR #18 is merged, completing the Batch 1 correction. Batch 2 implementation is prepared for review; no merge is claimed.
 
 **Revisit when:** Content production is explicitly opened; do not restore retired drafts as approved source material.
+
+
+## 2026-09-22T13:43:10.255Z; Batch 3 scoped Phase 3 alignment
+
+Seul authorized Batch 3. Apply the approved content standard in order: 3.3 + 3.5; 3.8 + 3.9; 3.6 + 3.7; 3.1 + 3.2 + 3.4. Grounded human perspective governs source grounding, accountability and natural expression, including educational content. Strategic frameworks stay internal; source/voice brief fields, Gate 4 review, attribution and per-version adaptation review are required. Flexible templates must not impose repeated writing structures.
+
+Preserve approved ICP, offers, pricing, pillars, identity and evidence limits. Batch 3 writing-standard alignment prepared for PR review; merge pending. Batch 2 PR #19 is confirmed merged. No production, publication, activation or Phase 3 completion is authorized.
+
+**Revisit when:** Seul reopens the standard or evidence identifies a specific conflict. Later batches require separate authorization.

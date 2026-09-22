@@ -10,4 +10,6 @@ The [Strategy Task List](../Social-Media-Structure/CMS_Social_Media_Marketing_St
 
 The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
 
-- [Content writing standard](../CMS-Branding/CMS_Content_Writing_Standard.md); approved combined rule and blank intake templates; Batch 2 implementation awaits merge. Production/publication remain gated.
+- [Content writing standard](../CMS-Branding/CMS_Content_Writing_Standard.md); approved combined rule and blank intake templates; Batch 2 implementation merged through PR #19. Production/publication remain gated.
+
+- [Phase 3 workstreams](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md#phase-3--content-architecture); Batch 3 writing alignment prepared for review and merge. The authoritative tracker and readiness states remain unchanged.
