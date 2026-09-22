@@ -24,6 +24,9 @@ The tagline wording is approved by Seul: “We build the bridge from unknown to 
 
 ## 2. How to use this guide
 
+**Document authority:** This is the central brand application guide. [Branding.md](./Branding.md) remains authoritative for locked foundation; the identity reference PDF governs established palette and fonts; the [Content Writing Standard](./CMS_Content_Writing_Standard.md) governs audience writing. The [Brand Kit Field Guide](./CMS_Brand_Kit_Field_Guide_v0.2.md) is a Canva implementation companion, not a replacement or independent rulebook. Consolidation does not promote proposed application rules to locked decisions.
+
+
 **GOVERNANCE / READ FIRST**
 
 Keep the foundation stable. Make the execution consistent.
@@ -131,6 +134,19 @@ Speak as a relatable partner. Confidence comes from explaining the recommendatio
 - Keep headings short. Use sentence case for headlines and body text; uppercase is for brief labels.
 - Use periods and semicolons naturally. Limit italics to one emphasized phrase in a composition.
 
+### Tone variations
+
+| Context | Tone | Example wording |
+| --- | --- | --- |
+| Education | Clear and curious | Before changing the content, check whether the offer is clear. |
+| Discovery | Warm and attentive | What is taking the most effort without giving you enough clarity? |
+| Diagnosis | Calm and specific | The current message does not clearly identify who this service is for. |
+| Recommendation | Confident and measured | We recommend resolving the message before increasing output. |
+| Reporting | Factual and candid | This metric improved; we do not yet have enough evidence to connect it to sales. |
+| Service issue | Accountable and reassuring | Here is what happened, what we are correcting, and when you will hear from us. |
+
+Keep the same voice across markets. Use English by default; use Tagalog or Taglish when appropriate to the actual audience. Avoid corporate jargon, hustle slogans, guru language, unsupported superlatives, guaranteed outcomes, and a package-first sales pitch.
+
 ### Words and habits to exclude
 
 Synergy, 10x, secret formula, guru, ninja, rockstar, unmatched, revolutionary, results guaranteed, and hustle culture slogans. Avoid cold phrases such as “our clients leverage our solutions.”
@@ -213,6 +229,10 @@ Five colors. Defined roles.
 | Social rotation | Deep ochre · #C98A2E | A second Social accent for variation within the same family. |
 | Shared base | Warm cream · #F7F2EA | The default surface supporting all three brand ideas. |
 
+### Canva field grouping
+
+For Canva field organization only, the proposed primary group is warm ink, warm cream and clay coral; the secondary group is mist slate and deep ochre. This grouping does not change the established Cloud/Mind/Social semantic roles or add colors.
+
 ### Proposed application discipline
 
 Let cream dominate ordinary editorial pages. Use ink to carry the information. Use slate for structure and one Social accent to direct attention. An ink background can create emphasis if the text remains readable.
@@ -253,7 +273,7 @@ The reference’s #8A8981 label color on cream is approximately 3.15:1; use ink 
 
 ## 10. Typography system
 
-**TYPEFACES LOCKED / SIZE RULES PROPOSED**
+**TYPEFACES LOCKED / DOCUMENT STARTING RANGES AND SOCIAL GUIDANCE APPROVED / SOCIAL NUMERICAL SCALES REQUIRE TESTING**
 
 Let the hierarchy do the work.
 
@@ -263,9 +283,54 @@ Let the hierarchy do the work.
 | Body copy | Inter | 400 Regular and 500 Medium. |
 | Labels and microcopy | Space Mono | 400 Regular and 700 Bold; brief uppercase labels with tracking. |
 
-### Proposed starting sizes for documents
+### Document typography starting ranges
 
-At Letter or A4 portrait size: cover title 36–44 pt; page heading 26–32 pt; section heading 15–18 pt; body 11–12 pt; labels 9–10 pt. Increase sizes for presentations and social layouts; judge the exported result at its actual viewing size.
+**Approved by Seul; 2026-09-22:** Use these role-based starting ranges for A4 or Letter portrait documents. They are adaptable starting points, not fixed limits or social-media sizes. This resolves the previously competing document scales; the companion references this table.
+
+| Role | Starting range |
+|---|---|
+| Cover title | 36–44 pt |
+| Interior page title | 26–32 pt |
+| Section heading | 15–18 pt |
+| Subtitle | 14–18 pt |
+| Body | 11–12 pt |
+| Short labels | 9–10 pt; verify actual readability |
+
+Preserve Fraunces for headings, Inter for body/supporting text and Space Mono for short labels. Presentations and social graphics need separate scales tested at their intended viewing size.
+
+### Social Content Typography
+
+**Approved guidance; template-specific numerical sizes remain subject to testing.** Keep the font roles stable and adapt scale, density and placement to the content format. Do not apply document point sizes to social canvases or claim a universal platform font minimum.
+
+| Content format | Typography treatment |
+|---|---|
+| Static feed posts | Fraunces for the main thought; Inter for supporting copy. Essential information must be readable without opening or zooming. |
+| Carousels | Maintain a consistent hierarchy while allowing varied text length and pacing. Add space or slides rather than shrinking text to fit. |
+| Reels, TikTok and Shorts | Inter for subtitles and essential overlays; Fraunces for brief titles. Keep text clear of faces, action and interface controls. |
+| Stories | Short, prominent text with strong contrast; reserve space for interface elements and interactive stickers. |
+| Video thumbnails | Very brief, prominent titles. Test Fraunces against Inter at thumbnail size; select for legibility. |
+| Infographics and charts | Inter for explanations, values and labels. Space Mono may support short metadata; sources and limitations must remain readable. |
+| Quotes and reflections | Fraunces for a short quotation or central thought; Inter for longer passages and attribution. Avoid extended italic text. |
+| Native text posts and captions | Use the platform's native font; create hierarchy through paragraph spacing and clear language. Avoid decorative Unicode lettering. |
+
+Space Mono remains a supporting label font; do not default to it for paragraphs or video subtitles.
+
+#### Scale testing and approval
+
+- Define separate template scales for square, portrait and vertical video canvases; record canvas dimensions, font role, size and the editor's unit.
+- Check exported assets at normal phone viewing size, including feed and thumbnail previews; do not rely on zoomed editor views.
+- For video, check reading time, changing backgrounds and subtitle placement throughout the clip.
+- Verify current platform crops and interface safe areas when authorized production begins.
+- Let layouts accommodate natural writing; do not impose repeated slide sequences or shrink necessary source notes and limitations.
+- Mark numerical template settings **proposed**, **tested**, or **approved**. Record the reviewer, date, template version and viewing conditions; tested does not automatically mean approved.
+- Approve social numerical scales only after representative template tests. This documentation does not claim those tests have occurred or authorize production/publication.
+
+### Tagline and subtitle; using the fonts
+
+**Tagline specimen:** “We build the bridge from unknown to impact.” Set in Fraunces 500 or 600, with a single emphasized phrase in italic if needed. The wording is approved by Seul; typesetting and lockup implementation still require asset review.
+
+**Subtitle specimen:** “Strategic Social Intelligence.” Set in Inter 500 as supporting text beneath a headline. Within an existing logo lockup, preserve the descriptor as supplied artwork.
+
 
 ### Composition rules
 
@@ -305,57 +370,152 @@ Begin with a small context label, then the main headline, then the explanation o
 
 These are layout recipes for later templates, not approved posts or a replacement for content architecture. Avoid generic network globes, decorative dashboards, unnecessary arrows, and dense walls of small text.
 
+### Detailed graphics and icon guidance
+
+Existing proposed/reference guidance retained; no additional asset or application approval is implied.
+
+**07 / GRAPHICS**
+
+A visual language for clear thinking.
+
+
+Illustrative supporting graphics and icons; proposed application language, not additional logos.
+
+Use graphics to make a relationship, question, comparison, or process easier to understand. The editorial layout should lead; the graphic should clarify the reasoning.
+
+| Graphic element | Purpose and treatment |
+| --- | --- |
+| Panels | Group one meaningful idea. Use cream, slate, or an intentional accent fill with readable text. |
+| Connections | Show real dependencies or relationships with simple lines and labeled endpoints. |
+| Annotations | Point to a specific finding. Keep the observation close to the evidence it explains. |
+| Progression | Use clearly named stages when order matters. Avoid implying automatic improvement. |
+| Texture and effects | Keep backgrounds quiet. Avoid glow, ornamental gradients, 3D decorations, or gratuitous motion. |
+
+Do not repeat the full emblem throughout a composition as decoration. Supporting graphics should remain simpler than the logo. Avoid assigning decorative meanings to every node or line; include only what helps the reader.
+
+**08 / ICONS**
+
+Small functional cues, with consistent construction.
+
+Icons help readers identify an action or category quickly. They support words and navigation; they should not become a competing identity system.
+
+| Rule | Application |
+| --- | --- |
+| One family | Use a consistent outline family with matching corner treatment and stroke weight. |
+| Simple geometry | Choose clear shapes with open internal space. Remove details that disappear at the intended size. |
+| Proposed construction | Start with a 24-unit grid and approximately 2-unit stroke for supporting icons; adjust optically and test. This is not a logo specification. |
+| Color | Use ink on light surfaces or cream on ink. Accent a selected icon only when that emphasis has meaning. |
+| Labels | Pair icons with short labels, especially when the meaning is unfamiliar. |
+| Brand separation | Keep interface/content icons distinct from the CMS emblem and third-party platform logos. |
+
+#### Suggested functional vocabulary
+
+A magnifying glass for discovery; a simple set of stages for process; a conversation outline for dialogue; a small bar chart for reporting. These are functional cues, not substitutes for the brand emblem.
+
+#### Avoid
+
+Mixing filled and outlined families without a reason, adding tiny decorative dots, using emojis as the primary icon system, or using an upward arrow for every category. Do not use an icon alone to communicate an important warning, status, or instruction.
+
+If an icon cannot be understood at its displayed size, simplify it or use a text label. The current detailed CMS emblem needs its own small-size solution; the supporting icon grid does not solve that logo issue.
+
 
 ## 12. Logo and brand signature
 
-**LOGO / OPEN DECISION**
+**Reference catalog and proposed application:** Retained from the Field Guide; no new master or asset approval is granted here. Follow separately recorded current asset decisions. Use the implementation companion for upload filenames.
 
-Use an approved master before defining precision rules.
+**02 / LOGO**
 
-The reviewed repository still marks the final logo direction as in development. This guide does not treat an earlier concept, generated image, or recent extraction as the approved master without a recorded decision.
+Primary logo; working selection for review
 
-| Asset to confirm | Required purpose |
+
+Existing horizontal line-art lockup extracted from the CMS Logo System Reference; not yet a locked primary logo.
+
+### The shape
+
+The emblem uses a side-facing human profile joined to a rounded, cloud-like upper form. Inside it, connected nodes and conversation bubbles share space with a rising zigzag arrow. The combination brings the digital environment, strategic thinking, and human communication into one recognizable composition.
+
+### The symbol
+
+The cloud-like form can express the flexible network behind CMS. The head suggests judgment and understanding. Connected nodes represent coordinated expertise and information. Conversation bubbles represent listening, exchange, and relationship. The arrow suggests purposeful progress; it is a direction of intent, not a promise that every metric will rise.
+
+### The style
+
+The line-art version uses a single color, open interiors, and rounded contours, with the angular arrow adding direction. Its restrained treatment supports a calm, thoughtful presence. The accompanying wordmark provides explicit name recognition; preserve it as artwork rather than recreating its lettering with the document fonts.
+
+**Decision note:** These meanings are a proposed interpretation grounded in the visible emblem and the established brand foundation. The logo reference still compares the original gradient mark with the line-art proposal. Final primary selection, palette alignment, and a simplified small-size mark remain open.
+
+**02 / LOGO**
+
+Secondary logo or variations
+
+
+Existing standard, inverted, and icon-only variants. These are reference assets, not a new approval.
+
+| Variation | Where to use it |
 | --- | --- |
-| Primary horizontal signature | General brand identification where width is available. |
-| Secondary stacked signature | Compact layouts with more vertical space. |
-| Symbol or avatar | Small profile and icon applications, only after recognition and crop tests. |
-| Monochrome and reversed variants | Reliable reproduction across light and dark backgrounds. |
-| Master formats | An editable vector master plus appropriate transparent raster exports. |
+| Horizontal lockup | Wide spaces such as document headers, email signatures, or cover banners. |
+| Vertical lockup | Square or stacked compositions with sufficient room to preserve the wordmark and descriptor. |
+| Icon only | Established brand contexts where the full name is already visible; test at the actual display size. |
+| Inverted version | Dark backgrounds where the light version stays clear and readable. |
+| Ink / coral test variants | Existing palette-alignment tests. Use in labeled mockups pending approval; do not treat them as locked production variants. |
 
-### Rules that can apply now
+Navy, white, black, ink, and coral files exist in the repository or logo reference. Their existence does not add navy, pure white, or black to the locked content palette. The standard and inverted lockup artwork also has slight composition and spacing differences; confirm a matched master set before final rollout.
 
-- Keep proportions intact. Do not stretch, skew, crop, redraw, or add effects to an approved asset.
-- Place the asset on a clear background with sufficient contrast. Use only approved color variants.
-- Do not add an unapproved tagline to a logo lockup.
-- Do not rebuild the logo by typing the brand name in a similar font.
+**02 / LOGO**
 
-### Rules that need the actual master
+Protect recognition and legibility.
 
-Define clear space from a measurable feature of the final mark. Set minimum sizes through small-screen and print testing. Check horizontal, stacked, circular crop, grayscale, and reversed applications. Record the smallest size that remains recognizable; do not invent a universal pixel minimum.
+| Use | Avoid |
+| --- | --- |
+| Use the complete approved artwork at its original aspect ratio. | Stretching, skewing, cropping, rotating, or redrawing the mark. |
+| Choose the supplied variant that suits the background. | Adding gradients, shadows, glows, outlines, or unapproved recolors. |
+| Keep the surrounding area visually quiet. | Crowding the mark with headings, photos, icons, or other logos. |
+| Use a transparent file when placing artwork on a colored surface. | Assuming a visible checkerboard is genuine transparency. |
+| Check the actual exported size and circular crop. | Assuming a large source image guarantees small-size legibility. |
 
-Until the master is confirmed, plain “Cloud Mind Social” text may identify this guideline document. It is a document title or attribution, not a newly approved wordmark.
+### Clear space
+
+Until the final master is measured, keep a generous empty area around the logo and avoid placing other elements inside its visual boundary. Define a repeatable clear-space unit from the final artwork before locking numerical rules.
+
+### Minimum size
+
+The logo reference reports that internal details collapse at 32 px and below. Do not use the current detailed emblem at those sizes; commission or approve a simplified small-size mark. Above 32 px, test the actual result rather than assuming it is automatically acceptable.
+
+### Color and background
+
+The current navy lockups and the warm content palette have not yet been formally reconciled. Keep the existing navy artwork intact when documenting it. The ink-on-cream asset is the recommended direction to evaluate for palette alignment, using the existing test asset rather than an automatic recolor.
+
+Preserve the complete lockup’s proportions and spacing. Its “Strategic Social Intelligence” descriptor is separate from the approved marketing tagline.
+
+Do not rebuild the logo by typing the brand name in a similar font. Set clear space from the measured final master and test minimum sizes. Until confirmed, plain brand text identifies documents without creating a new approved wordmark.
 
 
 ## 13. People, imagery, and motion
 
-**APPLICATION / PROPOSED**
+**06 / PHOTOGRAPHY**
 
-Show the humans behind the work.
+General guidelines
 
-### Photography
+Our photography should make the agency feel real, attentive, and accountable. Show authentic people and useful context: a founder discussing a business problem, a specialist working through an analysis, or a team explaining a recommendation.
 
-Prioritize real specialists, founders, working sessions, and relevant business environments. Use natural light, balanced skin tones, uncluttered compositions, and a consistent crop approach. Leave clear space for adjacent text; do not place small text over faces or detailed backgrounds.
-
-| Choose | Avoid |
+| Direction | Practical guideline |
 | --- | --- |
-| A real specialist with a name, role, and relevant contribution. | Stock teams presented as CMS employees or fictional client portraits. |
-| Real working materials that illustrate the method and are cleared for use. | Screens full of invented metrics or confidential client information. |
-| Simple, labeled illustrations that explain a relationship. | Literal cloud/brain/social-icon collages used as interchangeable decoration. |
-| A restrained visual treatment that preserves the subject. | Heavy filters, artificial luxury cues, or effects that compete with meaning. |
+| Subjects | Real CMS contributors, approved client environments, and genuine working materials. |
+| Light and color | Natural-looking light, balanced skin tones, and restrained editing that sits comfortably beside warm cream and ink. |
+| Composition | Simple backgrounds, a clear subject, and room for adjacent text. Preserve eye contact and useful context when cropping. |
+| Consistency | Use a coherent crop and lighting approach within a series. |
+| Consent and rights | Use authorized photographs with appropriate rights; remove confidential data from visible working materials. |
+| Authenticity | Do not present stock or generated people as actual staff or customers. Label illustrative scenes where necessary. |
 
-### Illustration and icons
+### Image selection for About the brand
 
-Use one coherent icon family per composition. Match stroke weight and corner behavior. Prefer abstract relationships and purposeful diagrams over stock technology symbolism. Supporting graphics must not be mistaken for the brand’s final logo.
+Preferred: a real founder or specialist portrait paired with a working-session photo. Caption each with the person’s name, role, and contribution. Avoid staged handshakes, rows of laptops, generic boardrooms, or aspirational office imagery presented as CMS’s premises.
+
+### Photo contribution brief
+
+Provide a clear original image, the subject’s preferred public name and role, confirmation of permission, and the intended use. Keep an uncropped original so the image can adapt across layouts.
+
+**Asset still needed:** authentic CMS founder or specialist photography. The current packet includes real logo artwork and designed application mockups; it does not invent team photos.
 
 ### Motion and video
 
@@ -364,6 +524,8 @@ Reveal information in the order it should be understood. Use simple cuts, short 
 ### Authenticity and permission
 
 Use images with suitable rights and consent. Label illustrative or AI-generated scenes when a viewer could mistake them for CMS staff, clients, or results. Human warmth should come from actual relationships and useful language, not fabricated evidence.
+
+
 
 
 ## 14. Proof and information design
@@ -381,7 +543,7 @@ Name the metric and unit. Include the baseline, measurement window, relevant pla
 | Evidence practice | Guideline |
 | --- | --- |
 | Research confidence | High: strong, relevant primary evidence. Moderate: useful evidence with meaningful limits. Anecdotal: illustrative experience, not a general finding. Unverified: excluded from findings. Apply the full Track A methodology when producing research. |
-| Research status | Track A drafts are an evidence layer pending human review. Do not quietly convert their findings into locked audience or brand decisions. |
+| Research status | Track A1–A10 findings are approved by Seul as evidence input. Detailed AI-prepared review notes remain pending; approval does not establish live commercial validation or silently alter locked audience or brand decisions. |
 | Client results | Use only documented and permitted results. Identify the measurement period, baseline, source, and relevant constraints. |
 | Testimonials | Use authentic, authorized wording. Do not invent a client name, role, quotation, or endorsement. |
 
@@ -392,6 +554,41 @@ Label units, dates, comparison groups, and sources directly. Use ink for essenti
 ### When commercial proof is not yet available
 
 Show the process, a clearly labeled worked example, or the questions used in diagnosis. Keep sample data visibly labeled. A polished layout must never make a hypothesis, mockup, or aspiration appear to be an achieved result.
+
+### Chart selection and styling reference
+
+Existing proposed/reference guidance retained; no additional asset or application approval is implied.
+
+**09 / CHARTS**
+
+When to use chart types
+
+| Chart type | Use when | CMS example |
+| --- | --- | --- |
+| Horizontal bar | Comparing categories or ranking a small set of values. | Qualified inquiries by source. |
+| Line | Showing change across ordered time periods. | Weekly inquiries over a defined campaign period. |
+| Column | Comparing discrete periods or a small number of categories. | Monthly completed consultations. |
+| Stacked bar | Showing totals and their component parts. | Inquiries by month split by source. |
+| 100% stacked bar | Comparing proportional composition, where each total is 100%. | Share of inquiry types across periods. |
+| Donut / pie | Showing a simple part-to-whole relationship with few categories. | Share of a clearly defined content inventory; avoid tiny slices. |
+| Scatter plot | Exploring the relationship between two numeric variables. | Publishing volume versus engagement rate; association is not causation. |
+| Funnel | Showing counts moving through genuinely sequential stages. | Inquiry, qualification, consultation, proposal, and client conversion. |
+| Table / scorecard | When precise values or one key metric matter more than a visual pattern. | Current value, baseline, period, and target shown explicitly. |
+
+**09 / CHARTS**
+
+Make evidence readable.
+
+
+Illustrative data only; these examples are not CMS results. Left: A=12, B=24, C=18. Right: periods 1–4 = 8, 14, 12, 20.
+
+#### Chart styling
+
+Use ink for essential labels. Highlight the relevant series with coral or ochre; use muted support sparingly. Directly label series when practical. Include the metric, unit, time period, source, and relevant limitations. Start bar-chart quantitative axes at zero; explain any intentional exception in other chart types.
+
+#### Proof discipline
+
+Use only verified data. Label hypothetical examples. Keep definitions and denominators consistent. Distinguish activity, engagement, inquiries, and commercial outcomes. Avoid 3D effects, unexplained percentages, mixed scales, or causal claims based on correlation.
 
 
 ## 15. Consistency across touchpoints
@@ -422,32 +619,9 @@ The six active social platforms are Facebook, Instagram, TikTok, LinkedIn, YouTu
 Brand guidance may later inform website and portal communications, but this document does not authorize work in the website folder. X is not part of the current social platform scope.
 
 
-## 16. Canva implementation brief
+## 16. Canva implementation routing
 
-**IMPLEMENTATION / PROPOSED**
-
-Load the rules, then build the reusable system.
-
-| Canva element | Setup specification |
-| --- | --- |
-| Kit identity | Cloud Mind Social; confirm the correct kit before adding assets. An unnamed kit is not sufficient identification. |
-| Brand colors | Add the exact five-color palette with role-based names from page 8. Do not add the reference’s extra gray without a decision. |
-| Brand fonts | Fraunces for headings; Inter for body; Space Mono for short labels. Confirm real weights and italic availability. |
-| Brand logos | Add only the confirmed master and approved variants. Keep concept explorations outside the approved asset set. |
-| Brand voice | Confident, authoritative, direct, empathetic. Guidance before selling; plain language; claims supported by reasons or proof. |
-| Guidelines | Keep this guide available beside the kit. Palette and font fields alone cannot carry layout, evidence, and approval rules. |
-
-### Template sequence after the relevant phase opens
-
-Start with an insight layout, diagnostic comparison, process explanation, specialist profile, and proof/report layout. Validate each with realistic content lengths before treating it as a master. Then adapt approved layouts to the active platforms.
-
-### Working conventions
-
-Separate approved assets, working explorations, and archived variants. Name files consistently, for example: CMS_Guidelines_v0.1_2026-09-15 and CMS_Insight_Portrait_v01. Duplicate a master before editing an individual asset.
-
-### Capability boundary
-
-A Canva guideline document is separate from Canva’s native Brand Kit settings. Native kit setup is a separate implementation step; the available connection in this session does not expose native Brand Kit creation or editing. Do not label the kit as configured merely because the guideline document exists.
+Use the [Brand Kit Field Guide](./CMS_Brand_Kit_Field_Guide_v0.2.md) for field mapping, upload filenames, mockup references and setup checks. It references this guide for shared specifications. Native kit setup and production require their own authorization; a document is not evidence of a configured kit.
 
 
 ## 17. Approval and quality control
@@ -461,7 +635,7 @@ Make every approval specific.
 | Brand foundation and audience | Preserve the established repository decisions. |
 | Creative direction | Approved by Seul in this conversation on September 15, 2026. |
 | Application standards in this guide | Version 0.1 recommendations; review before marking them locked. |
-| Logo master and tagline | Confirm the assets and final wording separately. |
+| Logo master and tagline | Tagline wording approved by Seul: “We build the bridge from unknown to impact.” Logo assets and tagline lockup implementation remain subject to their separate asset review. |
 | Contrast and reference discrepancies | Decide CTA pairing, small-label treatment, extra gray, and Inter 600 usage. |
 | Canva kit identity and setup | Confirm the correct kit and implement the approved asset set. |
 
@@ -503,10 +677,10 @@ The repository materials were reviewed and refreshed in this conversation on Sep
 
 The attached Track B research guide is not needed to define this identity system and is not used as audience evidence. New layout, imagery, accessibility, and workflow rules are design recommendations, not research findings. Vision and mission retain their meaning; punctuation is normalized for readability.
 
-- [CMS README](https://github.com/seulyekha/cloud-mind-social/blob/main/README.md)
-- [CMS Branding](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Branding/Branding.md)
-- [Color and typography reference](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Branding/CMS-Color-Typography-Reference.pdf)
-- [Latest handoff](https://github.com/seulyekha/cloud-mind-social/blob/main/_agent-hq/handoffs/HANDOFF_LATEST.md)
+- [CMS README](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/README.md)
+- [CMS Branding](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Branding/Branding.md)
+- [Color and typography reference](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Branding/CMS-Color-Typography-Reference.pdf)
+- [Latest handoff](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/_agent-hq/handoffs/HANDOFF_LATEST.md)
 - [W3C: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
 
 **Version record:** v0.1; foundation consolidated, approved direction translated into proposed application rules, reference conflicts flagged, Canva setup specification included. Tagline wording is reconciled to Seul's approval; no new logo, price structure, content calendar, or performance claim is approved by this correction.
