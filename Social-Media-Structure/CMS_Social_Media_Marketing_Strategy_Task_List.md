@@ -142,7 +142,7 @@
 - [ ] Test trust clarity with target respondents.
 - [ ] Lock public trust claims and placements after validation.
 
-**Source of truth:** `Social-Media-Structure/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`
+**Source of truth:** `Social-Media-Structure/Phase-2.5/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`
 
 ### 2.5.8 — First Acquisition Test
 
@@ -158,7 +158,7 @@
 - [ ] Review buyer language, objections, response quality, and commercial movement.
 - [ ] Decide whether to pass, revise, or stop.
 
-**Source of truth:** `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`
+**Source of truth:** `Social-Media-Structure/Phase-2.5/PHASE_2.5.8_First_Acquisition_Test.md`
 
 
 ### 2.5.9 — Theoretical Commercial Assumptions Baseline
@@ -174,7 +174,7 @@
 - [ ] Gather live buyer behavior when prospect access becomes available.
 - [ ] Update assumptions after paid or otherwise meaningful commercial evidence.
 
-**Source of truth:** `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`
+**Source of truth:** `Social-Media-Structure/Phase-2.5/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`
 
 ### 2.5.10 — Commercial Validation Gate and Phase 3 Readiness Decision
 
@@ -188,7 +188,7 @@
 - [ ] Record live buyer, acquisition, pricing, trust, and delivery evidence as it becomes available.
 - [ ] Revisit the gate after meaningful evidence or a material contradiction.
 
-**Source of truth:** `Social-Media-Structure/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md`
+**Source of truth:** `Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md`
 
 ## Supplementary Track A — Western Market Reality
 
@@ -206,7 +206,7 @@ These files remain standalone evidence documents. They are not automatically mer
 - [x] A8 — AI Changes the Market — drafted / revised
 - [x] A9 — Pricing & Budget — drafted
 - [x] A10 — Retention & Partnership — drafted
-- [x] Track A1–A10 findings approved as evidence input for 2.5.10 and Phase 3 planning
+- [x] Track A1–A10 findings approved by Seul as evidence input for 2.5.10 and Phase 3 planning
 - [ ] Decide which approved findings, if any, require a separately approved change to locked Phase 2
 
 **Rule:** Do not edit Tracks A1–A9 during the current repository reconciliation.
@@ -215,19 +215,26 @@ These files remain standalone evidence documents. They are not automatically mer
 
 # Phase 3 — Content Architecture
 
-**STATUS: [ ] NOT STARTED**
+**STATUS: PLANNING AND DOCUMENTATION OPEN; PRODUCTION AND PUBLICATION GATED**
 
-- [ ] Define content pillars
-- [ ] Define content themes / recurring territories
-- [ ] Define content formats and roles
-- [ ] Define content-to-funnel mapping
-- [ ] Define CTA framework
-- [ ] Define proof requirements
-- [ ] Define content governance / decision rules
+| Workstream | Source | Documentation | Readiness | Production | Publication |
+|---|---|---|---|---|---|
+| 3.1 | [Audience, Positioning and Evidence Integration](./Phase-3/PHASE_3.1_Evidence_Classification_Assumption_Management_and_Commercial_Translation.md) | In progress | Pending | Gated | Gated |
+| 3.2 | [Brand Foundation Finalization and Content Alignment](./Phase-3/PHASE_3.2_Content_Pillar_and_Strategic_Theme_Architecture.md) | In progress | Pending | Gated | Gated |
+| 3.3 | [CMS Methodology, Content Formats and Strategic Roles](./Phase-3/PHASE_3.3_Content_Formats_and_Strategic_Roles.md) | In progress | Pending | Gated | Gated |
+| 3.4 | [Offer Architecture and Content-to-Funnel Mapping](./Phase-3/PHASE_3.4_Content_to_Funnel_Mapping.md) | Working draft | Pending | Gated | Gated |
+| 3.5 | [Messaging System and CTA Framework](./Phase-3/PHASE_3.5_CTA_Framework.md) | Working draft | Pending | Gated | Gated |
+| 3.6 | [Trust, Proof and Content Governance](./Phase-3/PHASE_3.6_Proof_Requirements_and_Content_Governance.md) | Working draft | Pending | Gated | Gated |
+| 3.7 | [Visual Identity Implementation, Integration and Completion Review](./Phase-3/PHASE_3.7_Content_Architecture_Integration_and_Completion_Review.md) | Working draft | Pending | Gated | Gated |
+| 3.8 | [Website and Conversion Architecture, Content Operationalization and Production Handoff](./Phase-3/PHASE_3.8_Content_Architecture_Operationalization_and_Production_Handoff.md) | Approved additions; implementation pending | Pending | Gated | Gated |
+| 3.9 | [Social Media Operating System and Readiness Gate](./Phase-3/PHASE_3.9_Content_Architecture_Final_Readiness_Gate.md) | Approved additions; implementation pending | Pending | Gated | Gated |
+| 3.10 | Measurement and Validation; no source document yet | Outstanding | Pending | Gated | Gated |
 
-**Dependency:** Complete the Phase 2.5.10 handoff and readiness decision before formally opening Phase 3. Track A is approved as evidence input; it does not silently rewrite locked Phase 2 decisions.
+Documentation status is not a completion certificate. The Phase 2.5.10 handoff, live validation, and readiness decisions remain open. Separate authorization is required for production and publication.
 
-**Note:** Existing post or carousel brainstorming does not count as Phase 3 completion.
+The content writing standard includes educational posts, carousels, scripts, articles, and newsletters for CMS and client brands. Calling content educational does not exempt it. Separately scoped utility assets and internal strategy, research, governance, brand foundation, briefs, proposals, reports, and Agent HQ retain structured formats. Locked phrases remain valid identity; meaning-preserving paraphrases may be used in content without making slogans its structural skeleton.
+
+Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 + 3.7 third; 3.1 + 3.2 + 3.4 last. This records the sequence only; those source-file adjustments require the later authorized batch.
 
 ---
 
@@ -289,7 +296,7 @@ These files remain standalone evidence documents. They are not automatically mer
 2. Run the first controlled acquisition and proxy tests.
 3. Finalize Phase 2.5.6 figures, scope, capacity, margin, and qualification rules.
 4. Validate Phase 2.5.7 trust architecture and proof placements.
-5. Formally begin Phase 3 — Content Architecture after the 2.5.10 handoff is accepted.
+5. Continue authorized Phase 3 planning; develop 3.10 and complete readiness and handoff requirements before requesting production/publication authorization.
 
 ## [ ] HOLD
 
@@ -297,7 +304,7 @@ These files remain standalone evidence documents. They are not automatically mer
 - Carousel development
 - First-appearance / introduction-post development
 - Post-document updates
-- Formal Phase 3 content architecture
+- Phase 3 production and publication
 
 These are intentionally untouched by this reconciliation task.
 
@@ -314,3 +321,7 @@ These are intentionally untouched by this reconciliation task.
 7. Do not advance to a later strategy phase merely because exploratory work exists.
 8. Do not modify post documents during this reconciliation.
 9. Keep `www/` completely out of scope unless explicitly reopened for a specific session.
+
+## Repository boundaries
+
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.

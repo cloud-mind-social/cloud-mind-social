@@ -319,7 +319,7 @@ The repository is organized so a future CMS AI session can identify where each t
 | **Platform work** | `Platform/` — platform-specific strategy and operations when Phase 5 begins |
 | **Campaigns** | `Campaigns/` — campaign planning and assets |
 | **Sales** | `Sales/` — sales and commercial enablement |
-| **Clients** | `Clients/` — client-specific working material |
+| **Clients** | Client-specific material belongs in a separate private clients repository; the public `Clients/` placeholder is not a client-data workspace |
 | **Analytics** | `Analytics/` — performance data, reporting, and analysis |
 | **Operations** | `Operations/` — internal workflows and operating procedures |
 | **Assets** | `Assets/` — reusable brand and content assets |
@@ -330,6 +330,14 @@ The repository is organized so a future CMS AI session can identify where each t
 These folders are organizational structure. Empty folders should not be populated simply to make the structure look complete.
 
 ---
+
+## Current planning and control
+
+Phase 3 planning and documentation are open under explicit assumptions. Phase 3.1–3.9 documents exist with their individual readiness limits; Phase 3.10 Measurement and Validation remains outstanding. Production and publication require separate authorization; handoff completion and commercial validation are not implied.
+
+The [Strategy Task List](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) is the authoritative task tracker. Agent HQ links to it; [INDEX.md](./INDEX.md) provides the document registry. Track A1–A10 findings are approved by Seul as evidence input, not proof of live commercial validation. Detailed review notes remain a separate task.
+
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
 
 ## Repository Purpose
 
@@ -343,7 +351,7 @@ Future work should remain aligned with the established foundation before new mes
 - [`CMS-Branding/CMS-Color-Typography-Reference.pdf`](./CMS-Branding/CMS-Color-Typography-Reference.pdf); established CMS color palette and typography reference
 - [`CMS-Research/Target-Market-Research-CMS.md`](./CMS-Research/Target-Market-Research-CMS.md); Target Market Research
 - [`Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md`](./Social-Media-Structure/PHASE%201%20Approved%20by%20Seul%20Yekha.md); Phase 1 strategic foundation
-- [`Social-Media-Structure/PHASE 2 — Audience Strategy Part 1 — APPROVED by Seul Yekha.md`](./Social-Media-Structure/PHASE%202%20%E2%80%94%20Audience%20Strategy%20Part%201%20%E2%80%94%20APPROVED%20by%20Seul%20Yekha.md); locked commercial audience architecture
+- [`Social-Media-Structure/PHASE 2 Audience Strategy Part 1 Approved by Seul Yekha.md`](./Social-Media-Structure/PHASE%202%20Audience%20Strategy%20Part%201%20Approved%20by%20Seul%20Yekha.md); locked commercial audience architecture
 
 ---
 

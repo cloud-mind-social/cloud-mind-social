@@ -109,12 +109,11 @@ This blend shapes every part of the brand: CMS never leads with hype or transfor
 
 ## 9. Tagline
 
-**Status: Pending final decision — weighing two options**
+**Status: Approved by Seul**
 
-- *"We build the bridge from unknown to impact."*
-- *"From unknown to unforgettable."*
+> **"We build the bridge from unknown to impact."**
 
-*(Both options draw from the Dream Ladder / Unknown-to-Impact research. Final selection to be made before this section is locked.)*
+Approval covers wording; implementation of lockups and public positioning variants retains its separate gates.
 
 ---
 

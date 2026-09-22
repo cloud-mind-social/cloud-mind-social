@@ -2,7 +2,7 @@
 Last updated: 2026-09-22
 
 ## Role
-Social Media Marketer for CMS. Working track: Brand & Strategy only. Phase 3 planning and documentation are open under explicit assumptions; production and publication remain gated. `www/`, `webmail/`, and `.github/workflows/` are out of scope for changes and were not reviewed, read, edited, run, deployed, or otherwise touched during this session. `.github/workflows/` may be viewed read-only when necessary, but remains no-touch for changes.
+Social Media Marketer for CMS. Working track: Brand & Strategy only. Phase 3 planning and documentation are open under explicit assumptions; production and publication remain gated. `www/`, `webmail/`, and `.github/` are out of scope for changes and were not reviewed, read, edited, run, deployed, or otherwise touched during this session. `.github/` may be viewed read-only when necessary, but remains no-touch for changes.
 
 ## Brand & Strategy — current state
 
@@ -24,7 +24,7 @@ Social Media Marketer for CMS. Working track: Brand & Strategy only. Phase 3 pla
 
 ## Supplementary Track A
 
-Track A is approved as an evidence input for Phase 2.5.10 and Phase 3 planning. It remains a separate evidence layer; it does not silently rewrite locked Phase 2 decisions.
+Track A1–A10 findings are approved by Seul as an evidence input for Phase 2.5.10 and Phase 3 planning. It remains a separate evidence layer; it does not silently rewrite locked Phase 2 decisions.
 
 - A1: ✅ Approved as evidence input
 - A2: ✅ Approved as evidence input
@@ -37,7 +37,7 @@ Track A is approved as an evidence input for Phase 2.5.10 and Phase 3 planning. 
 - A9: ✅ Approved as evidence input; Pricing & Budget
 - A10: ✅ Approved as evidence input; Retention & Partnership
 
-**Important:** Do not change Tracks A1–A9 as part of this reconciliation. They remain standalone research documents pending human review.
+**Important:** Do not change Tracks A1–A9 as part of this reconciliation. Their evidence-input approval stands; Seul's AI-prepared detailed review notes remain pending.
 
 ## Current work
 
@@ -94,26 +94,26 @@ The approved platform scope remains LinkedIn, Facebook, Instagram, YouTube, TikT
 
 **Working draft created:** Trust architecture now includes agency and freelancer competitor benchmarks, website and platform trust requirements, proof standards, testimonial and review guardrails, CMS's human trust layer, and the agency advantages that must be visible. Live audit and validation remain pending.
 
-Source of truth: `Social-Media-Structure/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`.
+Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.7_Trust_Signal_and_Proof_Architecture.md`.
 
 ## Phase 2.5.8 — First Acquisition Test
 
 **Working draft created:** The first acquisition experiment is a relationship-led loop using warm introductions, permission-based outreach, LinkedIn, Facebook, and the CMS website. The Social Signal Check creates curiosity; the Signal-to-Strategy Review qualifies interest; the Social Clarity Intensive tests willingness to pay. The first test has not yet run.
 
-Source of truth: `Social-Media-Structure/PHASE_2.5.8_First_Acquisition_Test.md`.
+Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.8_First_Acquisition_Test.md`.
 
 
 ## Phase 2.5.9 — Theoretical Commercial Assumptions Baseline
 
 **Theoretical working draft created:** The document translates approved strategy, Track B, Track A evidence, competitor observations, and prior Phase 2.5 work into a commercial assumptions ledger. It separates research-supported hypotheses from inference and unknowns; no live buyer evidence or willingness-to-pay claim is made.
 
-Source of truth: `Social-Media-Structure/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`.
+Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.9_Theoretical_Commercial_Assumptions_Baseline.md`.
 
 ## Phase 2.5.10 — Commercial Validation Gate and Phase 3 Readiness Decision
 
-**Approved direction:** CMS will proceed with explicit research-supported assumptions because live prospect evidence is not yet sufficient. Track A findings are approved as evidence input for the gate and for Phase 3 planning. The phase defines readiness dimensions, assumptions, guardrails, and the handoff required before formal Phase 3 opening; it does not claim commercial validation.
+**Approved direction:** CMS will proceed with explicit research-supported assumptions because live prospect evidence is not yet sufficient. Track A findings are approved as evidence input for the gate and for Phase 3 planning. The phase defines readiness dimensions, assumptions, guardrails, and the handoff required before production and publication authorization; it does not claim commercial validation.
 
-Source of truth: `Social-Media-Structure/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md`.
+Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md`.
 
 ## Next in line
 
@@ -139,4 +139,11 @@ Social-Media-Structure/Platform Research.md remains preparatory research; it doe
 - Carousel/post brainstorming
 - Content-writing-standard file creation and draft-post deletion batch
 - Track A1–A9 research edits
-- `.github/workflows/`, `www/`, and `webmail/` work of any kind
+- `.github/`, `www/`, and `webmail/` work of any kind
+
+
+## Batch 1 correction; 2026-09-22T02:58:08.193Z
+
+PR #17 merged only a partial implementation. A follow-up PR prepares the full listed Batch 1 corrections, INDEX, all 11 decisions, educational-content scope, adjustment order, and Track A approval by Seul. Await merge before treating this correction as applied to main. Later batches remain unexecuted.
+
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
