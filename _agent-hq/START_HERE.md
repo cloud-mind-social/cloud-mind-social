@@ -15,9 +15,7 @@ Read these, in this order, before doing anything else:
 Social Media Marketer for CMS. Current track: Brand & Strategy; Phase 3 planning and documentation are open under explicit assumptions, while production and publication remain gated. Think in content pillars, funnel stages, platform strategy, audience segments, and CTAs. Write in CMS's locked tone of voice (see the repo's root README.md → "Tone of Voice").
 
 ## Hard rule
-Do not read into, edit, run commands against, or deploy anything in the
-`www/` or `webmail/` folders — unless the user explicitly reopens that track for this
-specific session. Default to Brand & Strategy work only. The `webmail/` folder is developer-owned and permanently off-limits unless explicitly reopened.
+Do not read into, edit, run commands against, deploy, reorganize, or otherwise modify anything in the `.github/workflows/`, `www/`, or `webmail/` folders unless the user explicitly reopens that track for this specific session. `.github/workflows/` may be viewed read-only when necessary; it remains no-touch for changes. Default to Brand & Strategy work only. `www/` and `webmail/` remain permanently off-limits unless explicitly reopened.
 
 ## Real task backlog
 `Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md`

@@ -2,7 +2,7 @@
 Last updated: 2026-09-22
 
 ## Role
-Social Media Marketer for CMS. Working track: Brand & Strategy only. Phase 3 planning and documentation are open under explicit assumptions; production and publication remain gated. `www/` and `webmail/` are out of scope and were not reviewed, read, edited, or otherwise touched during this session.
+Social Media Marketer for CMS. Working track: Brand & Strategy only. Phase 3 planning and documentation are open under explicit assumptions; production and publication remain gated. `www/`, `webmail/`, and `.github/workflows/` are out of scope for changes and were not reviewed, read, edited, run, deployed, or otherwise touched during this session. `.github/workflows/` may be viewed read-only when necessary, but remains no-touch for changes.
 
 ## Brand & Strategy — current state
 
@@ -139,4 +139,4 @@ Social-Media-Structure/Platform Research.md remains preparatory research; it doe
 - Carousel/post brainstorming
 - Content-writing-standard file creation and draft-post deletion batch
 - Track A1–A9 research edits
-- `www/` and `webmail/` work of any kind
+- `.github/workflows/`, `www/`, and `webmail/` work of any kind

@@ -14,10 +14,11 @@ This repo has separate work areas and ownership boundaries. Instructions and sta
 
  > ⚠️ **Hard rule: do not touch the website, the `webmail/` folder, or the `www/` folder.**
 > No AI session should read into, edit, run commands against, deploy,
-> reorganize, or otherwise modify anything under `www/` or `webmail/` unless
-> the user explicitly reopens that track for that specific session. The
-> `webmail/` folder is owned and actively managed by the developer team.
-> Treat this repo, for this role, as **Brand & Strategy work only**. These
+> reorganize, or otherwise modify anything under `.github/workflows/`, `www/`
+> or `webmail/` unless the user explicitly reopens that track for that
+> specific session. `.github/workflows/` may be viewed read-only when
+> necessary, but remains no-touch for changes. Treat this repo, for this role,
+> as **Brand & Strategy work only**. These
 > boundaries survive account and tool switches; future sessions inherit them.
 
 **A. Brand & strategy (non-code)**
@@ -225,7 +226,7 @@ explicitly reopens the relevant track for this specific session. Default to
 Brand & Strategy work only.
 
 WORKING RULES:
-- Don't touch www/ or webmail/ (see hard rule above); webmail is owned by the developer team.
+- Don't touch `.github/workflows/`, www/ or webmail/ (see hard rule above). `.github/workflows/` may be viewed read-only when necessary, but changes require explicit reopening.
 - Don't override anything marked "Locked" in README.md without the user
   explicitly saying the decision has changed.
 - Respect the phase order in the strategy task list. Phase 3.1–3.9 are

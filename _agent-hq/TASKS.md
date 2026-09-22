@@ -1,5 +1,9 @@
 # Tasks
 
+## Repository safety boundaries
+
+Do not edit, run, deploy, reorganize, or otherwise modify .github/workflows/, www/, or webmail/ unless the user explicitly reopens that folder or track for the specific session. .github/workflows/ may be viewed read-only when necessary; it remains no-touch for changes.
+
 ## Brand & Strategy
 Real backlog:
 `Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md`
@@ -86,5 +90,5 @@ Track A1–A10 are standalone research drafts pending human review. **Do not edi
 - Formal Phase 5 platform strategy
 - Content-writing-standard file creation and draft-post deletion batch
 
-## Engineering (`www/`)
-**OFF-LIMITS.** Do not read, edit, run commands against, or deploy anything in `www/` unless the user explicitly reopens that track for a specific session.
+## Engineering and workflow folders
+**OFF-LIMITS.** Do not modify `.github/workflows/`, `www/`, or `webmail/` unless the user explicitly reopens the relevant folder or track. `.github/workflows/` may be viewed read-only when necessary.

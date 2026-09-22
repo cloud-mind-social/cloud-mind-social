@@ -74,3 +74,16 @@ specific session.
 ## 2026-09-22 — Content writing rule remains content-scoped
 **Why:** The proposed real-person writing rule applies to audience-facing content only. Strategy, research, brand foundation, phase documents, governance, briefs, proposals, reports, and Agent HQ files retain their structured formats. The content standard file, draft-post deletion, and pointer-edit batch remain unexecuted until separately authorized.
 **Revisit when:** Content/ is formally opened and the owner authorizes that batch.
+
+
+## 2026-09-22 — Tagline approved
+**Why:** The approved CMS tagline is “We build the bridge from unknown to impact.” The README status and candidate section must reflect the owner's decision rather than continue showing the tagline as pending.
+**Revisit when:** The brand owner explicitly reopens the tagline decision.
+
+## 2026-09-22 — CMS access roster and developer boundaries clarified
+**Why:** CMS repository collaboration is limited to the Elli, Seul, and Merille access identities. Developer-owned work is outside this plan. Exact permissions, labels, and path ownership remain undecided until the owner completes the access discussion.
+**Revisit when:** The owner confirms exact GitHub usernames, permissions, and any required labeling model.
+
+## 2026-09-22 — .github/workflows/ placed under no-touch boundaries
+**Why:** Workflow changes can affect repository automation and deployment behavior. The folder may be viewed read-only when necessary, but it must not be edited, run, deployed, reorganized, or otherwise modified unless the user explicitly reopens it.
+**Revisit when:** The user explicitly reopens .github/workflows/ for a specific session.
