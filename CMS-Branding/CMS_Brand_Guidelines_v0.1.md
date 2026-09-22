@@ -122,6 +122,9 @@ Speak as a relatable partner. Confidence comes from explaining the recommendatio
 
 ### Writing rules
 
+**Audience-content scope:** Follow the approved [CMS Content Writing Standard](./CMS_Content_Writing_Standard.md), including educational content and its Grounded human perspective rule. Fixed writing sequences (including situation, implication, next step), layout recipes, and evidence structures in this guide are internal planning guidance; they do not prescribe audience sentence, paragraph, or carousel progression. Internal documents and separately scoped utility assets retain structured formats. Locked identity wording and voice remain intact; production and publication remain separately gated.
+
+
 - Use concrete nouns and active verbs. Explain specialist terms the first time they matter.
 - Lead with the situation, then the implication, then the recommended next step.
 - Use “we” for agency commitments; name the person responsible when discussing delivery.

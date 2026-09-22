@@ -22,6 +22,10 @@ The content writing standard includes educational posts, carousels, scripts, art
 
 Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 + 3.7 third; 3.1 + 3.2 + 3.4 last. This records the sequence only; those source-file adjustments require the later authorized batch.
 
+## Content task routing
+
+Follow the [CMS Content Writing Standard](../CMS-Branding/CMS_Content_Writing_Standard.md) for audience content, including educational content for CMS and clients. Its approved Grounded human perspective rule combines sourcing, human accountability, and natural expression. Strategy, research, governance, brand foundation, phase documents, briefs, pricing, proposals, reports, and Agent HQ retain structured formats. Content production and publication remain gated; this standard does not open Content/.
+
 ## Collaboration and commits
 
 CMS planning roster: Elli, Seul, Merille. Exact account mapping and permissions remain unconfirmed; do not infer individual roles or change existing repository access. Seul is the confirmed owner/approver and reviews all ten Track A documents with AI-prepared notes.

@@ -118,3 +118,21 @@ Recorded from Seul's decisions; this does not claim new settings or live validat
 **Actual outcome:** PR #17 merged but implemented only part of Batch 1. Its completion claim was too broad. This follow-up prepares the missing source and closeout corrections for PR review; main is not updated by preparation alone. Track A approval is recorded without inventing completed review notes or validation.
 
 **Revisit when:** Seul changes a decision, explicitly reopens a protected area, or live evidence requires reconsideration.
+
+
+## 2026-09-22T13:26:54.487Z; Batch 2 content standard adopted
+
+Seul approved the complete proposed standard with A, B and C combined as **Grounded human perspective**: documented grounding, an internally accountable human with appropriate public attribution, and natural expression without formulaic construction. Educational content is covered; research may originate ideas without becoming fabricated firsthand experience. Locked identity remains intact and meaning-preserving paraphrasing remains allowed. Blank intake templates and scoped pointers are authorized. Production and publication remain gated.
+
+**Revisit when:** Seul changes scope or review experience exposes ambiguity.
+
+## 2026-09-22T13:26:54.487Z; Premature drafts retired in Batch 2 branch
+
+The implementation removes exactly:
+- `Social-Media-Structure/CMS_First_Posts_Pilot.md`
+- `Social-Media-Structure/CMS_First_Introduction_Posts.md`
+- `Social-Media-Structure/CMS_Carousel_Post_Ideas_Phase1.md`
+
+Deletion takes effect on main only after PR merge. Historical records remain; no replacement content is created. PR #18 is merged, completing the Batch 1 correction. Batch 2 implementation is prepared for review; no merge is claimed.
+
+**Revisit when:** Content production is explicitly opened; do not restore retired drafts as approved source material.

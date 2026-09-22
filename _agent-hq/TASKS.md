@@ -9,3 +9,5 @@ The [Strategy Task List](../Social-Media-Structure/CMS_Social_Media_Marketing_St
 - [Latest handoff](handoffs/HANDOFF_LATEST.md); actual batch outcome and next action.
 
 The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+
+- [Content writing standard](../CMS-Branding/CMS_Content_Writing_Standard.md); approved combined rule and blank intake templates; Batch 2 implementation awaits merge. Production/publication remain gated.
