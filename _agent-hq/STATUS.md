@@ -122,7 +122,7 @@ Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Valid
 3. Complete the Phase 2.5.10 handoff and carry its assumptions into Phase 3.
 4. Develop and approve the Phase 3.10 Measurement and Validation workstream.
 5. Make the Phase 3 readiness decision; only then open production and publication work.
-6. Keep the content-writing-standard proposal and any draft-post replacement batch unexecuted until separately authorized.
+6. Review and merge the authorized Batch 2 implementation; content production and publication remain gated.
 
 ## Not started
 
@@ -137,13 +137,17 @@ Social-Media-Structure/Platform Research.md remains preparatory research; it doe
 
 - Social post development or post-document updates
 - Carousel/post brainstorming
-- Content-writing-standard file creation and draft-post deletion batch
 - Track A1–A9 research edits
 - `.github/`, `www/`, and `webmail/` work of any kind
 
 
 ## Batch 1 correction; 2026-09-22T02:58:08.193Z
 
-PR #17 merged only a partial implementation. A follow-up PR prepares the full listed Batch 1 corrections, INDEX, all 11 decisions, educational-content scope, adjustment order, and Track A approval by Seul. Await merge before treating this correction as applied to main. Later batches remain unexecuted.
+PR #17 merged only a partial implementation. A follow-up PR prepares the full listed Batch 1 corrections, INDEX, all 11 decisions, educational-content scope, adjustment order, and Track A approval by Seul. PR #18 is now merged; Batch 1 correction is on main.
 
 The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+
+
+## Batch 2; 2026-09-22T13:26:54.487Z
+
+Seul approved the [Content Writing Standard](../CMS-Branding/CMS_Content_Writing_Standard.md) with A/B/C combined as Grounded human perspective. Standard, templates, routing and three draft deletions are prepared in the PR branch; merge pending. Educational content is covered. Production/publication and later batches remain gated.
