@@ -1,41 +1,6 @@
-# Cloud Mind Social | Latest Handoff
+# Latest handoff
 
-**Status:** Batch 1 completed; current CMS status and boundaries reconciled. Phase 3.1–3.9 planning and documentation remain open under explicit assumptions. Phase 3.10 remains outstanding. Production and publication remain gated.
-**Date:** September 22, 2026
-**Track:** Brand & Strategy; project-control reconciliation.
-**Canonical repository:** https://github.com/cloud-mind-social/cloud-mind-social
-**Current main commit before this batch:** a9d36fd3812c57b4c62928cbfc0ac10da2e46751
+**Type:** Final
+**Outcome:** Batch 1 corrective implementation prepared; PR merge pending.
 
-## Batch 1 completed
-
-- README now records “We build the bridge from unknown to impact.” as the approved tagline.
-- Agent HQ records the current access boundary as Elli, Seul, and Merille only.
-- Exact GitHub usernames, permissions, path ownership, and labeling requirements remain undecided.
-- .github/workflows/ is now a no-touch folder. It may be viewed read-only when necessary, but it was not inspected or changed in this batch.
-- www/ and webmail/ remain permanently off-limits unless explicitly reopened.
-- Phase 3.1–3.9 remain planning and documentation work; Phase 3.10 Measurement and Validation is outstanding.
-- Production, publication, account activation, campaign launch, platform execution, and live conversion claims remain gated.
-
-## Files changed in Batch 1
-
-- README.md; aligned the approved tagline status and removed the stale pending wording.
-- _agent-hq/START_HERE.md; added the workflow-folder no-touch rule.
-- _agent-hq/STATUS.md; added the workflow boundary and preserved current project gates.
-- _agent-hq/TASKS.md; recorded the repository safety boundaries.
-- _agent-hq/DECISIONS.md; recorded the tagline, access roster, and workflow-boundary decisions.
-- _agent-hq/SESSION_LOG.md; appended the Batch 1 record.
-- _agent-hq/AI_PROJECT_INSTRUCTIONS.md; added the workflow-folder boundary to both instruction layers.
-- _agent-hq/handoffs/HANDOFF_LATEST.md; replaced with this handoff.
-- _agent-hq/handoffs/archive/2026-09-22_0208_chatgpt_batch-1.md; archived copy of this handoff.
-
-## Exclusions preserved
-
-- No files in .github/workflows/, www/, or webmail/ were inspected or modified.
-- No Phase 3 source document, Track A source file, or content-production file was changed.
-- No labels, CODEOWNERS rules, branch protection, or access permissions were configured.
-- No content was produced or published.
-
-## Exact next step
-
-Review the Batch 2 content-writing-standard scope. Execute it only after the owner says GO BATCH 2.
-
+Read [the timestamped Batch 1 correction](archive/2026-09-22_0258_chatgpt_batch-1-correction.md).

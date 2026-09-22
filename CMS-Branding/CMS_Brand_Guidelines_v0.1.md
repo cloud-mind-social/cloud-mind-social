@@ -19,7 +19,7 @@ A practical identity system for communicating Strategic Social Intelligence acro
 
 Established foundation + approved creative direction + proposed application standards. Prepared for Seul and the CMS specialist network.
 
-The logo master and final tagline remain open decisions. This document does not designate a new logo or finalize a tagline.
+The tagline wording is approved by Seul: “We build the bridge from unknown to impact.” Logo asset implementation remains governed separately; this correction creates no new logo.
 
 
 ## 2. How to use this guide
@@ -33,7 +33,7 @@ Keep the foundation stable. Make the execution consistent.
 | Established / locked | Brand meaning, archetype, vision, mission, belief, values, narrative pillars, voice, commercial ICP, palette, and typography come from the reviewed repository. |
 | Approved direction | Seul approved a structured strategy practice expressed through editorial design, with warmth in people and language, in this conversation. |
 | Proposed application | The new layout, imagery, accessibility, sizing, and workflow rules in this guide are recommendations for review; they do not silently amend locked sources. |
-| Open decision | Logo master, final tagline, and specific implementation conflicts require a recorded decision. |
+| Open decision | Logo master implementation and specific implementation conflicts require their own recorded decisions; tagline wording is approved. |
 
 ### Reading map
 
@@ -163,7 +163,7 @@ Use this hierarchy across the communication sequence. A single asset may carry o
 
 **Brand name:** Cloud Mind Social. Introduce the full name before using CMS in external material. **Descriptor:** Strategic Social Intelligence. **Core idea:** Make the digital world make sense. **Operating principle:** Diagnosis Before Prescription.
 
-The final tagline remains pending. “We build the bridge from unknown to impact” and “From unknown to unforgettable” remain candidates only. CTA wording must match the actual destination and availability; do not imply a free audit or a guaranteed diagnosis on every first call.
+The approved tagline is “We build the bridge from unknown to impact.” CTA wording must match the actual destination and availability; do not imply a free audit or a guaranteed diagnosis on every first call.
 
 
 ## 7. Creative direction
@@ -506,4 +506,4 @@ The attached Track B research guide is not needed to define this identity system
 - [Latest handoff](https://github.com/seulyekha/cloud-mind-social/blob/main/_agent-hq/handoffs/HANDOFF_LATEST.md)
 - [W3C: Contrast (Minimum)](https://www.w3.org/WAI/WCAG22/Understanding/contrast-minimum.html)
 
-**Version record:** v0.1; foundation consolidated, approved direction translated into proposed application rules, reference conflicts flagged, Canva setup specification included. No new logo, final tagline, price structure, content calendar, or performance claim is approved by this document.
+**Version record:** v0.1; foundation consolidated, approved direction translated into proposed application rules, reference conflicts flagged, Canva setup specification included. Tagline wording is reconciled to Seul's approval; no new logo, price structure, content calendar, or performance claim is approved by this correction.

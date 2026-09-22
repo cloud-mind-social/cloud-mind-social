@@ -190,3 +190,16 @@ that says so.
 - Keep content production, publication, workflow changes, and developer-owned work closed.
 
 **Commit(s):** This Batch 1 reconciliation commit.
+
+
+## 2026-09-22T02:58:08.193Z; Batch 1 audit and correction
+
+**Track:** Brand & Strategy.
+**Outcome:** Correction prepared for PR; merge pending. PR #17 is merged, but its earlier “COMPLETED” entry covered only part of the agreed scope. This entry corrects that claim without rewriting history.
+
+Prepared the three brand tagline corrections, README control and client-location notes and link repair, Phase 3.1–3.10 Task List, narrow 2.5.10 clarification, full instruction reconciliation, task pointers, INDEX and complete decision record. Recorded all 11 owner decisions, educational-content inclusion, accepted adjustment order and Track A1–A10 approval by Seul. Detailed Track A review notes remain pending; no commercial validation or completed handoff is claimed.
+
+The entire .github/ folder is now documented as off-limits for changes; necessary read-only viewing is allowed unless prohibited. No .github/, www/, or webmail/ file contents were read or edited in this correction. No protected settings, later-batch source changes, content production or publication were executed.
+
+**Next:** Review and merge the corrective PR; then request GO BATCH 2.
+**Handoff:** [Timestamped closeout](handoffs/archive/2026-09-22_0258_chatgpt_batch-1-correction.md).

@@ -104,7 +104,7 @@ The logo reference reports that internal details collapse at 32 px and below. Do
 
 The current navy lockups and the warm content palette have not yet been formally reconciled. Keep the existing navy artwork intact when documenting it. The ink-on-cream asset is the recommended direction to evaluate for palette alignment, using the existing test asset rather than an automatic recolor.
 
-Preserve the complete lockup’s proportions and spacing. Its “Strategic Social Intelligence” descriptor is separate from the pending marketing tagline.
+Preserve the complete lockup’s proportions and spacing. Its “Strategic Social Intelligence” descriptor is separate from the approved marketing tagline.
 
 
 ## 5. Color
@@ -177,7 +177,7 @@ Fonts: Heading, Body
 
 ### Tagline and subtitle; using the fonts
 
-**Tagline specimen:** “From unknown to unforgettable.” Set in Fraunces 500 or 600, with a single emphasized phrase in italic if needed. This remains a candidate for review, not the finalized tagline.
+**Tagline specimen:** “We build the bridge from unknown to impact.” Set in Fraunces 500 or 600, with a single emphasized phrase in italic if needed. The wording is approved by Seul; typesetting and lockup implementation still require asset review.
 
 **Subtitle specimen:** “Strategic Social Intelligence.” Set in Inter 500 as supporting text beneath a headline. Within an existing logo lockup, preserve the descriptor as supplied artwork.
 
@@ -406,7 +406,7 @@ Copy each field’s text into Canva’s Brand Guidelines and upload its named im
 | Logo assets | Real repository and PDF assets are included. The reference is still a draft; primary selection and navy/palette alignment remain open. |
 | Logo details | Shape/style describe the visible artwork. Symbol meanings are proposed interpretations, not a retrieved locked designer statement. |
 | Colors | Exact values preserved; primary/secondary grouping is proposed for these fields. |
-| Tagline | Candidate specimen only; final decision remains open. |
+| Tagline | Wording approved by Seul; asset implementation remains subject to review. |
 | Photos | Real CMS portraits or working-session photographs still needed. |
 | Mockups | Concept assets for identity review; not live account screenshots or approved content. |
 

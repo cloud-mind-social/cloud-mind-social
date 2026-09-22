@@ -6,6 +6,12 @@
 **Decision owner:** Seul Yekha  
 **Phase boundary:** This document authorizes controlled progress using research-supported assumptions. It does not claim market validation, product-market fit, willingness to pay, conversion performance, or completed Phase 3.
 
+## Owner clarification; recorded 2026-09-22
+
+Planning and documentation are open under explicit assumptions. Production and publication require separate owner authorization. The activities listed below are planning directions, not blanket permission to produce, publish, activate accounts, change the website, or launch tests. This clarification does not mark the handoff, readiness review, live validation, or Phase 3 complete. Track A1–A10 findings are approved by Seul as evidence input; they do not establish commercial validation.
+
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+
 ## Purpose
 
 Phase 2.5.10 is the decision gate between Commercial Architecture and formal Phase 3 Content Architecture.

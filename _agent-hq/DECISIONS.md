@@ -87,3 +87,34 @@ specific session.
 ## 2026-09-22 — .github/workflows/ placed under no-touch boundaries
 **Why:** Workflow changes can affect repository automation and deployment behavior. The folder may be viewed read-only when necessary, but it must not be edited, run, deployed, reorganized, or otherwise modified unless the user explicitly reopens it.
 **Revisit when:** The user explicitly reopens .github/workflows/ for a specific session.
+
+
+## 2026-09-22; Batch 1 correction and consolidated owner decisions
+
+Recorded from Seul's decisions; this does not claim new settings or live validation.
+
+| # | Decision | Approved direction |
+|---|---|---|
+| 1 | Repository visibility | CMS remains public; client work is private. |
+| 2 | Locked brand phrases | Identity only; meaning-preserving content paraphrases allowed, with no formulaic slogan skeleton. |
+| 3 | Task tracker | Keep the Strategy Task List authoritative; HQ TASKS supplies pointers. |
+| 4 | Phase 3 status | Planning and documentation open under explicit assumptions; production and publication separately gated. |
+| 5 | Tagline | Approved by Seul: “We build the bridge from unknown to impact.” |
+| 6 | Handoffs | Timestamped handoffs plus a latest pointer; no automatic HQ writes. |
+| 7 | Pull requests | Required for locked and approved files; working drafts may go directly to main when authorized. |
+| 8 | Track A review | Seul reviews all ten with AI-prepared notes. Track A1–A10 findings are approved by Seul as evidence input; review notes are a separate pending task. |
+| 9 | Renames | Rename existing files and update active references together in a dedicated batch. |
+| 10 | Client repositories | One private clients repository initially; split when access requirements differ. |
+| 11 | AI authorship | Use the [AI-assisted] commit prefix only; no required coauthor marker or initials. |
+
+**Educational-content scope:** The content writing standard includes educational posts, carousels, scripts, articles, and newsletters for CMS and client brands. Calling content educational does not exempt it. Separately scoped utility assets and internal strategy, research, governance, brand foundation, briefs, proposals, reports, and Agent HQ retain structured formats. Locked phrases remain valid identity; meaning-preserving paraphrases may be used in content without making slogans its structural skeleton.
+
+**Phase 3 adjustment priority:** Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 + 3.7 third; 3.1 + 3.2 + 3.4 last. This records the sequence only; those source-file adjustments require the later authorized batch.
+
+**Protected folders:** The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+
+**Roster clarification:** Elli, Seul, Merille are the CMS planning roster; exact account mappings, roles and permissions are not inferred or changed. Ownership labels remain deferred. This replaces any implication that the plan revokes other existing access.
+
+**Actual outcome:** PR #17 merged but implemented only part of Batch 1. Its completion claim was too broad. This follow-up prepares the missing source and closeout corrections for PR review; main is not updated by preparation alone. Track A approval is recorded without inventing completed review notes or validation.
+
+**Revisit when:** Seul changes a decision, explicitly reopens a protected area, or live evidence requires reconsideration.
