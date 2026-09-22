@@ -49,15 +49,31 @@ Real backlog:
 - [ ] Confirm Western-first ranges, Philippine reference ranges, capacity, margin, and qualification rules.
 - [ ] Finalize figures, scope, and qualification rules; update the working draft.
 
+### Phase 3 — Planning and documentation
+
+- [x] Phase 3.1 — Audience, Positioning and Evidence Integration — documented; evidence and assumptions remain controlled.
+- [x] Phase 3.2 — Brand Foundation Finalization and Content Alignment — documented; public-language and proof gates remain.
+- [x] Phase 3.3 — CMS Methodology, Content Formats and Strategic Roles — documented; platform execution remains out of scope.
+- [x] Phase 3.4 — Offer Architecture and Content-to-Funnel Mapping — working draft; final commercial details remain subject to validation.
+- [x] Phase 3.5 — Messaging System and CTA Framework — working draft; final public positioning remains subject to clarity validation.
+- [x] Phase 3.6 — Trust, Proof and Content Governance — working draft; live evidence controls remain open.
+- [x] Phase 3.7 — Visual Identity Implementation, Integration and Completion Review — working draft; validation remains open.
+- [x] Phase 3.8 — Website and Conversion Architecture, Content Operationalization and Production Handoff — approved architecture additions; implementation and live validation pending.
+- [x] Phase 3.9 — Social Media Operating System and Readiness Gate — approved operating-system additions; activation and readiness decision pending.
+- [ ] Phase 3.10 — Measurement and Validation — outstanding.
+- [ ] Open production, publication, account activation, or platform execution only after the Phase 3 readiness decision.
+
 ### 🔄 Currently in progress
 - [ ] Phase 2.5.6 figures, scope, and qualification finalization.
+- [ ] Phase 3.10 Measurement and Validation conceptualization and approval.
 - [ ] Final project-control verification where it affects the current strategy record.
 
 ### ⏭ Next in line
-1. Human batch review of Track A1–A10.
-2. Decide which reviewed evidence should inform Phase 2 without overriding locked decisions.
-3. Complete any remaining project-control reconciliation.
-4. Formally begin Phase 3 — Content Architecture only after the Track A review is sufficiently complete.
+1. Finalize Phase 2.5.6 figures, scope, capacity, margin, and qualification rules.
+2. Complete live validation for trust, acquisition, and commercial assumptions.
+3. Develop and approve Phase 3.10 Measurement and Validation.
+4. Make the Phase 3 readiness decision.
+5. Open production and publication only after the readiness decision and required approvals.
 
 ### Research state
 Track A1–A10 are standalone research drafts pending human review. **Do not edit A1–A9 during the current reconciliation.**
@@ -65,8 +81,10 @@ Track A1–A10 are standalone research drafts pending human review. **Do not edi
 ### Explicitly on hold
 - Post development
 - Carousel / introduction-post development
-- Formal Phase 3 content architecture
+- Content production and publication
+- Account activation and platform execution
 - Formal Phase 5 platform strategy
+- Content-writing-standard file creation and draft-post deletion batch
 
 ## Engineering (`www/`)
 **OFF-LIMITS.** Do not read, edit, run commands against, or deploy anything in `www/` unless the user explicitly reopens that track for a specific session.

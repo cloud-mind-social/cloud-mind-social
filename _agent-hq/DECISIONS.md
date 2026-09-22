@@ -61,3 +61,16 @@ specific session.
 ## 2026-09-17 — Phase 2.5.6 offer and pricing architecture working draft created
 **Why:** The approved CMS hook ladder now needs a commercial offer structure that distinguishes finite À La Carte services from Presence, Momentum, Authority, and Growth Partner engagements. The working draft uses the repository's Pricing Rate Research and Target Market Research as directional inputs while preserving Western-first pricing, separate Philippine reference ranges, diagnosis before prescription, and no generic posting-volume positioning.
 **Revisit when:** Figures, scope, qualification, capacity, and margin are finalized through pricing approval and paid pilot evidence. See Social-Media-Structure/PHASE_2.5.6_Offer_and_Pricing_Architecture.md.
+
+
+## 2026-09-22 — Phase 3.1–3.9 planning architecture synchronized
+**Why:** The current repository records Phase 3.1 through Phase 3.9 as the planning and documentation system for evidence, brand alignment, methodology, offer routing, messaging, proof governance, visual implementation, website and conversion architecture, and social operating controls. These documents preserve the approved ICP, commercial guardrails, evidence limits, and explicit assumptions; they do not authorize production, publication, account activation, live conversion claims, or whole-Phase-3 closure.
+**Revisit when:** Phase 3.10 Measurement and Validation is developed and the owner makes the formal Phase 3 readiness decision.
+
+## 2026-09-22 — Canonical CMS repository moved to the organization
+**Why:** The active repository is now `https://github.com/cloud-mind-social/cloud-mind-social`. Agent HQ references should use this organization URL. The CMS public repository remains separate from the initially planned private client-work repository.
+**Revisit when:** Repository ownership, visibility, or client-work access requirements change.
+
+## 2026-09-22 — Content writing rule remains content-scoped
+**Why:** The proposed real-person writing rule applies to audience-facing content only. Strategy, research, brand foundation, phase documents, governance, briefs, proposals, reports, and Agent HQ files retain their structured formats. The content standard file, draft-post deletion, and pointer-edit batch remain unexecuted until separately authorized.
+**Revisit when:** Content/ is formally opened and the owner authorizes that batch.
