@@ -4,6 +4,10 @@
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.5 Messaging System and CTA Framework
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Define the trust system, evidence, proof and governance requirements CMS must apply before content is approved for public use.
@@ -399,10 +403,18 @@ Before publishing a significant claim, record:
 | Scope | Who or what the claim applies to |
 | Confidence | 🟢 High, 🟡 Moderate, 🟠 Anecdotal or 🔴 Unverified |
 | Limitation | What the evidence does not prove |
-| Approval | Person responsible for approval |
+| Approval | Responsible human and approver; factual/voice confirmation, version, date, outcome and intended use |
+| Attribution and permission | Public name, organizational perspective or permissioned anonymity; authorized scope |
+| Source interpretation | Findings, inference and firsthand experience distinguished |
 | Review date | When the claim should be rechecked |
 
 ## Content approval workflow
+
+For all risk levels, apply the [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md) alongside this workflow and Phase 3.8 Gate 4. Low-risk classification does not waive factual/voice confirmation, permissions or writing review.
+
+Identify the responsible human internally for each piece. Publicly name a speaker when relying on their personal experience, quotation, testimony or individual authority, with permission. An approved organizational perspective may use the brand name without a personal byline. Permissioned anonymized accounts remain truthful and internally traceable; never invent replacement details.
+
+AI can shape supplied material but cannot supply invented life experience, clients, quotations, outcomes or sources. Research findings and interpretations must not be presented as firsthand experience. Hold material with unresolved attribution or permission; private client source and approval records stay in the authorized private repository.
 
 ### Step 1 — Strategic fit
 
@@ -461,6 +473,8 @@ Check for:
 - Inaccurate use of “case study,” “client result” or “testimonial”
 
 ### Step 6 — Final approval
+
+Require the accountable human's factual and voice confirmation and the Gate 4 grounding, accountability and expression review. Record revise, held, or approved for the specified stage; production and publication authorization remain separate.
 
 Record:
 

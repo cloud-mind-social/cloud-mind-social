@@ -4,6 +4,10 @@
 **Phase:** 3 — Content Architecture and Brand Implementation  
 **Dependencies:** Phase 3.1 through Phase 3.6; approved Phase 3.2 visual identity direction
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Integrate the Phase 3 content architecture into one operating framework and determine whether CMS is ready to move into Phase 4 — Funnel Content Strategy.
@@ -91,6 +95,10 @@ Existing repository assets remain the source for the palette and typography. New
 
 ### Template family system
 
+Template families specify visual hierarchy, accessibility and identity requirements while allowing varied pacing, copy length and slide count. Do not require a recurring hook, identical sentence openings, a fixed slide sequence or a compulsory closing CTA. Design follows the approved thought and must not truncate evidence limitations or force repetitive writing.
+
+Educational audience content follows the writing standard. Structured checklists, frameworks and functional FAQs remain available for separately scoped utility assets; the label alone does not exempt audience content.
+
 The reusable visual template families should support:
 
 * Educational explanation
@@ -148,6 +156,10 @@ The visual system must distinguish:
 Concept visuals must not appear to be real client evidence. Stock imagery, AI imagery and mockups must not imply actual CMS results, client relationships or commercial validation.
 
 ### Visual quality assurance
+
+- Confirm pacing and length follow the approved source-grounded writing, including educational content.
+- Confirm no visual template forces a repeated slide sequence or hides limitations.
+- Return any meaning-changing design edit to factual/voice and Gate 4 review.
 
 Before visual approval, confirm:
 
@@ -265,7 +277,7 @@ If one of these links is missing, the idea is not ready for production.
 
 ## Integrated content brief
 
-Before production begins, each content idea should be captured using this minimum brief:
+This table summarizes strategic routing. Before authorized production, complete Phase 3.8's authoritative minimum brief, including source traceability, interpretation, accountable human, voice context, permissions, attribution and version-specific approval. Use the blank intake templates linked there; this summary does not replace those fields:
 
 | Field | Required entry |
 |---|---|

@@ -4,6 +4,10 @@
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 2.5.5 Hook, Offer and Lead Generation Architecture; Phase 2.5.6 Offer and Pricing Architecture; Phase 3.2 Brand Foundation Finalization and Content Alignment; Phase 3.3 CMS Methodology, Content Formats and Strategic Roles
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Define how CMS offers are structured and how content supports movement from recognition to a diagnostic conversation and, after diagnosis, to right-sized support.
@@ -159,6 +163,8 @@ Content may route a person toward an offer, but only diagnosis and qualification
 | Proof and outcome claims | Evidence-dependent | Use only verified proof |
 
 ## CMS funnel logic
+
+Audience realizations, corrective contrasts and content jobs below are internal strategic objectives. They do not prescribe public hooks, sentence order or a correction-based narrative. Express the relevant insight through documented source material and the accountable human's voice. Keep audience needs, offer routing and claim limits; do not force every piece to recite the funnel or include an explicit CTA. Educational content follows the same rule, while separately scoped utility assets may retain structured formats.
 
 CMS content supports this progression:
 

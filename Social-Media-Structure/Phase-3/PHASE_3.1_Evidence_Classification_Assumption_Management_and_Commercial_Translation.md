@@ -80,6 +80,8 @@ These are qualification boundaries, not permanent exclusions from all future CMS
 
 ## 2. Existing Phase 3.1 Evidence Framework
 
+For content use, retain an exact source location, date, relevant scope and limitation, accountable interpreter, and the distinction between the source finding and CMS interpretation. Link internal evidence records to the authorized content brief. Research can originate an idea but cannot become a fabricated personal experience, quotation or client result. Permissioned firsthand material must remain traceable; do not place private client records in this public repository.
+
 ### Objectives
 
 - Preserve Phase 2 decisions as the strategic baseline.

@@ -4,6 +4,10 @@
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.1 Audience, Positioning and Evidence Integration
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Finalize the written and visual brand foundation that governs CMS content, then align the existing content-pillar architecture with that foundation.
@@ -372,6 +376,8 @@ Each pillar must connect to:
 - A proportionate CTA
 
 ## 11. Content Architecture Model
+
+Pillars, themes, audience realizations and funnel roles are internal relevance checks applied to documented source material. Their order is not a public writing sequence. Preserve locked identity wording in identity uses; meaning-preserving paraphrases may express brand ideas in audience content without introducing replacement identity claims. Slogans, pillar names and process arrows must not become repeated post structures. The existing five pillars and their strategic jobs remain unchanged.
 
 Every content idea must be assigned:
 

@@ -122,7 +122,7 @@ Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Valid
 3. Complete the Phase 2.5.10 handoff and carry its assumptions into Phase 3.
 4. Develop and approve the Phase 3.10 Measurement and Validation workstream.
 5. Make the Phase 3 readiness decision; only then open production and publication work.
-6. Review and merge the authorized Batch 2 implementation; content production and publication remain gated.
+6. Review and merge the authorized Batch 3 writing alignment; content production and publication remain gated.
 
 ## Not started
 
@@ -150,4 +150,9 @@ The entire `.github/` folder, including `.github/workflows/`, is off-limits for 
 
 ## Batch 2; 2026-09-22T13:26:54.487Z
 
-Seul approved the [Content Writing Standard](../CMS-Branding/CMS_Content_Writing_Standard.md) with A/B/C combined as Grounded human perspective. Standard, templates, routing and three draft deletions are prepared in the PR branch; merge pending. Educational content is covered. Production/publication and later batches remain gated.
+Seul approved the [Content Writing Standard](../CMS-Branding/CMS_Content_Writing_Standard.md) with A/B/C combined as Grounded human perspective. Standard, templates, routing and three draft deletions are merged through PR #19. Educational content is covered. Production/publication and later batches remain gated.
+
+
+## Batch 3; 2026-09-22T13:43:10.255Z
+
+Batch 3 writing-standard alignment prepared for PR review; merge pending. Batch 2 PR #19 is confirmed merged. No production, publication, activation or Phase 3 completion is authorized. Nine Phase 3 files now have scoped alignment in the review branch. See [INDEX](../INDEX.md) and the [latest handoff](handoffs/HANDOFF_LATEST.md). Phase 3.10, operational readiness and live validation remain outstanding.

@@ -4,6 +4,10 @@
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.4 Offer Architecture and Content-to-Funnel Mapping
 
+## Audience-content writing scope
+
+Follow the approved [CMS Content Writing Standard](../../CMS-Branding/CMS_Content_Writing_Standard.md), including **Grounded human perspective**, for CMS and client audience content, including educational posts, carousels, scripts, articles and newsletters. This strategy document retains its tables, lists and frameworks as internal planning tools. They do not prescribe public sentence patterns or slide sequences. Locked identity and approved business decisions remain intact. These edits authorize no production, publication, activation or whole-Phase-3 closure.
+
 ## Purpose
 
 Define the CMS messaging system and how calls to action guide people toward the next appropriate step without forcing every audience member into a sales conversation.
@@ -18,7 +22,7 @@ A CTA should clarify what the audience can do next, why that action is relevant 
 
 ### CMS messaging hierarchy
 
-CMS messaging follows this sequence:
+Use these layers as internal planning checks; select the relevant layers without imposing their order on audience writing:
 
 **Why → Belief → How → What → Evidence → CTA**
 
@@ -50,7 +54,7 @@ Final positioning language must not be presented as market-validated until the r
 
 ### CMS message house
 
-CMS content should connect the following ideas:
+The internal message house contains these strategic ideas; select what is relevant to the source material. No piece is required to repeat them all or follow their order:
 
 * A business may have outgrown disconnected or fragmented social effort.
 * More content is not automatically the correct response.
@@ -94,7 +98,7 @@ Avoid:
 
 ### Offer messaging rules
 
-Offer language must explain the problem, decision and boundary before emphasizing the service name.
+Offer planning must establish the problem, decision and boundary before selecting public wording. Audience content communicates relevant limits naturally without a compulsory sentence order.
 
 | Offer route | Message should emphasize | Message must not imply |
 |---|---|---|
@@ -156,7 +160,7 @@ The messaging system should support templates for:
 * Signal-to-Strategy Review invitation
 * Social Clarity Intensive invitation
 
-These are structural templates only. They do not replace platform-specific content development.
+These are flexible internal brief categories. Audience writing starts from documented source material and voice context; templates must not impose repeated openings, paragraph patterns, contrast hooks or endings. Educational content is included. They do not replace platform-specific development or authorize production.
 
 ### Messaging validation
 
@@ -385,21 +389,11 @@ The CTA must match the audience's current readiness. It should not ask for a lev
 | Recommendation | Approve an appropriate next step | Service | High |
 | Renewal or expansion | Continue based on evidence | Continuation | High but justified |
 
-## CTA construction formula
+## CTA planning checks
 
-A strong CMS CTA should contain:
+Use action, reason, boundary, destination and readiness fit as internal checks. Record the applicable decisions in the brief; they are not five clauses or a mandatory public sequence.
 
-1. **Action:** What should the person do?
-2. **Reason:** Why is that action relevant now?
-3. **Boundary:** What will happen, and what will not happen?
-4. **Destination:** Where should the person go?
-5. **Readiness fit:** Why is this appropriate for their current state?
-
-### Example
-
-**Weak:** “Book a call today.”
-
-**Stronger:** “If your social activity is active but disconnected from a clear business decision, request a Signal-to-Strategy Review. We will examine the stated problem, identify the likely constraint and clarify the next step before discussing ongoing support.”
+Include an explicit CTA only when it serves the piece and audience readiness. Let it follow naturally in the accountable person's voice. Where no explicit CTA is appropriate, record that decision and mark the destination not applicable. Do not manufacture an invitation or repeat a stock ending to complete a template. Preserve offer limits, qualification logic and truthful destination claims.
 
 ## CTA language rules
 
