@@ -170,3 +170,23 @@ that says so.
 - Make the formal Phase 3 readiness decision before opening production or publication.
 
 **Commit(s):** This Agent HQ synchronization commit.
+
+
+## 2026-09-22; Time stamp: 02:08 UTC — Batch 1 status and boundary reconciliation
+**Track:** Brand & Strategy; project-control reconciliation
+**Status:** COMPLETED — synchronized the current status, approved tagline decision, access boundary, and no-touch folders.
+
+**Actions Taken:**
+- Confirmed the current canonical repository remains https://github.com/cloud-mind-social/cloud-mind-social.
+- Updated the README to record “We build the bridge from unknown to impact.” as the approved tagline.
+- Added the Elli, Seul, and Merille access roster as the current CMS collaboration boundary; exact permissions and labels remain open.
+- Added .github/workflows/ to the no-touch boundary. It may be viewed read-only when necessary, but it was not inspected or changed during this batch.
+- Preserved www/ and webmail/ as off-limits.
+- Preserved the Phase 3 planning/documentation gate and the production/publication hold.
+- Updated the status, task, decision, instruction, handoff, and archive records only.
+
+**Next:**
+- Review the Batch 2 content-writing-standard scope before execution.
+- Keep content production, publication, workflow changes, and developer-owned work closed.
+
+**Commit(s):** This Batch 1 reconciliation commit.

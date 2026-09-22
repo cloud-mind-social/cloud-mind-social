@@ -287,7 +287,7 @@ The website is the owned conversion environment; the client portal is intended t
 | Customer journey | Approved |
 | **Color palette** | **Established / documented in visual identity reference** |
 | **Typography / fonts** | **Established / documented in visual identity reference** |
-| Tagline | **Pending final decision** |
+| Tagline | **Approved** |
 | Visual identity system / logo | **In development; color palette and typography are already documented** |
 
 ### Visual Identity Reference
@@ -298,12 +298,11 @@ The CMS visual identity already has a documented **color palette and typography/
 
 The broader visual identity system — including the final logo direction and how the established visual elements are applied consistently across brand touchpoints — remains in development.
 
-### Tagline Under Consideration
+### Approved Tagline
 
-1. **"We build the bridge from unknown to impact."**
-2. **"From unknown to unforgettable."**
+**"We build the bridge from unknown to impact."**
 
-The tagline remains open and should not be treated as final until a decision is made.
+This is the approved CMS tagline. It remains brand identity language; final public positioning variants and content applications must still follow the applicable validation and content-governance gates.
 
 ---
 
