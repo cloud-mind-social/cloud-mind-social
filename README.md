@@ -347,6 +347,8 @@ Future work should remain aligned with the established foundation before new mes
 
 ### Source Documents
 
+- [CMS Content Writing Standard](./CMS-Branding/CMS_Content_Writing_Standard.md); authoritative audience-content standard, including educational content and grounded human perspective
+
 - [`CMS-Branding/Branding.md`](./CMS-Branding/Branding.md); Brand Foundation & Identity Guide
 - [`CMS-Branding/CMS-Color-Typography-Reference.pdf`](./CMS-Branding/CMS-Color-Typography-Reference.pdf); established CMS color palette and typography reference
 - [`CMS-Research/Target-Market-Research-CMS.md`](./CMS-Research/Target-Market-Research-CMS.md); Target Market Research
