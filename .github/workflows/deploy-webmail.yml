@@ -26,14 +26,17 @@ name: Deploy webmail (cloudmindsocial.com)
 
 on:
   workflow_dispatch:
-  # Once merged, a change under webmail/ ships itself. Adding the workflow does
-  # not touch webmail/, so merging this PR deploys nothing — the first deploy is
-  # a deliberate dispatch.
+  # Once merged, a change under webmail/ ships itself.
+  #
+  # This list deliberately does NOT include this file. It did on the first
+  # version, which meant merging the workflow deployed the app — the opposite of
+  # what its own comment claimed, and the run failed on the credentials gate
+  # seconds after the merge. Editing a deploy is not the same act as deploying,
+  # and the workflow_dispatch above is how you say you meant it.
   push:
     branches: [main]
     paths:
       - "webmail/**"
-      - ".github/workflows/deploy-webmail.yml"
 
 # A second run racing the first would have two builds uploading the same Worker
 # and reassigning the same custom domain.
