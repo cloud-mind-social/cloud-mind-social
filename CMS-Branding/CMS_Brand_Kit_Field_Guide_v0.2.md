@@ -13,7 +13,7 @@ This file maps approved or proposed source guidance into Canva fields. It does n
 | Logo; primary, variations and usage | Use Guidelines section 12. Upload only assets appropriate to their recorded approval state; do not promote reference images to approved masters. |
 | Color; primary and secondary | Use Guidelines section 8; exact values and proposed Canva grouping are maintained there. |
 | Color combinations and accessibility | Use Guidelines section 9; retain proposal status on application corrections. |
-| Typography; heading, body, tagline and subtitle | Use Guidelines section 10. Confirm font availability and retain the pending size decision; do not silently substitute fonts or choose a competing scale. |
+| Typography; heading, body, tagline and subtitle | Use Guidelines section 10. Apply the approved document starting ranges and Social Content Typography guidance. Confirm font availability; social numerical scales require recorded template tests and approval. Do not maintain a competing scale here. |
 | Voice and tone | Use Guidelines section 5 and the Content Writing Standard; preserve the approved voice. |
 | Photography | Use Guidelines section 13; collect authentic images and rights before upload. |
 | Graphics and icons | Use Guidelines section 11; retain the distinction between supporting graphics and logo identity. |
@@ -60,7 +60,7 @@ The proposed reusable-template starting set remains insight, diagnostic comparis
 | Shared brand specifications | Maintained in the central Brand Guidelines |
 | Tagline wording | Approved by Seul; “We build the bridge from unknown to impact.” |
 | Track A | A1–A10 findings approved by Seul as evidence input; detailed review notes pending; no live validation implied |
-| Typography sizing | Owner decision pending; competing prior recommendations recorded centrally |
+| Typography sizing | Document starting ranges and social format guidance approved by Seul; numerical social template scales await testing and approval |
 | Logo assets and palette alignment | Follow recorded asset decisions; this consolidation grants no new approval |
 | Mockups and sample chart data | Illustrative implementation references only |
 | Native Brand Kit | Verify actual setup separately; this companion does not populate it |

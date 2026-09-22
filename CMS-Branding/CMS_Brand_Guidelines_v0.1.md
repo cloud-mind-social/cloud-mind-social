@@ -273,7 +273,7 @@ The reference’s #8A8981 label color on cream is approximately 3.15:1; use ink 
 
 ## 10. Typography system
 
-**TYPEFACES LOCKED / SIZE RULES PROPOSED**
+**TYPEFACES LOCKED / DOCUMENT STARTING RANGES AND SOCIAL GUIDANCE APPROVED / SOCIAL NUMERICAL SCALES REQUIRE TESTING**
 
 Let the hierarchy do the work.
 
@@ -283,12 +283,47 @@ Let the hierarchy do the work.
 | Body copy | Inter | 400 Regular and 500 Medium. |
 | Labels and microcopy | Space Mono | 400 Regular and 700 Bold; brief uppercase labels with tracking. |
 
-### Proposed starting sizes for documents
+### Document typography starting ranges
 
-**Typography decision pending:** Retain the existing recommendations below until Seul resolves the layout-specific scale. The former Field Guide proposed title 32–40 pt, section heading 24–30 pt and subtitle/subheading 14–18 pt; this guide proposed cover 36–44 pt, page heading 26–32 pt and section heading 15–18 pt. These differently named roles are not interchangeable. Neither scale is newly approved by this consolidation. The Field Guide now references this decision record instead of maintaining a second scale.
+**Approved by Seul; 2026-09-22:** Use these role-based starting ranges for A4 or Letter portrait documents. They are adaptable starting points, not fixed limits or social-media sizes. This resolves the previously competing document scales; the companion references this table.
 
+| Role | Starting range |
+|---|---|
+| Cover title | 36–44 pt |
+| Interior page title | 26–32 pt |
+| Section heading | 15–18 pt |
+| Subtitle | 14–18 pt |
+| Body | 11–12 pt |
+| Short labels | 9–10 pt; verify actual readability |
 
-At Letter or A4 portrait size: cover title 36–44 pt; page heading 26–32 pt; section heading 15–18 pt; body 11–12 pt; labels 9–10 pt. Increase sizes for presentations and social layouts; judge the exported result at its actual viewing size.
+Preserve Fraunces for headings, Inter for body/supporting text and Space Mono for short labels. Presentations and social graphics need separate scales tested at their intended viewing size.
+
+### Social Content Typography
+
+**Approved guidance; template-specific numerical sizes remain subject to testing.** Keep the font roles stable and adapt scale, density and placement to the content format. Do not apply document point sizes to social canvases or claim a universal platform font minimum.
+
+| Content format | Typography treatment |
+|---|---|
+| Static feed posts | Fraunces for the main thought; Inter for supporting copy. Essential information must be readable without opening or zooming. |
+| Carousels | Maintain a consistent hierarchy while allowing varied text length and pacing. Add space or slides rather than shrinking text to fit. |
+| Reels, TikTok and Shorts | Inter for subtitles and essential overlays; Fraunces for brief titles. Keep text clear of faces, action and interface controls. |
+| Stories | Short, prominent text with strong contrast; reserve space for interface elements and interactive stickers. |
+| Video thumbnails | Very brief, prominent titles. Test Fraunces against Inter at thumbnail size; select for legibility. |
+| Infographics and charts | Inter for explanations, values and labels. Space Mono may support short metadata; sources and limitations must remain readable. |
+| Quotes and reflections | Fraunces for a short quotation or central thought; Inter for longer passages and attribution. Avoid extended italic text. |
+| Native text posts and captions | Use the platform's native font; create hierarchy through paragraph spacing and clear language. Avoid decorative Unicode lettering. |
+
+Space Mono remains a supporting label font; do not default to it for paragraphs or video subtitles.
+
+#### Scale testing and approval
+
+- Define separate template scales for square, portrait and vertical video canvases; record canvas dimensions, font role, size and the editor's unit.
+- Check exported assets at normal phone viewing size, including feed and thumbnail previews; do not rely on zoomed editor views.
+- For video, check reading time, changing backgrounds and subtitle placement throughout the clip.
+- Verify current platform crops and interface safe areas when authorized production begins.
+- Let layouts accommodate natural writing; do not impose repeated slide sequences or shrink necessary source notes and limitations.
+- Mark numerical template settings **proposed**, **tested**, or **approved**. Record the reviewer, date, template version and viewing conditions; tested does not automatically mean approved.
+- Approve social numerical scales only after representative template tests. This documentation does not claim those tests have occurred or authorize production/publication.
 
 ### Tagline and subtitle; using the fonts
 
