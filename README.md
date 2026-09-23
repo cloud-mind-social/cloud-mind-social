@@ -352,8 +352,8 @@ Future work should remain aligned with the established foundation before new mes
 - [`CMS-Branding/Branding.md`](./CMS-Branding/Branding.md); Brand Foundation & Identity Guide
 - [`CMS-Branding/CMS-Color-Typography-Reference.pdf`](./CMS-Branding/CMS-Color-Typography-Reference.pdf); established CMS color palette and typography reference
 - [`CMS-Research/Target-Market-Research-CMS.md`](./CMS-Research/Target-Market-Research-CMS.md); Target Market Research
-- [`Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md`](./Social-Media-Structure/PHASE%201%20Approved%20by%20Seul%20Yekha.md); Phase 1 strategic foundation
-- [`Social-Media-Structure/PHASE 2 Audience Strategy Part 1 Approved by Seul Yekha.md`](./Social-Media-Structure/PHASE%202%20Audience%20Strategy%20Part%201%20Approved%20by%20Seul%20Yekha.md); locked commercial audience architecture
+- [`Social-Media-Structure/PHASE_1_Strategic_Foundation.md`](./Social-Media-Structure/PHASE_1_Strategic_Foundation.md); Phase 1 strategic foundation
+- [`Social-Media-Structure/PHASE_2_Audience_Strategy_Part_1.md`](./Social-Media-Structure/PHASE_2_Audience_Strategy_Part_1.md); locked commercial audience architecture
 
 ---
 

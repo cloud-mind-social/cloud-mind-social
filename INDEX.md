@@ -5,11 +5,11 @@
 | Path | Status | Confirmed responsibility | Review state | Read when |
 |---|---|---|---|---|
 | [CMS-Branding/Branding.md](./CMS-Branding/Branding.md) | Locked foundation; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
-| [CMS-Branding/CMS_Brand_Kit_Field_Guide_v0.2.md](./CMS-Branding/CMS_Brand_Kit_Field_Guide_v0.2.md) | Working guide; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
+| [CMS-Branding/CMS_Brand_Kit_Field_Guide.md](./CMS-Branding/CMS_Brand_Kit_Field_Guide.md) | Working guide; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
 | [_agent-hq/SESSION_LOG.md](./_agent-hq/SESSION_LOG.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
 | [_agent-hq/AI_PROJECT_INSTRUCTIONS.md](./_agent-hq/AI_PROJECT_INSTRUCTIONS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
 | [_agent-hq/TASKS.md](./_agent-hq/TASKS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [CMS-Branding/CMS_Brand_Guidelines_v0.1.md](./CMS-Branding/CMS_Brand_Guidelines_v0.1.md) | Working guide; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
+| [CMS-Branding/CMS_Brand_Guidelines.md](./CMS-Branding/CMS_Brand_Guidelines.md) | Working guide; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
 | [Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
 | [_agent-hq/START_HERE.md](./_agent-hq/START_HERE.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
 | [_agent-hq/DECISIONS.md](./_agent-hq/DECISIONS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |

@@ -219,3 +219,8 @@ No example content, Content/ changes, Phase 3 source edits, research edits, prot
 Aligned the nine Phase 3 source files in the agreed priority order. Replaced compulsory messaging sequence and CTA formula with internal planning checks; added source/voice context and Gate 4 writing review; assigned writing and repurposing review responsibilities; clarified evidence/experience, attribution, flexible visual pacing, pillar relevance and internal funnel objectives. Updated INDEX and authorized closeout; historical logs remain intact.
 
 No examples or replacement content created. No Content/, research, locked foundation, pricing source, .github/, www/ or webmail/ edits. Strategic scope and production/publication gates remain intact. Next: review and merge the scoped PR; do not infer readiness or Phase 3.10 completion.
+
+
+## 2026-09-23T01:57:44.914Z; Batch 4 rename prepared
+
+**Outcome:** Seven file renames and corresponding active-reference updates prepared in a PR; merge pending. The approved mapping is recorded in DECISIONS. Historic references in this log and archived handoffs refer to earlier file names and are preserved unchanged. README, INDEX, Strategy Task List, Phase 2.5.2, Phase 2.5.3, the two brand guides and STATUS route to renamed paths. No research content, strategic decisions or protected folders changed. Existing external bookmarks need updating after merge; publication and production remain gated.

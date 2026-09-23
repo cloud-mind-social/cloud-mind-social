@@ -70,7 +70,7 @@ The early-stage problem can create a future relationship; it usually carries les
 | “We cannot keep up.” | Has the current marketing operating model outgrown the business? | Marketing becomes an owner or employee bottleneck; important business work is displaced. | Evaluate coordination, ownership, strategy, and capacity together. |
 | “Marketing costs too much.” | Is the issue affordability, unclear value, excessive scope, prior failure, or a mismatch between the problem and the proposed solution? | The owner delays necessary work or chooses a cheaper but incomplete intervention. | Right-size the scope and explain the commercial logic. |
 
-The matrix follows the completed Track B findings that visible symptoms do not automatically identify the actual constraint. See [Track B3: Their Actual Problems](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B3-Their-Actual-Problems.md).
+The matrix follows the completed Track B findings that visible symptoms do not automatically identify the actual constraint. See [Track B3: Their Actual Problems](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B3-Their-Actual-Problems.md).
 
 ---
 
@@ -403,16 +403,16 @@ The next Phase 2.5 task should use this problem and urgency model to design the 
 
 ## Source basis
 
-- [Phase 1 approved strategic foundation](https://github.com/seulyekha/cloud-mind-social/blob/main/Social-Media-Structure/PHASE%201%20Approved%20by%20Seul%20Yekha.md)
-- [Phase 2 Part 1 approved audience strategy](https://github.com/seulyekha/cloud-mind-social/blob/main/Social-Media-Structure/PHASE%202%20Audience%20Strategy%20Part%201%20Approved%20by%20Seul%20Yekha.md)
-- [Phase 2.5.2 first buyer architecture](https://github.com/seulyekha/cloud-mind-social/blob/main/Social-Media-Structure/PHASE_2.5.2_First_Buyer_Architecture_Approved_Direction.md)
-- [Track B3: Their Actual Problems](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B3-Their-Actual-Problems.md)
-- [Track B4: The Emotional Reality](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B4-The-Emotional-Reality.md)
-- [Track B5: The “I Need Help” Moment](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B5-The-I-Need-Help-Moment.md)
-- [Track B6: Previous Attempts](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B6-Previous-Attempts.md)
-- [Track B8: Audience Language](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B8-Audience-Language.md)
-- [Track B9: What Makes Them Trust Someone](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B9-What-Makes-Them-Trust-Someone.md)
-- [Track B10: What Makes Them Buy](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B10-What-Makes-Them-Buy.md)
+- [Phase 1 approved strategic foundation](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/Social-Media-Structure/PHASE_1_Strategic_Foundation.md)
+- [Phase 2 Part 1 approved audience strategy](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/Social-Media-Structure/PHASE_2_Audience_Strategy_Part_1.md)
+- [Phase 2.5.2 first buyer architecture](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/Social-Media-Structure/PHASE_2.5.2_First_Buyer_Architecture.md)
+- [Track B3: Their Actual Problems](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B3-Their-Actual-Problems.md)
+- [Track B4: The Emotional Reality](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B4-The-Emotional-Reality.md)
+- [Track B5: The “I Need Help” Moment](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B5-The-I-Need-Help-Moment.md)
+- [Track B6: Previous Attempts](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B6-Previous-Attempts.md)
+- [Track B8: Audience Language](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B8-Audience-Language.md)
+- [Track B9: What Makes Them Trust Someone](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B9-What-Makes-Them-Trust-Someone.md)
+- [Track B10: What Makes Them Buy](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B10-What-Makes-Them-Buy.md)
 
 ---
 
