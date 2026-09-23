@@ -224,3 +224,10 @@ No examples or replacement content created. No Content/, research, locked founda
 ## 2026-09-23T01:57:44.914Z; Batch 4 rename prepared
 
 **Outcome:** Seven file renames and corresponding active-reference updates prepared in a PR; merge pending. The approved mapping is recorded in DECISIONS. Historic references in this log and archived handoffs refer to earlier file names and are preserved unchanged. README, INDEX, Strategy Task List, Phase 2.5.2, Phase 2.5.3, the two brand guides and STATUS route to renamed paths. No research content, strategic decisions or protected folders changed. Existing external bookmarks need updating after merge; publication and production remain gated.
+undefined
+
+## 2026-09-23T03:33:11Z; Batch 6 private workspace and public review notes
+
+**Outcome:** Created private CMS client operations repository with twelve blank/documentation files: README, ACCESS and ten templates (the five operational templates plus client intake, voice/story intake, workspace README, client approval and delivery). No live client records, log entries, prospect data, permissions changes, invitations or publication. The organization member-privileges page showed base Read access and two members at creation; effective permissions must be checked before adding actual client data.
+
+Prepared one public AI source-review note file with individual A1–A10 checks; Seul's individual verdicts and dates are blank. The review identifies source/claim mismatches, dated drafting text, secondary citations and category limits. Track A approval as evidence input stands; source documents were not edited. README, INDEX, HQ status/task pointers and timestamped handoff are proposed in the public PR. Public main changes only on merge. Production and publication remain gated. No protected folder was read or changed in this batch.

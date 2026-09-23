@@ -161,3 +161,8 @@ Batch 3 writing-standard alignment was merged in PR #20; Batch 2 PR #19 is merge
 ## Batch 4 rename; 2026-09-23
 
 Seven approved file paths and their active references are prepared together in a review PR. The file contents retain their approved strategic meaning; the PR merge remains pending. Historical mentions are preserved with a correction in DECISIONS and SESSION_LOG. External bookmarks using old file URLs need updating after merge. Production and publication remain gated.
+
+
+## Batch 6; 2026-09-23
+
+Private CMS client operations repository created with blank templates; check effective access before real client information. Public Track A1–A10 AI-prepared source review notes are prepared for PR review. Seul's detailed verdicts/dates remain pending while her existing evidence-input approval stands. No research source, protected folder, production or publication change.
