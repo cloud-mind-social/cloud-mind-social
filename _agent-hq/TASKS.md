@@ -4,7 +4,7 @@ The [Strategy Task List](../Social-Media-Structure/CMS_Social_Media_Marketing_St
 
 - [Current work queue](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md#current-work-queue); commercial figures and validation dependencies.
 - [Phase 3](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md#phase-3--content-architecture); 3.1–3.10 documentation, readiness, production and publication states.
-- [Track A](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md#supplementary-track-a--western-market-reality); findings approved by Seul as evidence input; AI-prepared detailed review notes remain pending.
+- [Track A](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md#supplementary-track-a--western-market-reality); findings approved by Seul as evidence input; [AI-prepared detailed review notes](../CMS-Research/Review-Notes/Track_A_Review_Notes.md) prepared for Seul; individual verdicts and dates pending.
 - [Document registry](../INDEX.md); status and when to read each source.
 - [Latest handoff](handoffs/HANDOFF_LATEST.md); actual batch outcome and next action.
 

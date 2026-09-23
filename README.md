@@ -335,7 +335,7 @@ These folders are organizational structure. Empty folders should not be populate
 
 Phase 3 planning and documentation are open under explicit assumptions. Phase 3.1–3.9 documents exist with their individual readiness limits; Phase 3.10 Measurement and Validation remains outstanding. Production and publication require separate authorization; handoff completion and commercial validation are not implied.
 
-The [Strategy Task List](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) is the authoritative task tracker. Agent HQ links to it; [INDEX.md](./INDEX.md) provides the document registry. Track A1–A10 findings are approved by Seul as evidence input, not proof of live commercial validation. Detailed review notes remain a separate task.
+The [Strategy Task List](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) is the authoritative task tracker. Agent HQ links to it; [INDEX.md](./INDEX.md) provides the document registry. Track A1–A10 findings are approved by Seul as evidence input, not proof of live commercial validation. [AI-prepared Track A review notes](./CMS-Research/Review-Notes/Track_A_Review_Notes.md) are prepared for Seul's detailed review; individual verdicts and dates remain pending.
 
 The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
 

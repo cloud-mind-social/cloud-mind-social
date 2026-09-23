@@ -1,6 +1,6 @@
 # Latest handoff
 
 **Type:** Final
-**Outcome:** Batch 4 rename and reference repairs prepared; PR merge pending.
+**Outcome:** Batch 6 private operations templates committed; public source review notes prepared for PR review. Seul's individual review verdicts and dates pending.
 
-Read [the timestamped Batch 4 handoff](archive/2026-09-23_0157_chatgpt_batch-4.md).
+Read [the timestamped Batch 6 handoff](archive/2026-09-23_0333_chatgpt_batch-6.md).
