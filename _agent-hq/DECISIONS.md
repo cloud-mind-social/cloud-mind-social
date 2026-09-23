@@ -145,3 +145,22 @@ Seul authorized Batch 3. Apply the approved content standard in order: 3.3 + 3.5
 Preserve approved ICP, offers, pricing, pillars, identity and evidence limits. Batch 3 writing-standard alignment prepared for PR review; merge pending. Batch 2 PR #19 is confirmed merged. No production, publication, activation or Phase 3 completion is authorized.
 
 **Revisit when:** Seul reopens the standard or evidence identifies a specific conflict. Later batches require separate authorization.
+
+
+## 2026-09-23T01:57:44.914Z; Batch 4 filename mapping and historical-path correction
+
+Seul authorized the dedicated rename batch. The seven current file paths below supersede earlier paths when this PR merges. Earlier logs, decisions and archived handoffs preserve the names in use at their dates; those mentions are historical, not active links.
+
+| Historical path | Current path after merge |
+|---|---|
+| `Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md` | `Social-Media-Structure/PHASE_1_Strategic_Foundation.md` |
+| `Social-Media-Structure/PHASE 2 Audience Strategy Part 1 Approved by Seul Yekha.md` | `Social-Media-Structure/PHASE_2_Audience_Strategy_Part_1.md` |
+| `Social-Media-Structure/PHASE 2 Audience Strategy Part 2 — Audience Intelligence & Evidence Research Presentation.md` | `Social-Media-Structure/PHASE_2_Audience_Strategy_Part_2.md` |
+| `Social-Media-Structure/Platform Research.md` | `Social-Media-Structure/Platform_Research.md` |
+| `Social-Media-Structure/Phase-2.5/PHASE_2.5.2_First_Buyer_Architecture_Approved_Direction.md` | `Social-Media-Structure/Phase-2.5/PHASE_2.5.2_First_Buyer_Architecture.md` |
+| `CMS-Branding/CMS_Brand_Guidelines_v0.1.md` | `CMS-Branding/CMS_Brand_Guidelines.md` |
+| `CMS-Branding/CMS_Brand_Kit_Field_Guide_v0.2.md` | `CMS-Branding/CMS_Brand_Kit_Field_Guide.md` |
+
+No approved strategic or research content is reopened. The Brand Guidelines remain the central application guide and the Field Guide remains its Canva companion; those roles were consolidated in merged PR #21. No developer review requirement applies to this scoped PR. External bookmarks must be updated after merge.
+
+**Revisit when:** A remaining active repository reference to a renamed path is found or Seul authorizes another naming decision.

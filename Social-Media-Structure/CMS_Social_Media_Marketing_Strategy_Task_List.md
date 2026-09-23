@@ -30,7 +30,7 @@
 - [x] Define success definition
 - [x] Approve Phase 1 strategic foundation
 
-**Source of truth:** `Social-Media-Structure/PHASE 1 Approved by Seul Yekha.md`
+**Source of truth:** `Social-Media-Structure/PHASE_1_Strategic_Foundation.md`
 
 ---
 
@@ -270,7 +270,7 @@ Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 +
 
 ### Preparatory Research
 
-- [x] `Social-Media-Structure/Platform Research.md`
+- [x] `Social-Media-Structure/Platform_Research.md`
 - [ ] Formal platform-specific strategies
 - [ ] Platform-specific content adaptations
 - [ ] Platform operating cadence

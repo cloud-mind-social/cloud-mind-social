@@ -1,6 +1,6 @@
 # Cloud Mind Social | Brand Kit Implementation Field Guide
 
-**Purpose:** Canva implementation companion to the [Brand Guidelines](./CMS_Brand_Guidelines_v0.1.md).
+**Purpose:** Canva implementation companion to the [Brand Guidelines](./CMS_Brand_Guidelines.md).
 **Updated:** 2026-09-22. Existing filename retained pending the dedicated rename batch.
 
 This file maps approved or proposed source guidance into Canva fields. It does not supersede the Brand Guidelines or independently define brand rules. Preserve source approval labels; proposed rules remain proposed. Brand foundation remains in [Branding.md](./Branding.md); audience content, including educational content, follows the [Content Writing Standard](./CMS_Content_Writing_Standard.md). Production and publication remain separately gated.
@@ -67,7 +67,7 @@ The proposed reusable-template starting set remains insight, diagnostic comparis
 
 ## Sources and maintenance
 
-- [Brand Guidelines](./CMS_Brand_Guidelines_v0.1.md)
+- [Brand Guidelines](./CMS_Brand_Guidelines.md)
 - [Brand foundation](./Branding.md)
 - [Content Writing Standard](./CMS_Content_Writing_Standard.md)
 - [Color and typography reference](./CMS-Color-Typography-Reference.pdf)

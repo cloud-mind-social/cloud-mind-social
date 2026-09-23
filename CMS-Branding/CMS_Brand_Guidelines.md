@@ -24,7 +24,7 @@ The tagline wording is approved by Seul: “We build the bridge from unknown to 
 
 ## 2. How to use this guide
 
-**Document authority:** This is the central brand application guide. [Branding.md](./Branding.md) remains authoritative for locked foundation; the identity reference PDF governs established palette and fonts; the [Content Writing Standard](./CMS_Content_Writing_Standard.md) governs audience writing. The [Brand Kit Field Guide](./CMS_Brand_Kit_Field_Guide_v0.2.md) is a Canva implementation companion, not a replacement or independent rulebook. Consolidation does not promote proposed application rules to locked decisions.
+**Document authority:** This is the central brand application guide. [Branding.md](./Branding.md) remains authoritative for locked foundation; the identity reference PDF governs established palette and fonts; the [Content Writing Standard](./CMS_Content_Writing_Standard.md) governs audience writing. The [Brand Kit Field Guide](./CMS_Brand_Kit_Field_Guide.md) is a Canva implementation companion, not a replacement or independent rulebook. Consolidation does not promote proposed application rules to locked decisions.
 
 
 **GOVERNANCE / READ FIRST**
@@ -621,7 +621,7 @@ Brand guidance may later inform website and portal communications, but this docu
 
 ## 16. Canva implementation routing
 
-Use the [Brand Kit Field Guide](./CMS_Brand_Kit_Field_Guide_v0.2.md) for field mapping, upload filenames, mockup references and setup checks. It references this guide for shared specifications. Native kit setup and production require their own authorization; a document is not evidence of a configured kit.
+Use the [Brand Kit Field Guide](./CMS_Brand_Kit_Field_Guide.md) for field mapping, upload filenames, mockup references and setup checks. It references this guide for shared specifications. Native kit setup and production require their own authorization; a document is not evidence of a configured kit.
 
 
 ## 17. Approval and quality control

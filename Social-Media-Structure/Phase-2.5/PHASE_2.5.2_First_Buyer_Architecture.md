@@ -226,14 +226,14 @@ Phase 2.5.2 is directionally complete when:
 
 ## Source basis
 
-- [Phase 1 approved strategic foundation](https://github.com/seulyekha/cloud-mind-social/blob/main/Social-Media-Structure/PHASE%201%20Approved%20by%20Seul%20Yekha.md)
-- [Phase 2 Part 1 approved audience strategy](https://github.com/seulyekha/cloud-mind-social/blob/main/Social-Media-Structure/PHASE%202%20Audience%20Strategy%20Part%201%20Approved%20by%20Seul%20Yekha.md)
-- [Track B1: The Reality of Running the Business](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B1-The-Reality-of-Running-the-Business.md)
-- [Track B3: Their Actual Problems](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B3-Their-Actual-Problems.md)
-- [Track B5: The “I Need Help” Moment](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B5-The-I-Need-Help-Moment.md)
-- [Track B6: Previous Attempts](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B6-Previous-Attempts.md)
-- [Track B9: What Makes Them Trust Someone](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B9-What-Makes-Them-Trust-Someone.md)
-- [Track B10: What Makes Them Buy](https://github.com/seulyekha/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B10-What-Makes-Them-Buy.md)
+- [Phase 1 approved strategic foundation](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/Social-Media-Structure/PHASE_1_Strategic_Foundation.md)
+- [Phase 2 Part 1 approved audience strategy](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/Social-Media-Structure/PHASE_2_Audience_Strategy_Part_1.md)
+- [Track B1: The Reality of Running the Business](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B1-The-Reality-of-Running-the-Business.md)
+- [Track B3: Their Actual Problems](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B3-Their-Actual-Problems.md)
+- [Track B5: The “I Need Help” Moment](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B5-The-I-Need-Help-Moment.md)
+- [Track B6: Previous Attempts](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B6-Previous-Attempts.md)
+- [Track B9: What Makes Them Trust Someone](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B9-What-Makes-Them-Trust-Someone.md)
+- [Track B10: What Makes Them Buy](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/Track-B/Track-B10-What-Makes-Them-Buy.md)
 
 ---
 

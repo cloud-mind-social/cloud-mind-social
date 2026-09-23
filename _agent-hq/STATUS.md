@@ -131,7 +131,7 @@ Source of truth: `Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Valid
 - Phase 5 — Formal Platform Strategies
 - Content production, publication, account activation, and live conversion execution
 
-Social-Media-Structure/Platform Research.md remains preparatory research; it does not mean Phase 5 has started.
+Social-Media-Structure/Platform_Research.md remains preparatory research; it does not mean Phase 5 has started.
 
 ## Explicitly not part of this work
 
@@ -155,4 +155,9 @@ Seul approved the [Content Writing Standard](../CMS-Branding/CMS_Content_Writing
 
 ## Batch 3; 2026-09-22T13:43:10.255Z
 
-Batch 3 writing-standard alignment prepared for PR review; merge pending. Batch 2 PR #19 is confirmed merged. No production, publication, activation or Phase 3 completion is authorized. Nine Phase 3 files now have scoped alignment in the review branch. See [INDEX](../INDEX.md) and the [latest handoff](handoffs/HANDOFF_LATEST.md). Phase 3.10, operational readiness and live validation remain outstanding.
+Batch 3 writing-standard alignment was merged in PR #20; Batch 2 PR #19 is merged. No production, publication, activation or Phase 3 completion is authorized. Nine Phase 3 files now have scoped alignment in the review branch. See [INDEX](../INDEX.md) and the [latest handoff](handoffs/HANDOFF_LATEST.md). Phase 3.10, operational readiness and live validation remain outstanding.
+
+
+## Batch 4 rename; 2026-09-23
+
+Seven approved file paths and their active references are prepared together in a review PR. The file contents retain their approved strategic meaning; the PR merge remains pending. Historical mentions are preserved with a correction in DECISIONS and SESSION_LOG. External bookmarks using old file URLs need updating after merge. Production and publication remain gated.
