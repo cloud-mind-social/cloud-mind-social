@@ -228,7 +228,7 @@ These files remain standalone evidence documents. They are not automatically mer
 | 3.7 | [Visual Identity Implementation, Integration and Completion Review](./Phase-3/PHASE_3.7_Content_Architecture_Integration_and_Completion_Review.md) | Working draft | Pending | Gated | Gated |
 | 3.8 | [Website and Conversion Architecture, Content Operationalization and Production Handoff](./Phase-3/PHASE_3.8_Content_Architecture_Operationalization_and_Production_Handoff.md) | Approved additions; implementation pending | Pending | Gated | Gated |
 | 3.9 | [Social Media Operating System and Readiness Gate](./Phase-3/PHASE_3.9_Content_Architecture_Final_Readiness_Gate.md) | Approved additions; implementation pending | Pending | Gated | Gated |
-| 3.10 | Measurement and Validation; no source document yet | Outstanding | Pending | Gated | Gated |
+| 3.10 | [Measurement and Validation](./Phase-3/PHASE_3.10_Measurement_and_Validation.md) | Working draft for owner review; implementation and baselines pending | Pending | Gated | Gated |
 
 Documentation status is not a completion certificate. The Phase 2.5.10 handoff, live validation, and readiness decisions remain open. Separate authorization is required for production and publication.
 
@@ -240,17 +240,22 @@ Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 +
 
 # Phase 4 — Funnel Content Strategy
 
-**STATUS: [ ] NOT STARTED**
+**STATUS: OWNER-APPROVED WORKING STRATEGY DRAFT; RECONCILIATION AND OPERATIONAL READINESS PENDING**
 
-- [ ] Map content to Discovery
-- [ ] Map content to Interest
-- [ ] Map content to Trust
-- [ ] Map content to Intent
-- [ ] Map content to Qualification
-- [ ] Map content to Conversion
-- [ ] Map content to Proof
-- [ ] Map content to Expansion
-- [ ] Build Content → Funnel Stage → CTA → Destination matrix
+**Approved by Seul:** September 24, 2026. The [Phase 4 working draft](./Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) documents the strategic mapping below. Its approval does not authorize content production, publication, destination activation, offers or client-result proof.
+
+- [x] Map content to Discovery in the working strategy
+- [x] Map content to Interest in the working strategy
+- [x] Map content to Trust in the working strategy
+- [x] Map content to Intent in the working strategy
+- [x] Map content to Qualification in the working strategy
+- [x] Map content to Conversion in the working strategy
+- [x] Map content to Proof in the working strategy
+- [x] Map content to Expansion in the working strategy
+- [x] Build the planning Content → Funnel Stage → CTA → Destination matrix
+- [ ] Reconcile Phase 3.8 and Phase 3.10 qualification-rate labels and update the relevant definitions.
+- [ ] Finalize offer boundaries, owners, proof permissions, destinations and measurement before activating any route.
+- [ ] Record the separate Phase 3 readiness decision and any explicit authorization for production or publication.
 
 ---
 
