@@ -1,6 +1,8 @@
 # Phase 3.6 — Trust, Proof and Content Governance
 
-**Status:** Working draft; trust and proof controls remain subject to live evidence  
+**Strategy approval:** Seul Yekha; September 24, 2026. Approved as a research-grounded Phase 3 planning source; remains approved until explicitly reopened for updating. This approval does not certify live buyer evidence, final offer economics, completed assets, named operational coverage, working destinations, production or publication.
+
+**Status:** Approved for Phase 3 strategy planning; reopen explicitly before changing the approved architecture  
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.5 Messaging System and CTA Framework
 
@@ -596,4 +598,4 @@ Phase 3.6 is complete when:
 - CTA and evidence controls work together.
 - The framework is ready to support Phase 3 completion and later Phase 4 or Phase 5 work.
 
-**Current status:** Working draft; ready for review before Phase 3.7.
+**Current status:** Approved as Phase 3 strategy documentation; commercial and operational validation remains pending.

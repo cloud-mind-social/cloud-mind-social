@@ -1,6 +1,8 @@
 # Phase 3.3 — CMS Methodology, Content Formats and Strategic Roles
 
-**Status:** In Progress  
+**Strategy approval:** Seul Yekha; September 24, 2026. Approved as a research-grounded Phase 3 planning source; remains approved until explicitly reopened for updating. This approval does not certify live buyer evidence, final offer economics, completed assets, named operational coverage, working destinations, production or publication.
+
+**Status:** Approved for Phase 3 strategy planning; reopen explicitly before changing the approved architecture  
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.2 Content Pillar and Strategic Theme Architecture
 
@@ -665,4 +667,4 @@ Phase 3.3 is complete when:
 - Platform adaptation remains reserved for Phase 5.
 - The architecture is ready for the next Phase 3 task: content-to-funnel mapping.
   
-**Current status:** Working draft; ready for review before Phase 3.4.
+**Current status:** Approved format roles for Phase 3 planning; live content and adaptation remain separately gated.

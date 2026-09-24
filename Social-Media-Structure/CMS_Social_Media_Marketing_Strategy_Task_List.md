@@ -184,7 +184,7 @@
 - [x] Approve Track A findings as evidence input for the readiness decision.
 - [x] Define Green, Amber, and Red readiness dimensions.
 - [x] Define the Phase 3 handoff requirements and guardrails.
-- [ ] Execute the assumption-based handoff.
+- [x] Execute the [assumption-based Phase 3 handoff](./Phase-2.5/PHASE_2.5.10_Phase_3_Assumption_Based_Handoff.md); September 24, 2026.
 - [ ] Record live buyer, acquisition, pricing, trust, and delivery evidence as it becomes available.
 - [ ] Revisit the gate after meaningful evidence or a material contradiction.
 
@@ -215,32 +215,32 @@ These files remain standalone evidence documents. They are not automatically mer
 
 # Phase 3 — Content Architecture
 
-**STATUS: PLANNING AND DOCUMENTATION OPEN; PRODUCTION AND PUBLICATION GATED**
+**STATUS: PHASE 3.1–3.10 STRATEGY APPROVED; GREEN FOR RESEARCH-GROUNDED PLANNING; OPERATIONAL READINESS, PRODUCTION AND PUBLICATION GATED**
 
 | Workstream | Source | Documentation | Readiness | Production | Publication |
 |---|---|---|---|---|---|
-| 3.1 | [Audience, Positioning and Evidence Integration](./Phase-3/PHASE_3.1_Evidence_Classification_Assumption_Management_and_Commercial_Translation.md) | In progress | Pending | Gated | Gated |
-| 3.2 | [Brand Foundation Finalization and Content Alignment](./Phase-3/PHASE_3.2_Content_Pillar_and_Strategic_Theme_Architecture.md) | In progress | Pending | Gated | Gated |
-| 3.3 | [CMS Methodology, Content Formats and Strategic Roles](./Phase-3/PHASE_3.3_Content_Formats_and_Strategic_Roles.md) | In progress | Pending | Gated | Gated |
-| 3.4 | [Offer Architecture and Content-to-Funnel Mapping](./Phase-3/PHASE_3.4_Content_to_Funnel_Mapping.md) | Working draft | Pending | Gated | Gated |
-| 3.5 | [Messaging System and CTA Framework](./Phase-3/PHASE_3.5_CTA_Framework.md) | Working draft | Pending | Gated | Gated |
-| 3.6 | [Trust, Proof and Content Governance](./Phase-3/PHASE_3.6_Proof_Requirements_and_Content_Governance.md) | Working draft | Pending | Gated | Gated |
-| 3.7 | [Visual Identity Implementation, Integration and Completion Review](./Phase-3/PHASE_3.7_Content_Architecture_Integration_and_Completion_Review.md) | Working draft | Pending | Gated | Gated |
-| 3.8 | [Website and Conversion Architecture, Content Operationalization and Production Handoff](./Phase-3/PHASE_3.8_Content_Architecture_Operationalization_and_Production_Handoff.md) | Approved additions; implementation pending | Pending | Gated | Gated |
-| 3.9 | [Social Media Operating System and Readiness Gate](./Phase-3/PHASE_3.9_Content_Architecture_Final_Readiness_Gate.md) | Approved additions; implementation pending | Pending | Gated | Gated |
-| 3.10 | [Measurement and Validation](./Phase-3/PHASE_3.10_Measurement_and_Validation.md) | Working draft for owner review; implementation and baselines pending | Pending | Gated | Gated |
+| 3.1 | [Audience, Positioning and Evidence Integration](./Phase-3/PHASE_3.1_Evidence_Classification_Assumption_Management_and_Commercial_Translation.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.2 | [Brand Foundation Finalization and Content Alignment](./Phase-3/PHASE_3.2_Content_Pillar_and_Strategic_Theme_Architecture.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.3 | [CMS Methodology, Content Formats and Strategic Roles](./Phase-3/PHASE_3.3_Content_Formats_and_Strategic_Roles.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.4 | [Offer Architecture and Content-to-Funnel Mapping](./Phase-3/PHASE_3.4_Content_to_Funnel_Mapping.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.5 | [Messaging System and CTA Framework](./Phase-3/PHASE_3.5_CTA_Framework.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.6 | [Trust, Proof and Content Governance](./Phase-3/PHASE_3.6_Proof_Requirements_and_Content_Governance.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.7 | [Visual Identity Implementation, Integration and Completion Review](./Phase-3/PHASE_3.7_Content_Architecture_Integration_and_Completion_Review.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.8 | [Website and Conversion Architecture, Content Operationalization and Production Handoff](./Phase-3/PHASE_3.8_Content_Architecture_Operationalization_and_Production_Handoff.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.9 | [Social Media Operating System and Readiness Gate](./Phase-3/PHASE_3.9_Content_Architecture_Final_Readiness_Gate.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
+| 3.10 | [Measurement and Validation](./Phase-3/PHASE_3.10_Measurement_and_Validation.md) | Approved strategy; implementation pending | Planning Green; activation pending | Gated | Gated |
 
-Documentation status is not a completion certificate. The Phase 2.5.10 handoff, live validation, and readiness decisions remain open. Separate authorization is required for production and publication.
+Seul approved 3.1–3.10 as strategy sources on September 24, 2026, until explicitly reopened. The [Phase 3.9 architecture audit and Green planning decision](./Phase-3/PHASE_3_Architecture_and_Handoff_Audit.md) and [Phase 2.5.10 handoff](./Phase-2.5/PHASE_2.5.10_Phase_3_Assumption_Based_Handoff.md) are recorded. Live validation, final offer economics, implementation readiness and separate authorization for production and publication remain open.
 
 The content writing standard includes educational posts, carousels, scripts, articles, and newsletters for CMS and client brands. Calling content educational does not exempt it. Separately scoped utility assets and internal strategy, research, governance, brand foundation, briefs, proposals, reports, and Agent HQ retain structured formats. Locked phrases remain valid identity; meaning-preserving paraphrases may be used in content without making slogans its structural skeleton.
 
-Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 + 3.7 third; 3.1 + 3.2 + 3.4 last. This records the sequence only; those source-file adjustments require the later authorized batch.
+For future updates after a decision is explicitly reopened, preserve the previously agreed review order: 3.3 + 3.5; 3.8 + 3.9; 3.6 + 3.7; then 3.1 + 3.2 + 3.4. Approval does not authorize silent revisions.
 
 ---
 
 # Phase 4 — Funnel Content Strategy
 
-**STATUS: OWNER-APPROVED WORKING STRATEGY DRAFT; RECONCILIATION AND OPERATIONAL READINESS PENDING**
+**STATUS: OWNER-APPROVED WORKING STRATEGY DRAFT; QUALIFICATION RECONCILED; FINAL STRATEGY CLOSEOUT REVIEW PENDING**
 
 **Approved by Seul:** September 24, 2026. The [Phase 4 working draft](./Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) documents the strategic mapping below. Its approval does not authorize content production, publication, destination activation, offers or client-result proof.
 
@@ -253,9 +253,11 @@ Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 +
 - [x] Map content to Proof in the working strategy
 - [x] Map content to Expansion in the working strategy
 - [x] Build the planning Content → Funnel Stage → CTA → Destination matrix
-- [ ] Reconcile Phase 3.8 and Phase 3.10 qualification-rate labels and update the relevant definitions.
-- [ ] Finalize offer boundaries, owners, proof permissions, destinations and measurement before activating any route.
-- [ ] Record the separate Phase 3 readiness decision and any explicit authorization for production or publication.
+- [x] Adopt Seul's canonical qualification rate: qualified submissions ÷ all submissions in a defined cohort; report reviewed and unreviewed counts and review cutoff.
+- [x] Complete the Phase 2.5.10 planning handoff and Phase 3.9 Green planning decision; keep operational tests separate.
+- [ ] Review the reconciled Phase 4 strategy and record Seul's final closeout decision and date.
+- [ ] Before activating any route, finalize applicable offers, assign owners/backups, obtain any required proof permissions, and test destinations and measurement.
+- [ ] Obtain separate authorization before production and publication.
 
 ---
 
@@ -297,11 +299,11 @@ Agreed future Phase 3 adjustment order: 3.3 + 3.5 first; 3.8 + 3.9 second; 3.6 +
 
 ## [ ] ⏭ NEXT IN LINE
 
-1. Execute the 2.5.10 proceed-with-assumptions handoff.
+1. Use the completed 2.5.10 assumption-based handoff; revisit after meaningful buyer evidence.
 2. Run the first controlled acquisition and proxy tests.
 3. Finalize Phase 2.5.6 figures, scope, capacity, margin, and qualification rules.
 4. Validate Phase 2.5.7 trust architecture and proof placements.
-5. Continue authorized Phase 3 planning; develop 3.10 and complete readiness and handoff requirements before requesting production/publication authorization.
+5. Use approved 3.1–3.10 and the Green planning decision for Phase 4; complete operational checks before any separately authorized production or publication.
 
 ## [ ] HOLD
 

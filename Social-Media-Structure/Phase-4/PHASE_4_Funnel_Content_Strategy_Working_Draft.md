@@ -8,7 +8,7 @@
 
 - [Locked Phase 2 audience architecture](../PHASE_2_Audience_Strategy_Part_1.md) and [approved audience intelligence](../PHASE_2_Audience_Strategy_Part_2.md) determine the buyer roles. Older Phase 1 early-stage audience wording does not supersede the locked commercial ICP.
 - [Phase 3.2](../Phase-3/PHASE_3.2_Content_Pillar_and_Strategic_Theme_Architecture.md) supplies the five pillars and audience emphases; [Phase 3.3](../Phase-3/PHASE_3.3_Content_Formats_and_Strategic_Roles.md) supplies format roles; [Phase 3.4](../Phase-3/PHASE_3.4_Content_to_Funnel_Mapping.md) supplies offer-to-funnel boundaries; [Phase 3.5](../Phase-3/PHASE_3.5_CTA_Framework.md) supplies CTA categories.
-- [Phase 3.6](../Phase-3/PHASE_3.6_Proof_Requirements_and_Content_Governance.md) controls evidence, permission and claims; [Phase 3.8](../Phase-3/PHASE_3.8_Content_Architecture_Operationalization_and_Production_Handoff.md) supplies website routes and qualification; [Phase 3.9](../Phase-3/PHASE_3.9_Content_Architecture_Final_Readiness_Gate.md) supplies operating readiness; [Phase 3.10](../Phase-3/PHASE_3.10_Measurement_and_Validation.md) supplies the measurement framework, still a working draft for owner review.
+- [Phase 3.6](../Phase-3/PHASE_3.6_Proof_Requirements_and_Content_Governance.md) controls evidence, permission and claims; [Phase 3.8](../Phase-3/PHASE_3.8_Content_Architecture_Operationalization_and_Production_Handoff.md) supplies website routes and qualification; [Phase 3.9](../Phase-3/PHASE_3.9_Content_Architecture_Final_Readiness_Gate.md) supplies operating readiness; [Phase 3.10](../Phase-3/PHASE_3.10_Measurement_and_Validation.md) supplies the approved planning measurement framework; implementation and live baselines remain pending.
 - [Phase 2.5.6](../Phase-2.5/PHASE_2.5.6_Offer_and_Pricing_Architecture.md) retains final authority for provisional offer scope and pricing. Do not quote directional figures as approved public prices.
 - These are strategic interpretations of repo sources, not findings about CMS buyer behavior. Use the source-confidence method for research; only direct CMS observations can support CMS-specific validation.
 
@@ -194,16 +194,9 @@ An explicit CTA is optional when it does not serve the piece. A planned or await
 | Measurement | Each active row needs a defined event, source, named owner, observation window, audience where known, raw numerator and denominator for rates, and unknown-data note. Do not infer causation from source association. |
 | Destination and capacity | Before a live CTA, test the link/action, successful receipt, confirmation and failure handling, owner notification, lead record, assigned owner and backup, realistic response window and release approval. Booking/contract/payment need separate authorized tests. |
 
-### Qualification-rate reconciliation needed
+### Qualification rate; resolved definition
 
-The Phase 3.8 website section defines qualification rate as **qualified submissions ÷ all submissions**. The Phase 3.10 draft defines it as **qualified submissions ÷ submissions actually reviewed**, while also reporting total and unreviewed. Do not publish a single unlabeled “qualification rate.” Retain both separately until their source documents are reconciled:
-
-| Working measure | Numerator and denominator | Interpretation |
-|---|---|---|
-| Qualified share of all submissions | Qualified submissions ÷ all submissions in the period | Overall intake outcome, including impact of unreviewed submissions |
-| Qualification yield among reviewed | Qualified submissions ÷ submissions actually reviewed in the period | Fit among human-assessed cases |
-
-Report raw counts and unreviewed submissions alongside both measures; do not calculate a rate with a zero denominator. Record comparable periods and segment G, E and PH only where known. The repo source wording should later use distinct names if both measures are retained.
+Seul selected **all submissions** as the qualification denominator on September 24, 2026. Phase 3.8 and Phase 3.10 now use one definition: qualified submissions from a defined submission cohort divided by **all submissions in that cohort** by a stated review cutoff. Record qualified, reviewed and unreviewed counts alongside the rate. An unreviewed case remains in the denominator; a backlog may lower the provisional rate. Do not calculate the rate with a zero denominator or claim that an incomplete review shows buyer fit. Segment G, E and PH only where known.
 
 ### Destination status and release rule
 
@@ -213,15 +206,16 @@ Report raw counts and unreviewed submissions alongside both measures; do not cal
 
 No public post, promotion or business promise follows automatically from this strategy. In particular, the one-business-day reply promise observed on the homepage needs a real owner and sustainable response capacity before it is repeated or treated as dependable.
 
-## Remaining work and handoff
+## Remaining work for final Phase 4 strategy approval
 
-**Owner decision recorded:** Seul approved this Phase 4 working strategy draft on September 24, 2026, including the stage boundaries, optional paths, audience variants and consolidated planning matrix. This approves the conceptual architecture; it does not approve an individual asset, commercial offer, destination, live CTA, production or publication.
+The eight stage definitions, optional routes, audience variants and matrix are approved as a working strategy. The qualification definition is now reconciled. Phase 2.5.10 planning handoff and the Phase 3.9 Green planning decision are recorded; Phase 3.10 is an approved planning framework. Final Phase 4 *strategy* approval requires Seul to review this reconciled version and record the Phase 4 closeout decision and date. No separate live test, final price or platform launch is required to approve a planning document when dependencies are explicitly staged.
 
-1. Reconcile the two differently defined qualification-rate measures in Phase 3.8 and Phase 3.10 under distinct names or an explicitly approved single definition. Preserve raw counts and unreviewed submissions.
-2. Finalize offer scope, prices, capacity and margins through Phase 2.5.6 before an offer row is public-facing; name owners and backups and test destination and follow-up paths before promotion.
-3. For any client-result content asset, record the client's use-specific permission and Seul's separate authorization **before creation and again verify both before sharing**. Keep confidential internal delivery records distinct from public proof material; changing the intended use requires renewed approval.
-4. Reconcile the stale Phase 3.9 and task-list references to Phase 3.10 as absent; its working draft now exists, while review, measurement implementation and the Phase 3 readiness decision remain open.
-5. Complete the Phase 2.5.10 handoff and the separate Phase 3.9 readiness record. Approval of this Phase 4 draft does not replace either decision.
-6. When authorized, carry the approved strategic intent into Phase 5 platform adaptations; do not infer platform cadence or format specifications from this draft.
+### Handoff after strategic approval; activation dependencies
 
-**Current outcome:** Steps 1–6 are compiled and the working strategic draft is owner-approved. Operational functionality, live buyer behavior, commercial validation, named assignments and release readiness remain unverified. Phase 3 and Phase 4 operational closure, production and publication are not approved.
+1. Finalize applicable offer scope, public prices, capacity, margins and PH commercial terms through Phase 2.5.6 before presenting the affected offer as available.
+2. Assign named owners and backups; verify intake and response capacity; test each intended destination and its event capture end to end before a public CTA.
+3. For client-result material, obtain the client's use-specific permission and Seul's separate authorization before creation or sharing; check both against the final asset and use.
+4. Record real buyer, trust, delivery and measurement observations; update Phase 2.5.9 and revisit 2.5.10 when material evidence challenges assumptions.
+5. Carry approved strategic intent into Phase 5 platform-specific planning when authorized; production and publication still require their own approvals.
+
+**Current outcome:** Phase 4 working strategy draft is owner-approved and its qualification conflict is resolved. Final reconciled Phase 4 strategy closeout awaits Seul's review. Operational activation, commercial validation, production and publication remain separate decisions.
