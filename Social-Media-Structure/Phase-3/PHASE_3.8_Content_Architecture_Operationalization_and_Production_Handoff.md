@@ -536,4 +536,4 @@ Phase 3.8 architecture is complete when:
 - Phase 4 and Phase 5 boundaries are explicit.
 - The complete Phase 3 handoff package is identified.
 
-**Current status:** Approved website and lead-conversion strategy documented; production handoff retained. Named assignments, implementation tests, commercial decisions and live validation remain open. No whole-Phase-3 closure or website launch is implied.
+**Current status:** Approved website and lead-conversion strategy documented; production handoff retained. Named assignments, implementation tests, commercial decisions and live validation remain open. No operational readiness or website launch is implied.
