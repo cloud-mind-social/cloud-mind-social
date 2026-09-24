@@ -1,6 +1,8 @@
 # Phase 3.5 — Messaging System and CTA Framework
 
-**Status:** Working draft; final public positioning remains subject to clarity validation  
+**Strategy approval:** Seul Yekha; September 24, 2026. Approved as a research-grounded Phase 3 planning source; remains approved until explicitly reopened for updating. This approval does not certify live buyer evidence, final offer economics, completed assets, named operational coverage, working destinations, production or publication.
+
+**Status:** Approved for Phase 3 strategy planning; reopen explicitly before changing the approved architecture  
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.4 Offer Architecture and Content-to-Funnel Mapping
 
