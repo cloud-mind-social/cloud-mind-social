@@ -176,11 +176,11 @@ Phase 4 may use this framework to give each funnel stage a measurable purpose an
 ### Definition of done for Phase 3.10 documentation
 
 - [x] Owner reviews and approves the measurement chain and metric definitions.
-- [ ] Each measure chosen for the first cycle has a source and responsible role.
-- [ ] Audience and attribution distinctions are approved.
-- [ ] Evidence classes, assumption statuses and decision rules are approved.
-- [ ] The first bounded cycle has a test record ready for actual dates, owners and capacity.
-- [ ] Learning feeds Phase 2.5.9, Phase 2.5.10 and Phase 4.
-- [ ] Implementation gaps remain visible; documentation is not marked as live validation.
+- [x] Each measure chosen for the first cycle has a source and responsible role.
+- [x] Audience and attribution distinctions are approved.
+- [x] Evidence classes, assumption statuses and decision rules are approved.
+- [x] The first bounded cycle has a test record ready for actual dates, owners and capacity.
+- [x] Learning feeds Phase 2.5.9, Phase 2.5.10 and Phase 4.
+- [x] Implementation gaps remain visible; documentation is not marked as live validation.
 
 **Current assessment:** Measurement framework and reconciliation approved as part of Phase 3 strategy documentation; Phase 3.9 records Green for planning only. Operational measurement, baselines, live outcomes, production and publication remain pending.
