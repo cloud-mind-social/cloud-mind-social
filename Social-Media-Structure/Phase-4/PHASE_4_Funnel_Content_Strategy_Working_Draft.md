@@ -1,6 +1,6 @@
 # Phase 4 — Funnel Content Strategy: Working Compilation
 
-**Status:** Conceptualization and planning draft for owner review. This document compiles steps 1–6 discussed in chat; it does not certify Phase 4 completion, authorize production or publication, activate an account, approve offers or prove that a destination works.  
+**Status:** Owner-approved working strategy draft; approved by Seul on September 24, 2026. This document compiles steps 1–6 discussed in chat. Draft approval does not certify Phase 4 operational completion, authorize production or publication, activate an account, approve offers or prove that a destination works.  
 **Audience priority:** Primary Western growth-stage owner-led businesses that have outgrown DIY or fragmented social marketing; secondary Western early-stage owner-operators for development; Philippine growth-stage owner-led businesses as a separate secondary geographic market.  
 **Working premise:** One shared journey with audience-specific emphasis. Entry and movement are non-linear. A referral does not establish fit; a self-assessment is not diagnosis; an inquiry is not a sale.
 
@@ -75,11 +75,11 @@ flowchart TD
     D --> E["Review the next need"]
     E --> F["Continue, revise, refer or conclude"]
     D --> P["Potential proof moment"]
-    P --> G["Verify, permission and approve"]
+    P --> G["Verify; client permission and Seul approval"]
     G --> H["Reuse in Discovery, Trust or Intent"]
 ```
 
-Nurture follows the reason for deferral. Responding to an inquiry does not enroll a person in promotional messages. Proof emerges only after evidence and permission review. A referred person starts a new journey at their actual state and still undergoes fit review.
+Nurture follows the reason for deferral. Responding to an inquiry does not enroll a person in promotional messages. Client-result proof content is created or shared only after evidence review, the client's use-specific permission and Seul's separate authorization. A referred person starts a new journey at their actual state and still undergoes fit review.
 
 ## 3–4. Working stage tables with audience variants
 
@@ -147,7 +147,7 @@ An Intensive is a standalone paid conversion; purchase never requires a retainer
 | E: seeks confidence in finite foundation value | Show what a defined diagnosis or decision helps clarify; P4 + P5, Decision-Trace Case | Sample clearly labeled; do not promise later growth | Method or Conversation; bounded example | Is this depth useful now? |
 | PH: needs evidence relevant to local business context | Use actual local proof when available; otherwise explain method and its limits; P5, Proof-of-Method Demonstration or Verified Case Study | Local case needs local direct evidence and permission; keep Western case context explicit | Method or Review; approved proof | Is this evidence applicable? |
 
-A proof candidate from delivery is not automatically a public asset. Internal review, referral, testimonial and case-study permissions are separate.
+A proof candidate from delivery is not automatically a public asset. Before creating or sharing client-result content, record both the client's use-specific permission and Seul's separate authorization; verify that both cover the final asset and intended channel or use. Internal review, referral, testimonial and case-study permissions are separate.
 
 ### Expansion
 
@@ -177,7 +177,7 @@ A proof candidate from delivery is not automatically a public asset. Internal re
 | Finite execution/foundation; qualified G, E, PH | Conversion; accept bounded work | P4; FAQ | Approved inputs, revisions, exclusions and stop point | Service | À La Carte/Sprint proposal; **planned** | Commercial/delivery | Proposal, revision, acceptance, contract, payment separately |
 | Diagnosed ongoing support; qualified G, PH | Conversion; choose right-sized responsibility | P4 + P5; Decision case | Diagnosis, final scope, staffing, capacity, margin, terms | Service | Reconciled proposal/contract/payment; **planned** | Commercial/delivery | Recommendation and commitment events; sustainable delivery? |
 | Illustrative method proof; G, E, PH | Proof; answer method question | P5; Method demonstration | Clear illustrative label; do not imply result | Method | Homepage example **awaiting validation**; new assets **planned** | Evidence | Proof interaction; appropriate reuse stage? |
-| Verified work; G, E, PH | Proof; bounded outcome account | P5; Verified Case Study | Work, timeframe, limits, case-specific permission | Method/Review | Approved case location; **planned** | Client permission/evidence | Asset approved for specified use; relevant interactions |
+| Verified work; G, E, PH | Proof; bounded outcome account | P5; Verified Case Study | Work, timeframe, limits, client use-specific permission and Seul authorization before creation or sharing | Method/Review | Approved case location; **planned** | Client permission/evidence | Asset approved for specified use; relevant interactions |
 | Client review; existing G, E, PH | Expansion; next business decision | P4 + P5; client decision review | Delivery record, effort, learning and limits | Continuation | Client review process; **planned** | Relationship/delivery | Renewal, scope change, expansion or conclusion separately |
 | Optional advocacy; existing G, E, PH | Expansion; appropriate new relationship/proof | P5; approved learning | Distinct referral, testimonial and case permissions | Continuation | Referral/permission process; **planned** | Relationship/permission | Referral or distinct permission/decline recorded |
 
@@ -189,7 +189,7 @@ An explicit CTA is optional when it does not serve the piece. A planned or await
 |---|---|
 | Offer boundaries | Intensive stands on its own. À La Carte remains finite. Sprint and core tiers are working architecture; final scope, pricing, capacity, margin and qualification rules need approval. PH terms require a separate market decision. |
 | Qualification | Human review records fit, problem, urgency, readiness, disposition reason, assigned next action and due date. Do not infer fit from engagement or form completion. |
-| Proof | Method demonstrations are labeled. Client cases need genuine work, evidence, context, timeframe, limitations, permission, attribution and explicit approval for each use. Internal client reviews are not automatically public. |
+| Proof | Method demonstrations are labeled. Before creating or sharing client-result material, obtain the client's use-specific permission **and** Seul's separate authorization; check both against the final wording and intended use. Client cases also need genuine work, evidence, context, timeframe, limitations and attribution. Internal delivery records are not automatically public. |
 | Nurture | Respond to the inquiry separately from optional promotional subscription. Record deferral reason, communication preference, agreed follow-up and owner. Respect declines and stop requests; no automatic sequence. |
 | Measurement | Each active row needs a defined event, source, named owner, observation window, audience where known, raw numerator and denominator for rates, and unknown-data note. Do not infer causation from source association. |
 | Destination and capacity | Before a live CTA, test the link/action, successful receipt, confirmation and failure handling, owner notification, lead record, assigned owner and backup, realistic response window and release approval. Booking/contract/payment need separate authorized tests. |
@@ -215,11 +215,13 @@ No public post, promotion or business promise follows automatically from this st
 
 ## Remaining work and handoff
 
-1. Owner reviews and approves or revises these stage boundaries, routes, audience variants and matrix.
-2. Reconcile the two qualification-rate labels in the relevant source documents through a separately scoped update.
-3. Confirm offer economics, named owners, capacity and tested destinations before any row is promoted publicly.
-4. Verify proof records and use-specific permissions before client-result material is created or shared.
-5. Carry approved strategic intent into Phase 5 platform adaptations; do not infer platform cadence or format specifications from this document.
-6. Record the separate Phase 3.9 readiness decision. Completing this Phase 4 planning draft does not close Phase 3, Phase 4 or grant production/publication approval.
+**Owner decision recorded:** Seul approved this Phase 4 working strategy draft on September 24, 2026, including the stage boundaries, optional paths, audience variants and consolidated planning matrix. This approves the conceptual architecture; it does not approve an individual asset, commercial offer, destination, live CTA, production or publication.
 
-**Current outcome:** Steps 1–6 compiled for review. Strategic architecture is proposed; live buyer behavior, operational functionality, commercial performance, owner assignments and release readiness remain unverified.
+1. Reconcile the two differently defined qualification-rate measures in Phase 3.8 and Phase 3.10 under distinct names or an explicitly approved single definition. Preserve raw counts and unreviewed submissions.
+2. Finalize offer scope, prices, capacity and margins through Phase 2.5.6 before an offer row is public-facing; name owners and backups and test destination and follow-up paths before promotion.
+3. For any client-result content asset, record the client's use-specific permission and Seul's separate authorization **before creation and again verify both before sharing**. Keep confidential internal delivery records distinct from public proof material; changing the intended use requires renewed approval.
+4. Reconcile the stale Phase 3.9 and task-list references to Phase 3.10 as absent; its working draft now exists, while review, measurement implementation and the Phase 3 readiness decision remain open.
+5. Complete the Phase 2.5.10 handoff and the separate Phase 3.9 readiness record. Approval of this Phase 4 draft does not replace either decision.
+6. When authorized, carry the approved strategic intent into Phase 5 platform adaptations; do not infer platform cadence or format specifications from this draft.
+
+**Current outcome:** Steps 1–6 are compiled and the working strategic draft is owner-approved. Operational functionality, live buyer behavior, commercial validation, named assignments and release readiness remain unverified. Phase 3 and Phase 4 operational closure, production and publication are not approved.
