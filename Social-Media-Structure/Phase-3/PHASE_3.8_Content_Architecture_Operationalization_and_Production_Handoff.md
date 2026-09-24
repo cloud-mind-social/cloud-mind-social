@@ -196,8 +196,7 @@ Track events and downstream status changes without confusing click intent with c
 | Entry-route traffic | Visits to each diagnostic or service route, with source when available |
 | Assessment completion rate | Completed checks divided by started checks |
 | Inquiry conversion rate | Submissions divided by eligible route visits |
-| Qualified share of all submissions | Qualified submissions from a submission cohort divided by all submissions in that cohort; report unreviewed separately | 
-| Qualification yield among reviewed | Qualified submissions from the same cohort divided by submissions reviewed by the stated cutoff; report reviewed and pending counts |
+| Qualification rate | Qualified submissions from a defined submission cohort divided by all submissions in that cohort; report qualified, reviewed and unreviewed counts and the review cutoff |
 | Time to first human response | Time between submission and first human reply; automated receipt is separate |
 | Review attendance rate | Attended reviews divided by scheduled reviews |
 | Paid diagnostic conversion | Purchased diagnostics divided by qualified prospects offered that diagnostic |
