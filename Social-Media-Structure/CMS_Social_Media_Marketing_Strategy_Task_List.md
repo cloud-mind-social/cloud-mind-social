@@ -240,9 +240,9 @@ For future updates after a decision is explicitly reopened, preserve the previou
 
 # Phase 4 — Funnel Content Strategy
 
-**STATUS: OWNER-APPROVED WORKING STRATEGY DRAFT; QUALIFICATION RECONCILED; FINAL STRATEGY CLOSEOUT REVIEW PENDING**
+**STATUS: APPROVED AND COMPLETE FOR STRATEGY PLANNING; OPERATIONAL ACTIVATION, PRODUCTION AND PUBLICATION GATED**
 
-**Approved by Seul:** September 24, 2026. The [Phase 4 working draft](./Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) documents the strategic mapping below. Its approval does not authorize content production, publication, destination activation, offers or client-result proof.
+**Approved and closed for strategy planning by Seul:** September 24, 2026. The [Phase 4 strategy document](./Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) includes the optional Phase 3.3 content approach field and a hypothetical growth-stage audience strand. This approval does not authorize content production, publication, destination activation, offers or client-result proof. The closeout takes effect on merge.
 
 - [x] Map content to Discovery in the working strategy
 - [x] Map content to Interest in the working strategy
@@ -253,9 +253,10 @@ For future updates after a decision is explicitly reopened, preserve the previou
 - [x] Map content to Proof in the working strategy
 - [x] Map content to Expansion in the working strategy
 - [x] Build the planning Content → Funnel Stage → CTA → Destination matrix
+- [x] Integrate the optional Phase 3.3 primary approach field with a labeled hypothetical audience strand
 - [x] Adopt Seul's canonical qualification rate: qualified submissions ÷ all submissions in a defined cohort; report reviewed and unreviewed counts and review cutoff.
 - [x] Complete the Phase 2.5.10 planning handoff and Phase 3.9 Green planning decision; keep operational tests separate.
-- [ ] Review the reconciled Phase 4 strategy and record Seul's final closeout decision and date.
+- [x] Review the reconciled Phase 4 strategy and record Seul's final strategy closeout decision; approved September 24, 2026.
 - [ ] Before activating any route, finalize applicable offers, assign owners/backups, obtain any required proof permissions, and test destinations and measurement.
 - [ ] Obtain separate authorization before production and publication.
 
