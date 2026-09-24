@@ -37,6 +37,53 @@ Every content asset should answer:
 Do not choose a format merely because it is popular or easy to produce.
 
 
+## Content approach reference
+
+**Scoped amendment:** Seul reopened Phase 3.3 on September 24, 2026, to add this approved planning reference. The updated Phase 3.3 source returns to its approved strategy-planning state when this amendment is merged. The existing fourteen formats, Phase 3 readiness limits, and production and publication gates remain unchanged.
+
+### Purpose
+
+A content approach describes **how CMS engages the audience with an idea**. It helps a creator choose an entry point once the source material, pillar, theme, audience realization and strategic format are known.
+
+An approach is not a new pillar, format, funnel stage or writing template. More than one approach may be present in a piece, but the brief should identify the primary one only when that choice helps clarify the work.
+
+| Approach | When it may help | Existing Phase 3.3 formats it may use | Main guardrail |
+|---|---|---|---|
+| **Handraiser** | A person with a specific need is ready to take a bounded next step | Conversation Prompt; Checklist or Self-Assessment; FAQ or Clarification | The invitation, destination and follow-up process must exist; no invented scarcity |
+| **Relatable** | The audience needs to recognize a business situation before examining it | Founder or Strategist Reflection; Diagnostic Breakdown; Conversation Prompt | Do not invent an owner's feelings, experience or conversation |
+| **Consumable** | An idea benefits from a quick initial explanation | Any suitable format, expressed briefly | Brevity is a presentation choice; it must not strip away a necessary qualification |
+| **Personal Take** | An accountable person has a relevant belief or judgment to explain | Founder or Strategist Reflection; Strategic Point of View | The named speaker must review and stand behind the perspective |
+| **Disruptor** | Evidence or sound reasoning gives CMS grounds to question an assumption | Strategic Point of View; Diagnostic Breakdown; Research Interpretation | Challenge the assumption fairly; do not manufacture controversy |
+| **Showcase** | Showing a process or piece of work would reduce uncertainty | Proof-of-Method Demonstration; Decision-Trace Case; Verified Case Study | Label samples and hypotheticals; use client results only with evidence and permission |
+| **Authority** | The audience needs a well-supported explanation to make a decision | Educational Explanation; Research Interpretation; Decision Framework | Explain the evidence and its limits; avoid unsupported expertise claims |
+
+### Selection guidance
+
+Choose the approach from the **actual idea source and audience need**. A situation may call for recognition before an invitation; a buyer evaluating CMS may need to inspect its method. The approach should support that purpose without controlling the wording of the post.
+
+Do not assign an approach to fill a content mix or require every post to be a handraiser. An educational piece can be valuable without a direct CTA. A showcase of CMS's method is not evidence that CMS has produced a client outcome. Client-result material still requires client use-specific permission and Seul's separate authorization under the Phase 3.6 proof gate.
+
+“Consumable” can be recorded as a presentation consideration rather than a primary approach. Copy structures, emotional triggers and posting ratios from the supplementary research remain optional planning references; none is a required CMS writing pattern or calendar quota.
+
+### Example application
+
+**Illustrative idea source:** A documented question, if collected, about why content keeps waiting for an owner's approval. This example does not assert that CMS has received such a question.
+
+**Pillar:** The Reality of Running a Growing Business  
+**Theme:** Unclear ownership and delegation friction  
+**Audience realization:** Delays may persist because decisions still depend on the owner  
+**Strategic format:** Diagnostic Breakdown  
+**Primary approach:** Relatable  
+**Evidence status:** Confirm the question and record its origin internally before use; otherwise keep the scenario explicitly hypothetical  
+**Funnel role:** Recognition to realization  
+**Possible next step:** Invite the reader to examine who can make and approve content decisions; an explicit CTA is optional
+
+The finished piece would develop the documented situation in a natural voice. These fields guide its creation; they are not headings, a slide sequence or a script for the audience to read.
+
+### Phase 4 handoff
+
+Phase 4 may use the approach as an **optional field** when mapping a content direction to a funnel stage, CTA and destination. It should select the approach that serves the audience's decision at that stage. It should not create a mandatory percentage of handraisers, showcases or authority pieces.
+
 # CMS Methodology
 
 ## Purpose
