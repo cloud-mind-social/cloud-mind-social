@@ -58,8 +58,7 @@ For every reported rate, store numerator, denominator, observation window and ra
 | Entry-route traffic | Visits to each diagnostic or service route, with known source | Website analytics if implemented; visits show exploration |
 | Assessment completion rate | Completed Social Signal Checks ÷ started checks in the same cohort | Assessment events if implemented; completion does not prove fit |
 | Inquiry conversion rate | Submitted inquiries ÷ eligible visits to the relevant route | Route and form events if implemented; do not pool unlike routes |
-| Qualified share of all submissions | Qualified submissions from a submission cohort ÷ all submissions in that cohort; report reviewed, unreviewed and cutoff | Human qualification record; unreviewed count can depress this measure |
-| Qualification yield among reviewed | Qualified submissions from the same cohort ÷ submissions reviewed by the cutoff; report reviewed and unreviewed | Human qualification record; compare only with consistent criteria and review timing |
+| Qualification rate | Qualified submissions from a defined submission cohort ÷ all submissions in that cohort; report qualified, reviewed and unreviewed counts and review cutoff | Human qualification record; pending review can depress the rate and must remain visible |
 | Time to first human response | Time between submission and first human reply | Intake and response timestamps; automated receipt separate |
 | Review attendance rate | Attended reviews ÷ scheduled reviews; record cancellation and rescheduling | Scheduling and attendance record |
 | Paid diagnostic conversion | Purchased Social Clarity Intensives ÷ qualified prospects to whom that specific diagnostic was offered | Offer and payment records; interest is not payment |
@@ -75,7 +74,7 @@ Do not fabricate missing funnel data or calculate a rate with a zero denominator
 
 ### Reconciliation before the first test; September 24, 2026
 
-**The resolved 3.8 conflict:** “Qualified share of all submissions” and “qualification yield among reviewed” are different measures. Use both labels and denominators in 3.8 and 3.10; never publish a bare “qualification rate” without specifying which, the cohort and the cutoff. Both rates include only a defined route's submitted inquiries as their starting cohort. A pending review counts in the all-submissions denominator and is excluded from the reviewed denominator. Review backlog and selection bias must be reported beside the second rate. Do not compare different submission cohorts or quietly move pending records into another period.
+**The resolved 3.8 conflict and owner decision:** Qualification rate has one canonical denominator: **all submissions in a defined submission cohort**. Its numerator is qualified submissions from that same cohort by a stated review cutoff. Report qualified, reviewed and unreviewed counts with the rate. Pending reviews remain in the denominator and may lower the reported rate; do not relabel the reviewed subset as the qualification rate or move pending records to a later cohort. When review coverage is incomplete, describe the result as provisional at the cutoff and report the backlog. Do not compare cohorts with materially different review coverage or qualification criteria as if equivalent.
 
 | Definition or gap | First-cycle rule | Remaining prerequisite |
 |---|---|---|
