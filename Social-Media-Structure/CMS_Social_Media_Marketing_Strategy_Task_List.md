@@ -240,7 +240,7 @@ For future updates after a decision is explicitly reopened, preserve the previou
 
 # Phase 4 — Funnel Content Strategy
 
-**STATUS: OWNER-APPROVED WORKING STRATEGY DRAFT; RECONCILIATION AND OPERATIONAL READINESS PENDING**
+**STATUS: OWNER-APPROVED WORKING STRATEGY DRAFT; QUALIFICATION RECONCILED; FINAL STRATEGY CLOSEOUT REVIEW PENDING**
 
 **Approved by Seul:** September 24, 2026. The [Phase 4 working draft](./Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) documents the strategic mapping below. Its approval does not authorize content production, publication, destination activation, offers or client-result proof.
 
@@ -253,9 +253,11 @@ For future updates after a decision is explicitly reopened, preserve the previou
 - [x] Map content to Proof in the working strategy
 - [x] Map content to Expansion in the working strategy
 - [x] Build the planning Content → Funnel Stage → CTA → Destination matrix
-- [x] Reconcile Phase 3.8 and Phase 3.10 qualification measures as two separately named denominators.
-- [ ] Finalize offer boundaries, owners, proof permissions, destinations and measurement before activating any route.
-- [ ] Record the separate Phase 3 readiness decision and any explicit authorization for production or publication.
+- [x] Adopt Seul's canonical qualification rate: qualified submissions ÷ all submissions in a defined cohort; report reviewed and unreviewed counts and review cutoff.
+- [x] Complete the Phase 2.5.10 planning handoff and Phase 3.9 Green planning decision; keep operational tests separate.
+- [ ] Review the reconciled Phase 4 strategy and record Seul's final closeout decision and date.
+- [ ] Before activating any route, finalize applicable offers, assign owners/backups, obtain any required proof permissions, and test destinations and measurement.
+- [ ] Obtain separate authorization before production and publication.
 
 ---
 
