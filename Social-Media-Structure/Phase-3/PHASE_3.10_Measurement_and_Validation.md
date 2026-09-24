@@ -1,6 +1,8 @@
 # Phase 3.10 — Measurement and Validation
 
-**Status:** Working draft for owner review; framework documentation only  
+**Strategy approval:** Seul Yekha; September 24, 2026. Approved as a research-grounded Phase 3 planning source; remains approved until explicitly reopened for updating. This approval does not certify live buyer evidence, final offer economics, completed assets, named operational coverage, working destinations, production or publication.
+
+**Status:** Approved for Phase 3 strategy planning; reopen explicitly before changing the approved architecture  
 **Phase:** 3 — Content Architecture  
 **Dependencies:** Phase 2.5.9–2.5.10; Phase 3.1–3.9  
 **Decision owner:** Seul Yekha  
@@ -56,7 +58,8 @@ For every reported rate, store numerator, denominator, observation window and ra
 | Entry-route traffic | Visits to each diagnostic or service route, with known source | Website analytics if implemented; visits show exploration |
 | Assessment completion rate | Completed Social Signal Checks ÷ started checks in the same cohort | Assessment events if implemented; completion does not prove fit |
 | Inquiry conversion rate | Submitted inquiries ÷ eligible visits to the relevant route | Route and form events if implemented; do not pool unlike routes |
-| Qualification rate | Qualified submissions ÷ submissions actually reviewed in the window; also report total submitted and unreviewed | Human qualification record; consistent criteria required |
+| Qualified share of all submissions | Qualified submissions from a submission cohort ÷ all submissions in that cohort; report reviewed, unreviewed and cutoff | Human qualification record; unreviewed count can depress this measure |
+| Qualification yield among reviewed | Qualified submissions from the same cohort ÷ submissions reviewed by the cutoff; report reviewed and unreviewed | Human qualification record; compare only with consistent criteria and review timing |
 | Time to first human response | Time between submission and first human reply | Intake and response timestamps; automated receipt separate |
 | Review attendance rate | Attended reviews ÷ scheduled reviews; record cancellation and rescheduling | Scheduling and attendance record |
 | Paid diagnostic conversion | Purchased Social Clarity Intensives ÷ qualified prospects to whom that specific diagnostic was offered | Offer and payment records; interest is not payment |
@@ -68,6 +71,26 @@ For every reported rate, store numerator, denominator, observation window and ra
 | Loss and friction | Abandonment, no response, deferral and decline with known reason | Intake or review record; unknown reasons stay unknown |
 
 Do not fabricate missing funnel data or calculate a rate with a zero denominator. State the reporting period and any missing or untracked routes. Use simple counts alongside rates, especially with small samples. Baselines come from actual observation before performance targets are set. Targets, if later approved, must include audience, timeframe, capacity and decision purpose.
+
+
+### Reconciliation before the first test; September 24, 2026
+
+**The resolved 3.8 conflict:** “Qualified share of all submissions” and “qualification yield among reviewed” are different measures. Use both labels and denominators in 3.8 and 3.10; never publish a bare “qualification rate” without specifying which, the cohort and the cutoff. Both rates include only a defined route's submitted inquiries as their starting cohort. A pending review counts in the all-submissions denominator and is excluded from the reviewed denominator. Review backlog and selection bias must be reported beside the second rate. Do not compare different submission cohorts or quietly move pending records into another period.
+
+| Definition or gap | First-cycle rule | Remaining prerequisite |
+|---|---|---|
+| Cohort and identity | Count unique submissions using a private record ID, route, submitted timestamp and audience when known; duplicate submissions are marked, not silently summed. Fix a reporting window and a review cutoff. | Agree on the actual intake record and data access before a test. |
+| Check starts and completions | Record one start and one completion per assessment instance or session in a bounded start cohort; late completions are counted against that cohort at a stated cutoff. | Instrument and test the check if the route is built. |
+| Eligible route visit | A route-specific visit with the relevant form or entry action available, using a consistent analytics definition; exclude test traffic when identified. If visit counts cannot be measured, give submission counts without a conversion rate. | Instrument each live route and test form-to-receipt. |
+| Human disposition | Record received, reviewed, qualified, deferred, redirected or declined, with reason and review timestamp; “unreviewed” stays visible. Qualified requires recorded fit, problem, urgency and readiness judgment. | Assign an authorized reviewer and cutoff. |
+| First response | Start at receipt, stop at first actual human reply; report the response-time distribution only for replied inquiries and separately count pending, missed and outside-coverage cases. An automated receipt is not a human response. | Set feasible response windows, owner and absence coverage. |
+| Review and diagnostic purchase | Keep booked, attended, diagnostic offered, offer accepted, contract and payment as distinct dated events; paid diagnostic numerator requires a verified payment for that defined offer. | Agree on commercial record and final offer boundary. |
+| Attribution and privacy | Keep known touchpoints and unknown origins; avoid claiming a post caused a sale. Store identifiable prospect and commercial events only in the authorized private workspace; use aggregates here. | Assign access and retention rules to the operational record. |
+| Client-result proof | Count permissioned proof only after the client's use-specific permission and Seul's separate authorization before creating or sharing a client-result asset, with final-version use checked. | Both permissions and verified facts for any actual case. |
+
+**Minimum source/role map:** Social or referral response → community or relationship owner; route visit and assessment events → website/analytics owner; inquiry and human disposition → intake/commercial owner; response and review attendance → lead owner; diagnostic offer, acceptance, contract and payment → commercial owner; delivery hours, cost and scope → delivery owner; renewal, referral and proof permissions → client owner. These are responsibilities to assign, not named assignments or functioning instruments. The strategy owner reviews aggregates and the Phase 2.5.9 ledger. A single person may hold several roles once explicitly assigned and covered.
+
+**First-cycle record template:** audience and assumption; route and tested status; start/end and review cutoff; named owners/backups and available hours; exact event sources and privacy location; per-route raw numerators, denominators and unknown counts; observed buyer language; confounders; provisional status; decision and next review date. Create this record with actual values before launching; no baseline or target is supplied by this strategy approval.
 
 ## 4. Audience, source and attribution
 
@@ -146,13 +169,13 @@ Do not discard an assumption after one weak post without checking distribution, 
 | Baseline established | Actual comparable observations with dates, counts and missing-data notes |
 | Commercially validated for a defined claim | Relevant buyer commitments and delivery evidence sufficient for that bounded claim and its limitations |
 
-**Open dependencies:** Phase 2.5.6 final pricing, scope, capacity and margin; Phase 2.5.7 live trust and proof validation; Phase 2.5.8 acquisition test; Phase 2.5.10 assumption-based handoff; named ownership and tested website routes; Phase 3.9 readiness record. This file resolves none of those by itself.
+**Open implementation dependencies:** Phase 2.5.6 final pricing, scope, capacity and margin; Phase 2.5.7 live trust and proof validation; Phase 2.5.8 acquisition test; named ownership, response capacity and tested website routes. The Phase 2.5.10 planning handoff and Phase 3.9 Green planning decision are recorded; neither substitutes for live validation.
 
 Phase 4 may use this framework to give each funnel stage a measurable purpose and proportionate next action. Its Content → Funnel Stage → CTA → Destination matrix should include audience, intended evidence or measure and destination state: **working and tested**, **planned**, or **awaiting validation**. A planned destination must not appear as an available public CTA.
 
 ### Definition of done for Phase 3.10 documentation
 
-- [ ] Owner reviews and approves the measurement chain and metric definitions.
+- [x] Owner reviews and approves the measurement chain and metric definitions.
 - [ ] Each measure chosen for the first cycle has a source and responsible role.
 - [ ] Audience and attribution distinctions are approved.
 - [ ] Evidence classes, assumption statuses and decision rules are approved.
@@ -160,4 +183,4 @@ Phase 4 may use this framework to give each funnel stage a measurable purpose an
 - [ ] Learning feeds Phase 2.5.9, Phase 2.5.10 and Phase 4.
 - [ ] Implementation gaps remain visible; documentation is not marked as live validation.
 
-**Current assessment:** Framework drafted for review. No owner approval, operational measurement, baseline, live outcome, whole-Phase-3 closure, content production or publication is claimed. Phase 3.9's separate readiness decision remains pending.
+**Current assessment:** Measurement framework and reconciliation approved as part of Phase 3 strategy documentation; Phase 3.9 records Green for planning only. Operational measurement, baselines, live outcomes, production and publication remain pending.
