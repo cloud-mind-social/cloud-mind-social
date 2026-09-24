@@ -1,6 +1,8 @@
 # Phase 3.6 — Trust, Proof and Content Governance
 
-**Status:** Working draft; trust and proof controls remain subject to live evidence  
+**Strategy approval:** Seul Yekha; September 24, 2026. Approved as a research-grounded Phase 3 planning source; remains approved until explicitly reopened for updating. This approval does not certify live buyer evidence, final offer economics, completed assets, named operational coverage, working destinations, production or publication.
+
+**Status:** Approved for Phase 3 strategy planning; reopen explicitly before changing the approved architecture  
 **Phase:** 3 — Content Architecture  
 **Dependency:** Phase 3.5 Messaging System and CTA Framework
 
@@ -81,6 +83,10 @@ CMS should maintain a proof inventory so content does not imply that every proof
 
 ## Proof production workflow
 
+**Two-permission gate for client-result material:** Before CMS creates or shares a client-result content asset, case study, testimonial, result graphic, quotation, anonymized client account or other material derived from an actual client's results, the client must grant use-specific permission and Seul must separately authorize the creation and intended use. Both permissions are required; neither one substitutes for the other. Record the permitted facts, identity or anonymity, formats, channels, time period, conditions and any withdrawal or review terms in the authorized private client workspace. Check both permissions again against the final version and exact sharing context. A material change in facts, presentation, audience or use requires renewed approval. Do not assume a client's approval of delivery work is consent to marketing use, or that an account owner's sign-off is Seul's authorization.
+
+Confidential internal source records and reports required to deliver or evaluate the client's work may be maintained under the client engagement; they are not permission to create or circulate a client-result marketing asset. When either permission is missing, record the potential proof moment privately and hold the asset before drafting.
+
 When CMS identifies a potential proof asset:
 
 1. Identify the proof moment.
@@ -88,11 +94,11 @@ When CMS identifies a potential proof asset:
 3. Capture the decision, work performed or outcome observed.
 4. Record the evidence, timeframe and limitations.
 5. Classify the proof type and evidence class.
-6. Confirm confidentiality and permission requirements.
-7. Draft the public wording without overstating the evidence.
-8. Obtain the required approval.
-9. Store the source record and final approved version.
-10. Set a review, update or expiration trigger.
+6. For client-result material, record the client's use-specific permission and Seul's separate authorization **before creating a content asset or drafting public wording**; hold when either is missing. Check confidentiality and the authorized use.
+7. Draft only within the two approved scopes, without overstating the evidence.
+8. Confirm the final asset and exact sharing context remain within both permissions; obtain renewed permission or authorization for changed use, then complete factual, voice and release review.
+9. Store the source record, both permission records and the final approved version in the authorized private client workspace.
+10. Set a review, update, withdrawal or expiration trigger.
 
 This workflow applies to diagnostics, acquisition tests, paid pilots, client delivery, reports, testimonials, case studies and internal CMS work.
 
@@ -103,7 +109,7 @@ This workflow applies to diagnostics, acquisition tests, paid pilots, client del
 A testimonial or review must:
 
 * Come from a real person connected to the relevant work.
-* Be used with permission.
+* Have the client's use-specific permission and Seul's separate authorization before a client-result asset is created or shared.
 * Preserve the speaker's authentic meaning.
 * Identify the person, role and business context where approved.
 * Avoid implying that one experience is a universal outcome.
@@ -122,6 +128,7 @@ A case study should include where possible:
 * Evidence or outcome
 * Constraints and limitations
 * Client approval and attribution status
+* Seul's separate authorization for creation and the exact intended use
 
 A hypothetical scenario, sample diagnostic or concept project must not be titled or presented as a client case study.
 
@@ -403,7 +410,7 @@ Before publishing a significant claim, record:
 | Scope | Who or what the claim applies to |
 | Confidence | 🟢 High, 🟡 Moderate, 🟠 Anecdotal or 🔴 Unverified |
 | Limitation | What the evidence does not prove |
-| Approval | Responsible human and approver; factual/voice confirmation, version, date, outcome and intended use |
+| Approval | Responsible human and approver; for client-result material, separate client permission and Seul authorization before creation and before sharing; factual/voice confirmation, version, date, outcome and intended use |
 | Attribution and permission | Public name, organizational perspective or permissioned anonymity; authorized scope |
 | Source interpretation | Findings, inference and firsthand experience distinguished |
 | Review date | When the claim should be rechecked |
@@ -558,10 +565,11 @@ Before approval:
 |---|---|
 | Strategic fit | CMS strategy lead |
 | Evidence and claim classification | CMS strategy lead |
-| Client permission and attribution | Account or client owner |
+| Client permission and attribution | Account or client owner obtains and records the client's use-specific permission |
+| Client-result creation and sharing authorization | Seul personally; separate from the client's permission; no assumed delegation |
 | Scope and offer accuracy | Commercial or delivery owner |
 | Platform adaptation | Platform content owner in Phase 5 |
-| Final public approval | CMS owner or explicitly delegated approver |
+| Final public approval | CMS owner or explicitly delegated approver for non-client-result content; Seul's separate authorization is mandatory for client-result material |
 
 ## Measurement and correction
 
@@ -590,4 +598,4 @@ Phase 3.6 is complete when:
 - CTA and evidence controls work together.
 - The framework is ready to support Phase 3 completion and later Phase 4 or Phase 5 work.
 
-**Current status:** Working draft; ready for review before Phase 3.7.
+**Current status:** Approved as Phase 3 strategy documentation; commercial and operational validation remains pending.

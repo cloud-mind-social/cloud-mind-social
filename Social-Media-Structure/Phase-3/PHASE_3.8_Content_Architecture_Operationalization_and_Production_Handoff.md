@@ -1,6 +1,8 @@
 # Phase 3.8 — Website and Conversion Architecture, Content Operationalization and Production Handoff
 
-**Status:** Approved architecture additions; implementation and live conversion validation pending  
+**Strategy approval:** Seul Yekha; September 24, 2026. Approved as a research-grounded Phase 3 planning source; remains approved until explicitly reopened for updating. This approval does not certify live buyer evidence, final offer economics, completed assets, named operational coverage, working destinations, production or publication.
+
+**Status:** Approved for Phase 3 strategy planning; reopen explicitly before changing the approved architecture  
 **Phase:** 3 — Website and Conversion Architecture; Content Operations  
 **Dependencies:** Phase 3.1–3.7; Phase 2.5.4–2.5.8 commercial guardrails
 
@@ -194,7 +196,7 @@ Track events and downstream status changes without confusing click intent with c
 | Entry-route traffic | Visits to each diagnostic or service route, with source when available |
 | Assessment completion rate | Completed checks divided by started checks |
 | Inquiry conversion rate | Submissions divided by eligible route visits |
-| Qualification rate | Qualified submissions divided by total submissions |
+| Qualification rate | Qualified submissions from a defined submission cohort divided by all submissions in that cohort; report qualified, reviewed and unreviewed counts and the review cutoff |
 | Time to first human response | Time between submission and first human reply; automated receipt is separate |
 | Review attendance rate | Attended reviews divided by scheduled reviews |
 | Paid diagnostic conversion | Purchased diagnostics divided by qualified prospects offered that diagnostic |
@@ -533,4 +535,4 @@ Phase 3.8 architecture is complete when:
 - Phase 4 and Phase 5 boundaries are explicit.
 - The complete Phase 3 handoff package is identified.
 
-**Current status:** Approved website and lead-conversion architecture additions documented; production handoff retained. Named assignments, implementation tests, commercial decisions and live validation remain open. No whole-Phase-3 closure or website launch is implied.
+**Current status:** Approved website and lead-conversion strategy documented; production handoff retained. Named assignments, implementation tests, commercial decisions and live validation remain open. No operational readiness or website launch is implied.

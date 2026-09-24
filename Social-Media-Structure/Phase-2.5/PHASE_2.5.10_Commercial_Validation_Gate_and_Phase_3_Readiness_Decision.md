@@ -6,9 +6,13 @@
 **Decision owner:** Seul Yekha  
 **Phase boundary:** This document authorizes controlled progress using research-supported assumptions. It does not claim market validation, product-market fit, willingness to pay, conversion performance, or completed Phase 3.
 
+## Assumption-based handoff; recorded 2026-09-24
+
+The [twelve-part Phase 3 handoff](./PHASE_2.5.10_Phase_3_Assumption_Based_Handoff.md) has been executed for research-grounded strategy planning. Seul approved Phase 3.1–3.10 and Green planning scope on September 24, 2026; [the Phase 3 architecture audit](../Phase-3/PHASE_3_Architecture_and_Handoff_Audit.md) records the bounded decision. The dimension-level Amber labels below remain honest descriptions of untested commercial evidence. They do not overturn the Green *planning* decision, and the latter does not assert operational readiness. Live validation and the gate's correction loop remain open.
+
 ## Owner clarification; recorded 2026-09-22
 
-Planning and documentation are open under explicit assumptions. Production and publication require separate owner authorization. The activities listed below are planning directions, not blanket permission to produce, publish, activate accounts, change the website, or launch tests. This clarification does not mark the handoff, readiness review, live validation, or Phase 3 complete. Track A1–A10 findings are approved by Seul as evidence input; they do not establish commercial validation.
+Planning and documentation are open under explicit assumptions. Production and publication require separate owner authorization. The activities listed below are planning directions, not blanket permission to produce, publish, activate accounts, change the website, or launch tests. This earlier clarification did not mark the handoff, readiness review, live validation, or Phase 3 complete; the September 24 decision above now completes the planning handoff and Green strategy audit, while live validation remains pending. Track A1–A10 findings are approved by Seul as evidence input; they do not establish commercial validation.
 
 The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
 
@@ -218,4 +222,4 @@ Phase 2.5.10 is complete when:
 - the handoff brief is ready;
 - no theoretical claim is presented as validated demand.
 
-**Current status:** CMS may proceed toward Phase 3 with explicit, research-supported assumptions. Live buyer evidence, final pricing, and commercial validation remain pending.
+**Current status:** Assumption-based handoff completed September 24, 2026; Phase 3 strategy planning approved Green. Live buyer evidence, final pricing and commercial validation remain pending.
