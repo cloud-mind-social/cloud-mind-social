@@ -254,9 +254,11 @@ For future updates after a decision is explicitly reopened, preserve the previou
 - [x] Map content to Expansion in the working strategy
 - [x] Build the planning Content → Funnel Stage → CTA → Destination matrix
 - [x] Adopt Seul's canonical qualification rate: qualified submissions ÷ all submissions in a defined cohort; report reviewed and unreviewed counts and review cutoff.
+- [x] Audit the Phase 4 paths against Phase 3 and Phase 2.5; correct the optional Social Signal Check path and clarify method proof; see [Phase 4 conflict and ownership audit](./Phase-4/PHASE_4_Conflict_and_Ownership_Audit.md).
+- [x] Define the route owner, backup, handoff, coverage and escalation record for each future live CTA.
 - [x] Complete the Phase 2.5.10 planning handoff and Phase 3.9 Green planning decision; keep operational tests separate.
 - [ ] Review the reconciled Phase 4 strategy and record Seul's final closeout decision and date.
-- [ ] Before activating any route, finalize applicable offers, assign owners/backups, obtain any required proof permissions, and test destinations and measurement.
+- [ ] Before activating any route, reconcile public service names with approved offers; assign and obtain acceptance from route owners/backups; secure applicable proof permissions; test destinations, response coverage and measurement.
 - [ ] Obtain separate authorization before production and publication.
 
 ---

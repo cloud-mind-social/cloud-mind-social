@@ -43,7 +43,10 @@ flowchart TD
     N --> S
     N --> V["Signal-to-Strategy Review"]
     N --> P["Social Clarity Intensive qualification"]
-    S --> Q["Human fit review"]
+    S --> E["Preliminary result"]
+    E --> L["Self-guided learning"]
+    E --> H["Optional help request"]
+    H --> Q["Human fit review"]
     V --> Q
     P --> Q
     Q --> O{"Appropriate next step"}
@@ -51,7 +54,7 @@ flowchart TD
     O --> B["Defined paid scope"]
 ```
 
-The three diagnostic entries are alternatives, not mandatory steps. A ready person may approach the paid diagnostic directly for qualification; a clear finite asset need may instead receive a bounded À La Carte assessment. A Social Signal Check returns a preliminary indication, never an automatic diagnosis or sales call.
+The three diagnostic entries are alternatives, not mandatory steps. A ready person may approach the paid diagnostic directly for qualification; a clear finite asset need may instead receive a bounded À La Carte assessment. A Social Signal Check returns a preliminary indication, never an automatic diagnosis or sales call. A person can stop after a self-guided result. Human qualification starts only when they separately request help or submit sufficient context; an anonymous check completion is not an inquiry and does not enter the qualification-rate denominator.
 
 | Entry condition | Working starting point | What must be learned next |
 |---|---|---|
@@ -78,6 +81,8 @@ flowchart TD
     P --> G["Verify; client permission and Seul approval"]
     G --> H["Reuse in Discovery, Trust or Intent"]
 ```
+
+Method proof can also appear at Trust before any client delivery; the delivery-to-proof branch depicts only one possible source of proof. Reuse of actual client-result material still requires the two permissions and an approved final use.
 
 Nurture follows the reason for deferral. Responding to an inquiry does not enroll a person in promotional messages. Client-result proof content is created or shared only after evidence review, the client's use-specific permission and Seul's separate authorization. A referred person starts a new journey at their actual state and still undergoes fit review.
 
@@ -194,6 +199,24 @@ An explicit CTA is optional when it does not serve the piece. A planned or await
 | Measurement | Each active row needs a defined event, source, named owner, observation window, audience where known, raw numerator and denominator for rates, and unknown-data note. Do not infer causation from source association. |
 | Destination and capacity | Before a live CTA, test the link/action, successful receipt, confirmation and failure handling, owner notification, lead record, assigned owner and backup, realistic response window and release approval. Booking/contract/payment need separate authorized tests. |
 
+### What assigning owners means before a route goes live
+
+A role label in the matrix is a **proposed responsibility**, not an assigned person. For each promoted route, record one named **accountable route owner** who accepts the full path from CTA through receipt and disposition. Name an authorized backup with agreed coverage. One person may perform several roles if hours and absence coverage are realistic; a collaborator's access or title does not mean they accepted accountability. Seul remains the strategy and release decision owner where required; her authorization does not replace a named person handling the inbox.
+
+| Responsibility | Accountable action before and during a live route | Evidence of assignment |
+|---|---|---|
+| Content and release | Confirm the specific copy, audience, claim, CTA, final asset and platform adaptation; authorize the actual release. | Version, reviewer, approver, date and approved use. |
+| Destination and technical path | Confirm the destination reflects the CTA; test navigation, form, confirmation, failure path and event capture; monitor availability. | Dated end-to-end test, owner and retest trigger. |
+| Inquiry intake and first reply | Monitor the actual inbox or lead record, acknowledge receipt, send the first human reply within a supportable window and transfer context. | Named primary and backup, coverage hours/time zone, notification test and escalation route. |
+| Qualification and next decision | Review fit, problem, urgency and readiness; record qualified, deferred, redirected or declined with reason and next action. | Human disposition record and due date; do not infer fit from a check or click. |
+| Commercial and delivery | Confirm offer fit, approved terms, scope, capacity and feasible fulfillment; distinguish offer, acceptance, contract, payment and delivery. | Approved offer version and delivery acceptance before selling. |
+| Evidence, client permission and Seul authorization | Verify claims; for client-result material, secure the client's use-specific permission and Seul's separate authorization before creation or sharing and confirm final use. | Private permission records; exact asset, scope, channel and approval status. |
+| Measurement and learning | Verify event definitions and source, record counts and unknowns, review outcomes, and update the assumptions ledger. | Test record, named reviewer and next review date. |
+
+**Minimum route assignment record:** route and intended CTA; proposed versus live status; named accountable owner and backup; accepted responsibilities and dates; monitoring channel; coverage hours/time zone and response expectation; handoff and escalation on absence or overload; dated destination/notification/event test; applicable claim/offer approvals; last review and pause condition. Store personal access details and prospect records only in the authorized private workspace. If an owner or backup cannot cover the promised window, change the promise or pause the route before promotion.
+
+**Public offer mapping:** Before any service CTA is made live, document how each existing public website path (Content & Execution, Managed Presence, Strategy & Growth, Strategic Partnership) maps to the provisional Phase 2.5.6 architecture; identify any route that has no approved equivalent. Confirm scope, terms and fulfillment with the commercial and delivery owners; do not imply the public names already match one-to-one. The Social Signal Check invitation examples in Phase 2.5.5 remain planning examples until the specific response route has an owner and passes a test.
+
 ### Qualification rate; resolved definition
 
 Seul selected **all submissions** as the qualification denominator on September 24, 2026. Phase 3.8 and Phase 3.10 now use one definition: qualified submissions from a defined submission cohort divided by **all submissions in that cohort** by a stated review cutoff. Record qualified, reviewed and unreviewed counts alongside the rate. An unreviewed case remains in the denominator; a backlog may lower the provisional rate. Do not calculate the rate with a zero denominator or claim that an incomplete review shows buyer fit. Segment G, E and PH only where known.
@@ -218,4 +241,4 @@ The eight stage definitions, optional routes, audience variants and matrix are a
 4. Record real buyer, trust, delivery and measurement observations; update Phase 2.5.9 and revisit 2.5.10 when material evidence challenges assumptions.
 5. Carry approved strategic intent into Phase 5 platform-specific planning when authorized; production and publication still require their own approvals.
 
-**Current outcome:** Phase 4 working strategy draft is owner-approved and its qualification conflict is resolved. Final reconciled Phase 4 strategy closeout awaits Seul's review. Operational activation, commercial validation, production and publication remain separate decisions.
+**Current outcome:** Phase 4 working strategy draft is owner-approved; the [Phase 4 conflict and ownership audit](./PHASE_4_Conflict_and_Ownership_Audit.md) records the resolved check path and the remaining activation blockers. Its qualification conflict is resolved. Final reconciled Phase 4 strategy closeout awaits Seul's review. Operational activation, commercial validation, production and publication remain separate decisions.
