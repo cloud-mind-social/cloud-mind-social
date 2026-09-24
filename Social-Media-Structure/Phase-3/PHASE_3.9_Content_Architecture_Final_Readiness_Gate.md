@@ -252,52 +252,54 @@ Document approval does not advance the other readiness dimensions automatically.
 
 ## Architecture and operating-readiness audit
 
+The architecture, pillar, format, funnel and governance checks below are assessed against approved documentation only; the separate operational checklist and the implemented-destination check remain open. See the [dated audit record](./PHASE_3_Architecture_and_Handoff_Audit.md).
+
 ### Strategic integrity
 
-- [ ] The content system reflects diagnosis before prescription.
-- [ ] Business context remains more important than content volume.
-- [ ] Strategic Social Intelligence remains the intellectual territory.
-- [ ] The approved Primary ICP remains unchanged.
-- [ ] Western commercial priority remains intact.
-- [ ] Secondary audiences do not displace the commercial beachhead.
-- [ ] Content does not make Phase 2.5 assumptions appear validated.
+- [x] The content system reflects diagnosis before prescription.
+- [x] Business context remains more important than content volume.
+- [x] Strategic Social Intelligence remains the intellectual territory.
+- [x] The approved Primary ICP remains unchanged.
+- [x] Western commercial priority remains intact.
+- [x] Secondary audiences do not displace the commercial beachhead.
+- [x] Content does not make Phase 2.5 assumptions appear validated.
 
 ### Pillar integrity
 
-- [ ] Each pillar has a distinct strategic job.
-- [ ] Each pillar has defined themes and angles.
-- [ ] Pillars support different audience realizations.
-- [ ] Pillars do not collapse into generic social media advice.
-- [ ] Evidence, Proof and What We’re Learning remains distinct from generic case-study content.
-- [ ] Excluded content categories are understood.
+- [x] Each pillar has a distinct strategic job.
+- [x] Each pillar has defined themes and angles.
+- [x] Pillars support different audience realizations.
+- [x] Pillars do not collapse into generic social media advice.
+- [x] Evidence, Proof and What We’re Learning remains distinct from generic case-study content.
+- [x] Excluded content categories are understood.
 
 ### Format integrity
 
-- [ ] Formats are selected according to strategic purpose.
-- [ ] Format roles are distinct.
-- [ ] Proof-of-method content is separated from client proof.
-- [ ] Verified case studies require evidence and permission.
-- [ ] Platform adaptation remains separate from content architecture.
+- [x] Formats are selected according to strategic purpose.
+- [x] Format roles are distinct.
+- [x] Proof-of-method content is separated from client proof.
+- [x] Verified case studies require evidence and permission.
+- [x] Platform adaptation remains separate from content architecture.
 
 ### Funnel integrity
 
-- [ ] Each funnel stage has a defined audience state.
-- [ ] Each stage has a clear content job.
-- [ ] Content creates a useful next state.
-- [ ] CTAs match readiness.
-- [ ] Destinations continue the message from the content.
-- [ ] Diagnostic and service transitions are proportionate.
-- [ ] Renewal, expansion and referral are based on evidence rather than pressure.
+- [x] Each funnel stage has a defined audience state.
+- [x] Each stage has a clear content job.
+- [x] Content creates a useful next state.
+- [x] CTAs match readiness.
+- [ ] Destination continuity in implemented routes remains to be tested.
+- [x] Diagnostic and service transitions are proportionate.
+- [x] Renewal, expansion and referral are based on evidence rather than pressure.
 
 ### Governance integrity
 
-- [ ] Evidence classes are usable.
-- [ ] Claim limitations are recorded.
-- [ ] High-risk claims have a review path.
-- [ ] Permission and attribution requirements are understood.
-- [ ] Hypotheses are labeled.
-- [ ] Unverified claims are excluded.
-- [ ] Learning can update the assumption register.
+- [x] Evidence classes are usable.
+- [x] Claim limitations are recorded.
+- [x] High-risk claims have a review path.
+- [x] Permission and attribution requirements are understood.
+- [x] Hypotheses are labeled.
+- [x] Unverified claims are excluded.
+- [x] Learning can update the assumption register.
 
 ### Operational integrity
 
