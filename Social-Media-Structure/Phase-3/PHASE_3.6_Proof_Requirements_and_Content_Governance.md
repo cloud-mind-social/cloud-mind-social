@@ -598,4 +598,4 @@ Phase 3.6 is complete when:
 - CTA and evidence controls work together.
 - The framework is ready to support Phase 3 completion and later Phase 4 or Phase 5 work.
 
-**Current status:** Working draft; ready for review before Phase 3.7.
+**Current status:** Approved as Phase 3 strategy documentation; commercial and operational validation remains pending.
