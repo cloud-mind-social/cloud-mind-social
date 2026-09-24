@@ -487,4 +487,4 @@ Phase 3.5 is complete when:
 - Governance prevents premature or misleading sales CTAs.
 - The framework is ready for Phase 3.6 proof requirements and governance integration.
 
-**Current status:** Working draft; ready for review before Phase 3.6.
+**Current status:** Approved as Phase 3 strategy documentation; commercial and operational validation remains pending.
