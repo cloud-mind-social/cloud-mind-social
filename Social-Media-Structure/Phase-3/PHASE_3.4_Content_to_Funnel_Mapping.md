@@ -545,4 +545,4 @@ Phase 3.4 is complete when:
 - The architecture can be handed into Phase 4 without prematurely completing Phase 4.
 - Platform adaptation remains reserved for Phase 5.
 
-**Current status:** Working draft; ready for review before Phase 3.5.
+**Current status:** Approved as Phase 3 strategy documentation; commercial and operational validation remains pending.
