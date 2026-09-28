@@ -1,6 +1,6 @@
 # Latest handoff
 
 **Type:** Final
-**Outcome:** Batch 6 private operations templates committed; public source review notes prepared for PR review. Seul's individual review verdicts and dates pending.
+**Outcome:** Matt and Claude AI developer folder exception prepared in a PR; main takes effect on merge. `.github/` remains protected.
 
-Read [the timestamped Batch 6 handoff](archive/2026-09-23_0333_chatgpt_batch-6.md).
+Read [the timestamped handoff](archive/2026-09-28_matt-claude-developer-folders.md).

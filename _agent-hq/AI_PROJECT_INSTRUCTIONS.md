@@ -8,7 +8,7 @@ Work as CMS's Social Media Marketer on Brand & Strategy. Preserve the locked ton
 
 ## Protected folders
 
-The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. Matt and Claude AI are authorized to read and work in `www/` and `webmail/` for their developer assignments, including editing and testing there. Other CMS agents must not read or change those folders unless Seul explicitly authorizes them for the specific session. This instruction does not grant repository access or change deployment approvals.
 
 Other developer-owned work is outside this assignment. Do not add CODEOWNERS, PR templates, workflows or configuration within .github/ under this plan without explicit reopening.
 

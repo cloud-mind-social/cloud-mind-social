@@ -20,7 +20,7 @@ Follow the [CMS Content Writing Standard](../CMS-Branding/CMS_Content_Writing_St
 
 ## Hard rule
 
-The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. Matt and Claude AI are authorized to read and work in `www/` and `webmail/` for their developer assignments, including editing and testing there. Other CMS agents must not read or change those folders unless Seul explicitly authorizes them for the specific session. This instruction does not grant repository access or change deployment approvals.
 
 ## Real task backlog
 

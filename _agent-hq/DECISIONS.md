@@ -164,3 +164,7 @@ Seul authorized the dedicated rename batch. The seven current file paths below s
 No approved strategic or research content is reopened. The Brand Guidelines remain the central application guide and the Field Guide remains its Canva companion; those roles were consolidated in merged PR #21. No developer review requirement applies to this scoped PR. External bookmarks must be updated after merge.
 
 **Revisit when:** A remaining active repository reference to a renamed path is found or Seul authorizes another naming decision.
+
+## 2026-09-28; Developer folder access exception
+
+Seul authorized Matt and Claude AI to work in `www/` and `webmail/`. They may read, edit, and test within those folders for their developer assignments. Other CMS agents remain excluded unless Seul authorizes a specific session. The `.github/` restriction stays in force. This replaces the earlier blanket no-read rule for these two named actors; it does not change actual repository access, deployment approvals, or strategy production/publication gates.

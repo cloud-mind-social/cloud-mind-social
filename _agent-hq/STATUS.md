@@ -166,3 +166,7 @@ Seven approved file paths and their active references are prepared together in a
 ## Batch 6; 2026-09-23
 
 Private CMS client operations repository created with blank templates; check effective access before real client information. Public Track A1–A10 AI-prepared source review notes are prepared for PR review. Seul's detailed verdicts/dates remain pending while her existing evidence-input approval stands. No research source, protected folder, production or publication change.
+
+## Developer folder authorization; 2026-09-28
+
+Matt and Claude AI may read and work in `www/` and `webmail/` for their developer assignments, including editing and testing. Other CMS agents retain the no-read/no-change boundary unless Seul explicitly authorizes them for a specific session. This updates the earlier blanket restriction in this status; historical session descriptions remain factual. No repository permissions, deployment approvals, or strategy production/publication gates changed.
