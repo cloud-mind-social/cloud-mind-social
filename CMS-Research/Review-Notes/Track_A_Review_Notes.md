@@ -17,6 +17,12 @@ Track A1–A10 findings remain **approved by Seul as evidence input**. These not
 | [A9](../Track-A/Track-A9-Pricing-and-Budget.md) | ______ | ______ | The [2026 CMO Survey primary topline](https://cmosurvey.org/wp-content/uploads/2026/03/The_CMO_Survey-Topline_Report-2026.pdf) is reachable and documents 308 U.S. marketing-leader responses from 2,111 invited, a 14.6% response rate; it cannot set CMS SMB budgets. [Clutch's pricing guide](https://clutch.co/agencies/social-media-marketing/pricing) is live directory pricing, not buyer willingness to pay, and can change. The A9 Scope and “A8 Core Question” paragraphs incorrectly define A9 through A8's brief; clarify A9's own question in a later authorized source edit. |
 | [A10](../Track-A/Track-A10-Retention-and-Partnership.md) | ______ | ______ | [Focus Digital's agency-churn analysis](https://focus-digital.co/average-marketing-agency-churn/) states 18% retainer versus 42% project churn; [Forge](https://forge.so/agency-benchmarks) repeats this and attributes it to Focus Digital, so it is **not independent confirmation**. The report does not establish causal benefit from moving a CMS client onto a retainer. Recheck the cited 43%-within-90-days and referral-lifespan figures against original underlying studies before external use. |
 
+## Human review request
+
+Seul reviews all ten rows above. For each track, read the linked source document and its AI-prepared note; enter an individual verdict and UTC review date in the two blank table cells. If a claim needs revision, identify the exact passage and reason in the PR discussion or a follow-up source-edit request. Leaving a cell blank means that track's detailed review is still pending. The existing approval of Track A as evidence input remains in force while this review is open.
+
+Review the limits of the spot checks before using a statistic in public material. This PR is a request for human review; its opening, approval, or merge does not itself fill any verdict or certify the unverified citations.
+
 ## Cross-track review prompts for Seul
 
 1. For each track, record **accept / accept with corrections / revisit**, date, and any exact claim to revise. Approval as evidence input already stands; a blank verdict means the detailed review is pending.
