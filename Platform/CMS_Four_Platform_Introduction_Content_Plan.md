@@ -3,7 +3,7 @@
 Prepared: October 1, 2026; Asia/Manila
 Status: Platform strategy and content concepts for review; repository upload authorized October 1, 2026. Publication remains a separate action.
 Cadence decision: Seul specified one original content post per day per platform; four posts daily and 120 posts across 30 days. This supersedes the earlier two-posts-per-week proposal.
-Planning window: First 30 days of each platform's introduction sequence. Facebook's approved September 30 Day 1 post is retained as its opening. Other platforms start their own sequence when ready.
+Planning window: The next 30 shared daily planning slots across all four platforms. Facebook's approved September 30 Day 1 post is retained as its prior opening; the new daily map begins with a continuation. Other platforms receive their own introductions. Assign one common start date before scheduling.
 
 ## Strategic direction
 
@@ -42,7 +42,7 @@ P5 remains visible on every platform through documented method, verified capabil
 
 ## Production rhythm
 
-User-directed rhythm: one original content post per day per platform across 30 days. This is four posts daily and 120 platform posts in the complete introduction sequence. Facebook's existing Day 1 occupies its opening slot. The weekly tables below are starter concept banks; the daily format mapping expands them into 30 slots per platform. Days 29 and 30 include content as well as review. This cadence is the owner's direction, not a platform-mandated frequency.
+User-directed rhythm: one original content post per day per platform across 30 days. This is four posts daily and 120 planned platform posts. Facebook's existing September 30 Day 1 is prior context and is not repeated or counted among these 120 new slots. The weekly tables below are starter concept banks; the [daily format mapping](./CMS_30_Day_Daily_Content_Format_Mapping.md) expands the plan into 30 slots per platform. Days 29 and 30 include content as well as review. This cadence is the owner's direction, not a platform-mandated frequency.
 
 Sequence: week 1 introduces relevance and identity; week 2 explains CMS's judgment; week 3 makes its method and accountability visible; week 4 clarifies fit and opens a proportionate next step. Individual viewers may enter at any point.
 
