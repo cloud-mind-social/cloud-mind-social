@@ -168,3 +168,20 @@ No approved strategic or research content is reopened. The Brand Guidelines rema
 ## 2026-09-28; Developer folder access exception
 
 Seul authorized Matt and Claude AI to work in `www/` and `webmail/`. They may read, edit, and test within those folders for their developer assignments. Other CMS agents remain excluded unless Seul authorizes a specific session. The `.github/` restriction stays in force. This replaces the earlier blanket no-read rule for these two named actors; it does not change actual repository access, deployment approvals, or strategy production/publication gates.
+
+
+## October 1, 2026; four-platform introduction planning and calendar closeout
+
+**Decision owner:** Seul Yekha. **Closeout authorization:** 2026-10-01T18:14:13+08:00; owner replied “go” after reviewing the 13-file proposal. **Repository outcome:** prepared in review branch; main changes on PR merge.
+
+The earlier current-record descriptions of Phase 3.10 as outstanding and Phase 4 as not started are superseded by the September 24 approved source documents. Phase 3.1–3.10 are approved strategy-planning sources. The Phase 2.5.10 assumption-based planning handoff and Phase 3 Green planning audit are recorded. Phase 4 is approved and complete for strategy planning, including the content approach integration. Operational readiness, live commercial validation and final pricing remain open. Historical decision entries remain intact. Phase 3.3's approved approach reference and its Phase 4 integration remain in force; this closeout does not reopen their architecture.
+
+The four-platform introduction direction is Facebook: owner relationships and practical trust, P3; LinkedIn: B2B credibility and strategic judgment, P2; TikTok: discovery and problem recognition, P1; Instagram: visual discovery and visible method, P4. Each platform has 15 priority-pillar slots; the other 15 use supporting pillars in the existing 4/4/4/3 allocation. These are editorial hypotheses, not platform rules or measured performance.
+
+Seul directed one original feed post per platform daily; four daily and 120 across October 1–30. October 31 is outside this requested plan. No cross posting of completed captions, carousels or video edits. Native publishing format, strategic role, approach and trigger remain separate. Stories are optional additions; LinkedIn feed polls can fill their daily slot.
+
+The [Google Sheet](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) is the daily post tracker; platform tabs hold Not yet started / Being created / Posted and Remarks. General Calendar automatically reflects the Status. At closeout verification, all 120 slots showed Not yet started and Remarks were blank. The Strategy Task List remains authoritative for strategy tasks; repository records link to the Sheet instead of copying live daily statuses.
+
+Individual content work proceeds under Seul's specific requests and approvals. Facebook's September 30 introduction is recorded as previously published and is excluded from the 120 October slots. Each remaining concept requires source confirmation, asset production, review and release authorization; planning approval does not approve finished content or open blanket publication.
+
+**Revisit when:** Source review or actual audience learning warrants a planning change, the owner requests additional dates/platforms, or a specific asset receives production and release authorization. Phase 5 formal completion, operational tests, final pricing and commercial validation remain open.

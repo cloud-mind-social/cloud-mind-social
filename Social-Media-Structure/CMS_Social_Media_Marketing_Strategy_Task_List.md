@@ -264,7 +264,7 @@ For future updates after a decision is explicitly reopened, preserve the previou
 
 # Phase 5 — Platform Strategies
 
-**STATUS: [ ] NOT STARTED — FORMAL STRATEGY**
+**STATUS: IN PROGRESS — FOUR-PLATFORM INTRODUCTION PLANNING RECORDED; FORMAL PHASE 5 COMPLETION AND OPERATIONAL READINESS OPEN**
 
 ### Reserved Platforms
 
@@ -279,10 +279,14 @@ For future updates after a decision is explicitly reopened, preserve the previou
 ### Preparatory Research
 
 - [x] `Social-Media-Structure/Platform_Research.md`
-- [ ] Formal platform-specific strategies
-- [ ] Platform-specific content adaptations
-- [ ] Platform operating cadence
-- [ ] Platform measurement framework
+- [ ] Complete formal platform-specific strategies across the wider approved scope.
+- [x] Record the [four-platform dedicated functions and priority pillars](../Platform/CMS_Four_Platform_Introduction_Content_Plan.md).
+- [x] Prepare [30 independent daily concepts and native formats per launch platform](../Platform/CMS_30_Day_Daily_Content_Format_Mapping.md); individual concepts and assets still require review. No cross posting or adaptations of completed posts during this cycle.
+- [x] Record the launch cadence: one original feed post per platform daily; four daily; 120 posts across October 1–30. Optional Stories are additional.
+- [x] Create the [five-tab October calendar](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) with platform Status and Remarks; General Calendar follows Status automatically.
+- [ ] Complete source confirmation, briefs, asset production, review and release for individual October concepts.
+- [ ] Complete platform measurement and operational coverage; use approved Phase 3.10 definitions.
+- [ ] Develop remaining YouTube and Threads strategies when requested; neither is included in this four-platform calendar.
 
 ---
 
@@ -298,23 +302,26 @@ For future updates after a decision is explicitly reopened, preserve the previou
 - [x] Create the Phase 2.5.6 working source-of-truth draft.
 - [ ] Update the draft once figures and final scope are finalized.
 
+## 🔄 CURRENT — Four-platform introduction cycle
+
+Planning and tracking are prepared; original content production proceeds only under individual requests. Facebook's September 30 introduction is previously published and is not counted among the October slots. At the October 1 closeout check, all 120 mapped slots showed Not yet started; use the Sheet for current progress.
+
 ## [ ] ⏭ NEXT IN LINE
 
 1. Use the completed 2.5.10 assumption-based handoff; revisit after meaningful buyer evidence.
 2. Run the first controlled acquisition and proxy tests.
 3. Finalize Phase 2.5.6 figures, scope, capacity, margin, and qualification rules.
 4. Validate Phase 2.5.7 trust architecture and proof placements.
-5. Use approved 3.1–3.10 and the Green planning decision for Phase 4; complete operational checks before any separately authorized production or publication.
+5. Use approved Phase 3.1–3.10 and completed Phase 4 planning for four-platform briefs; confirm each source, production scope and release authorization.
 
-## [ ] HOLD
+## [ ] RELEASE AND VALIDATION DEPENDENCIES
 
-- Post development
-- Carousel development
-- First-appearance / introduction-post development
-- Post-document updates
-- Phase 3 production and publication
+The earlier blanket post-development hold described an earlier reconciliation scope. Seul has since requested individual content work, reported the Facebook September 30 introduction as posted, and authorized platform planning and the October calendar. These specific actions do not open blanket production or publication.
 
-These are intentionally untouched by this reconciliation task.
+- Individual concepts, writing and designs require source confirmation and their applicable reviews.
+- Being created records actual asset work; Posted records actual publication.
+- Public releases, promoted destinations, client-result proof and live tests retain their specific authorization and evidence requirements.
+- Final offer pricing, capacity, margin and commercial validation remain open.
 
 ---
 
@@ -327,9 +334,9 @@ These are intentionally untouched by this reconciliation task.
 5. Track A1–A9 are not to be changed during this reconciliation.
 6. Track A findings are approved evidence input; they remain separate from locked strategy unless a specific change is explicitly approved.
 7. Do not advance to a later strategy phase merely because exploratory work exists.
-8. Do not modify post documents during this reconciliation.
+8. This closeout updates planning and control records; new public copy or assets require their own authorized content task.
 9. Keep `www/` completely out of scope unless explicitly reopened for a specific session.
 
 ## Repository boundaries
 
-The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. Matt and Claude AI are authorized to read and work in `www/` and `webmail/` for their developer assignments, including editing and testing there. Other CMS agents must not read or change those folders unless Seul explicitly authorizes them for the specific session. This instruction does not grant repository access or change deployment approvals.

@@ -316,7 +316,7 @@ The repository is organized so a future CMS AI session can identify where each t
 | **Research** | `CMS-Research/` — audience intelligence, market evidence, and research tracks |
 | **Brand** | `CMS-Branding/` — brand foundation and identity references |
 | **Actual content** | `Content/` — to be populated when content development is formally opened |
-| **Platform work** | `Platform/` — platform-specific strategy and operations when Phase 5 begins |
+| **Platform work** | `Platform/` — platform-specific strategy and operations; four-platform introduction planning is in progress |
 | **Campaigns** | `Campaigns/` — campaign planning and assets |
 | **Sales** | `Sales/` — sales and commercial enablement |
 | **Clients** | Client-specific material belongs in a separate private clients repository; the public `Clients/` placeholder is not a client-data workspace |
@@ -333,17 +333,21 @@ These folders are organizational structure. Empty folders should not be populate
 
 ## Current planning and control
 
-Phase 3 planning and documentation are open under explicit assumptions. Phase 3.1–3.9 documents exist with their individual readiness limits; Phase 3.10 Measurement and Validation remains outstanding. Production and publication require separate authorization; handoff completion and commercial validation are not implied.
+Phase 3.1–3.10 are approved strategy-planning sources. The Phase 2.5.10 assumption-based planning handoff and Phase 3 Green planning audit are recorded. Phase 4 is approved and complete for strategy planning, including the content approach integration. Operational readiness, live commercial validation and final pricing remain open. Phase 5 platform planning is in progress for the four-platform introduction cycle. Individual content work proceeds under Seul's specific requests and approvals. Facebook's September 30 introduction is recorded as previously published and is excluded from the 120 October slots. Each remaining concept requires source confirmation, asset production, review and release authorization; planning approval does not approve finished content or open blanket publication.
 
 The [Strategy Task List](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) is the authoritative task tracker. Agent HQ links to it; [INDEX.md](./INDEX.md) provides the document registry. Track A1–A10 findings are approved by Seul as evidence input, not proof of live commercial validation. [AI-prepared Track A review notes](./CMS-Research/Review-Notes/Track_A_Review_Notes.md) are prepared for Seul's detailed review; individual verdicts and dates remain pending.
 
-The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. `www/` and `webmail/` remain off-limits even for reading. Changes require explicit reopening for the specific session.
+The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. Matt and Claude AI are authorized to read and work in `www/` and `webmail/` for their developer assignments, including editing and testing there. Other CMS agents must not read or change those folders unless Seul explicitly authorizes them for the specific session. This instruction does not grant repository access or change deployment approvals.
 
 ## Repository Purpose
 
 This repository should function as the strategic source of truth for Cloud Mind Social's evolving brand and digital ecosystem.
 
 Future work should remain aligned with the established foundation before new messaging, campaigns, visual systems, website experiences, or channel strategies are developed.
+
+### October four-platform planning
+
+The [introduction plan](./Platform/CMS_Four_Platform_Introduction_Content_Plan.md) and [daily format mapping](./Platform/CMS_30_Day_Daily_Content_Format_Mapping.md) map original content to Facebook, LinkedIn, TikTok and Instagram. The [Google Sheet](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) contains the general calendar and four platform tabs for October 1–30; 120 planned feed posts with Status and Remarks. Update daily production statuses in the Sheet; the repository supplies planning sources. YouTube and Threads remain in the wider platform scope. Publication remains a separately authorized action.
 
 ### Source Documents
 

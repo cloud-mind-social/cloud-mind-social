@@ -1,9 +1,10 @@
 # CMS Four Platform Introduction Content Plan
 
 Prepared: October 1, 2026; Asia/Manila
-Status: Platform strategy and content concepts for review; repository upload authorized October 1, 2026. Publication remains a separate action.
+Status: Platform planning direction recorded; October 1 closeout preview approved for execution. Individual concepts, writing, design and releases require review. Publication remains a separate action.
 Cadence decision: Seul specified one original content post per day per platform; four posts daily and 120 posts across 30 days. This supersedes the earlier two-posts-per-week proposal.
-Planning window: The next 30 shared daily planning slots across all four platforms. Facebook's approved September 30 Day 1 post is retained as its prior opening; the new daily map begins with a continuation. Other platforms receive their own introductions. Assign one common start date before scheduling.
+Planning window: October 1–30, 2026; one common calendar across all four platforms. Facebook's approved September 30 Day 1 post is retained as its prior opening; the new daily map begins with a continuation. Other platforms receive their own introductions. October has 31 days; October 31 is outside this requested 30 day plan. Dates are planning assignments, not a claim of scheduled or published assets.
+Working calendar: [CMS October 2026 Content Calendar](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit); five tabs with Status and Remarks. Update production progress in the platform tabs; General Calendar follows each Status automatically.
 
 ## Strategic direction
 
@@ -159,3 +160,14 @@ Official platform references checked:
 * Meta business messaging: https://about.fb.com/news/2022/05/announcing-new-products-to-make-business-messaging-easier/
 
 LinkedIn guidance supports native documents, video and meaningful public participation. TikTok's source supports search-topic discovery, including content gaps, with availability limits. Instagram's source supports account-specific guidance across creation, engagement and reach; it does not prescribe universal timing or frequency. Meta's source documents business messaging paths. TikTok ad creative guidance, where consulted, is not treated as proof of organic performance.
+
+
+## October calendar tracking
+
+| Status | Meaning |
+|---|---|
+| Not yet started | Asset production has not begun; a mapped concept alone does not count as production |
+| Being created | Writing, design, recording or editing is underway |
+| Posted | The content has actually been published; record the publication link in Remarks when available |
+
+Remarks hold production notes, blockers, revisions or publication links. Update Status and Remarks in the platform tab; the General Calendar automatically reflects its Status. The Sheet is the working post-production tracker; the Strategy Task List tracks strategy tasks. Do not duplicate live daily post statuses in repository dashboards.
