@@ -235,3 +235,17 @@ Prepared one public AI source-review note file with individual A1–A10 checks; 
 ## 2026-09-27T18:32:05.983Z; Matt and Claude AI developer folder authorization
 
 **Outcome:** Seul authorized Matt and Claude AI to read and work in `www/` and `webmail/` for developer assignments. Updated current Agent HQ instructions, task pointer, and status; appended a decision; recorded a final handoff. Other agents remain restricted, `.github/` remains protected, and no GitHub access, developer folder content, deployment, or strategy production/publication status changed. Changes prepared in a review PR; main changes only after merge.
+
+
+## October 1, 2026; four-platform planning and calendar closeout
+
+**Track:** Brand & Strategy; authorized four-platform introduction planning.
+**Authorization:** 2026-10-01T18:14:13+08:00; Seul approved the preview with “go”.
+**Outcome:** Closeout prepared in review branch `cms/october-four-platform-closeout-2026-10-01`; repository control updates take effect on PR merge. Platform planning files already exist on main; the native Google Sheet and its tracking columns were created in the preceding authorized tasks.
+
+Reconciled current records with the approved Phase 3.1–3.10 sources, completed Phase 2.5.10 planning handoff, Green planning audit and approved Phase 4 strategy. Recorded dedicated Facebook/LinkedIn/TikTok/Instagram functions and P3/P2/P1/P4 priorities, October 1–30 mapping, 120 independently conceived feed posts and no cross posting. Linked the five-tab [calendar](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) and documented Status and Remarks. All 120 mapped slots showed Not yet started and Remarks were blank at the closeout verification. Facebook's September 30 introduction is prior published context and is excluded from the 120.
+
+Updated the approved 13-file scope: current HQ dashboard/instructions/pointers, appended decisions and this session record, timestamped handoff and latest pointer, README, INDEX, authoritative task list and both Platform planning files. Preserved previous decisions, session entries and archived handoffs. Approved Phase 3/4 architecture, research, pricing and brand foundation sources were not revised. No protected-folder contents, account permissions, publication, deployment or new content asset creation was part of this batch.
+
+**Next:** Review and merge the closeout PR; prepare the next individually requested platform brief from confirmed source material, update production status in the platform tab, and obtain the applicable asset review and release authorization.
+**Handoff:** [October 1 closeout](handoffs/archive/2026-10-01_four-platform-content-planning.md).

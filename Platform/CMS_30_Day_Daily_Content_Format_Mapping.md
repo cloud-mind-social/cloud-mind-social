@@ -1,16 +1,30 @@
 # CMS 30 Day Daily Content Format Mapping
 
 Prepared: October 1, 2026; Asia/Manila
-Status: Proposed concept and format mapping for review. Daily cadence directed by Seul; concepts, source material, writing, design and release decisions still require review.
+Status: Concept and format mapping prepared; October 1 closeout preview approved for execution. Daily cadence directed by Seul; individual concepts, source material, writing, design and release decisions still require review.
 Basis: [Four Platform Introduction Content Plan](./CMS_Four_Platform_Introduction_Content_Plan.md).
 Cadence: one original feed post per platform per day; four daily posts; 30 days; 120 feed posts.
 No cross posting. Each concept is developed independently for its platform.
 
 ## Calendar interpretation
 
-Day numbers are shared planning slots, not publication dates. Select one common start date before scheduling. Facebook continues after its already-published September 30 introduction; that earlier post is not repeated or counted among these 120 planned slots. LinkedIn, TikTok and Instagram receive their own introductions. This map does not assert that any scheduled concept has already been published.
+Day 1 to Day 30 map to October 1–30, 2026 in the common calendar. These are planning dates, not evidence of scheduling or publication. October 31 is outside the requested 30 day plan. Facebook continues after its already-published September 30 introduction; that earlier post is not repeated or counted among these 120 planned slots. LinkedIn, TikTok and Instagram receive their own introductions. This map does not assert that any scheduled concept has already been published.
 
 Stories are optional companion content. They do not replace the four daily feed posts. A Story sequence counts as an additional unit, not one of the 120. A feed poll on LinkedIn can occupy its daily slot; a poll sticker inside a Story remains companion content. If Seul later chooses to count Stories as daily replacements, record that as a separate cadence decision.
+
+## Calendar and production tracking
+
+[CMS October 2026 Content Calendar](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) contains General Calendar, Facebook, LinkedIn, TikTok and Instagram tabs. Each daily row includes content pillar, pillar type (Primary / Secondary), publishing format, strategic role, approach or trigger, original concept, optional Story, Status and Remarks. Each platform receives 15 primary-pillar slots; the supporting allocation remains 4/4/4/3.
+
+| Status | Meaning |
+|---|---|
+| Not yet started | Asset production has not begun; a mapped concept alone does not count as production |
+| Being created | Writing, design, recording or editing is underway |
+| Posted | The content has actually been published; record the publication link in Remarks when available |
+
+Remarks hold production notes, blockers, revisions or publication links. Update Status and Remarks in the platform tab; the General Calendar automatically reflects its Status. The Sheet is the working post-production tracker; the Strategy Task List tracks strategy tasks. Do not duplicate live daily post statuses in repository dashboards.
+
+All 120 feed slots were initialized as Not yet started; the October 1 closeout check confirmed that state and blank Remarks. This is a dated snapshot; use the Sheet for current progress. Facebook's September 30 introduction remains separate prior context. Mark Posted only after actual publication.
 
 ## Content classification
 

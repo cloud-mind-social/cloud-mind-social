@@ -1,22 +1,22 @@
 # CMS document registry
 
-**Reviewed:** 2026-09-24. Compact registry for current Brand & Strategy work; historical archives and developer-owned files are excluded. The Strategy Task List remains the authoritative task tracker. Responsible persons are recorded only where confirmed; a review responsibility does not confer repository permissions.
+**Reviewed:** 2026-10-01; closeout prepared for PR review; main changes on merge. Compact registry for current Brand & Strategy work; historical archives and developer-owned files are excluded. The Strategy Task List remains the authoritative task tracker. Responsible persons are recorded only where confirmed; a review responsibility does not confer repository permissions.
 
 | Path | Status | Confirmed responsibility | Review state | Read when |
 |---|---|---|---|---|
 | [CMS-Branding/Branding.md](./CMS-Branding/Branding.md) | Locked foundation; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
 | [CMS-Branding/CMS_Brand_Kit_Field_Guide.md](./CMS-Branding/CMS_Brand_Kit_Field_Guide.md) | Working guide; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
-| [_agent-hq/SESSION_LOG.md](./_agent-hq/SESSION_LOG.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [_agent-hq/AI_PROJECT_INSTRUCTIONS.md](./_agent-hq/AI_PROJECT_INSTRUCTIONS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [_agent-hq/TASKS.md](./_agent-hq/TASKS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
+| [_agent-hq/SESSION_LOG.md](./_agent-hq/SESSION_LOG.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
+| [_agent-hq/AI_PROJECT_INSTRUCTIONS.md](./_agent-hq/AI_PROJECT_INSTRUCTIONS.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
+| [_agent-hq/TASKS.md](./_agent-hq/TASKS.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
 | [CMS-Branding/CMS_Brand_Guidelines.md](./CMS-Branding/CMS_Brand_Guidelines.md) | Working guide; tagline approved | Seul; tagline approver | Batch 1 correction merged; PR #18 | Apply existing brand decisions |
-| [Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [_agent-hq/START_HERE.md](./_agent-hq/START_HERE.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [_agent-hq/DECISIONS.md](./_agent-hq/DECISIONS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [_agent-hq/handoffs/HANDOFF_LATEST.md](./_agent-hq/handoffs/HANDOFF_LATEST.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
+| [Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md](./Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
+| [_agent-hq/START_HERE.md](./_agent-hq/START_HERE.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
+| [_agent-hq/DECISIONS.md](./_agent-hq/DECISIONS.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
+| [_agent-hq/handoffs/HANDOFF_LATEST.md](./_agent-hq/handoffs/HANDOFF_LATEST.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
 | [Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md](./Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Commercial_Validation_Gate_and_Phase_3_Readiness_Decision.md) | Approved direction; planning handoff complete; live validation pending | Seul; decision owner | September 24 planning handoff and Green audit recorded | Check assumption and authorization boundaries |
-| [README.md](./README.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
-| [_agent-hq/STATUS.md](./_agent-hq/STATUS.md) | Working record | Unassigned | Batch 1 correction merged; PR #18 | Orient or reconcile current records |
+| [README.md](./README.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
+| [_agent-hq/STATUS.md](./_agent-hq/STATUS.md) | Working record | Unassigned | October 1 closeout prepared for PR review; main changes on merge | Orient or reconcile current records |
 | [Social-Media-Structure/Phase-3/PHASE_3.1_Evidence_Classification_Assumption_Management_and_Commercial_Translation.md](./Social-Media-Structure/Phase-3/PHASE_3.1_Evidence_Classification_Assumption_Management_and_Commercial_Translation.md) | Approved strategy; activation pending | Seul; strategy approver | Approved September 24, 2026; operational validation pending | Plan the corresponding Phase 3 workstream |
 | [Social-Media-Structure/Phase-3/PHASE_3.2_Content_Pillar_and_Strategic_Theme_Architecture.md](./Social-Media-Structure/Phase-3/PHASE_3.2_Content_Pillar_and_Strategic_Theme_Architecture.md) | Approved strategy; activation pending | Seul; strategy approver | Approved September 24, 2026; operational validation pending | Plan the corresponding Phase 3 workstream |
 | [Social-Media-Structure/Phase-3/PHASE_3.3_Content_Formats_and_Strategic_Roles.md](./Social-Media-Structure/Phase-3/PHASE_3.3_Content_Formats_and_Strategic_Roles.md) | Approved strategy; activation pending | Seul; strategy approver | Approved September 24, 2026; operational validation pending | Plan the corresponding Phase 3 workstream |
@@ -40,7 +40,7 @@
 | [CMS-Research/Track-A/Track-A8-AI-Changes-the-Market.md](./CMS-Research/Track-A/Track-A8-AI-Changes-the-Market.md) | Approved evidence input | Seul; approver/reviewer | Approval stands; [AI-prepared review notes](./CMS-Research/Review-Notes/Track_A_Review_Notes.md) ready for Seul; verdict/date pending | Use market evidence with explicit assumptions |
 | [CMS-Research/Track-A/Track-A9-Pricing-and-Budget.md](./CMS-Research/Track-A/Track-A9-Pricing-and-Budget.md) | Approved evidence input | Seul; approver/reviewer | Approval stands; [AI-prepared review notes](./CMS-Research/Review-Notes/Track_A_Review_Notes.md) ready for Seul; verdict/date pending | Use market evidence with explicit assumptions |
 
-**Phase 3.10:** Outstanding; no source file yet. Do not infer completion from Phase 3.9.
+**Phase 3.10:** Approved strategy-planning framework; source exists in Phase-3. Implementation, baselines and operational validation remain pending.
 
 ## Content standard and intake templates
 
@@ -55,3 +55,13 @@
 | Path | Status | Confirmed responsibility | Review state | Read when |
 |---|---|---|---|---|
 | [CMS-Research/Review-Notes/Track_A_Review_Notes.md](./CMS-Research/Review-Notes/Track_A_Review_Notes.md) | AI-prepared source spot checks and review prompts | Seul; detailed reviewer | Prepared; individual review verdicts/dates pending; Track A evidence-input approval stands | Review A1–A10 citations, dated evidence and flagged contradictions |
+
+
+## Phase 4 and four-platform calendar
+
+| Path | Status | Confirmed responsibility | Review state | Read when |
+|---|---|---|---|---|
+| [Social-Media-Structure/Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md](./Social-Media-Structure/Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) | Approved and complete for strategy planning | Seul; strategy approver | September 24 approval and content approach integration recorded; operational activation separate | Map audience needs, stages, content roles and CTAs |
+| [Platform/CMS_Four_Platform_Introduction_Content_Plan.md](./Platform/CMS_Four_Platform_Introduction_Content_Plan.md) | Planning direction recorded; asset reviews pending | Seul; direction and release approver | October 1 closeout approved for execution; platform planning hypotheses remain unvalidated | Apply dedicated platform functions and primary pillars |
+| [Platform/CMS_30_Day_Daily_Content_Format_Mapping.md](./Platform/CMS_30_Day_Daily_Content_Format_Mapping.md) | 120 concepts and formats mapped; individual assets pending | Seul; review and release approver | October 1–30 assigned; source, copy, design and release review still required | Prepare each original daily feed asset and optional Story |
+| [CMS October 2026 Content Calendar](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) | Working daily post tracker | Seul; owner/approver | Five native tabs, 120 posts, Status and Remarks verified October 1 | Update platform production progress; view general calendar |
