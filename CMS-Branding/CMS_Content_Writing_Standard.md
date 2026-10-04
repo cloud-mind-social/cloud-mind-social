@@ -35,6 +35,18 @@ Read the piece aloud. Check whether the speaker would use those words, whether e
 
 The ending should follow from the thought. A CTA, when strategically justified, must sound like the same speaker; every piece does not need one.
 
+## Clear consultative language and natural syntax
+
+**Language amendment approved by Seul:** October 4, 2026; clearer consultative wording, natural expression, varied openings, and restrained brand naming.
+
+Use a warm, professional, customer-centered voice that makes the business's approach easy to understand. Name the action and explain why it matters to the reader. Prefer familiar words, concrete subjects, and active verbs; make clear who does what and how it relates to the customer's situation or decision. Replace abstract reassurance and vague agency language with specific explanations supported by the source material.
+
+Build connected sentences that develop one thought naturally. Vary sentence length and openings according to the subject. A short statement may introduce a longer explanation; transitions should express a real connection between ideas. These are principles for clarity, not a compulsory belief, action, and benefit sequence. Review neighboring posts as well as individual paragraphs for repeated openings and structures.
+
+Use direct present-tense wording for an approved belief or an established, confirmed approach. Do not habitually describe established actions as tentative intentions or introduce them through imagined scenarios. Keep conditional language where the action depends on circumstances, and preserve uncertainty where the evidence or outcome requires it. Clearer wording must not imply completed work, client experience, operational capacity, or results that have not been confirmed.
+
+Humanize wording through recognizable business situations, attention to the reader, and language the accountable speaker would use aloud. Use “we” for an approved organizational perspective when the speaker is clear, and “you” where direct address helps. Warmth does not require forced informality, slang, invented anecdotes, or personal disclosures. Keep the explanation specific and the confidence proportionate to the evidence.
+
 ## Truth, evidence, and permissions
 
 AI may organize, edit, and clarify supplied material. It must not invent experiences, clients, quotations, sources, credentials, outcomes, or approvals.
@@ -60,6 +72,8 @@ Locked brand wording remains valid identity. The approved tagline remains:
 Meaning-preserving paraphrases may express brand ideas in content. Preserve approved positioning and claim limits without implying replacement identity statements.
 
 Slogans, process arrows, narrative pillars, and brand promises must not become compulsory structures for posts. Locked voice descriptors remain unchanged; natural human expression must meet CMS requirements for clarity, empathy, authority, and truthful claims.
+
+Use the full brand name only where it adds context, identifies the speaker, or prevents ambiguity. Do not routinely open captions or paragraphs with “At Cloud Mind Social,” or substitute another repeated brand introduction. When the brand account or surrounding context already identifies CMS, use “we” naturally if its meaning is clear. Let the subject, customer concern, or grounded observation lead when appropriate; review a batch for unnecessary brand repetition without imposing a numerical quota.
 
 ## Educational content and format fit
 
@@ -90,6 +104,8 @@ The combined review asks:
 3. **Expression:** Does it develop naturally in that voice without a formula controlling the writing?
 
 Reviewers also confirm correct scope classification, documented sources and permissions, supported claims, clear assumptions and hypotheticals, preserved brand meaning, and factual and voice approval for the actual version reviewed.
+
+The expression review also checks whether actions and their relevance are concrete, sentences connect naturally, openings vary across the batch, brand mentions add clarity, and present-tense claims describe confirmed beliefs or practices. Read aloud for natural wording; retain any uncertainty needed for accuracy.
 
 Record the outcome as **revise**, **held**, or **approved for the specified stage**. Verify production and publication authorization separately; writing approval alone does not authorize publication.
 
