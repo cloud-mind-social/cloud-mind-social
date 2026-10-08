@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CMS Laguna Flyer A4 — Photo</title>
+<link rel="stylesheet" href="../../_design/brand.css">
+<link rel="stylesheet" href="../_design/photo.css">
+<style>
+  @page { size: A4; margin: 0; }
+  .page { width: 210mm; height: 297mm; display: flex; flex-direction: column; overflow: hidden; }
+  .hero { height: 128mm; background: url(../photos/market-vendor.jpg) 58% 42% / cover; position: relative; }
+  .hero .bubble { position: absolute; font-size: 15pt; padding: 3mm 5mm; border-radius: 5mm 5mm 5mm 1mm; }
+  .hero .credit { font-size: 6.5pt; right: 6mm; bottom: 4mm; }
+  .hero .sig { position: absolute; top: 9mm; left: 14mm; color: var(--cream); font-size: 11pt; background: rgba(28,27,26,.55); padding: 2mm 4mm 2mm 2mm; border-radius: 2mm; }
+  .body { padding: 10mm 14mm 0; flex: 1; display: flex; flex-direction: column; }
+  h1 { font-size: 40pt; line-height: 1.02; }
+  .lede { margin-top: 5mm; font-size: 12pt; line-height: 1.5; max-width: 165mm; }
+  .incl { margin-top: 6mm; display: grid; grid-template-columns: repeat(3, 1fr); gap: 2mm 6mm; font-size: 10pt; }
+  .incl div { border-top: 1px solid var(--cloud); padding-top: 1.6mm; }
+  .bar { margin-top: auto; background: var(--mind); color: var(--cream); padding: 7mm 14mm; display: flex; justify-content: space-between; align-items: center; gap: 8mm; }
+  .bar .amt { font-family: var(--serif); font-weight: 600; font-size: 40pt; line-height: 1; }
+  .bar .amt small { font-family: var(--mono); font-size: 8pt; letter-spacing: .1em; text-transform: uppercase; display: block; color: var(--cloud); margin-bottom: 1.5mm; font-weight: 400; }
+  .bar .cta { background: var(--cream); color: var(--mind); padding: 3.5mm 5mm; border-radius: 2mm; font-size: 12pt; }
+  .bar .contact { font-size: 9.5pt; line-height: 1.6; text-align: right; }
+</style>
+</head>
+<body>
+<section class="page">
+  <div class="hero">
+    <div class="sig"><img src="../../../../../CMS-Branding/logo/icon-coral-transparent.png" width="34" alt="">Cloud Mind Social</div>
+    <div class="bubble" style="left:14mm;top:34mm">HM po?</div>
+    <div class="bubble" style="left:44mm;top:52mm;font-size:13pt">Available pa po?</div>
+    <div class="credit">Stock photo</div>
+  </div>
+  <div class="body">
+    <h1 class="serif">Kami na bahala <em>sa page mo.</em></h1>
+    <p class="lede">Kung ikaw pa rin ang nagpo-post tuwing gabi pagkasara, o matagal ka nang hindi nakakapag-post, kami na muna. For one month, we fix up your page, make the posts, schedule them, and answer comments. Ipapakita namin sa'yo ang plano bago kami gumawa ng kahit ano.</p>
+    <div class="incl">
+      <div>Social media review</div><div>Page optimization</div><div>Content calendar</div>
+      <div>Static posts</div><div>Basic carousels</div><div>Basic reel editing</div>
+      <div>Caption writing</div><div>30 days of scheduling</div><div>10 min/day engagement</div>
+    </div>
+    <p style="margin-top:5mm;font-size:9.5pt">Isang platform: Facebook, Instagram o TikTok. Para sa mga negosyo sa Calamba, Santa Rosa, Biñan, San Pedro, Cabuyao, San Pablo, Los Baños, Santa Cruz at karatig-bayan.</p>
+  </div>
+  <div class="bar">
+    <div class="amt"><small>Starter Package</small>₱1,000</div>
+    <span class="cta">Message us on Facebook: Cloud Mind Social</span>
+    <div class="contact">hello@cloudmindsocial.com<br>cloudmindsocial.com</div>
+  </div>
+</section>
+</body>
+</html>
