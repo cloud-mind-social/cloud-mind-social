@@ -23,6 +23,7 @@ A complete marketing kit for CMS's introductory **₱1,000 Starter Package**, ai
 | [06-calendar](./06-calendar/) | [Q4 calendar Oct 19–Dec 31](./06-calendar/q4-campaign-calendar.md) + [CSV](./06-calendar/q4-campaign-calendar.csv) for the Google Sheet | Plan |
 | [07-landing](./07-landing/) | [Landing page draft](./07-landing/starter-package.html) (standalone HTML; not deployed, does not touch `www/`) | Web |
 | [08-sales](./08-sales/) | [Discovery questions, intake, proof permission, onboarding checklist, day-30 wrap-up](./08-sales/discovery-and-intake.md) (blank template) | Sales ops |
+| [series-2-photo](./series-2-photo/) | **Series 2, photo-led:** 6 feed posts, square ad, 3 stories, Facebook cover and an A4 photo flyer, as 2× masters, with captions and CC0 photo credits | Social / print |
 | [_design](./_design/) | Shared brand tokens, social canvas styles, render script | Source |
 
 ## Editing and re-rendering

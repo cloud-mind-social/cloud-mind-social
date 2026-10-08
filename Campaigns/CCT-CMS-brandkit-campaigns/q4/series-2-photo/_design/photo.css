@@ -1,0 +1,28 @@
+/* Series 2 — photo-led layouts. Builds on ../../_design/brand.css and social.css.
+   Photos are pre-graded by grade.py (warm, slightly lifted blacks) so they sit with cream/ink/coral. */
+
+.frame.photo { padding: 0; color: var(--cream); background: var(--mind); }
+.frame.photo .bg { position: absolute; inset: 0; background-size: cover; background-position: center; }
+.frame.photo .shade-b { position: absolute; inset: 0; background: linear-gradient(180deg, rgba(28,27,26,0) 30%, rgba(28,27,26,.55) 55%, rgba(28,27,26,.94) 100%); }
+.frame.photo .shade-t { position: absolute; inset: 0; background: linear-gradient(0deg, rgba(28,27,26,0) 55%, rgba(28,27,26,.7) 100%); }
+.frame.photo .content { position: relative; z-index: 2; height: 100%; display: flex; flex-direction: column; padding: 84px 84px 80px; }
+.frame.photo h1 em { color: var(--ochre); }
+.frame.photo .sig { color: var(--cream); }
+.frame.photo .cta { background: var(--cream); color: var(--mind); }
+.frame.photo .label { color: var(--cream); opacity: .85; }
+
+/* Split: photo on top, cream panel below */
+.frame.split { padding: 0; }
+.frame.split .ph { height: 58%; background-size: cover; background-position: center; position: relative; }
+.frame.split .panel { flex: 1; padding: 64px 84px 76px; display: flex; flex-direction: column; }
+
+/* Photo inside a framed card on cream (editorial) */
+.frame.inset .ph { border-radius: 18px; background-size: cover; background-position: center; }
+
+.credit { position: absolute; z-index: 3; font-family: var(--mono); font-size: 17px; letter-spacing: .06em; text-transform: uppercase; color: var(--cream); opacity: .75; }
+.credit.dark { color: var(--mind); opacity: .6; }
+/* Cream tag: coral numeral is large text (3.61:1 passes 3:1); the small label stays ink for 15:1. */
+.price-tag { display: inline-flex; align-items: baseline; gap: 18px; background: var(--cream); color: var(--mind); padding: 14px 26px 18px; border-radius: 12px; }
+.price-tag b { font-family: var(--serif); font-weight: 600; font-size: 84px; line-height: 1; color: var(--social); }
+.price-tag span { font-family: var(--mono); font-size: 22px; text-transform: uppercase; letter-spacing: .1em; }
+.bubble { display: inline-block; background: var(--cream); color: var(--mind); font-family: var(--sans); font-weight: 500; font-size: 40px; padding: 22px 30px; border-radius: 28px 28px 28px 6px; box-shadow: 0 12px 40px rgba(0,0,0,.25); }
