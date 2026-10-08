@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CMS Laguna Flyer A4</title>
+<link rel="stylesheet" href="../_design/brand.css">
+<style>
+  @page { size: A4; margin: 0; }
+  .page { width: 210mm; height: 297mm; display: flex; flex-direction: column; overflow: hidden; }
+  .top { padding: 14mm 16mm 12mm; flex: 1; display: flex; flex-direction: column; }
+  .sig { font-size: 11pt; }
+  .kicker { margin-top: 16mm; font-size: 9pt; color: var(--mind); }
+  .kicker span { background: var(--ochre); padding: 1mm 2mm; }
+  h1 { margin-top: 5mm; font-size: 46pt; line-height: 1.02; }
+  .lede { margin-top: 7mm; font-size: 13pt; line-height: 1.5; max-width: 150mm; }
+  .bottom { padding: 11mm 16mm 12mm; }
+  .row { display: grid; grid-template-columns: 62mm 1fr; gap: 10mm; align-items: start; }
+  .amt { font-family: var(--serif); font-weight: 600; font-size: 54pt; line-height: 1; }
+  .amt-note { margin-top: 2mm; font-size: 10.5pt; line-height: 1.4; color: var(--cream); }
+  .bottom .label { font-size: 8pt; color: var(--cloud); margin-bottom: 3mm; }
+  ul { list-style: none; columns: 2; column-gap: 8mm; }
+  li { font-size: 10.5pt; line-height: 1.35; padding: 1.6mm 0; border-top: 1px solid #ffffff2a; break-inside: avoid; }
+  .cta-row { margin-top: 9mm; display: flex; justify-content: space-between; align-items: center; gap: 8mm; }
+  .cta-row .cta { padding: 4mm 6mm; border-radius: 2mm; font-size: 13pt; }
+  .contact { font-size: 10pt; line-height: 1.6; text-align: right; color: var(--cream); }
+  .season { margin-top: auto; border-top: 2px solid var(--cloud); padding-top: 5mm; display: flex; justify-content: space-between; align-items: baseline; gap: 10mm; }
+  .season p { font-size: 11pt; line-height: 1.5; max-width: 120mm; }
+  .season .tag { font-family: var(--serif); font-style: italic; font-weight: 500; font-size: 11pt; text-align: right; }
+</style>
+</head>
+<body>
+<section class="page">
+  <div class="top">
+    <div class="sig"><img src="../../../../CMS-Branding/logo/icon-ink-transparent.png" width="44" alt="">Cloud Mind Social</div>
+    <div class="kicker label"><span>For Laguna businesses · ₱1,000 Starter Package</span></div>
+    <h1 class="serif">Kilala ka na ng mga suki mo. <em>Paano naman yung hindi pa?</em></h1>
+    <p class="lede">Kung ikaw pa rin ang nagpo-post tuwing gabi pagkasara, o matagal ka nang hindi nakakapag-post, kami na muna. For one month, we fix up your page, make the posts, schedule them, and answer comments. Ipapakita namin sa'yo ang plano bago kami gumawa ng kahit ano.</p>
+    <div class="season">
+      <p><b>Pasko season na.</b> Mas maraming naghahanap ng regalo, handaan at pa-reserve. Dapat updated ang hours, presyo at contact mo bago sila mag-message.</p>
+      <div class="tag">We build the bridge<br>from unknown to impact.</div>
+    </div>
+  </div>
+  <div class="bottom on-ink">
+    <div class="row">
+      <div>
+        <div class="label">Introductory package</div>
+        <div class="amt">₱1,000</div>
+        <div class="amt-note">Isang buwan, isang platform. Facebook, Instagram o TikTok.</div>
+      </div>
+      <div>
+        <div class="label">What's included</div>
+        <ul>
+          <li>Social media review</li>
+          <li>Page optimization</li>
+          <li>30-day content calendar</li>
+          <li>Scheduling for 30 days</li>
+          <li>Static post creation</li>
+          <li>Basic carousel creation</li>
+          <li>Basic reel editing</li>
+          <li>Caption writing</li>
+          <li>Engagement, 10 minutes daily</li>
+          <li>Facebook, Instagram or TikTok</li>
+        </ul>
+      </div>
+    </div>
+    <div class="cta-row">
+      <span class="cta">Message us on Facebook: Cloud Mind Social</span>
+      <div class="contact">hello@cloudmindsocial.com<br>cloudmindsocial.com</div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
