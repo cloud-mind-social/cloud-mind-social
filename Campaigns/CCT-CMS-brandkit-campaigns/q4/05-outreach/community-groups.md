@@ -14,10 +14,10 @@ Local buy-and-sell, town, and small-business groups (Calamba, Santa Rosa, Biñan
 
 ## Helpful post (non-promotional), Taglish
 
-> Para sa mga kapwa negosyante dito sa [Town]: bago mag-Pasko, check niyo ang page niyo na parang first time customer. Updated ba ang hours? May presyo ba o "PM is the key" lang? Madali bang mag-message? Maliit na bagay pero malaking tulong 'yan pag dumami ang naghahanap. Kung may tanong kayo tungkol sa page niyo, comment lang, sasagutin namin dito.
+> Tip lang sa mga kapwa negosyante dito sa [Town] bago mag-Pasko: buksan niyo yung page niyo sa phone na parang customer. Nakalagay ba yung holiday hours? May presyo, o "PM is the key" lang? Kung may tanong kayo tungkol sa page niyo, comment lang dito.
 
 ## Promo-day post
 
-> Hi [Group]! Cloud Mind Social po kami, social media team dito sa Laguna. This Q4 may ₱1,000 Starter Package kami for local businesses: page review, page optimization, 30-day content calendar na kayo ang mag-a-approve, posts, carousels, basic reels, captions, scheduling at 10 minutes daily na pagsagot sa comments, sa isang platform. Message niyo lang ang page namin para sa details. Salamat po sa admins! 🙏
+> Hi po! Cloud Mind Social kami, taga-Laguna. May ₱1,000 kaming package ngayong Pasko: isang buwan, kami na bahala sa Facebook, IG o TikTok ng negosyo niyo. Aayusin namin ang page, gagawa ng posts at reels, at sasagot sa comments. Details sa pic. PM lang sa page namin. Salamat sa admins! 🙏
 
 Attach F1 or the carousel.

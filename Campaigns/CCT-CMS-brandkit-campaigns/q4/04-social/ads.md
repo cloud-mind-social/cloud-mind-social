@@ -20,11 +20,11 @@
 
 | Ad | Image | Primary text | Headline | Button |
 |---|---|---|---|---|
-| A — Offer (EN) | A1-square-ad / F1 | Your page, looked after for 30 days. We review it, plan the month with you, then design, write, schedule and answer comments. ₱1,000 introductory Starter Package for Laguna businesses. | ₱1,000 · 30 days of social media help | Send message |
-| B — Offer (Taglish) | S1 (stories) / F3 | Ang page mo, kami na ang bahala for 30 days. Review, calendar na ikaw ang mag-a-approve, posts, reels, captions at pagsagot sa comments. ₱1,000 lang para sa first 30 days. | Starter Package para sa Laguna businesses | Send message |
-| C — Pasko | F4 | Bago mag-Pasko rush, ayusin na natin ang page mo. Updated hours, malinaw na presyo, at tuloy-tuloy na posts kahit busy ka. | ₱1,000 · Ready your page for Pasko | Send message |
-| D — "HM po?" | F6 | Every "HM po?" is a customer halfway to buying. We reply to comments on your page 10 minutes a day for 30 days, plus posts, reels and captions. | ₱1,000 Starter Package | Send message |
-| E — Carousel | C1–C7 | Here's everything the ₱1,000 Starter Package covers, from the first look at your page to the last scheduled post. | What happens in your 30 days | Send message |
+| A — Offer (EN) | A1-square-ad / F1 | We'll run your business page for a month: fix it up, post, and answer comments. ₱1,000. For small businesses around Laguna. | A month of posts for ₱1,000 | Send message |
+| B — Offer (Taglish) | S1 (stories) / F3 | Kami na bahala sa page mo for one month. Posts, reels, captions, at sasagot kami sa comments. ₱1,000. | ₱1,000, isang buwan | Send message |
+| C — Pasko | F4 | Holiday hours, presyo ng gift sets, paano mag-order: nasa page mo na ba? Kami na mag-aayos, plus isang buwang posts. | ₱1,000 bago mag-Pasko | Send message |
+| D — "HM po?" | F6 | Sino sumasagot sa "HM po?" habang busy ka? For one month, kami. Plus posts, reels at captions. | ₱1,000 for a month | Send message |
+| E — Carousel | C1–C7 | Lahat ng kasama sa ₱1,000, slide by slide. | What you get for ₱1,000 | Send message |
 
 ## Rules
 

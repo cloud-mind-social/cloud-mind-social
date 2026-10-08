@@ -6,7 +6,9 @@
 
 Bring calling cards and a few printed flyers. Go at a quiet hour, never during the lunch or dinner rush. Buy something if it's a shop.
 
-> "Hi po, I'm [Name] from Cloud Mind Social, a social media team here in Laguna. Napansin ko yung page ninyo, [one genuine, specific compliment or observation]. We have a ₱1,000 Starter Package this season: we review the page, ayusin ang basics, gumawa ng 30-day plan na kayo ang mag-a-approve, tapos kami na ang mag-po-post at sasagot sa comments. Iiwan ko po itong flyer, and message niyo lang kami kung interested."
+> "Hi po! [Name] po, from Cloud Mind Social, taga-[Town] lang. Nakita ko po yung page niyo, [something specific and true, e.g. "ang ganda ng pics ng cakes niyo"]. May ₱1,000 po kaming package ngayon, isang buwan, kami na bahala sa page. Iiwan ko na lang po itong flyer. Message niyo lang kami kung gusto niyo."
+
+Don't memorize it; say it your way.
 
 Leave the flyer. Do not push for a decision on the spot.
 
@@ -32,9 +34,9 @@ Any referral reward must be stated plainly and honored.
 >
 > I'm [Name] from Cloud Mind Social, a social media team based in Laguna. I came across [Business]'s page while [honest context, e.g. looking for clinics in Calamba] and noticed [one specific, useful observation].
 >
-> This season we're offering a ₱1,000 Starter Package: a review of your page, fixes to the details patients/guests check first, a 30-day content calendar you approve, and the posts, reels, captions, scheduling and daily comment replies on one platform. The full scope is attached.
+> This season we're offering a one-month package for ₱1,000. We fix up your page, make and schedule a month of posts and reels, and answer comments every day. Details are attached.
 >
-> If it's useful, I'm happy to send the page review notes first and you can decide from there.
+> If you'd like, I can send a few notes on your page first, no charge, and you can decide after.
 >
 > [Name] · Cloud Mind Social · hello@cloudmindsocial.com · cloudmindsocial.com
 

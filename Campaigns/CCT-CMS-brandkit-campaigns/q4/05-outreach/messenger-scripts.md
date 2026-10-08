@@ -4,24 +4,24 @@
 
 ## Instant reply (auto)
 
-> Hi! Salamat sa message 😊 This is Cloud Mind Social. If you're asking about the ₱1,000 Starter Package, reply **START** and we'll ask a few quick questions about your business. A real person from our team will get back to you within [business hours, e.g. the same day].
+> Hi! Salamat sa message 😊 Kung tungkol sa ₱1,000 package, reply lang ng **START**. Tao talaga ang sasagot sa'yo, usually within [the same day].
 
 ## Keyword: START
 
-> Great! A few quick questions para ma-review namin ang page mo:
+> Sige! Ilang tanong lang:
 > 1. Ano ang name ng business at ano ang binebenta or service mo?
 > 2. Saang town/city sa Laguna?
 > 3. Link ng page mo (Facebook, Instagram o TikTok)?
 > 4. Sino ang nagpo-post ngayon, at gaano kadalas?
-> 5. Ano ang pinaka-gusto mong mangyari ngayong Pasko season, more orders, more reservations, or mas kilala lang?
+> 5. Ngayong Pasko, ano ang gusto mong mangyari: mas maraming order, reservations, o mas makilala lang?
 
 ## After answers (human)
 
-> Salamat, [Name]! Tiningnan namin ang page ng [Business]. Ang unang mapapansin ng bagong customer ay [one honest, specific observation]. Sa Starter Package, ito ang uunahin naming ayusin, tapos gagawa kami ng 30-day calendar para i-approve mo.
+> Salamat, [Name]! Tiningnan namin ang page ng [Business]. [One specific thing you noticed, e.g. "Wala pang hours at address sa About."] 'Yan ang uunahin namin, tapos ipapakita namin sa'yo ang plano for the month.
 >
-> ₱1,000 for 30 days on [platform]. Ito ang buong scope: [attach offer sheet PDF]. Kung okay sa'yo, isesend namin ang payment details at simple intake form.
+> ₱1,000 for one month on [platform]. Nandito ang lahat ng kasama: [attach offer sheet PDF]. Kung game ka, send namin ang payment details.
 
-If the business clearly needs more (or less) than the Starter Package, say so. That's the CMS way: right-sized, not one-size.
+If the business needs more or less than this package, tell them.
 
 ## FAQ quick replies
 
@@ -37,6 +37,6 @@ If the business clearly needs more (or less) than the Starter Package, say so. T
 
 ## Follow-up (no reply after 2 days, once only)
 
-> Hi [Name], follow up lang po sa Starter Package. No pressure. Kung hindi pa ngayon, okay lang. Pwede mo kaming i-message anytime. Salamat! 🙏
+> Hi [Name], follow up lang sa package. Okay lang kung hindi pa ngayon, message mo lang kami pag ready ka na. 🙏
 
 Do not send more than one follow-up. Do not message people who haven't contacted CMS first (the Platform plan does not authorize unsolicited messages).
