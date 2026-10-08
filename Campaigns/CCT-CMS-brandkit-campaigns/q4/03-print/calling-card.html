@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CMS Calling Card</title>
+<link rel="stylesheet" href="../_design/brand.css">
+<style>
+  /* Standard PH calling card, 3.5 × 2 in. Page 1 front, page 2 back. */
+  @page { size: 3.5in 2in; margin: 0; }
+  @media screen { body { display: flex; gap: 40px; padding: 30px; background: #ddd; } }
+  .page { width: 3.5in; height: 2in; padding: .2in .22in; overflow: hidden; display: flex; flex-direction: column; break-after: page; }
+  .front { justify-content: space-between; background: var(--cream); }
+  .front .sig { font-size: 9.5pt; }
+  .front h2 { font-size: 15pt; line-height: 1.1; }
+  .front .tag { font-size: 6.5pt; color: var(--mind); }
+  .back { justify-content: space-between; }
+  .back .label { font-size: 5.5pt; color: var(--cloud); }
+  .back .amt { font-family: var(--serif); font-weight: 600; font-size: 22pt; line-height: 1; }
+  .back p { font-size: 7pt; line-height: 1.4; }
+  .back .contact { font-size: 7pt; line-height: 1.5; border-top: 1px solid #ffffff33; padding-top: .06in; }
+</style>
+</head>
+<body>
+<section class="page front">
+  <div class="sig"><img src="../../../../CMS-Branding/logo/icon-ink-transparent.png" width="30" alt="">Cloud Mind Social</div>
+  <h2 class="serif">We build the bridge from unknown to <em>impact.</em></h2>
+  <div class="tag label">Strategic Social Intelligence · Laguna</div>
+</section>
+<section class="page back on-ink">
+  <div>
+    <div class="label">Starter Package</div>
+    <div class="amt">₱1,000</div>
+    <p>Page review, 30-day content calendar, posts, carousels, reels, captions and daily engagement on one platform.</p>
+  </div>
+  <div class="contact">Facebook: Cloud Mind Social<br>hello@cloudmindsocial.com · cloudmindsocial.com</div>
+</section>
+</body>
+</html>

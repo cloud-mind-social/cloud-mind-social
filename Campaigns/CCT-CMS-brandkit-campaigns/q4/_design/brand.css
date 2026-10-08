@@ -1,0 +1,29 @@
+/* CMS Q4 Laguna campaign — shared tokens.
+   Palette and typefaces come from CMS-Branding/CMS_Brand_Guidelines.md §8 and §10 (locked).
+   Small CTAs use cream on ink per the §9 proposed correction (cream on coral fails 4.5:1). */
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500;1,9..144,600&family=Inter:wght@400;500&family=Space+Mono:wght@400;700&display=block");
+
+:root {
+  --cloud: #AEB8B4;   /* mist slate: structure, dividers */
+  --mind: #1C1B1A;    /* warm ink: text, strong contrast */
+  --social: #D6553A;  /* clay coral: accent, large text only */
+  --ochre: #C98A2E;   /* deep ochre: second accent */
+  --cream: #F7F2EA;   /* shared base */
+  --serif: "Fraunces", Georgia, serif;
+  --sans: "Inter", system-ui, sans-serif;
+  --mono: "Space Mono", ui-monospace, monospace;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html, body { background: var(--cream); color: var(--mind); font-family: var(--sans); -webkit-font-smoothing: antialiased; }
+
+.label { font-family: var(--mono); text-transform: uppercase; letter-spacing: .14em; font-weight: 700; }
+.serif { font-family: var(--serif); font-weight: 600; letter-spacing: -.01em; }
+.serif em, em.accent { font-style: italic; font-weight: 500; color: var(--social); }
+.on-ink { background: var(--mind); color: var(--cream); }
+.on-ink .serif em, .on-ink em.accent { color: var(--ochre); }
+.cta { display: inline-block; background: var(--mind); color: var(--cream); font-weight: 500; }
+.on-ink .cta { background: var(--cream); color: var(--mind); }
+.rule { height: 2px; background: var(--cloud); }
+.sig { display: flex; align-items: center; gap: .5em; font-weight: 500; }
+.sig img { display: block; }

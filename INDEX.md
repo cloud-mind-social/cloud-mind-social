@@ -65,3 +65,9 @@
 | [Platform/CMS_Four_Platform_Introduction_Content_Plan.md](./Platform/CMS_Four_Platform_Introduction_Content_Plan.md) | Planning direction recorded; asset reviews pending | Seul; direction and release approver | October 1 closeout approved for execution; platform planning hypotheses remain unvalidated | Apply dedicated platform functions and primary pillars |
 | [Platform/CMS_30_Day_Daily_Content_Format_Mapping.md](./Platform/CMS_30_Day_Daily_Content_Format_Mapping.md) | 120 concepts and formats mapped; individual assets pending | Seul; review and release approver | October 1–30 assigned; source, copy, design and release review still required | Prepare each original daily feed asset and optional Story |
 | [CMS October 2026 Content Calendar](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) | Working daily post tracker | Seul; owner/approver | Five native tabs, 120 posts, Status and Remarks verified October 1 | Update platform production progress; view general calendar |
+
+## Campaigns
+
+| Path | Status | Confirmed responsibility | Review state | Read when |
+|---|---|---|---|---|
+| [Campaigns/CCT-CMS-brandkit-campaigns/q4/README.md](./Campaigns/CCT-CMS-brandkit-campaigns/q4/README.md) | Draft kit; Laguna ₱1,000 Starter Package, Q4 2026 (PH secondary-market track) | Seul; price, copy and release approver | Prepared by CCT October 8, 2026 for PR review; all approval gates open | Prepare or release Laguna Starter Package materials |

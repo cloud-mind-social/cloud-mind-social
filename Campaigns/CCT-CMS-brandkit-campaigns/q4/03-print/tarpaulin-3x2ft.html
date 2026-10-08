@@ -1,0 +1,48 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>CMS Laguna Tarpaulin 3x2 ft</title>
+<link rel="stylesheet" href="../_design/brand.css">
+<style>
+  /* 3 ft × 2 ft landscape. Vector PDF scales cleanly; printers usually want 3 cm bleed added on their side — confirm with the shop. */
+  @page { size: 36in 24in; margin: 0; }
+  html { font-size: 48px; }
+  @media print { html { font-size: 96px; } }
+  .page { width: 36rem; height: 24rem; display: grid; grid-template-columns: 1fr 12rem; overflow: hidden; }
+  .main { padding: 2rem 2.2rem; display: flex; flex-direction: column; }
+  .sig { font-size: .85rem; }
+  .sig img { width: 1.9rem; }
+  h1 { margin-top: 1.3rem; font-size: 2.45rem; line-height: 1.02; }
+  .sub { margin-top: .9rem; font-size: .8rem; line-height: 1.45; max-width: 19rem; }
+  .incl { margin-top: auto; font-family: var(--mono); font-weight: 700; text-transform: uppercase; letter-spacing: .06em; font-size: .46rem; line-height: 2; border-top: .06rem solid var(--cloud); padding-top: .6rem; }
+  .side { padding: 2rem 1.4rem; display: flex; flex-direction: column; justify-content: space-between; }
+  .side .label { font-size: .45rem; color: var(--cloud); }
+  .amt { font-family: var(--serif); font-weight: 600; font-size: 3.1rem; line-height: 1; margin-top: .3rem; }
+  .side p { font-size: .62rem; line-height: 1.4; margin-top: .4rem; }
+  .side .cta { padding: .5rem .55rem; border-radius: .2rem; font-size: .62rem; line-height: 1.3; }
+  .side .contact { font-size: .5rem; line-height: 1.7; margin-top: .5rem; }
+</style>
+</head>
+<body>
+<section class="page">
+  <div class="main">
+    <div class="sig"><img src="../../../../CMS-Branding/logo/icon-ink-transparent.png" alt="">Cloud Mind Social</div>
+    <h1 class="serif">Ang page mo, <em>kami na ang bahala</em> for 30 days.</h1>
+    <p class="sub">Social media help for Laguna businesses. We review your page, plan the month with you, and post on schedule.</p>
+    <div class="incl">Page review · Page optimization · Content calendar<br>Scheduling · Posts · Carousels · Reels<br>Captions · Daily engagement</div>
+  </div>
+  <div class="side on-ink">
+    <div>
+      <div class="label">Starter Package</div>
+      <div class="amt">₱1,000</div>
+      <p>One platform<br>30 days of content</p>
+    </div>
+    <div>
+      <div class="cta">Message us on Facebook:<br>Cloud Mind Social</div>
+      <div class="contact">hello@cloudmindsocial.com<br>cloudmindsocial.com</div>
+    </div>
+  </div>
+</section>
+</body>
+</html>
