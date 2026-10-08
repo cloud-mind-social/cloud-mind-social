@@ -5,6 +5,8 @@
 
 A complete marketing kit for CMS's introductory **₱1,000 Starter Package**, aimed at owner-led businesses in Laguna and nearby towns during the Q4 Christmas season. It uses the locked CMS palette and typefaces ([Brand Guidelines §8–10](../../../CMS-Branding/CMS_Brand_Guidelines.md)) and the [Content Writing Standard](../../../CMS-Branding/CMS_Content_Writing_Standard.md).
 
+**Before editing any copy, read the [voice notes](./04-social/captions.md#voice-notes-read-before-editing).** The first draft sounded like AI, and those notes record what changed and why.
+
 ## The offer
 
 **₱1,000 · one platform · 30 days:** social media review, page optimization, content calendar, scheduling 30 days of content, static post creation, basic carousel creation, basic reel editing, caption writing, and engagement 10 minutes per day.
