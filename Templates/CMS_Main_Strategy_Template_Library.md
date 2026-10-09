@@ -1,15 +1,15 @@
 # CMS Main Strategy Template Library
 
-**Status:** Initial master library; templates are proposed client adaptations until individually reviewed and approved.  
+**Status:** Core strategy masters approved by Seul on October 9, 2026; execution and conditional modules remain planned.  
 **Owner:** To be assigned  
 **Last updated:** 2026-10-09  
-**Location:** Public CMS repository — reusable blank structures only
+**Location:** CMS repository; reusable blank structures only
 
 ## Purpose
 
 This library converts the CMS diagnosis-first methodology into repeatable strategy documents. It should help CMS understand a business before recommending social-media support, make recommendations traceable to evidence, and connect approved strategy to practical execution and review.
 
-This is a template architecture, not a claim that every template is already complete or approved.
+The twelve core strategy masters and their guide are approved and available in [Main Strategy Template Library](./CMS%20Process/Main%20Strategy%20Template%20Library/00_Library_Guide.md). Strategy-to-execution and conditional modules remain conceptualization work.
 
 ## Non-negotiable CMS guardrails
 
@@ -20,7 +20,7 @@ This is a template architecture, not a claim that every template is already comp
 - **Commercial audience separation:** CMS's Western commercial audience and Philippine promotional audience require separate adaptations where language, buying context or scope differs. Client strategies need their own audience architecture.
 - **Natural, evidence-aware communication:** writing templates collect inputs and review checks; they must not force identical hooks, slide sequences or endings.
 - **Scope and approval boundaries:** a completed template is not authorization to produce, publish, spend media budget or make a public claim.
-- **Private client data:** this public repository stores blank structures and instructions only. Completed client records belong in the authorized private client workspace.
+- **Private client data:** the CMS repository stores blank structures and instructions only. Completed client records belong in the authorized private client workspace.
 - **Existing source of truth:** reuse the existing Voice and Story Intake, Content Idea Seed, Claim Register, Assumption Register and Client Approval Record; do not create competing controls.
 - **Brand integrity:** CMS-specific materials must use the documented CMS brand references. Client materials use the client's approved identity.
 
@@ -43,18 +43,18 @@ Use `[Complete]`, `[Not known]`, `[Not applicable]`, or `[Needs validation]` rat
 
 | ID | Master template | Purpose / required content | Status |
 |---|---|---|---|
-| ST-01 | Business and Social Media Diagnostic Review | Current activity, account condition, previous attempts, stated problem, underlying constraints, evidence, confidence and prioritized recommendations | **First build created** |
-| ST-02 | Client Master Strategy | Executive summary; business objective; diagnosis; audience; positioning; channel and content direction; priorities; measurement; responsibilities and scope | Planned |
-| ST-03 | Audience and Customer Insight | Priority segments, needs, buying triggers, objections, customer language, desired outcomes, cultural and language considerations | Planned |
-| ST-04 | Competitor and Market Benchmark | Relevant competitors, positioning, offers, content/channel patterns, trust signals, gaps; separate observations from interpretation | Planned |
-| ST-05 | Brand Positioning, Messaging and Voice | Value proposition, differentiation, message priorities, tone, natural expressions, prohibited claims, voice/story sources | Planned |
-| ST-06 | Content Pillars and Theme Architecture | Client-specific pillars, business purpose, audience need, recurring themes, angles, evidence needs and formats | Planned |
-| ST-07 | Platform and Channel Strategy | Why each channel matters, audience role, formats, feasible cadence, discovery/conversion routes and resources | Planned |
-| ST-08 | Customer Journey, Funnel and CTA Map | Audience state, content purpose, next action, destination, follow-up owner, conversion event and barriers | Planned |
-| ST-09 | Content Format and Creative Direction | Format choice, visual direction, photo/video approach, accessibility, consistency, production limits and assets | Planned |
-| ST-10 | Goals, Baseline and Measurement Plan | Business objectives, baseline, metric definitions, sources, reporting period, targets, attribution limits and review decisions | Planned |
-| ST-11 | Implementation Roadmap | Priorities, dependencies, milestones, owners, client inputs, approval checkpoints, capacity and scope boundaries | Planned |
-| ST-12 | Strategy Presentation and Decision Summary | Findings, recommended direction, rationale, alternatives, open questions, decisions required and exact approved version | Planned |
+| ST-01 | [Business and Social Media Diagnostic Review](./CMS%20Process/Main%20Strategy%20Template%20Library/02_Business_and_Social_Media_Diagnostic_Review.md) | Current activity, account condition, previous attempts, stated problem, underlying constraints, evidence, confidence and prioritized recommendations | Approved reusable master |
+| ST-02 | [Client Master Strategy](./CMS%20Process/Main%20Strategy%20Template%20Library/01_Client_Master_Strategy.md) | Executive summary; business objective; diagnosis; audience; positioning; channel and content direction; priorities; measurement; responsibilities and scope | Approved reusable master |
+| ST-03 | [Audience and Customer Insight](./CMS%20Process/Main%20Strategy%20Template%20Library/03_Audience_and_Customer_Insight.md) | Priority segments, needs, buying triggers, objections, customer language, desired outcomes, cultural and language considerations | Approved reusable master |
+| ST-04 | [Competitor and Market Benchmark](./CMS%20Process/Main%20Strategy%20Template%20Library/04_Competitor_and_Market_Benchmark.md) | Relevant competitors, positioning, offers, content/channel patterns, trust signals, gaps; separate observations from interpretation | Approved reusable master |
+| ST-05 | [Brand Positioning, Messaging and Voice](./CMS%20Process/Main%20Strategy%20Template%20Library/05_Brand_Positioning_Messaging_and_Voice.md) | Value proposition, differentiation, message priorities, tone, natural expressions, prohibited claims, voice/story sources | Approved reusable master |
+| ST-06 | [Content Pillars and Theme Architecture](./CMS%20Process/Main%20Strategy%20Template%20Library/06_Content_Pillars_and_Theme_Architecture.md) | Client-specific pillars, business purpose, audience need, recurring themes, angles, evidence needs and formats | Approved reusable master |
+| ST-07 | [Platform and Channel Strategy](./CMS%20Process/Main%20Strategy%20Template%20Library/07_Platform_and_Channel_Strategy.md) | Why each channel matters, audience role, formats, feasible cadence, discovery/conversion routes and resources | Approved reusable master |
+| ST-08 | [Customer Journey, Funnel and CTA Map](./CMS%20Process/Main%20Strategy%20Template%20Library/08_Customer_Journey_Funnel_and_CTA_Map.md) | Audience state, content purpose, next action, destination, follow-up owner, conversion event and barriers | Approved reusable master |
+| ST-09 | [Content Format and Creative Direction](./CMS%20Process/Main%20Strategy%20Template%20Library/09_Content_Format_and_Creative_Direction.md) | Format choice, visual direction, photo/video approach, accessibility, consistency, production limits and assets | Approved reusable master |
+| ST-10 | [Goals, Baseline and Measurement Plan](./CMS%20Process/Main%20Strategy%20Template%20Library/10_Goals_Baseline_and_Measurement_Plan.md) | Business objectives, baseline, metric definitions, sources, reporting period, targets, attribution limits and review decisions | Approved reusable master |
+| ST-11 | [Implementation Roadmap](./CMS%20Process/Main%20Strategy%20Template%20Library/11_Implementation_Roadmap.md) | Priorities, dependencies, milestones, owners, client inputs, approval checkpoints, capacity and scope boundaries | Approved reusable master |
+| ST-12 | [Strategy Presentation and Decision Summary](./CMS%20Process/Main%20Strategy%20Template%20Library/12_Strategy_Presentation_and_Decision_Summary.md) | Findings, recommended direction, rationale, alternatives, open questions, decisions required and exact approved version | Approved reusable master |
 
 ### B. Strategy-to-execution templates
 
@@ -109,7 +109,7 @@ The diagnostic determines which modules are needed. Do not automatically include
 
 ## File and approval convention
 
-- Keep blank masters and usage instructions in this public repository.
+- Keep blank masters and usage instructions in the CMS repository.
 - Keep completed client-specific strategies, research records, account data and approvals in the authorized private workspace.
 - Record the template ID, version, client/workspace, author, reviewer, approval date, scope and linked evidence in each completed document.
 - Approval applies to the exact version reviewed. Any material change requires review according to the engagement's approval process.
@@ -117,4 +117,4 @@ The diagnostic determines which modules are needed. Do not automatically include
 
 ## Source alignment
 
-This library is based on the CMS Main Strategy Template Library proposal in **CMS Strategy Templates**, and the repository's diagnosis-first positioning, audience architecture, customer journey, funnel, content writing standard, platform scope, and task tracker. Template names and content above preserve that proposed architecture; build status is tracked here and must not be mistaken for approval of every module.
+This library is based on the CMS Main Strategy Template Library proposal in **CMS Strategy Templates**, and the repository's diagnosis-first positioning, audience architecture, customer journey, funnel, content writing standard, platform scope, and task tracker. Template names preserve that proposed architecture. Seul approved all twelve core masters in this conversation; the three execution templates and five conditional modules are still planned.
