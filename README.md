@@ -319,11 +319,11 @@ The repository is organized so a future CMS AI session can identify where each t
 | **Platform work** | `Platform/` — platform-specific strategy and operations; four-platform introduction planning is in progress |
 | **Campaigns** | `Campaigns/` — campaign planning and assets |
 | **Sales** | `Sales/` — sales and commercial enablement |
-| **Clients** | Client-specific material belongs in a separate private clients repository; the public `Clients/` placeholder is not a client-data workspace |
+| **Clients** | Engagement-specific records belong in separate private client repositories; ANSU and CCT repository setup is being prepared through [Client Operations](https://github.com/cloud-mind-social/cms-client-operations) |
 | **Analytics** | `Analytics/` — performance data, reporting, and analysis |
 | **Operations** | `Operations/` — internal workflows and operating procedures |
 | **Assets** | `Assets/` — reusable brand and content assets |
-| **Templates** | `Templates/` — reusable working templates |
+| **Templates** | [CMS Client Operations](https://github.com/cloud-mind-social/cms-client-operations/tree/main/Templates); canonical categorized client masters. `Templates/` here retains navigation notices for existing references |
 | **Archive** | `Archive/` — superseded or retired materials |
 | **AI project control** | `_agent-hq/` — status, tasks, handoffs, and session history |
 
