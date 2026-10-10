@@ -1,15 +1,15 @@
 # CMS Main Strategy Template Library
 
-**Status:** Core strategy masters approved by Seul on October 9, 2026; execution and conditional modules remain planned.  
+**Status:** Core strategy masters approved by Seul on October 9, 2026; EX-01 through EX-03, CO-01 through CO-03 and four commercial/process masters approved on October 10, 2026. CO-04, CO-05 and the internal capacity estimate await repository release.  
 **Owner:** To be assigned  
-**Last updated:** 2026-10-09  
+**Last updated:** 2026-10-10  
 **Location:** CMS repository; reusable blank structures only
 
 ## Purpose
 
 This library converts the CMS diagnosis-first methodology into repeatable strategy documents. It should help CMS understand a business before recommending social-media support, make recommendations traceable to evidence, and connect approved strategy to practical execution and review.
 
-The twelve core strategy masters and their guide are approved and available in [Main Strategy Template Library](./CMS%20Process/Main%20Strategy%20Template%20Library/00_Library_Guide.md). Strategy-to-execution and conditional modules remain conceptualization work.
+The twelve core strategy masters and their guide are approved and available in [Main Strategy Template Library](./CMS%20Process/Main%20Strategy%20Template%20Library/00_Library_Guide.md). The execution masters and CO-01 through CO-03 are approved and linked below. CO-04, CO-05 and the internal capacity estimate are the remaining review/release work.
 
 ## Non-negotiable CMS guardrails
 
@@ -60,19 +60,32 @@ Use `[Complete]`, `[Not known]`, `[Not applicable]`, or `[Needs validation]` rat
 
 | ID | Master template | Purpose | Status |
 |---|---|---|---|
-| EX-01 | Content Plan and Publishing Calendar | Translate approved strategy into concepts, platforms, formats, dates, CTAs, assets, owners and approval statuses | Planned |
-| EX-02 | Content or Campaign Creative Brief | Objective, audience, message, source material, deliverables, destination, measurement and production requirements | Planned |
-| EX-03 | Performance Review and Optimization Record | What happened, what it may mean, limitations, recommended changes, next test and owner | Planned |
+| EX-01 | [Content Plan and Publishing Calendar](./CMS%20Process/Strategy%20to%20Execution/EX-01_Content_Plan_and_Publishing_Calendar.md) | Translate approved strategy into concepts, platforms, formats, dates, CTAs, assets, owners and approval statuses | Approved reusable master |
+| EX-02 | [Content or Campaign Creative Brief](./CMS%20Process/Strategy%20to%20Execution/EX-02_Content_or_Campaign_Creative_Brief.md) | Objective, audience, message, source material, deliverables, destination, measurement and production requirements | Approved reusable master |
+| EX-03 | [Performance Review and Optimization Record](./CMS%20Process/Strategy%20to%20Execution/EX-03_Performance_Review_and_Optimization_Record.md) | What happened, what it may mean, limitations, recommended changes, next test and owner | Approved reusable master |
 
 ### C. Conditional modules
 
-| ID | Master template | Use when |
+| ID | Master template | Use when | Status |
+|---|---|---|---|
+| CO-01 | [Profile and Page Optimization Plan](./CMS%20Process/Conditional%20Templates/CO-01_Profile_and_Page_Optimization_Plan.md) | Account setup, profile clarity, contact details, service information, pinned content, navigation or conversion routes need improvement | Approved reusable master |
+| CO-02 | [Lead Capture and Conversion Flow](./CMS%20Process/Conditional%20Templates/CO-02_Lead_Capture_and_Conversion_Flow.md) | Scope includes forms, DMs, booking, lead magnets, website destinations or CRM handoffs | Approved reusable master |
+| CO-03 | [Community and Inbox Management Plan](./CMS%20Process/Conditional%20Templates/CO-03_Community_and_Inbox_Management_Plan.md) | CMS handles comments, messages or engagement; define coverage, response authority, escalation and lead handoffs | Approved reusable master |
+| CO-04 | Paid Campaign Strategy and Test Plan | Paid media is contracted; define audience, offer, budget, creative tests, tracking and stopping rules | Draft/review work; repository release pending |
+| CO-05 | Proof and Case Study Development Plan | Genuine results are available; document evidence, context, limitations and permissions before public use | Draft/review work; repository release pending |
+
+### D. Commercial and client process masters
+
+| Master | Purpose | Status |
 |---|---|---|
-| CO-01 | Profile and Page Optimization Plan | Account setup, profile clarity, contact details, service information, pinned content, navigation or conversion routes need improvement |
-| CO-02 | Lead Capture and Conversion Flow | Scope includes forms, DMs, booking, lead magnets, website destinations or CRM handoffs |
-| CO-03 | Community and Inbox Management Plan | CMS handles comments, messages or engagement; define coverage, response authority, escalation and lead handoffs |
-| CO-04 | Paid Campaign Strategy and Test Plan | Paid media is contracted; define audience, offer, budget, creative tests, tracking and stopping rules |
-| CO-05 | Proof and Case Study Development Plan | Genuine results are available; document evidence, context, limitations and permissions before public use |
+| [Client Proposal and Scope of Work](./CMS%20Process/Client_Proposal_and_Scope_of_Work.md) | Diagnosis, selected service depth, finite scope, fees and agreement reconciliation | Approved reusable master |
+| [Change Request and Scope Adjustment](./CMS%20Process/Change_Request_and_Scope_Adjustment.md) | Classify a request and agree scope, fee, timing and approval effects before extra work | Approved reusable master |
+| [Renewal and Next-Phase Recommendation](./CMS%20Process/Renewal_and_Next_Phase_Recommendation.md) | Review evidence and confirm a right-sized next phase or conclusion | Approved reusable master |
+| [Offboarding and Access Closure](./CMS%20Process/Offboarding_and_Access_Closure.md) | Reconcile delivery, live work, open cases, finances, information and account access | Approved reusable master |
+
+### E. Internal delivery planning
+
+Internal Effort and Capacity Estimate; remaining draft/review work, repository release pending. Assess work units, active effort, per-person capacity, dependencies and internal planning costs before confirming a proposal or scope change. Keep completed estimates internal; never treat an assumed hourly cost as a client rate.
 
 ## How the library fits service depth
 
@@ -85,7 +98,7 @@ Use `[Complete]`, `[Not known]`, `[Not applicable]`, or `[Needs validation]` rat
 
 The diagnostic determines which modules are needed. Do not automatically include every module in every engagement.
 
-## Recommended build order
+## Original build sequence
 
 1. **ST-01 — Business and Social Media Diagnostic Review** (created as the first working template).
 2. ST-02 — Client Master Strategy.
@@ -117,4 +130,4 @@ The diagnostic determines which modules are needed. Do not automatically include
 
 ## Source alignment
 
-This library is based on the CMS Main Strategy Template Library proposal in **CMS Strategy Templates**, and the repository's diagnosis-first positioning, audience architecture, customer journey, funnel, content writing standard, platform scope, and task tracker. Template names preserve that proposed architecture. Seul approved all twelve core masters in this conversation; the three execution templates and five conditional modules are still planned.
+This library is based on the CMS Main Strategy Template Library proposal in **CMS Strategy Templates**, and the repository's diagnosis-first positioning, audience architecture, customer journey, funnel, content writing standard, platform scope, and task tracker. Template names preserve that proposed architecture. Seul approved the twelve core masters on October 9, 2026 and the ten execution, conditional and commercial/process masters on October 10, 2026. The remaining review/release work is CO-04, CO-05 and Internal Effort and Capacity Estimate.

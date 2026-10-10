@@ -147,5 +147,5 @@ Master status: Approved reusable masters; Seul approved this library on October 
 Review notes / requested changes: [ ]
 Approval, reviewer and version: [ ]
 Repository location: Templates/CMS Process/Main Strategy Template Library/
-Keep reusable repository files blank; completed client information remains private. This release uploads the approved main strategy masters to GitHub. Execution and conditional modules remain planned; approval of these blank masters does not approve completed client work.
+Keep reusable repository files blank; completed client information remains private. This release uploads the approved main strategy masters to GitHub. EX-01 through EX-03 and CO-01 through CO-03 were approved by Seul on October 10, 2026 and are listed in the template architecture. CO-04 and CO-05 remain draft/review work; approval of blank masters does not approve completed client work.
 
