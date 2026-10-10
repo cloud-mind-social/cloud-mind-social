@@ -1,37 +1,7 @@
-# Voice and Story Intake
+# Template moved to CMS Client Operations
 
-Blank intake; follow the [CMS Content Writing Standard](../CMS-Branding/CMS_Content_Writing_Standard.md). Completing this intake does not authorize production or publication. Store completed client material in the authorized private clients repository.
+This document now lives at [Voice_and_Story_Intake.md](https://github.com/cloud-mind-social/cms-client-operations/blob/main/Templates/03_Onboarding_and_Access/Voice_and_Story_Intake.md).
 
-## Person and role
+Use the [categorized client template library](https://github.com/cloud-mind-social/cms-client-operations/tree/main/Templates). This legacy path remains for existing references; maintain the working master in Client Operations.
 
-
-## Natural language and things said to customers
-
-
-## Frustrations and past attempts
-
-
-## Expressions used and expressions avoided
-
-
-## Experiences available for discussion
-
-
-## Supporting records and sources
-
-
-## Sensitive boundaries and material off-limits
-
-
-## Anonymity and attribution preferences
-
-
-## Permission to collect; scope and date
-
-
-## Permission to publish; scope and date
-
-
-## Reviewer and approval record; version and outcome
-
-
+Completed client documents belong in the authorized client repository or controlled Drive workspace. Existing approval and release requirements remain in effect.

@@ -1,40 +1,7 @@
-# Content Idea Seed
+# Template moved to CMS Client Operations
 
-Blank intake; follow the [CMS Content Writing Standard](../CMS-Branding/CMS_Content_Writing_Standard.md). Completing this intake does not authorize production or publication. Store completed client material in the authorized private clients repository.
+This document now lives at [Content_Idea_Seed.md](https://github.com/cloud-mind-social/cms-client-operations/blob/main/Templates/05_Content_and_Execution/Content_Idea_Seed.md).
 
-## Source material or moment and date
+Use the [categorized client template library](https://github.com/cloud-mind-social/cms-client-operations/tree/main/Templates). This legacy path remains for existing references; maintain the working master in Client Operations.
 
-
-## Accountable human and role
-
-
-## Original wording; how they would say it to a friend
-
-
-## Audience and strategic purpose
-
-
-## Internal routing; pillar, funnel stage, evidence class
-
-
-## Evidence and source links; dates and limitations
-
-
-## Interpretation, assumptions, and unknowns
-
-
-## Claim limits
-
-
-## Permissions and attribution choice
-
-
-## Factual and voice approval; reviewer, date, version, outcome
-
-
-## Production authorization; owner, date, scope
-
-
-## Publication authorization; owner, date, scope
-
-
+Completed client documents belong in the authorized client repository or controlled Drive workspace. Existing approval and release requirements remain in effect.
