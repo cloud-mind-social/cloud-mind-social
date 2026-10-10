@@ -319,7 +319,7 @@ The repository is organized so a future CMS AI session can identify where each t
 | **Platform work** | `Platform/` — platform-specific strategy and operations; four-platform introduction planning is in progress |
 | **Campaigns** | `Campaigns/` — campaign planning and assets |
 | **Sales** | `Sales/` — sales and commercial enablement |
-| **Clients** | Engagement-specific records belong in separate private client repositories; ANSU and CCT repository setup is being prepared through [Client Operations](https://github.com/cloud-mind-social/cms-client-operations) |
+| **Clients** | Engagement-specific records live in separate private [ANSU](https://github.com/cloud-mind-social/ansu-transient-hostel) and [CCT](https://github.com/cloud-mind-social/coastal-carolina-tech) repositories; [Client Operations](https://github.com/cloud-mind-social/cms-client-operations) houses shared client process and templates |
 | **Analytics** | `Analytics/` — performance data, reporting, and analysis |
 | **Operations** | `Operations/` — internal workflows and operating procedures |
 | **Assets** | `Assets/` — reusable brand and content assets |
