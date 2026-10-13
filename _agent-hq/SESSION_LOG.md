@@ -249,3 +249,18 @@ Updated the approved 13-file scope: current HQ dashboard/instructions/pointers, 
 
 **Next:** Review and merge the closeout PR; prepare the next individually requested platform brief from confirmed source material, update production status in the platform tab, and obtain the applicable asset review and release authorization.
 **Handoff:** [October 1 closeout](handoffs/archive/2026-10-01_four-platform-content-planning.md).
+
+
+## October 14, 2026; Agent HQ approvals and changes reconciliation
+
+**Recorded:** 2026-10-14T03:57:54+08:00; Asia/Manila. **Track:** Brand & Strategy; HQ only. **Authorization:** Seul’s explicit request at 03:45:11 PHT. **Source main:** `c313d046c5eb7b264e63dcc6a4cd5ea3bbf2b95b`. **Review branch:** `cms/hq-approvals-and-changes-2026-10-14`. **Outcome:** Eight HQ files prepared from current records; integration into main follows the review PR’s actual merged state. No new production/release/access decision is conferred.
+
+Completed required orientation and current source checks. Reconciled the mentor language amendment, accepted ₱1K service terms, October v2 exact creative approval/handoff, Batch 02 copy/design states and transparent text changes, approved blank-template batches and client repo migration. Corrected current private visibility and older single-repo/public instructions. Recorded latest Day 2 + Day 6 portfolio selection, internal-engagement truth, reported publication limits, October 13 backup and owner-private journey state. Added saved research inputs and remaining report/prompt verification requests. Current handoff Sheet shows D06/D12 Published with missing live URLs/times; this is kept separate from creative/release approval.
+
+Preserved all previous DECISIONS/SESSION_LOG entries, STATUS historical closeouts and archived handoffs. Changes are limited to START_HERE, STATUS, TASKS, AI_PROJECT_INSTRUCTIONS, append-only DECISIONS/SESSION_LOG, HANDOFF_LATEST and the new archive. Strategy tracker/INDEX/source files, live calendars, client repos, creative assets, Canva, visibility/access settings and Site deployments are not modified. No `.github/`, `www/` or `webmail/` file content was read or changed.
+
+**Verification:** Exact eight-path scope; historical-prefix preservation; relative links; UTF-8; pinned latest source before edit and expected-head guards for repository writes. Delivery/source and approval states are documented without fabricated outcomes.
+
+**Remaining:** Exact Batch 02 visual/release decision; live post evidence; campaign opening/availability/placement; missing template sources; remaining competitor/prompt verification; archive/Drive/native Canva gaps; operating readiness/general pricing/buyer validation; CCT owner guidance. These route to existing source trackers; no duplicate completion checklist is created.
+
+**Handoff:** [Timestamped final record](handoffs/archive/2026-10-14_0357_chatgpt_approvals-and-changes.md); contains the complete approval/change register and reviewed/unavailable sources.
