@@ -1,49 +1,43 @@
 # Project Status
 
-Last updated: October 1, 2026; Asia/Manila
-**Source snapshot:** main at `8190dd5ed2d6d0e37f386c577f5d63ad756f9ca5` before this closeout.
-**Closeout state:** Prepared in review branch `cms/october-four-platform-closeout-2026-10-01`; repository closeout takes effect on PR merge.
+**Updated:** 2026-10-14T03:57:54+08:00; Asia/Manila  
+**Source snapshot:** main at `c313d046c5eb7b264e63dcc6a4cd5ea3bbf2b95b`  
+**Scope:** Explicitly authorized Agent HQ reconciliation; branch `cms/hq-approvals-and-changes-2026-10-14`. Updates reach main through the review PR; PR preparation and merge are separate states.  
+**Current detail:** [Latest handoff](handoffs/HANDOFF_LATEST.md); its timestamped register records the sources, approvals, limits and remaining work.
 
-## Role and approved baseline
+## Approved baseline
 
-Social Media Marketer for CMS; Brand & Strategy and authorized four-platform introduction planning. Phase 1 and Phase 2 remain approved/locked. Commercial priority remains Western growth-stage owner-led expertise and high-value service businesses that have outgrown DIY or fragmented social marketing; Western early-stage owner-operators are a secondary development audience and the Philippines is a separate secondary geographic market. Facebook, Instagram, TikTok, LinkedIn, YouTube and Threads remain the six-platform scope; X is excluded.
+Merille Nacino, also known as Seul, is the founder and owner approver. Preserve Strategic Social Intelligence, right-sized help and “We build the bridge from unknown to impact.” The primary commercial audience remains Western growth-stage, owner-led expertise and high-value service businesses that have outgrown DIY or fragmented social marketing. Western early-stage owners are a secondary development audience; the Philippines is a separate secondary geographic market. Local campaigns retain their approved targeting.
 
-## Phase and evidence status
+Phase 1 and Phase 2 remain approved/locked. Track A1–A10 approval as evidence input stands; individual detailed human verdicts/dates and live buyer validation remain separate. Phase 3.1–3.10, the Phase 2.5.10 assumption-based planning handoff, Green planning audit and Phase 4 strategy planning are approved/recorded. Phase 5 formal completion, operational readiness, measured baselines and final general offer economics remain open. Research approval is not buyer validation.
 
-Phase 3.1–3.10 are approved strategy-planning sources. The Phase 2.5.10 assumption-based planning handoff and Phase 3 Green planning audit are recorded. Phase 4 is approved and complete for strategy planning, including the content approach integration. Operational readiness, live commercial validation and final pricing remain open.
+Facebook, Instagram, TikTok, LinkedIn, YouTube and Threads remain the six-platform scope; X is excluded. The original October 1–30 plan has 120 independently conceived feed slots; Facebook P3, LinkedIn P2, TikTok P1 and Instagram P4. These are plans and editorial hypotheses, not evidence of a completed four-platform launch. No cross posting of finished executions. The original calendar and later Facebook handoffs describe different versions/scopes; do not add their counts together as unique published posts.
 
-Use the [authoritative Strategy Task List](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) and [registry](../INDEX.md). The [Phase 3 audit](../Social-Media-Structure/Phase-3/PHASE_3_Architecture_and_Handoff_Audit.md), [2.5.10 planning handoff](../Social-Media-Structure/Phase-2.5/PHASE_2.5.10_Phase_3_Assumption_Based_Handoff.md), and [Phase 4 source](../Social-Media-Structure/Phase-4/PHASE_4_Funnel_Content_Strategy_Working_Draft.md) establish the current planning decisions.
+Use the [Strategy Task List](../Social-Media-Structure/CMS_Social_Media_Marketing_Strategy_Task_List.md) for strategy and [INDEX](../INDEX.md) for discovery. Calendars track posts; kit task lists track production. Their dated snapshots do not revoke newer exact-version approvals.
 
-Track A1–A10 findings remain approved evidence input. Seul's individual detailed verdicts and dates in the [AI-prepared review notes](../CMS-Research/Review-Notes/Track_A_Review_Notes.md) remain pending; research is not CMS buyer validation. Phase 2.5.6 final figures, scope, capacity, margin and qualification rules remain open. Client-specific material belongs in the private CMS client operations repository.
+## Current work and approvals
 
-## Current platform work
+| Workstream | Verified state and limits | Current source |
+| --- | --- | --- |
+| Writing | September 22 standard plus October 4 mentor/consultative amendment; PR #33 merged. Clear action/relevance; varied openings; present tense only for confirmed practice/belief. #CloudMindSocial plus two relevant hashtags. | [Writing standard](../CMS-Branding/CMS_Content_Writing_Standard.md) |
+| CMS Main October v2 | Seul’s October 10 18:09:47 PHT copy/visual approval; 56 PNGs, 29 caption bundles, eight silent MP4s. Handoff files stored; receipt, scheduling and release separate. | [Approval](https://drive.google.com/file/d/1kg5TnWyQ53sSpbGYMHqIayNv638Ccwz0/view); [Sheet](https://docs.google.com/spreadsheets/d/1c7P46YdXqGftad5-FPeHEtBajX8iLea06qqiROwPti4/edit); [Files](https://drive.google.com/drive/folders/18fGGhWxyvlWEZ-NzS_c1bNMBeUMxEPl3) |
+| v2 publication snapshot | October 14 read: 27 Not scheduled; D06/D12 marked Published. Both lack live URL/time and release trail; D06 also has Merille confirmation. | [Live handoff](https://docs.google.com/spreadsheets/d/1c7P46YdXqGftad5-FPeHEtBajX8iLea06qqiROwPti4/edit) |
+| Facebook Batch 02 | Eight posts, 23 square PNGs, eight captions; copy 1.3 accepted for production; design v4 created with transparent text boxes. Selected families/motifs retained; final visual approval/release pending. No Reels in this batch. | [Batch](https://drive.google.com/drive/folders/1SXgM9JsCwcDtjKRPG6IyC6IyezgOoGj2); [Calendar](https://docs.google.com/spreadsheets/d/1hAMRNfII9R9pTvnJnRQSjdVew0Sf_KVvzKgh72sEQf8/edit); [Review v4 PPTX](https://docs.google.com/presentation/d/1gIKx7-nlrjk4EDm4DQgoFaAds-eZGS0Q/edit) |
+| ₱1K Campaign | Separate workspace; accepted one-Page introductory price, allocation, split payments and post-based engagement retained. Opening date, live availability and placement remain open; older kit’s open scope labels are historical. | [Workspace](https://drive.google.com/drive/folders/1PGMbi0Jf35_0FARteh-dh88L8nRgo7hq); [Accepted scope](https://drive.google.com/file/d/16ZNcShEc0aS083eMSIMtau946Uxrfn6f/view) |
+| Client process/templates | Discovery, agreement/onboarding, 12 core strategy masters and ten later masters approved as recorded. Canonical blank masters moved to Client Operations; CMS legacy paths are notices. CO-04/CO-05/Effort and Capacity remain source/review gaps. | [Client Operations](https://github.com/cloud-mind-social/cms-client-operations); [library](https://github.com/cloud-mind-social/cms-client-operations/blob/main/Templates/README.md) |
+| Client repositories | Dedicated private ANSU/CCT records; shared process stays in Client Operations. Active CCT PR #1 is open; old Operations #2 closed unmerged; Matt guidance pending. | [ANSU](https://github.com/cloud-mind-social/ansu-transient-hostel); [CCT](https://github.com/cloud-mind-social/coastal-carolina-tech) |
+| Portfolio | Merille’s contributions presented as service work; CMS remains her own internal engagement in factual records. Latest selection Day 2 carousel + Day 6 static; Day 2 display approval separate from republication. Nine-page full case PDF exists; final artifact approval/publication not inferred. | Latest handoff source register; case study PDF in Library |
+| Backup | October 13 CMS summary and verbatim instruction/upload-name snapshot saved; coverage and missing Drive-copy limitations retained. | [CMS Backup](https://github.com/cloud-mind-social/CHATGPT-BACKUP/tree/main/CMS%20Backup) |
+| Private journey | Separate Sites v1 active; owner-only access verified October 14; no public access or external-system change authorized here. | [Private journey](https://cms-client-journey.cleanfield33.chatgpt.site) |
+| Research | Relatable ideas/hooks saved to Drive Research; curated niches/keywords/perspective draft saved to CMS-Research. Creation/storage approval does not approve finished posts or validate buyer demand. Startup competitor/SWOT report and shared-content prompt completion require verification. | [Ideas research](https://drive.google.com/file/d/1wJh1DdPmbeXnltkfpCtXD54I2sI5tfop/view); [Curation research](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/CMS_Curated_Content_Discovery_Niches_Keywords_and_Perspective_Research.md) |
 
-Phase 5 platform planning is in progress for the four-platform introduction cycle; formal Phase 5 completion is not claimed. The [introduction plan](../Platform/CMS_Four_Platform_Introduction_Content_Plan.md) and [daily map](../Platform/CMS_30_Day_Daily_Content_Format_Mapping.md) record platform functions, priority pillars and original concepts.
+## Current routing and boundaries
 
-| Platform | Dedicated function | Priority pillar |
-|---|---|---|
-| Facebook | Owner relationships, practical trust and conversations | P3; The Reality of Running a Growing Business |
-| LinkedIn | B2B credibility, strategic judgment and professional relationships | P2; Strategic Social Intelligence |
-| TikTok | Discovery, problem recognition and approachable explanations | P1; Diagnose Before Prescribing |
-| Instagram | Visual discovery, brand recognition and visible method | P4; Clarity in Practice |
+CMS repository is **private**, verified from current metadata; earlier public-repo wording is historical. [CMS Main](https://drive.google.com/drive/folders/1ePJGZn3qgcbDLgeRKy2wOPz6bqqSokzd), [CMS Process](https://drive.google.com/drive/folders/1Etn26ZsyvTJOGdG1p2gX-32yTtyLOHjM) and [1K Campaign](https://drive.google.com/drive/folders/1PGMbi0Jf35_0FARteh-dh88L8nRgo7hq) retain separate purposes. Current service paths are Content & Execution, Managed Presence, Strategy & Growth and Strategic Partnership; final general rates remain open.
 
-The [October Google Sheet](https://docs.google.com/spreadsheets/d/1Yn50-FkmeFLh1W6cX6K9WpPoX0hO_rDwIJq8t55n2Eg/edit) contains General Calendar, Facebook, LinkedIn, TikTok and Instagram tabs. October 1–30 has 120 planned feed posts; four daily, with 15 primary-pillar slots per platform. Finished content is independently developed; no cross posting. Optional Stories add to the feed cadence. October 31 is outside this requested 30 day plan.
+Follow [TASKS](TASKS.md) and the [latest handoff](handoffs/HANDOFF_LATEST.md) for remaining exact-version review, publication evidence, template/research gaps, offer launch dependencies and recovery work. No live tracker or non-HQ source was changed in this closeout. Strategy approval, creative approval, delivery, release, scheduling, publication and portfolio permission remain distinct.
 
-At the October 1 closeout verification, all 120 slots showed **Not yet started** and Remarks were blank. This is a dated snapshot; read the Sheet for current statuses. Its platform tabs hold Not yet started / Being created / Posted and Remarks; General Calendar follows each Status automatically.
-
-Individual content work proceeds under Seul's specific requests and approvals. Facebook's September 30 introduction is recorded as previously published and is excluded from the 120 October slots. Each remaining concept requires source confirmation, asset production, review and release authorization; planning approval does not approve finished content or open blanket publication.
-
-## Next actions and open dependencies
-
-- Review and merge this closeout PR; use the [latest handoff](handoffs/HANDOFF_LATEST.md).
-- Confirm usable sources and the brief for the next individually requested platform asset; record production progress in the Sheet.
-- Review copy, design and the relevant destination before authorizing a release; retain evidence and permission limits.
-- Complete remaining platform strategy, measurement, response coverage and operating readiness; YouTube and Threads are outside this four-platform calendar.
-- Continue final pricing, commercial validation and Track A detailed review work through their authoritative records.
-
-## Repository boundaries
-
-The entire `.github/` folder, including `.github/workflows/`, is off-limits for edits, creation, deletion, renaming, reorganization, workflow dispatch, or deployment. Read-only viewing is allowed when necessary unless the user prohibits it. Matt and Claude AI are authorized to read and work in `www/` and `webmail/` for their developer assignments, including editing and testing there. Other CMS agents must not read or change those folders unless Seul explicitly authorizes them for the specific session. This instruction does not grant repository access or change deployment approvals.
+Do not read, edit, run commands against or deploy `www/` or `webmail/` without Seul's explicit authorization for this agent in this session. Matt and Claude AI's developer authorization does not transfer. Do not modify `.github/`, dispatch workflows or deploy; necessary read-only inspection is allowed unless prohibited. This HQ update grants no deployment, sharing, access or public-release permission.
 
 ## Historical closeouts
 
