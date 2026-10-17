@@ -10,7 +10,7 @@ Read in this order before acting:
 2. [handoffs/HANDOFF_LATEST.md](handoffs/HANDOFF_LATEST.md) and its archive target; a Checkpoint overrides older STATUS.
 3. [SESSION_LOG.md](SESSION_LOG.md); latest one or two entries.
 4. [TASKS.md](TASKS.md); pointers to current sources.
-5. [AI_PROJECT_INSTRUCTIONS.md](AI_PROJECT_INSTRUCTIONS.md), [root README](../README.md) and [INDEX](../INDEX.md).
+5. [AI_PROJECT_INSTRUCTIONS.md](AI_PROJECT_INSTRUCTIONS.md), [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md), [root README](../README.md) and [INDEX](../INDEX.md).
 
 State scope, track, existing approvals and expected output before changes. Read actual source contents and current Drive records; memory and filenames aid discovery. Use Asia/Manila dates. Flag material conflicts and continue independent work within authorized scope.
 
@@ -39,3 +39,8 @@ Refresh branch content before edits. Use `[AI-assisted]` commits; PRs for author
 Do not read, edit, run commands against or deploy `www/` or `webmail/` without Seul's explicit authorization for this agent in this session. Matt and Claude AI's developer authorization does not transfer. Do not modify `.github/`, dispatch workflows or deploy; necessary read-only inspection is allowed unless prohibited. This HQ update grants no deployment, sharing, access or public-release permission.
 
 HQ reading is mandatory; HQ writing is opt-in. Write only for a specific HQ action, “checkpoint”, “wrap up”, “update everything” or explicit closeout authorization. Task completion/time alone does not authorize writing. When authorized, append DECISIONS/SESSION_LOG, preserve earlier history, create a timestamped Checkpoint/Final handoff and update the latest pointer. Record actual outcome and remaining work. The October 14 request explicitly authorizes this HQ reconciliation; it does not create an automatic future update rule.
+
+
+## Cross-account work
+
+Merille uses this main commander chat to create self-contained prompts for other ChatGPT accounts or Claude. Before drafting a delegation prompt, read the [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) and current source records. Delegated chats must return a factual handoff; the commander reviews and integrates the result. Permissions do not transfer between accounts.
