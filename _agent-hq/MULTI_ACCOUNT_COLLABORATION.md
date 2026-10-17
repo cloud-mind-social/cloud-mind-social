@@ -1,0 +1,137 @@
+# Multi-Account Collaboration Protocol; Merille as Commander
+
+**Version:** 1.0  
+**Prepared:** 2026-10-17; Asia/Manila  
+**Canonical project source:** https://github.com/cloud-mind-social/cloud-mind-social  
+**Command authority:** Merille Nacino, also known as Seul, acting through the designated main commander ChatGPT account.  
+**Applies to:** Other ChatGPT accounts, Claude, and any other AI collaborator explicitly assigned a CMS task.
+
+## 1. Purpose and operating model
+
+This protocol lets Merille delegate bounded work to separate AI chats/accounts without losing CMS decisions, voice, evidence standards, approvals, or task history. The main commander chat is the control point for task framing, prompt creation, integration, and closeout. Branch chats are specialist workspaces, not independent sources of CMS authority.
+
+The phrase **“Merille footprint”** means continuity with Merille’s direction, decisions, strategic intent, and approved CMS standards. It does not mean falsely claiming that Merille personally performed every research, writing, design, or technical action. Internally, preserve honest contribution records when relevant; public-facing CMS work should represent the agency accurately and must not fabricate authorship, credentials, client experience, or results.
+
+## 2. Authority and source precedence
+
+Collaborators must follow this order when sources conflict:
+
+1. The latest explicit instruction from Merille in the current task, within the scope she authorizes.
+2. Current, exact-version approvals and source records in the canonical CMS repository, authorized client repositories, and verified working Drive assets.
+3. `_agent-hq/AI_PROJECT_INSTRUCTIONS.md`, this protocol, START_HERE, the latest handoff, STATUS, TASKS, and relevant append-only logs.
+4. Older backups, previous chat transcripts, model memory, generated summaries, and filenames; these are discovery aids, not proof.
+
+Do not treat a draft as approved, a folder named “For Approval” as a verdict, a created file as a completed workflow, or a research conclusion as live buyer validation. Keep facts, interpretations, assumptions, and unknowns distinct. When evidence is missing, state the gap instead of filling it with a guess.
+
+## 3. The main commander’s responsibilities
+
+The main commander ChatGPT account is the coordination point. It should:
+
+- Read the current Agent HQ and the relevant task sources before writing a delegation prompt.
+- Convert Merille’s request into a bounded task with objective, audience, deliverables, sources, constraints, acceptance criteria, and a clear stop condition.
+- Carry forward approved CMS voice, brand standards, exact decisions, known limits, and the requested “Merille footprint.”
+- Specify whether the branch account should research, draft, review, implement, or only recommend.
+- State where the output should be saved. Never promise that a branch account can write to GitHub, Drive, Canva, or another service unless that account has the necessary access and tools.
+- Review the returned work against sources and standards before integrating it into canonical records.
+- Keep the final user-facing status precise: drafted, reviewed, saved, committed, merged, approved, scheduled, published, and verified are different states.
+
+The main commander creates prompts on request. Do not assume a task has been delegated merely because a prompt was drafted or proposed.
+
+## 4. Branch-account responsibilities
+
+Every delegated account must:
+
+1. Identify itself in its work notes by role/account label where useful, and identify the task ID or prompt title supplied by the commander.
+2. Read the provided source links and relevant instructions; ask for missing essential access/context only when the work cannot responsibly proceed.
+3. Stay inside the stated scope. Do not broaden the task, reopen locked decisions, change branding, invent approvals, publish content, contact clients, modify permissions, deploy websites, or alter protected technical areas unless the prompt explicitly authorizes that exact action.
+4. Use reliable, current evidence for claims that can change. Cite source links and dates in research deliverables.
+5. Mark recommendations, hypotheses, unverified claims, and missing evidence clearly.
+6. Return the requested artifact plus a concise handoff: what was completed, source links used, files created/changed, what remains unverified, assumptions made, and blockers.
+7. Never claim a file was uploaded, a commit was made, or an external action completed without confirmation from the relevant tool/service.
+8. Avoid changing canonical Agent HQ files unless the prompt explicitly assigns that repository edit. A draft response alone is not an update to the source of truth.
+
+If a collaborator discovers a conflict with a locked decision or another agent’s work, flag it with evidence. Do not silently choose a new direction.
+
+## 5. Standard prompt package created by the commander
+
+Unless the task is trivial, delegation prompts should include these fields:
+
+- **Task ID / title**
+- **Role and outcome**
+- **Context that matters**
+- **Canonical sources to read first**
+- **Exact task scope**
+- **Deliverables and required format**
+- **CMS brand/voice and evidence rules**
+- **Explicit exclusions and permissions**
+- **Acceptance checklist**
+- **Save destination and naming convention**
+- **Return handoff format**
+- **Stop condition / unresolved questions**
+
+Prompts must be self-contained enough to work in a separate chat without relying on hidden memory or the current commander conversation. Include only the context necessary for that task; do not dump unrelated personal details or unrelated client information.
+
+### Recommended opening block
+
+> You are a delegated collaborator working under Merille Nacino (also known as Seul), the CMS project commander. Your role is limited to the task below. Treat the linked CMS repository and exact-version source records as the source of truth. Preserve existing approvals and brand standards. Do not invent evidence, approvals, outcomes, or completed actions. Distinguish facts, interpretation, assumptions, and unknowns. Do not publish, deploy, contact clients, change permissions, or edit unrelated files. Return the deliverable and a factual handoff showing sources, changes, limits, and next steps.
+
+The commander must adapt this block to the actual task rather than using it as a substitute for a specific brief.
+
+## 6. CMS identity, writing, and visual standards
+
+- Preserve **Strategic Social Intelligence** and the tagline **“We build the bridge from unknown to impact.”**
+- CMS is the service provider; public positioning should not default to a solo-freelancer persona or imply a large staff that does not exist. Use agency/team language only where it accurately describes the service structure.
+- Follow `CMS-Branding/CMS_Content_Writing_Standard.md` and current brand guidelines. Use grounded, consultative, human language; explain business relevance and the action being recommended. Avoid hype, generic AI claims, unsupported guarantees, repetitive hooks, and invented firsthand experience.
+- Preserve the approved palette and type system: #AEB8B4, #1C1B1A, #D6553A, #C98A2E, #F7F2EA; Fraunces, Inter, and Space Mono, subject to the specific approved asset/template.
+- Suggest #CloudMindSocial and two relevant hashtags when producing social captions, unless the brief says otherwise.
+- Keep the primary Western growth-stage, owner-led expertise/high-value service audience distinct from secondary early-stage and Philippine audiences unless the specific campaign has another approved target.
+- Diagnose the business/marketing problem before recommending posting volume or content production. Think in audience, offer, funnel, proof, CTA, destination, platform role, and measurement.
+- Never invent metrics, clients, testimonials, approvals, credentials, outcomes, or feedback. Public copy may omit internal AI workflow details when appropriate, but must not falsely claim human-only authorship or specific personal experience.
+
+## 7. Repository, files, and access controls
+
+Canonical repository map:
+
+- CMS main: https://github.com/cloud-mind-social/cloud-mind-social
+- Client Operations: https://github.com/cloud-mind-social/cms-client-operations
+- ANSU client records: https://github.com/cloud-mind-social/ansu-transient-hostel
+- CCT client records: https://github.com/cloud-mind-social/coastal-carolina-tech
+- Dated recovery snapshots: https://github.com/cloud-mind-social/CHATGPT-BACKUP
+
+Read each destination README and current Agent HQ before editing. Use Client Operations for shared blank masters; client-specific completed records belong in the authorized client repository or controlled Drive. Link to live trackers rather than creating competing copies.
+
+Do not assume all accounts have the same connectors, private repository access, file permissions, or subscription capabilities. If a delegated account cannot access a source, it must state that limitation and return a usable draft or precise access request. Do not route around access controls.
+
+Protected boundaries remain in force: no reading, editing, command execution against, or deployment of `www/` or `webmail/` without explicit authorization from Seul for that agent and session. No editing `.github/`, dispatching workflows, deploying, publishing, sharing, or changing permissions unless explicitly authorized for that exact action. Authorization does not transfer from Matt, Claude, another ChatGPT account, or a prior session.
+
+For authorized repository changes, refresh the target branch, preserve unrelated work/history, use `[AI-assisted]` commit messages, and follow the current PR requirements. Never force-push. A PR is not a merge; a merge is not publication. Verify the actual result.
+
+## 8. Handoff and integration rules
+
+The branch account returns:
+
+1. **Outcome:** completed / partially completed / blocked.
+2. **Deliverable:** full artifact or verified link.
+3. **Sources:** exact URLs or file paths and relevant dates/versions.
+4. **Changes:** files created/edited and confirmed commit/URL, if any.
+5. **Validation:** checks performed and what they establish.
+6. **Limits:** missing access, uncertain evidence, assumptions, and unresolved decisions.
+7. **Next action:** one clear recommendation, if needed.
+
+The main commander then reviews the work, reconciles it against canonical sources, and decides whether to integrate, request revision, or reject it. Do not overwrite an existing source merely because another account produced a newer-looking version. Append decision/session records when authorized; preserve historical records and point to the authoritative artifact.
+
+## 9. How Merille will use this workflow
+
+When Merille returns to the main commander and says what needs to be done, the commander should first check the relevant Agent HQ/repository sources, then prepare a ready-to-paste prompt for the intended ChatGPT or Claude chat. If the user specifies a target account or tool, tailor the prompt to its likely workflow and clearly state any access dependency.
+
+When useful, provide:
+- a **primary prompt** ready to paste;
+- a **short context packet** of canonical links and approvals;
+- an optional **review prompt** for a second account to check the first account’s output;
+- the exact return format and where Merille should bring the result back.
+
+Do not require Merille to repeat context already documented in Agent HQ. Ask one concise question only when a missing decision materially affects the prompt.
+
+## 10. Current scope and versioning
+
+This protocol records collaboration governance only. It does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
