@@ -224,3 +224,10 @@ The separate [private journey Site](https://cms-client-journey.cleanfield33.chat
 [Relatable ideas/hooks research](https://drive.google.com/file/d/1wJh1DdPmbeXnltkfpCtXD54I2sI5tfop/view) is saved to Drive Research. [Curated discovery/niches/keywords research](https://github.com/cloud-mind-social/cloud-mind-social/blob/main/CMS-Research/CMS_Curated_Content_Discovery_Niches_Keywords_and_Perspective_Research.md) is saved on CMS main. File creation/upload is authorized; findings and proposed hooks remain research inputs, not finished-content approval or buyer validation. The requested comparable startup competitor/SWOT report and shared-content screenshot prompt require exact completed-source verification; do not mark those done from the request alone.
 
 **Revisit when:** Seul approves a changed version, opens a new scope or current source/platform evidence resolves a recorded gap. This entry preserves earlier history and does not authorize new creative release, paid spend, client execution, public sharing or developer work.
+
+
+## 2026-10-17 — Merille-led multi-account collaboration protocol proposed
+**Decision:** Establish the main commander ChatGPT account as the coordination point for preparing prompts to delegate bounded CMS tasks to other ChatGPT accounts or Claude. Merille Nacino, also known as Seul, remains the source of task direction and approval. Branch accounts are scoped contributors; they must return sources, confirmed actions, limits and next steps. The commander reviews and integrates work against canonical CMS records.
+**Why:** Separate AI chats do not reliably share context, memory, connectors, or repository permissions. A self-contained prompt and factual handoff reduce drift, repeated explanation, unsupported claims and accidental changes to approved work.
+**Status:** Proposed in review branch `cms/multi-account-merille-commander-2026-10-17`; not effective in `main` until PR merge.
+**Revisit when:** The team changes the commander workflow, source-of-truth structure, or cross-account access model.
