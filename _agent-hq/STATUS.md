@@ -1,5 +1,7 @@
 # Project Status
 
+**Update in review:** 2026-10-17; proposed cross-account collaboration protocol and commander workflow are on branch `cms/multi-account-merille-commander-2026-10-17`. This change is not integrated into `main` until the review PR is merged. See [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) on the branch.
+
 **Updated:** 2026-10-14T03:57:54+08:00; Asia/Manila  
 **Source snapshot:** main at `c313d046c5eb7b264e63dcc6a4cd5ea3bbf2b95b`  
 **Scope:** Explicitly authorized Agent HQ reconciliation; branch `cms/hq-approvals-and-changes-2026-10-14`. Updates reach main through the review PR; PR preparation and merge are separate states.  
