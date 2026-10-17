@@ -264,3 +264,14 @@ Preserved all previous DECISIONS/SESSION_LOG entries, STATUS historical closeout
 **Remaining:** Exact Batch 02 visual/release decision; live post evidence; campaign opening/availability/placement; missing template sources; remaining competitor/prompt verification; archive/Drive/native Canva gaps; operating readiness/general pricing/buyer validation; CCT owner guidance. These route to existing source trackers; no duplicate completion checklist is created.
 
 **Handoff:** [Timestamped final record](handoffs/archive/2026-10-14_0357_chatgpt_approvals-and-changes.md); contains the complete approval/change register and reviewed/unavailable sources.
+
+
+## October 17, 2026; Multi-account collaboration protocol
+
+**Recorded:** 2026-10-17; Asia/Manila. **Track:** Brand & Strategy; Agent HQ governance. **Authorization:** Merille requested an Agent HQ update and a reusable project instruction for collaboration with other ChatGPT accounts or Claude, with this account acting as the main commander and using the Merille footprint. **Review branch:** `cms/multi-account-merille-commander-2026-10-17`.
+
+Created `MULTI_ACCOUNT_COLLABORATION.md` to define source precedence, commander duties, branch-account duties, self-contained delegation prompt fields, CMS brand/evidence rules, repository/access boundaries, handoff format, and the workflow Merille will use to request ready-to-paste prompts. Linked the protocol from START_HERE, AI_PROJECT_INSTRUCTIONS, STATUS and TASKS; appended the proposed governance decision and this session record. The latest handoff pointer and timestamped archive describe the scope and integration status.
+
+**Limits:** This is a proposed repository change on a review branch. It does not grant repository access to other accounts, transfer permissions, or authorize publication, deployment, client contact, protected-folder access, or changes to existing approvals. Merge status must be checked separately. No client repos, Drive assets, Canva designs, live content, or protected technical files were changed.
+
+**Next:** Review the PR; after merge, use the protocol as the default when Merille requests a delegation prompt from the main commander chat.
