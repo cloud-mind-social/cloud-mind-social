@@ -212,25 +212,17 @@ Return the following sections in the final response. Keep it concise for small t
 
 The main commander reviews the handoff, reconciles it against canonical sources, and decides whether to integrate, request revision, or reject it. Do not overwrite an existing source merely because another account produced a newer-looking version. Preserve historical records and point to the authoritative artifact. Only the main commander account may write the requested update into canonical Agent HQ; the delegated account supplies the proposed update text and supporting evidence.
 
-## 9. How Merille will use this workflow
+## 9. Commander use
 
-When Merille returns to the main commander and says what needs to be done, the commander should first check the relevant Agent HQ/repository sources, then prepare a ready-to-paste prompt for the intended ChatGPT or Claude chat. The delegated account must then follow Section 4's discovery-first workflow: parse the prompt, orient through Agent HQ, scan relevant repository evidence, create a task checklist, disclose limitations and alternatives, execute at an appropriate batch size, validate, and return deliverables with an Agent HQ update request. If the user specifies a target account or tool, tailor the prompt to its likely workflow and clearly state any access dependency.
-
-When useful, provide:
-- a **primary prompt** ready to paste;
-- a **short context packet** of canonical links and approvals;
-- an optional **review prompt** for a second account to check the first account’s output;
-- the exact return format and where Merille should bring the result back.
-
-Do not require Merille to repeat context already documented in Agent HQ. Ask one concise question only when a missing decision materially affects the prompt.
+Use Sections 4–5 to prepare and delegate a task-specific prompt. Use Section 8 for the expected return handoff and Section 13 when Merille brings collaborator activity reports back for verification and consolidation. Do not require Merille to repeat context already documented in Agent HQ; ask one concise question only when a missing decision materially affects the task.
 
 ## 10. Activity logging and Agent HQ ownership
 
-Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and proposed log entries. Collaborator activity reports may be pasted by Merille into the main commander chat because not every account has GitHub write access. Treat each report as a claim to verify, not as proof by itself. Check the relevant new/changed Markdown files and available GitHub commit/history timestamps; compare reported actions, saved outputs, links, and completion states. Do not call a Git commit timestamp an upload timestamp unless that distinction is supported by the platform record. Consolidate verified activity in `SESSION_LOG.md`; update the dashboard, task pointers, decision record, and handoff only where needed. Only the main commander writes canonical Agent HQ. For disputed or misaligned claims, present evidence and a reasoned recommendation to Merille, wait for her verdict, and then integrate the approved resolution. Keep earlier history append-only and preserve rejected or unresolved claims as such when needed.
+Use the required activity stamp defined in Section 4. Only the main commander writes canonical Agent HQ. The full rules for checking reports, reconciling evidence, logging verified activity and waiting for Merille’s decision are in Section 13; do not maintain a second workflow here. Preserve earlier history and do not describe a proposed or disputed finding as canonical.
 
 ## 11. Current scope and versioning
 
-This protocol records collaboration governance only. The collaborator roster includes Queen Elli, Merille Digitals, Seul Yekha, Emz, Gemini workspace Yekha, and Gemini workspace SY. They are all collaborators subject to the same source, evidence, handoff, and approval rules; their specialist duties are defined by their individual role instructions and task prompts. Google Flow is a production tool, not an AI collaborator account. This protocol does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
+This protocol records collaboration governance only. The collaborator roster includes Queen Elli, Merille Digitals, Seul Yekha, Emz, Gemini workspace Yekha (Gemini 1), and Gemini workspace SY (Gemini 2). They are all collaborators subject to the same source, evidence, handoff, and approval rules; their specialist duties are defined by their individual role instructions and task prompts. Google Flow is a production tool, not an AI collaborator account. This protocol does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
 
 
 ## 12. Persistent specialist role instructions
@@ -240,10 +232,13 @@ Before delegating, open the role file for the selected collaborator and include 
 - **Queen Elli; strategy and systems:** [`roles/QUEEN_ELLI_STRATEGY.md`](roles/QUEEN_ELLI_STRATEGY.md). Use for research synthesis, positioning, campaign/funnel strategy, operating systems, and strategic recommendations.
 - **Seul Yekha; content and brand messaging:** [`roles/SEUL_YEKHA_CONTENT.md`](roles/SEUL_YEKHA_CONTENT.md). Use for captions, hooks, carousels, Stories, scripts, repurposing, CTAs, and creative production briefs based on an approved strategy.
 - **Emz; independent QA:** [`roles/EMZ_QUALITY_ASSURANCE.md`](roles/EMZ_QUALITY_ASSURANCE.md). Use for evidence checks, acceptance-criteria review, brand/logic consistency, unsupported-claim detection, and prioritized findings.
+- **Merille Digitals; research and source verification:** [`roles/MERILLE_DIGITALS_RESEARCH_VERIFICATION.md`](roles/MERILLE_DIGITALS_RESEARCH_VERIFICATION.md). Use for primary-source research, claim verification, evidence classification, contradiction reconciliation and source registers.
+- **Yekha; Gemini 1, creative concepts and platform adaptation:** [`roles/GEMINI_YEKHA_CREATIVE_CONCEPTS.md`](roles/GEMINI_YEKHA_CREATIVE_CONCEPTS.md). Use for original concept routes, hooks, format ideas and platform-native adaptations from an approved brief.
+- **SY; Gemini 2, visual production and Google Flow prompting:** [`roles/GEMINI_SY_VISUAL_PRODUCTION.md`](roles/GEMINI_SY_VISUAL_PRODUCTION.md). Use for shot design, generation prompts, continuity constraints and visual-output QA. The reusable production brief is in [CMS Client Operations](https://github.com/cloud-mind-social/cms-client-operations/blob/cms/google-flow-production-brief-template-2026-10-18/Templates/05_Content_and_Execution/EX-03_Google_Flow_Production_Brief.md); its integration is pending PR #5.
 
 The commander must still supply a task-specific brief: objective, audience, exact scope, deliverables, source records, constraints, acceptance criteria, allowed actions, save destination, and stop condition. Role files are reusable baselines, not substitutes for task-specific prompts. A QA verdict is not a release approval; the main commander integrates outputs and Merille retains final approval.
 
-Future specialist role files should be added to this section only after review. Do not assume that a named account has read or installed a role file; paste the applicable role instructions into that account's persistent project instructions or task prompt as needed.
+Role files describe proposed reusable responsibilities and remain subject to Merille's approval. Do not assume that a named account has read or installed a role file; paste the applicable role instructions into that account's persistent project instructions or task prompt as needed. Keep the three-way separation clear: Merille Digitals verifies evidence; Yekha develops creative concepts; SY translates approved creative direction into visual-production instructions and checks generated outputs.
 
 
 ## 13. Collaborator report review and approval gate

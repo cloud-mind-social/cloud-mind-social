@@ -286,3 +286,41 @@ Expanded `MULTI_ACCOUNT_COLLABORATION.md` with an eight-step discovery-to-delive
 **Limits:** Changes remain on the review branch and are not canonical until PR merge. No client records, live content, Drive assets, Canva files, publication, deployment, permissions, or protected technical files were changed.
 
 **Next:** Review the expanded workflow in PR #42 and resolve mergeability before merging.
+
+
+## 2026-10-18 10:53 Asia/Manila — Specialist role files and Google Flow production brief prepared
+
+**DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Verified that PR #42 and PR #43 are merged into main, created three proposed collaborator role files on branch `cms/collaborator-roles-flow-template-2026-10-18`, prepared role/navigation pointers and current-state corrections, and created a blank Google Flow production brief with README links on Client Operations branch `cms/google-flow-production-brief-template-2026-10-18`.
+
+**Scope:** Merille Digitals research/source verification; Yekha (Gemini 1) creative concepts/platform adaptation; SY (Gemini 2) visual production/Google Flow prompting and output QA; reusable Google Flow production brief. These role boundaries are proposed for Merille's review and do not change strategy or release approvals.
+
+**Evidence/links:** [CMS role PR](https://github.com/cloud-mind-social/cloud-mind-social/pull/44); [Client Operations template PR](https://github.com/cloud-mind-social/cms-client-operations/pull/5). The Google Flow template is a proposed shared master; it is not canonical until its PR is merged. Role files are proposed until the CMS role PR is merged.
+
+**Validation:** New role files were created on the working branch. Agent HQ navigation points to the proposed role files and labels the Flow template as pending. Shared template category README links EX-03 and its count changes from three to four. No client data, production assets, publication, deployment, permissions, `.github/`, `www/` or `webmail/` were changed.
+
+**Remaining:** Review/merge CMS PR #44 and Client Operations PR #5; then verify merged content and update canonical pointers/status if needed. No collaborator has been told that the role instructions are installed in their separate workspace.
+
+
+## 2026-10-18 — Agent HQ instruction consolidation follow-up
+
+**DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Simplified the Agent HQ start page, removed duplicated startup and collaboration instructions from the universal instruction file, made the collaboration protocol the single detailed workflow authority, shortened existing role files to specialist-specific responsibilities, and moved dated STATUS closeouts into a preserved archive.
+
+**Evidence and scope:** The changes are on the CMS review branch and included in [PR #44](https://github.com/cloud-mind-social/cloud-mind-social/pull/44). The status history is preserved in [the archive](handoffs/archive/2026-10-18_status-history-migration.md); the current STATUS page now links to it. No historical SESSION_LOG entries were edited or deleted.
+
+**Validation:** Confirmed that the start page contains the reading order and navigation, AI_PROJECT_INSTRUCTIONS points to START_HERE and the collaboration protocol instead of repeating their detailed procedures, and the role files defer the shared workflow/handoff to the protocol. PR #44 remains open pending review; the proposed role wording and structure are not canonical until merged.
+
+
+## 2026-10-18 — STATUS dashboard compression and preservation check
+
+**DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Compressed the current STATUS workstream table into a concise dashboard and preserved the pre-consolidation table verbatim in the status-history archive alongside dated historical closeouts.
+
+**Validation:** STATUS now points to the archive; the archived snapshot is explicitly labeled historical and does not override live sources or newer checkpoints. Existing SESSION_LOG entries remain unchanged.
+
+
+## 2026-10-18 11:02 Asia/Manila — Review PRs and source links verified
+
+**DATE-TIME-MDS:** 2026-10-18 11:02 Asia/Manila — Rechecked the proposed CMS role/consolidation PR and Client Operations Google Flow template PR after the latest edits; verified the relevant role files, start page, universal instructions, protocol, status archive and template are present on their review branches.
+
+**Current integration state:** [CMS PR #44](https://github.com/cloud-mind-social/cloud-mind-social/pull/44) is open and mergeable; [Client Operations PR #5](https://github.com/cloud-mind-social/cms-client-operations/pull/5) is open and mergeable. Neither is merged. The current CMS PR includes the Agent HQ consolidation and role-file revisions; the Flow brief remains a proposed blank master.
+
+**Limits:** No separate collaborator workspace was accessed, so installation of the role text into Gemini/Claude/other Project Instructions is not claimed. No media generation, publication, client delivery, deployment, permission changes, or protected-folder work occurred.

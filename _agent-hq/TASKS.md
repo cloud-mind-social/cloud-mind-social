@@ -35,8 +35,10 @@ Do not read, edit, run commands against or deploy `www/` or `webmail/` without S
 
 ## Cross-account delegation
 
-- **Protocol:** [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) on review branch `cms/multi-account-merille-commander-2026-10-17`; use after the PR is merged.
+- **Protocol:** [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md); PR #42 and PR #43 are merged into main. The protocol now includes report verification, discrepancy review and the Merille approval gate.
 - **Workflow:** Merille states the task in the main commander chat; the commander checks current sources and creates a self-contained prompt for the selected ChatGPT/Claude chat; the delegated account returns the deliverable plus sources, verified actions, limits and blockers; the commander reviews and integrates authorized work.
+- **Role files:** [Queen Elli](roles/QUEEN_ELLI_STRATEGY.md), [Merille Digitals](roles/MERILLE_DIGITALS_RESEARCH_VERIFICATION.md), [Seul Yekha](roles/SEUL_YEKHA_CONTENT.md), [Emz](roles/EMZ_QUALITY_ASSURANCE.md), [Yekha / Gemini 1](roles/GEMINI_YEKHA_CREATIVE_CONCEPTS.md), and [SY / Gemini 2](roles/GEMINI_SY_VISUAL_PRODUCTION.md). Role instructions are proposed reusable baselines; copy the relevant instructions into each collaborator workspace and tailor every task prompt.
+- **Google Flow production brief:** proposed shared template in [CMS Client Operations PR #5](https://github.com/cloud-mind-social/cms-client-operations/pull/5); do not treat it as an approved master until that PR is merged.
 - **Guardrail:** account access and permissions do not transfer. Do not treat a prompt as delegation completion or a returned draft as an integrated source.
 
 - **Delegated task sequence:** Parse the full prompt; follow START_HERE → STATUS → latest handoff → recent SESSION_LOG → TASKS → AI_PROJECT_INSTRUCTIONS/README/INDEX; scan relevant source paths; build a task checklist; state limitations and alternatives; execute one-by-one for heavy work or in one pass for small work; validate; return deliverables plus a Main Commander Agent HQ Update Request and `DATE-TIME-MDS` activity stamps. Only the main commander writes canonical Agent HQ.

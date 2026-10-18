@@ -238,3 +238,16 @@ The separate [private journey Site](https://cms-client-journey.cleanfield33.chat
 **Why:** This creates repeatable handoffs across separate ChatGPT accounts and Claude while preventing duplicate/conflicting project records and keeping actual execution status auditable.
 **Status:** Proposed on review branch `cms/multi-account-merille-commander-2026-10-17`; not integrated into `main` until PR merge.
 **Revisit when:** Merille changes the delegation model or Agent HQ ownership rules.
+
+
+## 2026-10-18 — Proposed specialist role separation and Google Flow brief
+
+**Owner:** Merille Nacino / Seul. **State:** Proposed for review; the request to proceed authorized preparation, not automatic approval of the detailed role wording or release of a shared template.
+
+**Proposed boundaries:** Merille Digitals handles research and source verification; Yekha (Gemini 1) develops creative concepts and platform-specific adaptations from approved briefs; SY (Gemini 2) handles visual production planning, Google Flow prompting, continuity constraints and output QA. All remain collaborators governed by the Multi-Account Collaboration Protocol. Google Flow is a tool, not a collaborator. None of these roles may independently approve strategy, publish, or write canonical Agent HQ.
+
+**Proposed reusable asset:** EX-03 Google Flow Production Brief is prepared as a blank shared template in Client Operations. It separates strategic intent, source/permission records, scene and shot instructions, prompt constraints, continuity, output inspection, approval, delivery and publication states. It remains proposed until Client Operations PR #5 is merged.
+
+**Review links:** [CMS role PR #44](https://github.com/cloud-mind-social/cloud-mind-social/pull/44); [Client Operations template PR #5](https://github.com/cloud-mind-social/cms-client-operations/pull/5).
+
+**Revisit when:** Merille approves/revises the role boundaries and template. Do not treat proposed role files as installed in any collaborator account or the Flow brief as a canonical master until repository integration is verified.
