@@ -39,3 +39,17 @@ All remain scoped collaborators. The role files do not authorize independent str
 Review role boundaries and the Flow template; merge/revise each PR according to review. After both are integrated, verify links and update current-state pointers. Then use each role file to prepare the specific collaborator instructions for installation in the relevant workspace; do not assume they are installed until confirmed.
 
 **DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Prepared proposed specialist role instructions, reusable Google Flow production brief, and review handoff; both PRs pending.
+
+
+## Amendment; Agent HQ consolidation
+
+After the initial role/template preparation, the same review branch was expanded to complete the previously approved structure cleanup:
+
+- START_HERE is now a short start command and navigation page.
+- AI_PROJECT_INSTRUCTIONS retains universal CMS rules and points to START_HERE/protocol instead of repeating the full startup and delegation workflow; the duplicate project-settings bootstrap was removed.
+- MULTI_ACCOUNT_COLLABORATION.md is the single detailed authority for shared collaborator workflow, reporting, evidence reconciliation and approval gates. Its commander-use and activity-log sections now point to the main procedures instead of restating them.
+- Existing Queen Elli, Seul Yekha and Emz role files were shortened to specialist-specific responsibilities and defer shared workflow/handoff requirements to the protocol.
+- STATUS was reduced by moving dated historical closeouts verbatim to [the status-history archive](2026-10-18_status-history-migration.md); prior history was preserved.
+- SESSION_LOG records the consolidation follow-up; INDEX and navigation link the new specialist role files.
+
+These changes are included in CMS PR #44 and remain proposed until the PR is merged. No historical session entries or decisions were rewritten; a new decision entry describes the proposed role boundaries and template state.
