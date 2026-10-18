@@ -1,6 +1,6 @@
 # Project Status
 
-**Update in review:** 2026-10-17; proposed cross-account collaboration protocol and commander workflow are on branch `cms/multi-account-merille-commander-2026-10-17`. This change is not integrated into `main` until the review PR is merged. See [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) on the branch.
+**Update in review:** 2026-10-17; proposed cross-account collaboration protocol and commander workflow are on branch `cms/multi-account-merille-commander-2026-10-17`. This change is not integrated into `main` until the review PR is merged. See [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) on the branch. The protocol now includes the discovery-first workflow, repository scan, task checklist, limitations/alternatives, batch sizing, quality check, `DATE-TIME-MDS` activity stamp, and a main-commander-only Agent HQ update process.
 
 **Updated:** 2026-10-14T03:57:54+08:00; Asia/Manila  
 **Source snapshot:** main at `c313d046c5eb7b264e63dcc6a4cd5ea3bbf2b95b`  
