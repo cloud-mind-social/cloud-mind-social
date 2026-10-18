@@ -53,3 +53,5 @@ After the initial role/template preparation, the same review branch was expanded
 - SESSION_LOG records the consolidation follow-up; INDEX and navigation link the new specialist role files.
 
 These changes are included in CMS PR #44 and remain proposed until the PR is merged. No historical session entries or decisions were rewritten; a new decision entry describes the proposed role boundaries and template state.
+
+The STATUS consolidation also compresses the previous workstream table into a current dashboard. The pre-consolidation table was preserved verbatim in the status-history archive alongside the historical closeout narratives; this avoids losing the prior snapshot while keeping current STATUS focused.
