@@ -275,3 +275,14 @@ Created `MULTI_ACCOUNT_COLLABORATION.md` to define source precedence, commander 
 **Limits:** This is a proposed repository change on a review branch. It does not grant repository access to other accounts, transfer permissions, or authorize publication, deployment, client contact, protected-folder access, or changes to existing approvals. Merge status must be checked separately. No client repos, Drive assets, Canva designs, live content, or protected technical files were changed.
 
 **Next:** Review the PR; after merge, use the protocol as the default when Merille requests a delegation prompt from the main commander chat.
+
+
+## October 18, 2026; Multi-account workflow refinement
+
+**Recorded:** 2026-10-18; Asia/Manila. **Track:** Brand & Strategy; Agent HQ governance. **Authorization:** Merille requested a more explicit collaborator workflow covering initial orientation, prompt interpretation, repository scanning, task planning, limitations and alternatives, right-sized execution, deliverables, a main-commander-only Agent HQ update request, and a `DATE-TIME-MDS` activity stamp.
+
+Expanded `MULTI_ACCOUNT_COLLABORATION.md` with an eight-step discovery-to-delivery sequence, the Agent HQ entry path, evidence scanning rules, task checklist expectations, limitation/alternative disclosure, batch-size guidance, validation, final handoff format, and exact activity stamp syntax. Clarified that delegated accounts return a proposed Agent HQ update block but do not edit canonical HQ; only the main commander reviews and applies it. Updated instruction/status/task/decision pointers.
+
+**Limits:** Changes remain on the review branch and are not canonical until PR merge. No client records, live content, Drive assets, Canva files, publication, deployment, permissions, or protected technical files were changed.
+
+**Next:** Review the expanded workflow in PR #42 and resolve mergeability before merging.
