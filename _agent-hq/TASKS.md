@@ -31,3 +31,12 @@ Updated October 14, 2026; Asia/Manila. This file routes work; it is not a duplic
 - Latest handoff records the requested comparable startup competitor/SWOT study and shared-content/screenshot messaging-agent prompt; exact completed report/prompt status is not established here. Verify those source artifacts before marking done or claiming approval.
 
 Do not read, edit, run commands against or deploy `www/` or `webmail/` without Seul's explicit authorization for this agent in this session. Matt and Claude AI's developer authorization does not transfer. Do not modify `.github/`, dispatch workflows or deploy; necessary read-only inspection is allowed unless prohibited. This HQ update grants no deployment, sharing, access or public-release permission.
+
+
+## Cross-account delegation
+
+- **Protocol:** [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) on review branch `cms/multi-account-merille-commander-2026-10-17`; use after the PR is merged.
+- **Workflow:** Merille states the task in the main commander chat; the commander checks current sources and creates a self-contained prompt for the selected ChatGPT/Claude chat; the delegated account returns the deliverable plus sources, verified actions, limits and blockers; the commander reviews and integrates authorized work.
+- **Guardrail:** account access and permissions do not transfer. Do not treat a prompt as delegation completion or a returned draft as an integrated source.
+
+- **Delegated task sequence:** Parse the full prompt; follow START_HERE → STATUS → latest handoff → recent SESSION_LOG → TASKS → AI_PROJECT_INSTRUCTIONS/README/INDEX; scan relevant source paths; build a task checklist; state limitations and alternatives; execute one-by-one for heavy work or in one pass for small work; validate; return deliverables plus a Main Commander Agent HQ Update Request and `DATE-TIME-MDS` activity stamps. Only the main commander writes canonical Agent HQ.

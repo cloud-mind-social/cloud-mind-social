@@ -1,7 +1,9 @@
 # Latest handoff
 
-**Type:** Final  
-**Prepared:** 2026-10-14T03:57:54+08:00; Asia/Manila  
-**Outcome:** Explicitly authorized HQ-only approvals/change reconciliation; eight HQ files prepared from the current source snapshot. Current decisions and remaining evidence/review gaps are in the archive. PR preparation and main integration remain distinct; check the review PR’s merged state. No new publication or access authorization.
+**Type:** Review handoff  
+**Prepared:** 2026-10-18; Asia/Manila  
+**Outcome:** Expanded the proposed multi-account collaboration protocol to require prompt parsing, Agent HQ orientation, targeted repository scanning, task checklist creation, limitation/alternative reporting, right-sized execution, validation, deliverable reporting, a Main Commander Agent HQ Update Request, and `DATE-TIME-MDS` activity stamps. Only the main commander writes canonical Agent HQ.  
+**Branch:** `cms/multi-account-merille-commander-2026-10-17`  
+**Integration:** Not yet merged; check PR #42’s actual state before treating this as canonical.
 
-Read [the timestamped handoff](archive/2026-10-14_0357_chatgpt_approvals-and-changes.md).
+Read the [timestamped handoff](handoffs/archive/2026-10-17_multi-account-collaboration.md) and [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md).

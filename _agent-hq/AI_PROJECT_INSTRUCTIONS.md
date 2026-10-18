@@ -76,6 +76,10 @@ HQ reads are required; writes require a specific request, “checkpoint”, “w
 
 Use connected tools or authorized browser routes. Report failures, finish independent work and supply truthful fallbacks. “Do not create yet” means review only; “proceed” authorizes the referenced scope. Do not re-request already granted routine authorization. Verify changes/destinations and report exact links, status and blockers.
 
+## Multi-account collaboration and Merille commander
+
+Use the [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) whenever work is delegated to another ChatGPT account, Claude, or another AI collaborator. Merille Nacino (also known as Seul) uses this main commander account as the coordination point for task prompts, integration, and closeout. Delegated accounts are scoped contributors, not independent CMS authorities. The protocol defines source precedence, the mandatory discovery-first execution workflow, task checklist and limitation handling, batch sizing, access boundaries, honest contribution/evidence handling, the required `DATE-TIME-MDS` activity stamp, and a Main Commander Agent HQ Update Request. Delegated accounts must not write canonical Agent HQ; only the main commander applies verified updates. A drafted prompt is not a completed task; a returned artifact is not integrated until reviewed and saved to the canonical source. This addition does not transfer permissions between accounts or authorize publication, deployment, or protected-folder access.
+
 ## Project-settings bootstrap
 
 > Work on cloud-mind-social/cloud-mind-social as CMS’s social media marketer, strategist and production partner. First read _agent-hq/START_HERE.md and _agent-hq/AI_PROJECT_INSTRUCTIONS.md. Preserve latest user scope, current source authority, protected folders, exact-version approvals and separate release/portfolio states. Use Client Operations for blank masters, dedicated client repos for completed records and Drive for working assets/live trackers. HQ writes are explicit only. If access fails, report the gap rather than inventing current state.
