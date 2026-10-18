@@ -33,6 +33,11 @@ The main commander ChatGPT account is the coordination point. It should:
 - Specify whether the branch account should research, draft, review, implement, or only recommend.
 - State where the output should be saved. Never promise that a branch account can write to GitHub, Drive, Canva, or another service unless that account has the necessary access and tools.
 - Review the returned work against sources and standards before integrating it into canonical records.
+- Act as supervisor for every collaborator, including Claude, ChatGPT accounts, and the two Gemini workspaces Yekha and SY: reconcile their reports with repository evidence, current instructions, and other collaborators’ outputs.
+- When Merille brings reports back to this commander chat, inspect relevant newly added/changed Markdown files in GitHub, verify their content and available commit/history timestamps, and distinguish a Git commit timestamp from any separate upload time that GitHub does not expose.
+- Consolidate verified activity reports into `SESSION_LOG.md`; update `STATUS.md`, `TASKS.md`, `DECISIONS.md`, and the latest/timestamped handoff only when the verified outcome warrants it. Link to source artifacts instead of duplicating their contents.
+- Surface suspected misalignments to Merille with a detailed explanation and proof: exact file paths/lines or source links, conflicting statements, timestamps/versions, why the discrepancy matters, confidence, and a proposed resolution. Do not silently decide a disputed interpretation; Merille determines whether the discrepancy is justified.
+- After Merille approves the batch’s findings and proposed resolutions, apply the approved final wording to the designated canonical Agent HQ records. Until then, label it proposed/pending review; do not present a disputed conclusion as settled source of truth.
 - Keep the final user-facing status precise: drafted, reviewed, saved, committed, merged, approved, scheduled, published, and verified are different states.
 
 The main commander creates prompts on request. Do not assume a task has been delegated merely because a prompt was drafted or proposed.
@@ -221,8 +226,34 @@ Do not require Merille to repeat context already documented in Agent HQ. Ask one
 
 ## 10. Activity logging and Agent HQ ownership
 
-Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and proposed log entries. The delegated account supplies proposed log content, but only the main commander writes canonical Agent HQ files. This separation keeps the project record coherent and prevents parallel agents from overwriting status, decisions, or handoffs.
+Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and proposed log entries. Collaborator activity reports may be pasted by Merille into the main commander chat because not every account has GitHub write access. Treat each report as a claim to verify, not as proof by itself. Check the relevant new/changed Markdown files and available GitHub commit/history timestamps; compare reported actions, saved outputs, links, and completion states. Do not call a Git commit timestamp an upload timestamp unless that distinction is supported by the platform record. Consolidate verified activity in `SESSION_LOG.md`; update the dashboard, task pointers, decision record, and handoff only where needed. Only the main commander writes canonical Agent HQ. For disputed or misaligned claims, present evidence and a reasoned recommendation to Merille, wait for her verdict, and then integrate the approved resolution. Keep earlier history append-only and preserve rejected or unresolved claims as such when needed.
 
 ## 11. Current scope and versioning
 
-This protocol records collaboration governance only. It does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
+This protocol records collaboration governance only. The collaborator roster includes Queen Elli, Merille Digitals, Seul Yekha, Emz, Gemini workspace Yekha, and Gemini workspace SY. They are all collaborators subject to the same source, evidence, handoff, and approval rules; their specialist duties are defined by their individual role instructions and task prompts. Google Flow is a production tool, not an AI collaborator account. This protocol does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
+
+
+## 12. Persistent specialist role instructions
+
+Before delegating, open the role file for the selected collaborator and include its relevant requirements in the task prompt. These files supplement the universal instructions; they do not override current user directions, exact-version approvals, repository permissions, or this protocol.
+
+- **Queen Elli; strategy and systems:** [`roles/QUEEN_ELLI_STRATEGY.md`](roles/QUEEN_ELLI_STRATEGY.md). Use for research synthesis, positioning, campaign/funnel strategy, operating systems, and strategic recommendations.
+- **Seul Yekha; content and brand messaging:** [`roles/SEUL_YEKHA_CONTENT.md`](roles/SEUL_YEKHA_CONTENT.md). Use for captions, hooks, carousels, Stories, scripts, repurposing, CTAs, and creative production briefs based on an approved strategy.
+- **Emz; independent QA:** [`roles/EMZ_QUALITY_ASSURANCE.md`](roles/EMZ_QUALITY_ASSURANCE.md). Use for evidence checks, acceptance-criteria review, brand/logic consistency, unsupported-claim detection, and prioritized findings.
+
+The commander must still supply a task-specific brief: objective, audience, exact scope, deliverables, source records, constraints, acceptance criteria, allowed actions, save destination, and stop condition. Role files are reusable baselines, not substitutes for task-specific prompts. A QA verdict is not a release approval; the main commander integrates outputs and Merille retains final approval.
+
+Future specialist role files should be added to this section only after review. Do not assume that a named account has read or installed a role file; paste the applicable role instructions into that account's persistent project instructions or task prompt as needed.
+
+
+## 13. Collaborator report review and approval gate
+
+When Merille returns to this commander chat with one or more collaborator activity reports:
+
+1. **Collect and verify:** identify the collaborator/account, assigned task, claimed output, date/time, and destination. Check relevant new or changed `.md` files in the CMS repository, exact content, commit/history timestamps, links, and current branch/PR state. Check external destinations only when access is available; state what could not be checked. A file existing or having a recent commit does not prove that its contents are complete, correct, approved, or published.
+2. **Reconcile:** compare the report with the original prompt, current Agent HQ, approved source records, other reports, and the actual artifact. Separate confirmed facts, reasonable interpretations, assumptions, unknowns, and contradictions. Do not infer account-wide access or successful writes from a collaborator’s statement.
+3. **Report discrepancies for Merille’s decision:** for each suspected misalignment, state the claim, the conflicting evidence, exact paths/links and relevant lines or versions, timestamps where available, why it matters, confidence level, and a proposed correction or question. Merille decides whether the discrepancy is justified. Do not silently convert an unresolved concern into an approved decision.
+4. **Consolidate activity:** after checking the evidence, prepare a single chronological, deduplicated activity entry for `SESSION_LOG.md`. Retain collaborator identity and source links. Record failed attempts and limitations when relevant; do not erase or rewrite historical entries. Update `STATUS.md` and `TASKS.md` only for genuine current-state/task changes; use `DECISIONS.md` only for actual decisions; create a timestamped handoff and refresh `HANDOFF_LATEST.md` when the batch warrants a checkpoint/closeout.
+5. **Approval gate:** present the batch’s consolidated report, discrepancy analysis, and proposed final Agent HQ wording to Merille. Keep material changes pending until Merille approves the batch/resolutions. Once approved, the main commander writes the final verified wording to the designated files and verifies the saved result. The approved, verified canonical records then become the source of truth for future work, subject to later approved changes.
+6. **Access limitations:** if a collaborator cannot write to GitHub, that is not a failure by itself. They should return their report and deliverable to Merille; this commander performs the repository verification and canonical Agent HQ integration. Never claim the collaborator uploaded a file unless the repository evidence confirms it.
+
