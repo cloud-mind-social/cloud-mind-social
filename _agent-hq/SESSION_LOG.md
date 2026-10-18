@@ -286,3 +286,16 @@ Expanded `MULTI_ACCOUNT_COLLABORATION.md` with an eight-step discovery-to-delive
 **Limits:** Changes remain on the review branch and are not canonical until PR merge. No client records, live content, Drive assets, Canva files, publication, deployment, permissions, or protected technical files were changed.
 
 **Next:** Review the expanded workflow in PR #42 and resolve mergeability before merging.
+
+
+## 2026-10-18 10:53 Asia/Manila — Specialist role files and Google Flow production brief prepared
+
+**DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Verified that PR #42 and PR #43 are merged into main, created three proposed collaborator role files on branch `cms/collaborator-roles-flow-template-2026-10-18`, prepared role/navigation pointers and current-state corrections, and created a blank Google Flow production brief with README links on Client Operations branch `cms/google-flow-production-brief-template-2026-10-18`.
+
+**Scope:** Merille Digitals research/source verification; Yekha (Gemini 1) creative concepts/platform adaptation; SY (Gemini 2) visual production/Google Flow prompting and output QA; reusable Google Flow production brief. These role boundaries are proposed for Merille's review and do not change strategy or release approvals.
+
+**Evidence/links:** [CMS role PR](https://github.com/cloud-mind-social/cloud-mind-social/pull/44); [Client Operations template PR](https://github.com/cloud-mind-social/cms-client-operations/pull/5). The Google Flow template is a proposed shared master; it is not canonical until its PR is merged. Role files are proposed until the CMS role PR is merged.
+
+**Validation:** New role files were created on the working branch. Agent HQ navigation points to the proposed role files and labels the Flow template as pending. Shared template category README links EX-03 and its count changes from three to four. No client data, production assets, publication, deployment, permissions, `.github/`, `www/` or `webmail/` were changed.
+
+**Remaining:** Review/merge CMS PR #44 and Client Operations PR #5; then verify merged content and update canonical pointers/status if needed. No collaborator has been told that the role instructions are installed in their separate workspace.
