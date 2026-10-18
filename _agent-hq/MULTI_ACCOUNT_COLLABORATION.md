@@ -212,21 +212,13 @@ Return the following sections in the final response. Keep it concise for small t
 
 The main commander reviews the handoff, reconciles it against canonical sources, and decides whether to integrate, request revision, or reject it. Do not overwrite an existing source merely because another account produced a newer-looking version. Preserve historical records and point to the authoritative artifact. Only the main commander account may write the requested update into canonical Agent HQ; the delegated account supplies the proposed update text and supporting evidence.
 
-## 9. How Merille will use this workflow
+## 9. Commander use
 
-When Merille returns to the main commander and says what needs to be done, the commander should first check the relevant Agent HQ/repository sources, then prepare a ready-to-paste prompt for the intended ChatGPT or Claude chat. The delegated account must then follow Section 4's discovery-first workflow: parse the prompt, orient through Agent HQ, scan relevant repository evidence, create a task checklist, disclose limitations and alternatives, execute at an appropriate batch size, validate, and return deliverables with an Agent HQ update request. If the user specifies a target account or tool, tailor the prompt to its likely workflow and clearly state any access dependency.
-
-When useful, provide:
-- a **primary prompt** ready to paste;
-- a **short context packet** of canonical links and approvals;
-- an optional **review prompt** for a second account to check the first account’s output;
-- the exact return format and where Merille should bring the result back.
-
-Do not require Merille to repeat context already documented in Agent HQ. Ask one concise question only when a missing decision materially affects the prompt.
+Use Sections 4–5 to prepare and delegate a task-specific prompt. Use Section 8 for the expected return handoff and Section 13 when Merille brings collaborator activity reports back for verification and consolidation. Do not require Merille to repeat context already documented in Agent HQ; ask one concise question only when a missing decision materially affects the task.
 
 ## 10. Activity logging and Agent HQ ownership
 
-Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and proposed log entries. Collaborator activity reports may be pasted by Merille into the main commander chat because not every account has GitHub write access. Treat each report as a claim to verify, not as proof by itself. Check the relevant new/changed Markdown files and available GitHub commit/history timestamps; compare reported actions, saved outputs, links, and completion states. Do not call a Git commit timestamp an upload timestamp unless that distinction is supported by the platform record. Consolidate verified activity in `SESSION_LOG.md`; update the dashboard, task pointers, decision record, and handoff only where needed. Only the main commander writes canonical Agent HQ. For disputed or misaligned claims, present evidence and a reasoned recommendation to Merille, wait for her verdict, and then integrate the approved resolution. Keep earlier history append-only and preserve rejected or unresolved claims as such when needed.
+Use the required activity stamp defined in Section 4. Only the main commander writes canonical Agent HQ. The full rules for checking reports, reconciling evidence, logging verified activity and waiting for Merille’s decision are in Section 13; do not maintain a second workflow here. Preserve earlier history and do not describe a proposed or disputed finding as canonical.
 
 ## 11. Current scope and versioning
 
