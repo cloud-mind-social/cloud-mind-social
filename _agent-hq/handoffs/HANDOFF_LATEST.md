@@ -1,9 +1,9 @@
 # Latest handoff
 
 **Type:** Review handoff  
-**Prepared:** 2026-10-17; Asia/Manila  
-**Outcome:** Proposed a cross-account collaboration protocol for Merille-led delegation to other ChatGPT accounts or Claude. The main commander chat prepares task-specific prompts, reviews returned work, and integrates authorized outputs against canonical sources.  
+**Prepared:** 2026-10-18; Asia/Manila  
+**Outcome:** Expanded the proposed multi-account collaboration protocol to require prompt parsing, Agent HQ orientation, targeted repository scanning, task checklist creation, limitation/alternative reporting, right-sized execution, validation, deliverable reporting, a Main Commander Agent HQ Update Request, and `DATE-TIME-MDS` activity stamps. Only the main commander writes canonical Agent HQ.  
 **Branch:** `cms/multi-account-merille-commander-2026-10-17`  
-**Integration:** Not yet merged; check the review PR’s actual state before treating this as canonical.
+**Integration:** Not yet merged; check PR #42’s actual state before treating this as canonical.
 
 Read the [timestamped handoff](handoffs/archive/2026-10-17_multi-account-collaboration.md) and [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md).
