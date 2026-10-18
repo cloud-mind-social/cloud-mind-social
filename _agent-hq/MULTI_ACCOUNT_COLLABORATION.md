@@ -230,7 +230,7 @@ Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and pro
 
 ## 11. Current scope and versioning
 
-This protocol records collaboration governance only. The collaborator roster includes Queen Elli, Merille Digitals, Seul Yekha, Emz, Gemini workspace Yekha, and Gemini workspace SY. They are all collaborators subject to the same source, evidence, handoff, and approval rules; their specialist duties are defined by their individual role instructions and task prompts. Google Flow is a production tool, not an AI collaborator account. This protocol does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
+This protocol records collaboration governance only. The collaborator roster includes Queen Elli, Merille Digitals, Seul Yekha, Emz, Gemini workspace Yekha (Gemini 1), and Gemini workspace SY (Gemini 2). They are all collaborators subject to the same source, evidence, handoff, and approval rules; their specialist duties are defined by their individual role instructions and task prompts. Google Flow is a production tool, not an AI collaborator account. This protocol does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
 
 
 ## 12. Persistent specialist role instructions
@@ -240,10 +240,13 @@ Before delegating, open the role file for the selected collaborator and include 
 - **Queen Elli; strategy and systems:** [`roles/QUEEN_ELLI_STRATEGY.md`](roles/QUEEN_ELLI_STRATEGY.md). Use for research synthesis, positioning, campaign/funnel strategy, operating systems, and strategic recommendations.
 - **Seul Yekha; content and brand messaging:** [`roles/SEUL_YEKHA_CONTENT.md`](roles/SEUL_YEKHA_CONTENT.md). Use for captions, hooks, carousels, Stories, scripts, repurposing, CTAs, and creative production briefs based on an approved strategy.
 - **Emz; independent QA:** [`roles/EMZ_QUALITY_ASSURANCE.md`](roles/EMZ_QUALITY_ASSURANCE.md). Use for evidence checks, acceptance-criteria review, brand/logic consistency, unsupported-claim detection, and prioritized findings.
+- **Merille Digitals; research and source verification:** [`roles/MERILLE_DIGITALS_RESEARCH_VERIFICATION.md`](roles/MERILLE_DIGITALS_RESEARCH_VERIFICATION.md). Use for primary-source research, claim verification, evidence classification, contradiction reconciliation and source registers.
+- **Yekha; Gemini 1, creative concepts and platform adaptation:** [`roles/GEMINI_YEKHA_CREATIVE_CONCEPTS.md`](roles/GEMINI_YEKHA_CREATIVE_CONCEPTS.md). Use for original concept routes, hooks, format ideas and platform-native adaptations from an approved brief.
+- **SY; Gemini 2, visual production and Google Flow prompting:** [`roles/GEMINI_SY_VISUAL_PRODUCTION.md`](roles/GEMINI_SY_VISUAL_PRODUCTION.md). Use for shot design, generation prompts, continuity constraints and visual-output QA. The reusable production brief is in [CMS Client Operations](https://github.com/cloud-mind-social/cms-client-operations/blob/main/Templates/05_Content_and_Execution/EX-03_Google_Flow_Production_Brief.md); its integration is pending PR #5.
 
 The commander must still supply a task-specific brief: objective, audience, exact scope, deliverables, source records, constraints, acceptance criteria, allowed actions, save destination, and stop condition. Role files are reusable baselines, not substitutes for task-specific prompts. A QA verdict is not a release approval; the main commander integrates outputs and Merille retains final approval.
 
-Future specialist role files should be added to this section only after review. Do not assume that a named account has read or installed a role file; paste the applicable role instructions into that account's persistent project instructions or task prompt as needed.
+Role files describe proposed reusable responsibilities and remain subject to Merille's approval. Do not assume that a named account has read or installed a role file; paste the applicable role instructions into that account's persistent project instructions or task prompt as needed. Keep the three-way separation clear: Merille Digitals verifies evidence; Yekha develops creative concepts; SY translates approved creative direction into visual-production instructions and checks generated outputs.
 
 
 ## 13. Collaborator report review and approval gate
