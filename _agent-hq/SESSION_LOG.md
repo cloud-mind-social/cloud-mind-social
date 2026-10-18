@@ -315,3 +315,12 @@ Expanded `MULTI_ACCOUNT_COLLABORATION.md` with an eight-step discovery-to-delive
 **DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Compressed the current STATUS workstream table into a concise dashboard and preserved the pre-consolidation table verbatim in the status-history archive alongside dated historical closeouts.
 
 **Validation:** STATUS now points to the archive; the archived snapshot is explicitly labeled historical and does not override live sources or newer checkpoints. Existing SESSION_LOG entries remain unchanged.
+
+
+## 2026-10-18 11:02 Asia/Manila — Review PRs and source links verified
+
+**DATE-TIME-MDS:** 2026-10-18 11:02 Asia/Manila — Rechecked the proposed CMS role/consolidation PR and Client Operations Google Flow template PR after the latest edits; verified the relevant role files, start page, universal instructions, protocol, status archive and template are present on their review branches.
+
+**Current integration state:** [CMS PR #44](https://github.com/cloud-mind-social/cloud-mind-social/pull/44) is open and mergeable; [Client Operations PR #5](https://github.com/cloud-mind-social/cms-client-operations/pull/5) is open and mergeable. Neither is merged. The current CMS PR includes the Agent HQ consolidation and role-file revisions; the Flow brief remains a proposed blank master.
+
+**Limits:** No separate collaborator workspace was accessed, so installation of the role text into Gemini/Claude/other Project Instructions is not claimed. No media generation, publication, client delivery, deployment, permission changes, or protected-folder work occurred.
