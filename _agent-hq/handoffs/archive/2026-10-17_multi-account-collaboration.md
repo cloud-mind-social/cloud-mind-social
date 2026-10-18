@@ -35,3 +35,10 @@ No client repositories, Drive assets, Canva designs, live posts, or protected te
 ## Next action
 
 Review the PR for `cms/multi-account-merille-commander-2026-10-17`. Once merged, use the protocol to generate task-specific prompts in the main commander chat.
+
+
+## Amendment; 2026-10-18
+
+**DATE-TIME-MDS: 2026-10-18 09:08 Asia/Manila — Expanded the collaborator protocol with a discovery-first workflow, task checklist, limitations and alternatives, batch sizing, validation, main-commander-only Agent HQ update request, and required activity stamp.**
+
+The protocol now instructs collaborators to read the full task prompt first, enter through Agent HQ's documented reading order, scan only the relevant repository evidence, map findings to the task, create a checklist, state access/evidence/tool limitations and practical alternatives, execute all at once only when reasonably small or one checkpoint at a time when heavy, and validate against acceptance criteria. Every handoff must include a ready-to-use proposed Agent HQ update section; only the main commander applies changes to canonical Agent HQ. The required activity stamp is `DATE-TIME-MDS: YYYY-MM-DD HH:mm Asia/Manila — [report what you did here]`.
