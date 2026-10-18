@@ -37,20 +37,104 @@ The main commander ChatGPT account is the coordination point. It should:
 
 The main commander creates prompts on request. Do not assume a task has been delegated merely because a prompt was drafted or proposed.
 
-## 4. Branch-account responsibilities
+## 4. Required collaborator workflow; discovery through delivery
 
-Every delegated account must:
+Every delegated account follows this sequence unless the task prompt explicitly narrows or changes it. Do not jump straight into producing an answer before orienting to the project and its source of truth.
 
-1. Identify itself in its work notes by role/account label where useful, and identify the task ID or prompt title supplied by the commander.
-2. Read the provided source links and relevant instructions; ask for missing essential access/context only when the work cannot responsibly proceed.
-3. Stay inside the stated scope. Do not broaden the task, reopen locked decisions, change branding, invent approvals, publish content, contact clients, modify permissions, deploy websites, or alter protected technical areas unless the prompt explicitly authorizes that exact action.
-4. Use reliable, current evidence for claims that can change. Cite source links and dates in research deliverables.
-5. Mark recommendations, hypotheses, unverified claims, and missing evidence clearly.
-6. Return the requested artifact plus a concise handoff: what was completed, source links used, files created/changed, what remains unverified, assumptions made, and blockers.
-7. Never claim a file was uploaded, a commit was made, or an external action completed without confirmation from the relevant tool/service.
-8. Avoid changing canonical Agent HQ files unless the prompt explicitly assigns that repository edit. A draft response alone is not an update to the source of truth.
+### Step 1; read and parse the actual task prompt
 
-If a collaborator discovers a conflict with a locked decision or another agent’s work, flag it with evidence. Do not silently choose a new direction.
+- Read the complete prompt supplied by the main commander before browsing or acting.
+- Extract the goal, requested output, target audience, exact scope, constraints, acceptance criteria, deadlines if provided, permitted tools/actions, save destination, and stop condition.
+- Preserve the task's intent; do not silently replace it with a broader or easier task.
+- If an essential ambiguity blocks responsible work, ask one focused question. Otherwise, record a reasonable, clearly stated assumption and proceed.
+
+### Step 2; enter through Agent HQ's orientation path
+
+Use this order as the default entry path in the canonical CMS repository:
+
+1. `_agent-hq/START_HERE.md` for orientation and required reading order.
+2. `_agent-hq/STATUS.md` for the current dashboard and known limits.
+3. `_agent-hq/handoffs/HANDOFF_LATEST.md` and the timestamped handoff it points to; a newer checkpoint/handoff may supersede older status details.
+4. The latest one or two relevant entries in `_agent-hq/SESSION_LOG.md`.
+5. `_agent-hq/TASKS.md` for authoritative task-source pointers.
+6. `_agent-hq/AI_PROJECT_INSTRUCTIONS.md`, the root README, `INDEX.md`, this protocol, and the relevant content-writing/brand standards.
+7. The destination repository's README and task-specific source files, calendars, approval records, and verified working assets.
+
+Read enough of the sources to answer the actual task; do not perform an unrelated full-repository audit. If the task concerns a separate client repository, follow its own README and privacy boundaries. If a source is inaccessible, record that limitation rather than implying it was checked.
+
+### Step 3; map the prompt to repository evidence
+
+- Translate the prompt into a short task brief and acceptance checklist.
+- Search/scan the relevant repository paths, documents, trackers, and exact-version approval records for data needed to complete the task.
+- Prefer canonical source files and live trackers over old backups, chat recollection, summaries, or filenames.
+- Check dates, versions, approvals, statuses, and internal consistency. Identify conflicts, stale evidence, missing inputs, and duplicated trackers.
+- Cite exact paths/URLs and versions in working notes and the final handoff.
+- Do not change any file during discovery unless the task explicitly requires an immediate, safe edit.
+
+### Step 4; create a task list before execution
+
+Build a concise, ordered checklist that maps directly to the goal. For each task, state the intended result and any dependency. Mark tasks as pending, in progress, completed, blocked, or not applicable as work proceeds.
+
+For substantial work, show Merille/the main commander the task list early when the interaction allows it. Do not wait for clarification if the brief is sufficient and the work is authorized. For a small task that can be completed safely in one pass, keep the checklist compact and execute without unnecessary ceremony.
+
+### Step 5; disclose limitations and practical alternatives
+
+Before or alongside execution, identify limitations that could affect quality or completion, including missing repository/app access, unavailable files, subscription/tool constraints, uncertain evidence, unsupported operations, or actions that require owner approval.
+
+For each material limitation:
+- explain its impact on the requested outcome;
+- state what can still be completed safely;
+- suggest a practical alternative workflow, tool, or destination when one exists;
+- identify any access or decision needed from Merille.
+
+Never imply an alternative has been performed when it is only a suggestion. Do not bypass permissions or move confidential data into an unauthorized service.
+
+### Step 6; execute at the right batch size
+
+- **Small or independent task:** complete all authorized work in one pass when quality and verification can be maintained.
+- **Heavy, multi-source, or dependency-driven task:** process one task/checkpoint at a time. Finish and validate each meaningful unit before proceeding; keep the checklist current; preserve intermediate outputs and report blockers early.
+- **Research-heavy task:** gather evidence first, synthesize second, and make recommendations only after separating facts from assumptions.
+- **Implementation task:** inspect the target and current state first; make scoped changes; verify the actual result afterward.
+- **Multi-file task:** check cross-file links, consistent terminology, duplicated content, and whether one file is the canonical master.
+
+Do not split work merely for ceremony, and do not force a large task into one response if that would reduce reliability. Keep all actions within the permissions explicitly granted to that collaborator.
+
+### Step 7; quality-check before handoff
+
+Compare the result against the original prompt and acceptance checklist. Verify factual claims, links, file paths, naming, versions, calculations where relevant, CMS voice, and scope. Distinguish what was actually verified from what could not be verified. Confirm the task list reflects the real state; do not mark blocked or pending work as completed.
+
+### Step 8; return deliverables and an Agent HQ update request
+
+The delegated account must return the deliverable and a **Main Commander Agent HQ Update Request** section. The delegated account must not write to or directly modify canonical Agent HQ. Only the main commander account may apply Agent HQ changes, after reviewing the handoff and confirming that updates are authorized and accurate.
+
+The update request must be ready to use and include:
+- the specific Agent HQ file/section to update, if known;
+- the proposed factual wording or bullet points;
+- the task status and verified outcome;
+- sources/links and exact versions supporting the update;
+- open items, limitations, blockers, and next actions;
+- any existing status/decision/handoff records that should be linked rather than duplicated.
+
+If no Agent HQ update is warranted, say so and explain why. A request to update Agent HQ is not itself an update; the main commander must verify and apply it.
+
+### Required activity stamp
+
+Include this exact label for each meaningful task/checkpoint in the handoff, and for any proposed Agent HQ log entry:
+
+`DATE-TIME-MDS: YYYY-MM-DD HH:mm Asia/Manila — [report what you did here]`
+
+Use the actual local date/time when recording the activity; do not backdate, invent timestamps, or reuse one stamp for unrelated actions. If the exact time cannot be verified, state that the time is approximate. The bracketed text is replaced with a concise factual activity description.
+
+### Branch-account responsibilities
+
+In addition to the workflow above, every delegated account must:
+
+1. Identify its role/account label where useful, and identify the task ID or prompt title supplied by the commander.
+2. Stay inside the stated scope. Do not reopen locked decisions, change branding, publish content, contact clients, modify permissions, deploy websites, or alter protected technical areas unless the prompt explicitly authorizes that exact action.
+3. Use reliable, current evidence for claims that can change. Cite source links and dates in research deliverables.
+4. Mark recommendations, hypotheses, unverified claims, and missing evidence clearly.
+5. Never claim a file was uploaded, a commit was made, or an external action completed without confirmation from the relevant tool/service.
+6. Flag conflicts with a locked decision or another agent's work; do not silently choose a new direction.
 
 ## 5. Standard prompt package created by the commander
 
@@ -106,23 +190,26 @@ Protected boundaries remain in force: no reading, editing, command execution aga
 
 For authorized repository changes, refresh the target branch, preserve unrelated work/history, use `[AI-assisted]` commit messages, and follow the current PR requirements. Never force-push. A PR is not a merge; a merge is not publication. Verify the actual result.
 
-## 8. Handoff and integration rules
+## 8. Standard final handoff format
 
-The branch account returns:
+Return the following sections in the final response. Keep it concise for small tasks and detailed enough for complex work.
 
-1. **Outcome:** completed / partially completed / blocked.
-2. **Deliverable:** full artifact or verified link.
-3. **Sources:** exact URLs or file paths and relevant dates/versions.
-4. **Changes:** files created/edited and confirmed commit/URL, if any.
-5. **Validation:** checks performed and what they establish.
-6. **Limits:** missing access, uncertain evidence, assumptions, and unresolved decisions.
-7. **Next action:** one clear recommendation, if needed.
+1. **Task and outcome:** task title/ID; completed, partially completed, or blocked.
+2. **Task checklist:** each task with its real status and a short completion note.
+3. **Deliverables:** complete artifact(s), verified links, and exact destination paths.
+4. **Sources and evidence:** exact files/URLs, versions/dates, and what each source supports.
+5. **Changes and actions:** files created/edited and confirmed commit or external action identifiers. Separate local drafts from saved files, commits, PRs, merges, approvals, scheduling, and publication.
+6. **Validation:** checks performed and their limits.
+7. **Limitations and alternatives:** missing access, unavailable evidence, unsupported operations, impact, practical alternative(s), and any action needed from Merille.
+8. **Open items / next steps:** blockers and the next recommended action.
+9. **Main Commander Agent HQ Update Request:** proposed file/section and ready-to-paste factual update, or “No update requested” with reason.
+10. **Activity stamps:** one or more `DATE-TIME-MDS: YYYY-MM-DD HH:mm Asia/Manila — [report what you did here]` entries for meaningful work/checkpoints.
 
-The main commander then reviews the work, reconciles it against canonical sources, and decides whether to integrate, request revision, or reject it. Do not overwrite an existing source merely because another account produced a newer-looking version. Append decision/session records when authorized; preserve historical records and point to the authoritative artifact.
+The main commander reviews the handoff, reconciles it against canonical sources, and decides whether to integrate, request revision, or reject it. Do not overwrite an existing source merely because another account produced a newer-looking version. Preserve historical records and point to the authoritative artifact. Only the main commander account may write the requested update into canonical Agent HQ; the delegated account supplies the proposed update text and supporting evidence.
 
 ## 9. How Merille will use this workflow
 
-When Merille returns to the main commander and says what needs to be done, the commander should first check the relevant Agent HQ/repository sources, then prepare a ready-to-paste prompt for the intended ChatGPT or Claude chat. If the user specifies a target account or tool, tailor the prompt to its likely workflow and clearly state any access dependency.
+When Merille returns to the main commander and says what needs to be done, the commander should first check the relevant Agent HQ/repository sources, then prepare a ready-to-paste prompt for the intended ChatGPT or Claude chat. The delegated account must then follow Section 4's discovery-first workflow: parse the prompt, orient through Agent HQ, scan relevant repository evidence, create a task checklist, disclose limitations and alternatives, execute at an appropriate batch size, validate, and return deliverables with an Agent HQ update request. If the user specifies a target account or tool, tailor the prompt to its likely workflow and clearly state any access dependency.
 
 When useful, provide:
 - a **primary prompt** ready to paste;
@@ -132,6 +219,10 @@ When useful, provide:
 
 Do not require Merille to repeat context already documented in Agent HQ. Ask one concise question only when a missing decision materially affects the prompt.
 
-## 10. Current scope and versioning
+## 10. Activity logging and Agent HQ ownership
+
+Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and proposed log entries. The delegated account supplies proposed log content, but only the main commander writes canonical Agent HQ files. This separation keeps the project record coherent and prevents parallel agents from overwriting status, decisions, or handoffs.
+
+## 11. Current scope and versioning
 
 This protocol records collaboration governance only. It does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
