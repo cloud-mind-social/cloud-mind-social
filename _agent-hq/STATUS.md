@@ -1,6 +1,6 @@
 # Project Status
 
-**Update in review:** 2026-10-17; proposed cross-account collaboration protocol and commander workflow are on branch `cms/multi-account-merille-commander-2026-10-17`. This change is not integrated into `main` until the review PR is merged. See [Multi-Account Collaboration Protocol](MULTI_ACCOUNT_COLLABORATION.md) on the branch. The protocol now includes the discovery-first workflow, repository scan, task checklist, limitations/alternatives, batch sizing, quality check, `DATE-TIME-MDS` activity stamp, and a main-commander-only Agent HQ update process.
+**Current update in review:** 2026-10-18 10:53 Asia/Manila. PR #42 (base collaboration protocol) and PR #43 (collaborator report verification, Gemini roster and approval gate) are merged into `main`. This branch proposes three specialist role files and updated HQ navigation. CMS role PR is pending review; Google Flow production brief is proposed in [Client Operations PR #5](https://github.com/cloud-mind-social/cms-client-operations/pull/5), not yet merged. See [TASKS](TASKS.md) for role links and review states. The proposed role boundaries are: Merille Digitals = research/source verification; Yekha (Gemini 1) = creative concepts/platform adaptation; SY (Gemini 2) = visual production/Google Flow prompting and output QA.
 
 **Updated:** 2026-10-14T03:57:54+08:00; Asia/Manila  
 **Source snapshot:** main at `c313d046c5eb7b264e63dcc6a4cd5ea3bbf2b95b`  
