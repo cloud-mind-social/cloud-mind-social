@@ -299,3 +299,12 @@ Expanded `MULTI_ACCOUNT_COLLABORATION.md` with an eight-step discovery-to-delive
 **Validation:** New role files were created on the working branch. Agent HQ navigation points to the proposed role files and labels the Flow template as pending. Shared template category README links EX-03 and its count changes from three to four. No client data, production assets, publication, deployment, permissions, `.github/`, `www/` or `webmail/` were changed.
 
 **Remaining:** Review/merge CMS PR #44 and Client Operations PR #5; then verify merged content and update canonical pointers/status if needed. No collaborator has been told that the role instructions are installed in their separate workspace.
+
+
+## 2026-10-18 — Agent HQ instruction consolidation follow-up
+
+**DATE-TIME-MDS:** 2026-10-18 10:53 Asia/Manila — Simplified the Agent HQ start page, removed duplicated startup and collaboration instructions from the universal instruction file, made the collaboration protocol the single detailed workflow authority, shortened existing role files to specialist-specific responsibilities, and moved dated STATUS closeouts into a preserved archive.
+
+**Evidence and scope:** The changes are on the CMS review branch and included in [PR #44](https://github.com/cloud-mind-social/cloud-mind-social/pull/44). The status history is preserved in [the archive](handoffs/archive/2026-10-18_status-history-migration.md); the current STATUS page now links to it. No historical SESSION_LOG entries were edited or deleted.
+
+**Validation:** Confirmed that the start page contains the reading order and navigation, AI_PROJECT_INSTRUCTIONS points to START_HERE and the collaboration protocol instead of repeating their detailed procedures, and the role files defer the shared workflow/handoff to the protocol. PR #44 remains open pending review; the proposed role wording and structure are not canonical until merged.
