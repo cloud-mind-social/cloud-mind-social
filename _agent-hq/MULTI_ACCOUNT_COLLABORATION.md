@@ -226,3 +226,16 @@ Use the required `DATE-TIME-MDS` stamp for factual task/checkpoint notes and pro
 ## 11. Current scope and versioning
 
 This protocol records collaboration governance only. It does not approve a new CMS campaign, deliverable, publication, price, client action, website deployment, or access change. It does not change the scope or status of earlier approvals. Review and merge the associated PR before treating this proposed repository update as integrated into `main`.
+
+
+## 10. Persistent specialist role instructions
+
+Before delegating, open the role file for the selected collaborator and include its relevant requirements in the task prompt. These files supplement the universal instructions; they do not override current user directions, exact-version approvals, repository permissions, or this protocol.
+
+- **Queen Elli; strategy and systems:** [`roles/QUEEN_ELLI_STRATEGY.md`](roles/QUEEN_ELLI_STRATEGY.md). Use for research synthesis, positioning, campaign/funnel strategy, operating systems, and strategic recommendations.
+- **Seul Yekha; content and brand messaging:** [`roles/SEUL_YEKHA_CONTENT.md`](roles/SEUL_YEKHA_CONTENT.md). Use for captions, hooks, carousels, Stories, scripts, repurposing, CTAs, and creative production briefs based on an approved strategy.
+- **Emz; independent QA:** [`roles/EMZ_QUALITY_ASSURANCE.md`](roles/EMZ_QUALITY_ASSURANCE.md). Use for evidence checks, acceptance-criteria review, brand/logic consistency, unsupported-claim detection, and prioritized findings.
+
+The commander must still supply a task-specific brief: objective, audience, exact scope, deliverables, source records, constraints, acceptance criteria, allowed actions, save destination, and stop condition. Role files are reusable baselines, not substitutes for task-specific prompts. A QA verdict is not a release approval; the main commander integrates outputs and Merille retains final approval.
+
+Future specialist role files should be added to this section only after review. Do not assume that a named account has read or installed a role file; paste the applicable role instructions into that account's persistent project instructions or task prompt as needed.
