@@ -1,20 +1,22 @@
+import { RESPONSE_EXPECTATION } from "@/lib/intake";
+
 export const nav = [
+  { label: "Where to start", href: "#start" },
   { label: "How we think", href: "#diagnosis" },
   { label: "Paths", href: "#paths" },
-  { label: "Capabilities", href: "#capabilities" },
   { label: "FAQ", href: "#faq" },
 ];
 
 export const processSteps = [
   {
     n: "01",
-    title: "A conversation, not a pitch",
-    body: "Where the business actually stands right now, described in plain terms. No slide deck.",
+    title: "A conversation about fit",
+    body: "Where the business actually stands right now, described in plain terms. No slide deck, and no recommendation yet.",
   },
   {
     n: "02",
-    title: "A real diagnosis",
-    body: "What's working, what isn't, and why — looked at before anything gets recommended.",
+    title: "A diagnosis, when it's needed",
+    body: "What's working, what isn't, and why — examined properly before anything gets recommended. A clearly defined task just needs a clear scope.",
   },
   {
     n: "03",
@@ -23,8 +25,8 @@ export const processSteps = [
   },
   {
     n: "04",
-    title: "Named specialists",
-    body: "Whoever does the work is who you talk to about it — not a rotating account team.",
+    title: "Named specialists, one accountable lead",
+    body: "Whoever does the work is who you talk to about it, and one lead owns the relationship as a whole — not a rotating account team.",
   },
   {
     n: "05",
@@ -193,6 +195,18 @@ export const commitments = [
 
 export const faqs = [
   {
+    q: "Which way in should I pick?",
+    a: "If you can't put your finger on the problem, take the Social Signal Check. If you can describe a specific situation, request a Signal-to-Strategy Review. If there's a decision in front of you and you're ready for a paid diagnosis, ask about the Social Clarity Intensive. Pick the wrong one and we'll point you to the right one.",
+  },
+  {
+    q: "Do the review and the Intensive cost anything?",
+    a: "The Social Clarity Intensive is a paid diagnosis. You'll see its scope, timing and price in writing before anything is booked, and buying it doesn't commit you to anything after it. For a Signal-to-Strategy Review, we'll tell you before it happens whether there's a fee. Nothing is charged through this website.",
+  },
+  {
+    q: "Is the first conversation a diagnosis?",
+    a: "No. The first conversation is about fit: where the business is and whether we're the right people. A diagnosis takes a proper look at the business, which is what the Intensive is for. We'd rather say that plainly than squeeze a pretend diagnosis into a call.",
+  },
+  {
     q: "Why not just do this myself?",
     a: "Plenty of businesses do, for a while. What shows up later is the cost of the time it took to get good at it — this exists to skip that part.",
   },
@@ -206,17 +220,37 @@ export const faqs = [
   },
   {
     q: "What if my budget is limited right now?",
-    a: "Say so on the first call. Right-sized means starting with what makes sense today, not the largest package on offer.",
+    a: "Say so up front. Right-sized means starting with what makes sense today, not the largest package on offer.",
   },
   {
     q: "Will this feel like a relationship, or just a transaction?",
     a: "The people on an account are named specialists, not a rotating team. That's what makes the difference — not a tone of voice.",
   },
+  {
+    q: "Do I have to sign up for anything?",
+    a: "No. There's no account to create and no mailing list behind these forms. We reply to what you sent, and that's it unless you ask for more.",
+  },
 ] as const;
 
-export const journeyStages = [
-  "Just getting started",
-  "Posting, but not consistent",
-  "Consistent, but not growing",
-  "Ready to scale with a partner",
+export const ownership = [
+  {
+    n: "01",
+    title: "One relationship lead",
+    body: "Every client has one lead who reads the request, owns the scope, and is the person to go to when something isn't right.",
+  },
+  {
+    n: "02",
+    title: "Specialists matched to the task",
+    body: "The work goes to specialists chosen for it. You know who's doing what, and they're who you talk to about it.",
+  },
+  {
+    n: "03",
+    title: "Handoffs you're told about",
+    body: "If a specialist changes, your lead tells you who's taking over and what has been handed across.",
+  },
+  {
+    n: "04",
+    title: "Requests a person reads",
+    body: `Every request from this site goes to a person, not an automated sequence. The reply comes by email, ${RESPONSE_EXPECTATION}.`,
+  },
 ] as const;

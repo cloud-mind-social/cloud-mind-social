@@ -4,21 +4,31 @@ The public site plus the inquiry inbox behind it. Next.js on Cloudflare
 Workers (via OpenNext), with Cloudflare D1 for storage and Cloudflare Email
 Sending for mail.
 
-- `/` — the landing page and discovery-call form
-- `/admin` — the inbox: read inquiries, reply, track status, keep private notes
+- `/` — the landing page, the Social Signal Check and three request routes
+- `/admin` — the inbox: read inquiries, reply, track status, set an owner and
+  next action, keep private notes
 - `/admin/login` — sign in
 - `/admin/setup` — creates the first account, once
 
 ## How an inquiry flows
 
-1. Someone fills in the form on `/`. It's validated on the server, rate
-   limited, and written to D1.
+1. Someone picks a route in **Where to start** on `/`: a Signal-to-Strategy
+   Review, a Social Clarity Intensive, or a scoped task. The Social Signal
+   Check runs in the browser and sends nothing unless they choose to attach
+   its result to a review. Each route asks only for its own fields
+   (`src/lib/intake.ts`). The request is validated on the server, rate
+   limited, and written to D1 with its route, context and source (UTM tags,
+   referring page, landing path).
 2. Two emails go out immediately:
    - a **branded acknowledgement** to them — what they sent, what happens
-     next, and the one-business-day promise the site makes;
+     next for that route, and the reply expectation the site states
+     ("usually within one business day");
    - a **notification** to `INQUIRY_NOTIFY_TO` with a link straight to the
      inquiry in the inbox.
-3. It appears in `/admin` as **New**. Opening it moves it to **Looking at it**.
+3. It appears in `/admin` as **New** and **Not reviewed yet**. Opening it
+   moves it to **Looking at it**. The Follow-up panel records the outcome,
+   the owner, the next action and its due date; the inbox flags anything
+   overdue.
 4. Replying from the inbox sends a branded email and moves it to **Replied**.
    `Reply-To` is set to `MAIL_REPLY_TO`, so their answer lands in the normal
    inbox and the conversation carries on by email as usual.
@@ -116,6 +126,7 @@ redirects to sign-in from then on.
 | Task | Command |
 |---|---|
 | Local dev | `npm run dev` |
+| Unit tests | `npm test` |
 | Deploy to staging | `npm run deploy:staging` |
 | Deploy to production | `npm run deploy` |
 | Apply a new migration | `npm run db:migrate` |

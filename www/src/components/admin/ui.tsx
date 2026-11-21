@@ -1,5 +1,11 @@
 import Link from "next/link";
 
+import {
+  QUALIFICATION_LABELS,
+  ROUTE_SHORT_LABELS,
+  type InquiryRoute,
+  type QualificationOutcome,
+} from "@/lib/intake";
 import { STATUS_LABELS, type InquiryStatus } from "@/lib/inquiry-status";
 
 export function Eyebrow({ children }: { children: React.ReactNode }) {
@@ -36,6 +42,19 @@ export function StatusChip({ status }: { status: InquiryStatus }) {
       {STATUS_LABELS[status]}
     </span>
   );
+}
+
+export function RouteChip({ route }: { route: InquiryRoute }) {
+  return (
+    <span className="inline-flex shrink-0 items-center rounded-full border border-line px-3 py-1 font-mono text-[10px] uppercase tracking-[0.12em] text-cream-dim">
+      {ROUTE_SHORT_LABELS[route]}
+    </span>
+  );
+}
+
+/** Short form of an outcome, for list rows. The full label is in the form. */
+export function QualificationNote({ outcome }: { outcome: QualificationOutcome }) {
+  return <span>{QUALIFICATION_LABELS[outcome].split(":")[0]}</span>;
 }
 
 export function Field({

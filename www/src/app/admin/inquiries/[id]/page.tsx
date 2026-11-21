@@ -2,10 +2,11 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { AdminShell } from "@/components/admin/shell";
+import { FollowUpForm } from "@/components/admin/follow-up-form";
 import { NoteForm } from "@/components/admin/note-form";
 import { ReplyComposer } from "@/components/admin/reply-composer";
 import { StatusControl } from "@/components/admin/status-control";
-import { Eyebrow, StatusChip } from "@/components/admin/ui";
+import { Eyebrow, RouteChip, StatusChip } from "@/components/admin/ui";
 import { requireAdmin } from "@/lib/auth";
 import { fullDate, timeAgo } from "@/lib/format";
 import {
@@ -14,7 +15,15 @@ import {
   listReplies,
   markInquirySeen,
 } from "@/lib/inquiries";
+import {
+  FIELD_LABELS,
+  ROUTE_COPY,
+  ROUTE_LABELS,
+  isInquiryRoute,
+  isQualificationOutcome,
+} from "@/lib/intake";
 import type { InquiryStatus } from "@/lib/inquiry-status";
+import { SIGNAL_COPY, describeAnswers, isSignalResultKey } from "@/lib/signal-check";
 
 export const dynamic = "force-dynamic";
 
@@ -65,6 +74,27 @@ export default async function InquiryPage({
   const [replies, notes] = await Promise.all([listReplies(id), listNotes(id)]);
   const status: InquiryStatus =
     inquiry.status === "new" ? "reading" : (inquiry.status as InquiryStatus);
+  const route = isInquiryRoute(inquiry.route) ? inquiry.route : "conversation";
+  const labels: Partial<Record<string, string>> =
+    route === "conversation" ? {} : FIELD_LABELS[route];
+  const signalKey =
+    inquiry.signal_category && isSignalResultKey(inquiry.signal_category)
+      ? inquiry.signal_category
+      : null;
+  const signalAnswers = inquiry.signal_answers ? describeAnswers(inquiry.signal_answers) : [];
+  const source = [
+    ["Source", inquiry.utm_source],
+    ["Medium", inquiry.utm_medium],
+    ["Campaign", inquiry.utm_campaign],
+    ["Content", inquiry.utm_content],
+    ["Referrer", inquiry.referrer],
+    ["Landed on", inquiry.landing_path],
+  ].filter((row): row is [string, string] => Boolean(row[1]));
+  const extraContext = [
+    [labels.decision ?? "Decision", inquiry.decision],
+    [labels.consequence ?? "What it's costing", inquiry.consequence],
+    [labels.whyNow ?? "Why now", inquiry.why_now],
+  ].filter((row): row is [string, string] => Boolean(row[1]));
 
   return (
     <AdminShell admin={admin}>
@@ -80,6 +110,7 @@ export default async function InquiryPage({
           {inquiry.name}
         </h1>
         <StatusChip status={status} />
+        <RouteChip route={route} />
       </div>
       <p className="mt-3 text-cream-dim">
         {inquiry.business} · arrived {timeAgo(inquiry.created_at)} ·{" "}
@@ -109,10 +140,34 @@ export default async function InquiryPage({
                   </a>
                 </DetailRow>
               ) : null}
-              <DetailRow label="Stage">{inquiry.stage}</DetailRow>
+              <DetailRow label="Asked for">{ROUTE_LABELS[route]}</DetailRow>
+              {inquiry.profile ? (
+                <DetailRow label="Website or profile">{inquiry.profile}</DetailRow>
+              ) : null}
+              {inquiry.role ? <DetailRow label="Role">{inquiry.role}</DetailRow> : null}
+              {inquiry.stage ? <DetailRow label="Stage">{inquiry.stage}</DetailRow> : null}
+              {inquiry.timing ? (
+                <DetailRow label={labels.timing ?? "Timing"}>{inquiry.timing}</DetailRow>
+              ) : null}
             </div>
 
+            {extraContext.map(([label, value]) => (
+              <div key={label} className="mt-7">
+                <p className="font-mono text-[11px] uppercase tracking-[0.12em] text-cream-faint">
+                  {label}
+                </p>
+                <p className="mt-2 whitespace-pre-wrap text-[15px] leading-[1.7] text-cream">
+                  {value}
+                </p>
+              </div>
+            ))}
+
             <div className="mt-7 rounded-xl border border-line bg-ink-raised/40 p-6">
+              {inquiry.message && labels.situation ? (
+                <p className="mb-3 font-mono text-[11px] uppercase tracking-[0.12em] text-cream-faint">
+                  {labels.situation}
+                </p>
+              ) : null}
               {inquiry.message ? (
                 <p className="whitespace-pre-wrap text-[15px] leading-[1.7] text-cream">
                   {inquiry.message}
@@ -124,6 +179,27 @@ export default async function InquiryPage({
               )}
             </div>
           </Panel>
+
+          {signalKey ? (
+            <Panel title="Their Social Signal Check">
+              <p className="font-display text-2xl text-cream">
+                Pointed at: {SIGNAL_COPY[signalKey].title}
+              </p>
+              <p className="mt-2 text-[14px] leading-relaxed text-cream-dim">
+                {SIGNAL_COPY[signalKey].summary} This is what their answers suggested
+                to them, not a diagnosis.
+              </p>
+              {signalAnswers.length > 0 ? (
+                <div className="mt-5 grid">
+                  {signalAnswers.map(([question, answer]) => (
+                    <DetailRow key={question} label={question}>
+                      {answer}
+                    </DetailRow>
+                  ))}
+                </div>
+              ) : null}
+            </Panel>
+          ) : null}
 
           {inquiry.ack_delivery === "failed" ? (
             <div className="rounded-2xl border border-amber/50 bg-amber/10 p-6">
@@ -146,7 +222,7 @@ export default async function InquiryPage({
             <ReplyComposer
               inquiryId={inquiry.id}
               recipient={inquiry.email}
-              defaultSubject={`Re: your note about ${inquiry.business}`}
+              defaultSubject={`Re: your request about ${inquiry.business}`}
             />
           </Panel>
 
@@ -187,9 +263,39 @@ export default async function InquiryPage({
         </div>
 
         <div className="grid gap-6">
+          <Panel title="Follow-up">
+            <p className="mb-5 text-[13px] leading-relaxed text-cream-faint">
+              {ROUTE_COPY[route].promised}
+            </p>
+            <FollowUpForm
+              inquiryId={inquiry.id}
+              qualification={
+                isQualificationOutcome(inquiry.qualification)
+                  ? inquiry.qualification
+                  : "unreviewed"
+              }
+              owner={inquiry.owner}
+              nextAction={inquiry.next_action}
+              nextActionDue={inquiry.next_action_due}
+              defaultOwner={admin.name}
+            />
+          </Panel>
+
           <Panel title="Status">
             <StatusControl inquiryId={inquiry.id} current={status} />
           </Panel>
+
+          {source.length > 0 ? (
+            <Panel title="Came from">
+              <div className="grid">
+                {source.map(([label, value]) => (
+                  <DetailRow key={label} label={label}>
+                    <span className="break-all">{value}</span>
+                  </DetailRow>
+                ))}
+              </div>
+            </Panel>
+          ) : null}
 
           <Panel title="Private notes">
             {notes.length > 0 ? (

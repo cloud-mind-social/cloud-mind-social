@@ -3,8 +3,10 @@ import "server-only";
 import { getDb } from "@/lib/env";
 import { newId } from "@/lib/id";
 import type { InquiryInput } from "@/lib/validation";
+import type { InquiryRoute } from "@/lib/intake";
 import type {
   AckDelivery,
+  FollowUpInput,
   Inquiry,
   InquiryFilter,
   InquiryNote,
@@ -13,7 +15,12 @@ import type {
 } from "@/lib/inquiry-status";
 
 const INQUIRY_COLUMNS = `id, name, business, email, phone, stage, message,
-  status, source, ack_delivery, ack_error, created_at, updated_at`;
+  status, source, ack_delivery, ack_error,
+  route, profile, role, consequence, why_now, decision, timing,
+  signal_category, signal_answers,
+  utm_source, utm_medium, utm_campaign, utm_content, referrer, landing_path,
+  qualification, owner, next_action, next_action_due, follow_up_updated_at,
+  created_at, updated_at`;
 
 export async function createInquiry(
   input: InquiryInput & { ipHash: string | null; userAgent: string | null },
@@ -21,11 +28,18 @@ export async function createInquiry(
   const db = await getDb();
   const id = newId("inq");
 
+  const a = input.attribution;
   await db
     .prepare(
       `INSERT INTO inquiries
-         (id, name, business, email, phone, stage, message, ip_hash, user_agent)
-       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9)`,
+         (id, name, business, email, phone, stage, message, ip_hash, user_agent,
+          route, profile, role, consequence, why_now, decision, timing,
+          signal_category, signal_answers,
+          utm_source, utm_medium, utm_campaign, utm_content, referrer, landing_path)
+       VALUES (?1, ?2, ?3, ?4, ?5, ?6, ?7, ?8, ?9,
+               ?10, ?11, ?12, ?13, ?14, ?15, ?16,
+               ?17, ?18,
+               ?19, ?20, ?21, ?22, ?23, ?24)`,
     )
     .bind(
       id,
@@ -37,6 +51,21 @@ export async function createInquiry(
       input.message,
       input.ipHash,
       input.userAgent,
+      input.route,
+      input.profile,
+      input.role,
+      input.consequence,
+      input.whyNow,
+      input.decision,
+      input.timing,
+      input.signalCategory,
+      input.signalAnswers,
+      a.utmSource,
+      a.utmMedium,
+      a.utmCampaign,
+      a.utmContent,
+      a.referrer,
+      a.landingPath,
     )
     .run();
 
@@ -71,19 +100,27 @@ export async function recordAcknowledgement(
   }
 }
 
-export async function listInquiries(filter: InquiryFilter = "open"): Promise<Inquiry[]> {
+export async function listInquiries(
+  filter: InquiryFilter = "open",
+  route: InquiryRoute | null = null,
+): Promise<Inquiry[]> {
   const db = await getDb();
 
-  let where = "";
+  const clauses: string[] = [];
   const binds: string[] = [];
 
   if (filter === "open") {
-    where = "WHERE status != 'archived'";
+    clauses.push("status != 'archived'");
   } else if (filter !== "all") {
-    where = "WHERE status = ?1";
     binds.push(filter);
+    clauses.push(`status = ?${binds.length}`);
+  }
+  if (route) {
+    binds.push(route);
+    clauses.push(`route = ?${binds.length}`);
   }
 
+  const where = clauses.length ? `WHERE ${clauses.join(" AND ")}` : "";
   const statement = db.prepare(
     `SELECT ${INQUIRY_COLUMNS} FROM inquiries ${where}
      ORDER BY created_at DESC LIMIT 200`,
@@ -91,6 +128,39 @@ export async function listInquiries(filter: InquiryFilter = "open"): Promise<Inq
 
   const { results } = await (binds.length ? statement.bind(...binds) : statement).all<Inquiry>();
   return results ?? [];
+}
+
+/**
+ * Open inquiries whose next action is due on or before `today` (YYYY-MM-DD),
+ * or that nobody has reviewed yet. This is what "accountable follow-up"
+ * looks like on the inbox's front page.
+ */
+export async function countNeedingFollowUp(today: string): Promise<{ overdue: number; unreviewed: number }> {
+  const db = await getDb();
+  const row = await db
+    .prepare(
+      `SELECT
+         SUM(CASE WHEN next_action_due IS NOT NULL AND next_action_due <= ?1
+                   AND qualification NOT IN ('deferred','declined','no-response') THEN 1 ELSE 0 END) AS overdue,
+         SUM(CASE WHEN qualification = 'unreviewed' THEN 1 ELSE 0 END) AS unreviewed
+       FROM inquiries WHERE status != 'archived'`,
+    )
+    .bind(today)
+    .first<{ overdue: number | null; unreviewed: number | null }>();
+  return { overdue: row?.overdue ?? 0, unreviewed: row?.unreviewed ?? 0 };
+}
+
+export async function updateFollowUp(id: string, input: FollowUpInput): Promise<void> {
+  const db = await getDb();
+  await db
+    .prepare(
+      `UPDATE inquiries
+          SET qualification = ?2, owner = ?3, next_action = ?4, next_action_due = ?5,
+              follow_up_updated_at = datetime('now'), updated_at = datetime('now')
+        WHERE id = ?1`,
+    )
+    .bind(id, input.qualification, input.owner, input.nextAction, input.nextActionDue)
+    .run();
 }
 
 export async function countByStatus(): Promise<Record<string, number>> {
