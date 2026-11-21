@@ -45,7 +45,7 @@ export function Nav() {
               className="text-amber/50"
               runnerClassName="text-amber"
             />
-            Start a conversation
+            Find where to start
           </a>
         </nav>
 
@@ -83,7 +83,7 @@ export function Nav() {
             className="relative mt-2 rounded-full px-5 py-3 text-center font-mono text-[12px] uppercase tracking-[0.14em] text-amber-deep"
           >
             <TraceFrame radius={999} duration={900} className="text-amber/50" />
-            Start a conversation
+            Find where to start
           </a>
         </nav>
       )}

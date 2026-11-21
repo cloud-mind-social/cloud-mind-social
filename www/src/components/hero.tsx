@@ -38,16 +38,18 @@ export function Hero() {
 
           <Reveal delay={180}>
             <p className="mt-8 max-w-[46ch] text-lg leading-relaxed text-ink-mid">
-              We look at what a business actually needs before recommending
-              anything — then bring in the specific specialists to do that,
-              and nothing else.
+              For owner-led businesses that have outgrown doing social media
+              themselves, or have it spread across too many hands. We look at
+              what the business actually needs before recommending anything,
+              then bring in the specific specialists to do that, and nothing
+              else.
             </p>
           </Reveal>
 
           <Reveal delay={270}>
             <div className="mt-10 flex flex-wrap items-center gap-5">
               <a
-                href="#start"
+                href="#signal-check"
                 className="cms-live relative isolate rounded-full px-7 py-3.5 font-mono text-[12px] uppercase tracking-[0.14em] text-amber-deep transition-transform duration-500 ease-overshoot hover:scale-[1.04]"
               >
                 <TraceFrame
@@ -60,7 +62,7 @@ export function Hero() {
                   className="text-amber/60"
                   runnerClassName="text-amber"
                 />
-                Start a conversation
+                Take the Social Signal Check
               </a>
               <a
                 href="#diagnosis"
@@ -76,7 +78,7 @@ export function Hero() {
 
           <Reveal delay={360}>
             <p className="mt-8 font-mono text-[11px] uppercase tracking-[0.14em] text-ink-faint">
-              No pitch on the first call — a diagnosis.
+              The first conversation is about fit. Diagnosis comes after, when it&apos;s needed.
             </p>
           </Reveal>
         </div>

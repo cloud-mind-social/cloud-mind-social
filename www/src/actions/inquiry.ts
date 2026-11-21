@@ -8,11 +8,37 @@ import { consumeRateLimit, hashIp, purgeExpiredRateLimits } from "@/lib/rate-lim
 import { createInquiry, recordAcknowledgement } from "@/lib/inquiries";
 import { sendEmail } from "@/lib/email/send";
 import { inquiryAlertEmail, inquiryReceivedEmail } from "@/lib/email/templates";
+import { isIntakeRoute } from "@/lib/intake";
 import { parseInquiry } from "@/lib/validation";
 import type { InquiryFormState } from "@/lib/form-state";
 
 const GENERIC_FAILURE =
   "Something went wrong on our end. Please try again, or email us directly.";
+
+/** Visible fields echoed back on an error. Hidden and honeypot fields aren't. */
+const ECHOED = [
+  "name",
+  "email",
+  "business",
+  "phone",
+  "profile",
+  "role",
+  "stage",
+  "message",
+  "consequence",
+  "why_now",
+  "decision",
+  "timing",
+] as const;
+
+function echo(form: FormData): Record<string, string> {
+  const values: Record<string, string> = {};
+  for (const key of ECHOED) {
+    const value = form.get(key);
+    if (typeof value === "string" && value) values[key] = value.slice(0, 4000);
+  }
+  return values;
+}
 
 function messageOf(cause: unknown): string {
   return cause instanceof Error ? cause.message : String(cause);
@@ -22,9 +48,13 @@ export async function submitInquiry(
   _prev: InquiryFormState,
   form: FormData,
 ): Promise<InquiryFormState> {
+  const routeField = form.get("route");
+  const route =
+    typeof routeField === "string" && isIntakeRoute(routeField) ? routeField : undefined;
+
   // Honeypot: a real person never fills a field they can't see.
   if (typeof form.get("company_website") === "string" && form.get("company_website")) {
-    return { status: "success" };
+    return { status: "success", route };
   }
 
   const { data, errors } = parseInquiry(form);
@@ -33,6 +63,8 @@ export async function submitInquiry(
       status: "error",
       message: "A couple of fields need another look.",
       errors,
+      route,
+      values: echo(form),
     };
   }
 
@@ -57,6 +89,8 @@ export async function submitInquiry(
         status: "error",
         message:
           "We've already got a few requests from you. Give us a chance to reply to those first.",
+        route,
+        values: echo(form),
       };
     }
 
@@ -64,19 +98,9 @@ export async function submitInquiry(
 
     const origin = headerList.get("origin") ?? undefined;
     const site = siteUrl(env, origin);
-    const summary = {
-      id: inquiry.id,
-      name: inquiry.name,
-      business: inquiry.business,
-      email: inquiry.email,
-      phone: inquiry.phone,
-      stage: inquiry.stage,
-      message: inquiry.message,
-      createdAt: inquiry.created_at,
-    };
 
-    const acknowledgement = inquiryReceivedEmail(summary, site);
-    const alert = inquiryAlertEmail(summary, site);
+    const acknowledgement = inquiryReceivedEmail(inquiry, site);
+    const alert = inquiryAlertEmail(inquiry, site);
     const notifyTo = env.INQUIRY_NOTIFY_TO || env.MAIL_REPLY_TO;
 
     // The inquiry is already saved; email problems must not lose it.
@@ -119,9 +143,9 @@ export async function submitInquiry(
 
     await purgeExpiredRateLimits(db);
 
-    return { status: "success" };
+    return { status: "success", route: data.route };
   } catch (error) {
     console.error("[inquiry] submission failed", error);
-    return { status: "error", message: GENERIC_FAILURE };
+    return { status: "error", message: GENERIC_FAILURE, route, values: echo(form) };
   }
 }

@@ -7,6 +7,18 @@
  * mail clients.
  */
 
+import {
+  FIELD_LABELS,
+  RESPONSE_EXPECTATION,
+  ROUTE_COPY,
+  ROUTE_LABELS,
+  ROUTE_SHORT_LABELS,
+  isInquiryRoute,
+  type InquiryRoute,
+} from "@/lib/intake";
+import type { Inquiry } from "@/lib/inquiry-status";
+import { SIGNAL_COPY, isSignalResultKey } from "@/lib/signal-check";
+
 const C = {
   ink: "#121309",
   inkSoft: "#191b12",
@@ -164,44 +176,90 @@ function detailRows(rows: Row[]): string {
   </table>`;
 }
 
-export type InquirySummary = {
-  id: string;
-  name: string;
-  business: string;
-  email: string;
-  phone: string | null;
-  stage: string;
-  message: string | null;
-  createdAt: string;
-};
+/** What the templates read from an inquiry row. */
+export type InquirySummary = Pick<
+  Inquiry,
+  | "id"
+  | "name"
+  | "business"
+  | "email"
+  | "phone"
+  | "stage"
+  | "message"
+  | "route"
+  | "profile"
+  | "role"
+  | "consequence"
+  | "why_now"
+  | "decision"
+  | "timing"
+  | "signal_category"
+  | "signal_answers"
+  | "utm_source"
+  | "utm_medium"
+  | "utm_campaign"
+  | "utm_content"
+  | "referrer"
+  | "landing_path"
+  | "created_at"
+>;
+
+function routeOf(inquiry: InquirySummary): InquiryRoute {
+  return isInquiryRoute(inquiry.route) ? inquiry.route : "conversation";
+}
+
+function signalLabel(inquiry: InquirySummary): string | null {
+  const key = inquiry.signal_category;
+  return key && isSignalResultKey(key) ? SIGNAL_COPY[key].title : null;
+}
+
+/**
+ * The context they gave, labelled the way the form asked for it. Shared by
+ * the acknowledgement (so they can check it) and the alert.
+ */
+function contextRows(inquiry: InquirySummary): Row[] {
+  const route = routeOf(inquiry);
+  const labels: Partial<Record<string, string>> =
+    route === "conversation" ? {} : FIELD_LABELS[route];
+  const signal = signalLabel(inquiry);
+
+  const rows: Array<Row | null> = [
+    ["Asked for", ROUTE_LABELS[route]],
+    ["Business", inquiry.business],
+    inquiry.profile ? ["Website or profile", inquiry.profile] : null,
+    inquiry.role ? ["Role", inquiry.role] : null,
+    inquiry.stage ? ["Stage", inquiry.stage] : null,
+    inquiry.phone ? ["Phone", inquiry.phone] : null,
+    inquiry.decision ? [labels.decision ?? "Decision", inquiry.decision] : null,
+    inquiry.message ? [labels.situation ?? "In your words", inquiry.message] : null,
+    inquiry.consequence ? [labels.consequence ?? "What it's costing", inquiry.consequence] : null,
+    inquiry.why_now ? [labels.whyNow ?? "Why now", inquiry.why_now] : null,
+    inquiry.timing ? [labels.timing ?? "Timing", inquiry.timing] : null,
+    signal ? ["Signal Check pointed at", signal] : null,
+  ];
+  return rows.filter((row): row is Row => row !== null);
+}
+
+function textRows(rows: Row[]): string {
+  return rows.map(([label, value]) => `${label}: ${value}`).join("\n");
+}
 
 /* ------------------------------------------------------------------ */
 /* 1. Auto-response to the person who submitted the form               */
 /* ------------------------------------------------------------------ */
-
-const NEXT_STEPS: Array<[string, string]> = [
-  [
-    "A conversation, not a pitch",
-    "We'll ask where the business actually stands right now. No slide deck, no package waiting at the end of it.",
-  ],
-  [
-    "A real diagnosis",
-    "What's working, what isn't, and why — looked at before anything gets recommended.",
-  ],
-  [
-    "A scope built for this business",
-    "Sized to the budget and stage in front of us. If you need less than you think, we'll tell you that.",
-  ],
-];
 
 export function inquiryReceivedEmail(
   inquiry: InquirySummary,
   site: string,
 ): { subject: string; html: string; text: string } {
   const name = firstName(inquiry.name);
+  const route = routeOf(inquiry);
+  const copy = ROUTE_COPY[route];
+  const rows = contextRows(inquiry);
 
-  const steps = NEXT_STEPS.map(
-    ([title, copy], index) => `<tr>
+  const steps = copy.nextSteps
+    .map(
+      ([title, text], index) => `<tr>
       <td style="padding:0 16px 0 0;vertical-align:top;width:34px;">
         <span style="font-family:${MONO};font-size:12px;color:${C.amber};">0${index + 1}</span>
       </td>
@@ -210,21 +268,22 @@ export function inquiryReceivedEmail(
           title,
         )}</p>
         <p style="margin:0;font-family:${BODY};font-size:14px;line-height:1.6;color:${C.creamDim};">${escapeHtml(
-          copy,
+          text,
         )}</p>
       </td>
     </tr>`,
-  ).join("");
+    )
+    .join("");
 
   const body = `
     ${eyebrow("Request received")}
     ${heading(`Thanks, ${name}. We've got it.`)}
     <p style="margin:0 0 18px;font-family:${BODY};font-size:16px;line-height:1.65;color:${C.creamDim};">
-      Your note about ${escapeHtml(inquiry.business)} came through. Someone here will read it
-      properly &mdash; not skim it &mdash; and reply within one business day to find a time to talk.
+      Your request about ${escapeHtml(inquiry.business)} came through. A person will read it
+      properly &mdash; not skim it &mdash; and reply by email, ${escapeHtml(RESPONSE_EXPECTATION)}.
     </p>
     <p style="margin:0 0 30px;font-family:${BODY};font-size:16px;line-height:1.65;color:${C.creamDim};">
-      Nothing is expected from you before then.
+      Nothing is expected from you before then, and you haven't been added to any mailing list.
     </p>
 
     <p style="margin:0 0 18px;font-family:${MONO};font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:${C.sage};">What happens next</p>
@@ -233,12 +292,7 @@ export function inquiryReceivedEmail(
     <div style="height:1px;background-color:${C.line};margin:14px 0 28px;"></div>
 
     <p style="margin:0 0 16px;font-family:${MONO};font-size:11px;letter-spacing:0.22em;text-transform:uppercase;color:${C.sage};">What you sent us</p>
-    ${detailRows([
-      ["Business", inquiry.business],
-      ["Stage", inquiry.stage],
-      ...(inquiry.phone ? [["Phone", inquiry.phone] satisfies Row] : []),
-      ...(inquiry.message ? [["In your words", inquiry.message] satisfies Row] : []),
-    ])}
+    ${detailRows(rows)}
 
     <p style="margin:28px 0 0;font-family:${BODY};font-size:15px;line-height:1.65;color:${C.creamDim};">
       If anything above is wrong, just reply to this email and we'll fix it.
@@ -249,18 +303,16 @@ export function inquiryReceivedEmail(
 
 Thanks, ${name}. We've got it.
 
-Your note about ${inquiry.business} came through. Someone here will read it
-properly — not skim it — and reply within one business day to find a time to
-talk. Nothing is expected from you before then.
+Your request about ${inquiry.business} came through. A person will read it
+properly — not skim it — and reply by email, ${RESPONSE_EXPECTATION}.
+Nothing is expected from you before then, and you haven't been added to any
+mailing list.
 
 WHAT HAPPENS NEXT
-${NEXT_STEPS.map(([title, copy], i) => `0${i + 1}  ${title}\n    ${copy}`).join("\n\n")}
+${copy.nextSteps.map(([title, step], i) => `0${i + 1}  ${title}\n    ${step}`).join("\n\n")}
 
 WHAT YOU SENT US
-Business: ${inquiry.business}
-Stage: ${inquiry.stage}${inquiry.phone ? `\nPhone: ${inquiry.phone}` : ""}${
-    inquiry.message ? `\nIn your words: ${inquiry.message}` : ""
-  }
+${textRows(rows)}
 
 If anything above is wrong, just reply to this email and we'll fix it.
 
@@ -269,13 +321,14 @@ ${site}
 `;
 
   return {
-    subject: "We've got your note — here's what happens next",
+    subject: "We've got your request — here's what happens next",
     html: shell({
-      preheader: `We'll reply within one business day about ${inquiry.business}.`,
+      preheader: `${ROUTE_LABELS[route]} · we'll reply by email, ${RESPONSE_EXPECTATION}.`,
       body,
       siteUrl: site,
-      footerNote:
-        "You're getting this because you asked for a discovery call at cloudmindsocial.com.",
+      footerNote: `You're getting this because you sent a request through cloudmindsocial.com (${escapeHtml(
+        ROUTE_LABELS[route],
+      )}).`,
     }),
     text,
   };
@@ -285,51 +338,56 @@ ${site}
 /* 2. Internal alert so she knows something came in                    */
 /* ------------------------------------------------------------------ */
 
+function sourceLine(inquiry: InquirySummary): string | null {
+  const parts = [
+    inquiry.utm_source && `source ${inquiry.utm_source}`,
+    inquiry.utm_medium && `medium ${inquiry.utm_medium}`,
+    inquiry.utm_campaign && `campaign ${inquiry.utm_campaign}`,
+    inquiry.utm_content && `content ${inquiry.utm_content}`,
+    inquiry.referrer && `from ${inquiry.referrer}`,
+  ].filter(Boolean);
+  return parts.length ? parts.join(" · ") : null;
+}
+
 export function inquiryAlertEmail(
   inquiry: InquirySummary,
   site: string,
 ): { subject: string; html: string; text: string } {
   const link = `${site}/admin/inquiries/${inquiry.id}`;
+  const route = routeOf(inquiry);
+  const source = sourceLine(inquiry);
+  const rows: Row[] = [
+    ["Name", inquiry.name],
+    ["Email", inquiry.email],
+    ...contextRows(inquiry),
+    ...(source ? [["Came from", source] satisfies Row] : []),
+  ];
+  const promise = `${ROUTE_COPY[route].promised} The site says a person replies by email, ${RESPONSE_EXPECTATION}.`;
 
   const body = `
-    ${eyebrow("New inquiry")}
+    ${eyebrow(`New request · ${ROUTE_SHORT_LABELS[route]}`)}
     ${heading(`${inquiry.name} — ${inquiry.business}`)}
-    ${detailRows([
-      ["Name", inquiry.name],
-      ["Business", inquiry.business],
-      ["Email", inquiry.email],
-      ...(inquiry.phone ? [["Phone", inquiry.phone] satisfies Row] : []),
-      ["Stage", inquiry.stage],
-      ["In their words", inquiry.message || "— nothing added —"],
-    ])}
+    ${detailRows(rows)}
     <div style="height:26px;"></div>
     ${button("Open in the inbox", link)}
     <p style="margin:22px 0 0;font-family:${BODY};font-size:14px;line-height:1.6;color:${C.creamFaint};">
-      They've already had the automatic acknowledgement. The promise made to them is a
-      reply within one business day.
+      ${escapeHtml(promise)} Set an owner and a next action in the inbox once you've read it.
     </p>
   `;
 
-  const text = `NEW INQUIRY — ${inquiry.name} (${inquiry.business})
+  const text = `NEW REQUEST (${ROUTE_SHORT_LABELS[route]}) — ${inquiry.name} (${inquiry.business})
 
-Name: ${inquiry.name}
-Business: ${inquiry.business}
-Email: ${inquiry.email}${inquiry.phone ? `\nPhone: ${inquiry.phone}` : ""}
-Stage: ${inquiry.stage}
-
-In their words:
-${inquiry.message || "— nothing added —"}
+${textRows(rows)}
 
 Open in the inbox: ${link}
 
-They've already had the automatic acknowledgement. The promise made to them is a
-reply within one business day.
+${promise} Set an owner and a next action in the inbox once you've read it.
 `;
 
   return {
-    subject: `New inquiry — ${inquiry.name}, ${inquiry.business}`,
+    subject: `New ${ROUTE_SHORT_LABELS[route].toLowerCase()} request — ${inquiry.name}, ${inquiry.business}`,
     html: shell({
-      preheader: `${inquiry.stage} · ${inquiry.email}`,
+      preheader: `${ROUTE_LABELS[route]} · ${inquiry.email}`,
       body,
       siteUrl: site,
     }),

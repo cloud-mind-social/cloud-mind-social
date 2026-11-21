@@ -20,7 +20,9 @@ import {
   getInquiry,
   recordReply,
   setInquiryStatus,
+  updateFollowUp,
 } from "@/lib/inquiries";
+import { isQualificationOutcome } from "@/lib/intake";
 import { isInquiryStatus } from "@/lib/inquiry-status";
 import { checkPasswordStrength, hashPassword } from "@/lib/password";
 import { parseEmail } from "@/lib/validation";
@@ -123,6 +125,45 @@ export async function updateStatusAction(
   revalidatePath("/admin");
   revalidatePath(`/admin/inquiries/${id}`);
   return { notice: "Status updated." };
+}
+
+/**
+ * Who owns a lead, what happens next and by when. Phase 3.8: every captured
+ * lead has an assigned owner, a next action with a due date, and a recorded
+ * qualification outcome, including deferred, declined and no-response.
+ */
+export async function saveFollowUpAction(
+  _prev: FormState,
+  form: FormData,
+): Promise<FormState> {
+  await requireAdmin();
+
+  const id = String(form.get("inquiryId") ?? "");
+  const qualification = String(form.get("qualification") ?? "");
+  const text = (key: string, max: number) => {
+    const value = form.get(key);
+    return typeof value === "string" ? value.replace(/\s+/g, " ").trim().slice(0, max) : "";
+  };
+  const owner = text("owner", 120);
+  const nextAction = text("nextAction", 300);
+  const due = text("nextActionDue", 10);
+
+  if (!id) return { error: "Missing inquiry." };
+  if (!isQualificationOutcome(qualification)) return { error: "Pick an outcome." };
+  if (due && !/^\d{4}-\d{2}-\d{2}$/.test(due)) return { error: "That due date isn't a date." };
+  if (due && !nextAction) return { error: "Add the next action that's due." };
+
+  if (!(await getInquiry(id))) return { error: "That inquiry no longer exists." };
+
+  await updateFollowUp(id, {
+    qualification,
+    owner: owner || null,
+    nextAction: nextAction || null,
+    nextActionDue: due || null,
+  });
+  revalidatePath("/admin");
+  revalidatePath(`/admin/inquiries/${id}`);
+  return { notice: "Follow-up saved." };
 }
 
 export async function addNoteAction(

@@ -2,6 +2,7 @@
  * Shapes and labels shared by server queries and client components. Kept apart
  * from inquiries.ts so the client bundle never pulls in `server-only`.
  */
+import type { InquiryRoute, QualificationOutcome } from "@/lib/intake";
 
 export const INQUIRY_STATUSES = ["new", "reading", "replied", "archived"] as const;
 export type InquiryStatus = (typeof INQUIRY_STATUSES)[number];
@@ -38,8 +39,37 @@ export type Inquiry = {
    */
   ack_delivery: AckDelivery | null;
   ack_error: string | null;
+  /** Entry route. Rows from before routes existed read `conversation`. */
+  route: InquiryRoute;
+  profile: string | null;
+  role: string | null;
+  consequence: string | null;
+  why_now: string | null;
+  decision: string | null;
+  timing: string | null;
+  signal_category: string | null;
+  signal_answers: string | null;
+  utm_source: string | null;
+  utm_medium: string | null;
+  utm_campaign: string | null;
+  utm_content: string | null;
+  referrer: string | null;
+  landing_path: string | null;
+  qualification: QualificationOutcome;
+  owner: string | null;
+  next_action: string | null;
+  /** YYYY-MM-DD. */
+  next_action_due: string | null;
+  follow_up_updated_at: string | null;
   created_at: string;
   updated_at: string;
+};
+
+export type FollowUpInput = {
+  qualification: QualificationOutcome;
+  owner: string | null;
+  nextAction: string | null;
+  nextActionDue: string | null;
 };
 
 export type InquiryReply = {
